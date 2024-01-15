@@ -1,0 +1,126 @@
+@font-face {
+    font-family: miriam;
+    src: url(/fonts/MiriamLibre-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: fira;
+    src: url(/fonts/FiraSans-Regular.otf);
+  }
+  
+  @font-face {
+    font-family: fira-italic;
+    src: url(/fonts/FiraSans-Italic.otf);
+  }
+  
+  @font-face {
+    font-family: fira-bold;
+    src: url(/fonts/FiraSans-Bold.otf);
+  }
+  
+  body {
+    font-family: fira;
+    line-height: 1.3;
+    font-size: 15px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  h1 {
+    color: #749ad1;
+    text-align: left;
+    font-family: miriam;
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 180%;
+    text-align: left;
+    font-family: miriam;
+  }
+
+  h3 {
+    font-size: 120%;
+    text-align: left;
+    font-family: miriam;
+  }
+
+  .navbar {
+    font-family: miriam;
+    border-radius: 0px;
+    background-color: white;
+    margin-bottom: 2px;
+  }
+  
+  .navbar a {
+    color: black;
+  }
+  
+  .navbar a:hover {
+    color: black;
+  }
+  
+  .home-button {
+    padding-left: 15px;
+  }
+  
+  .icon-bar {
+    color: black;
+    border-color: black;
+    background-color: black;
+  }
+  
+  a {
+    color: #749ad1;
+  }
+  a:hover {
+    color: #4b276b;
+  }
+  
+  .footer-table {
+    border-top: 2px solid #749ad1;
+    padding-top: 5px;
+    width: 100%;
+  }
+
+  .footer-table td {
+    padding-top: 2px;
+  }
+
+  @media all and (max-width: 1200px) {
+    .results-left {
+      max-width: 480px;
+    }
+    .results-right {
+      max-width: 480px;
+    }
+    .table-stats td {
+      min-width: inherit;
+    }
+    .table-stats {
+      white-space: wrap;
+    }
+    .table-stats {
+      white-space: normal;
+    }
+  }
+  
+  @media all and (max-width: 1000px) {
+    .results-left {
+      max-width: inherit;
+      width: 100%;
+    }
+    .results-right {
+      max-width: inherit;
+      width: 100%;
+    }
+    .table-stats td {
+      min-width: 50px;
+      font-size: x-small;
+    }
+  }
+  
