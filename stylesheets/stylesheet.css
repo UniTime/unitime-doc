@@ -1,21 +1,21 @@
 @font-face {
     font-family: miriam;
-    src: url(/fonts/MiriamLibre-Bold.ttf);
+    src: url(../fonts/MiriamLibre-Bold.ttf);
   }
   
   @font-face {
     font-family: fira;
-    src: url(/fonts/FiraSans-Regular.otf);
+    src: url(../fonts/FiraSans-Regular.otf);
   }
   
   @font-face {
     font-family: fira-italic;
-    src: url(/fonts/FiraSans-Italic.otf);
+    src: url(../fonts/FiraSans-Italic.otf);
   }
   
   @font-face {
     font-family: fira-bold;
-    src: url(/fonts/FiraSans-Bold.otf);
+    src: url(../fonts/FiraSans-Bold.otf);
   }
   
   body {
