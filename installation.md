@@ -110,3 +110,41 @@ chown tomcat8 /var/lib/tomcat8/data
     * Query.setLong, setString, setDate, etc., needs to be changed to setParameter
     * QueueIn/QueueOut.setXml/getXML now takes a string (use setDocument/getDocument for XML access)
 * See [UniTime 4.8 release notes](https://builds.unitime.org/UniTime4.8/Release-Notes.xml) for other changes.
+
+## Customization
+
+* Custom Properties
+    * There are a lot of properties that are defined in file [application.properties](https://github.com/UniTime/unitime/blob/master/JavaSource/application.properties) that is located in `timetable.jar` which is located in `UniTime.war` at `WEB-INF/lib`. These properties can be changed in one of the following ways:
+1. By providing a custom property file, this file should be named `custom.properties` and located in `UniTime.war` at `WEB-INF/classes`.
+        * Alternatively, the custom property file can be located somewhere else, with system property tmtbl.custom.properties pointing to it.
+2. By adding and/or changing the appropriate properties directly in the UniTime application -- see Administration / Defaults / Configuration menu item when logged in as administrator.
+3. By adding these properties in `Tomcat/conf/catalina.properties`
+4. By providing JVM that is running tomcat with the appropriate system properties, for instance:
+```
+export JAVA_OPTS="${JAVA_OPTS} -Dtmtbl.title=Timetabling Demo"
+export JAVA_OPTS="${JAVA_OPTS} -Dtmtbl.custom.properties=/etc/default/unitime.properties
+```
+* **Tip:** Name the custom properties file `Tomcat/conf/unitime.properties` and put all the properties you need in there. For `UniTime` to use the file, add the following line to `Tomcat/conf/catalina.properties`
+```
+tmtbl.custom.properties=${catalina.base}/conf/unitime.properties
+```
+* If the same property is defined on multiple places, the first one from the following order will be taken:
+    1. UniTime Configuration (Administration / Defaults / Configuration menu item)
+    2. System property (`-Dproperty=value`, or defined in `Tomcat/conf/catalina.properties`)
+    3. File **custom.properties** (`UniTime.war/WEB-INF/classes/custom.properties` or as defined by `tmtbl.custom.properties` system property)
+    4. File **application.properties** (`UniTime.war/WEB-INF/lib/timetable.jar/application.properties`)
+
+* Database Connection
+    * The database connection can be changed using custom properties. However, please note that these properties cannot be defined using the UniTime application (Administration / Defaults / Configuration menu item) since the database connection needs to be configured before the database can be accessed. For instance, custom.properties file can contain the following:
+```
+# MySQL Configuration Example
+connection.url=jdbc:mysql://localhost:3306/timetable?serverTimezone=Europe/Prague
+connection.username=timetable
+connection.password=unitime
+connection.driver_class=com.mysql.jdbc.Driver
+dialect=org.hibernate.dialect.MySQLDialect
+tmtbl.uniqueid.generator=org.hibernate.id.TableHiLoGenerator
+default_schema=timetable
+```
+* See [LDAP Authentication / Lookup](LDAP) page for notes about LDAP integration.
+* See [Customizations](customizations) page for notes about the custom styling (branding) of the UniTime application.
