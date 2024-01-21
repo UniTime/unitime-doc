@@ -17,4 +17,3 @@ The following pages are still work in progess:
 
 ## Additional TODOs
 The following changes are still needed for the pages that have been converted:
-- Fix screenshot on the [Distribution Types](distribution-types) page
