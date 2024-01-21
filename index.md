@@ -23,3 +23,5 @@ Another test
 ```
 
 Something else ```in``` here or is it `there`?
+
+Here is an _italic test_.

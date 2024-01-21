@@ -1,17 +1,19 @@
 @font-face {
   font-family: miriam;
+  src: url(../fonts/MiriamLibre-Regular.ttf);
+}
+@font-face {
+  font-family: miriam-bold;
   src: url(../fonts/MiriamLibre-Bold.ttf);
 }
 @font-face {
   font-family: fira;
   src: url(../fonts/FiraSans-Regular.otf);
 }
-
 @font-face {
   font-family: fira-italic;
   src: url(../fonts/FiraSans-Italic.otf);
 }
-
 @font-face {
   font-family: fira-bold;
   src: url(../fonts/FiraSans-Bold.otf);
@@ -22,6 +24,18 @@ body {
   line-height: 1.3;
   font-size: 15px;
   padding: 0px 5px 0px 5px;
+}
+
+strong {
+  font-family: fira-bold;
+}
+
+em {
+  font-family: fira-italic;
+}
+
+code {
+  font-family: miriam;
 }
 
 .container {
