@@ -6,7 +6,7 @@ title: Distribution Types
 
 The Distribution Types screen lists all the distribution types that can be used in the [Distribution Preferences](distribution-preferences) screen. Click on any type to edit information which is then displayed in the [Distribution Preferences](distribution-preferences) screen.
 
-![Distribution Types](images/distribution-types.png){:class='screenshot border-top border-sides'}
+![Distribution Types](images/distribution-types-1.png){:class='screenshot border-top border-sides'}
 ![Distribution Types](images/distribution-types-2.png){:class='screenshot border-bottom border-sides'}
 
 ## Details
