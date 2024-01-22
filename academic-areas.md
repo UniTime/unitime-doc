@@ -3,11 +3,11 @@ layout: default
 title: Academic Areas
 ---
 
-
 ## Screen Description
 
-
  The Academic Areas screen provides an overview of academic areas for a given session. It also has an editable version for authorized users (accessible by clicking on the Edit button).
+
+![Academic Areas](images/academic-areas-1.png){:class='screenshot'}
 
 ## Details
 
@@ -48,6 +48,3 @@ title: Academic Areas
 
 * **Back**
 	* Go back to the overview version of this screen without saving any changes
-
-
-![Academic Areas](images/academic-areas-1.png){:class='screenshot'}
