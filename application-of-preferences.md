@@ -15,11 +15,11 @@ title: Application Of Preferences
 
  To use instructors preferences, the user must have inheritance of instructor preferences turned on (in [Manager Settings](manager-settings) - to get there, click on Settings under User Preferences in the left hand side menu)
 
-	1. Classes with external manager
-		1. Instructor preferences are applied only at the moment when the instructor is being assigned to a class in the [Edit Class](edit-class) screen; if you change that instructor's preferences later, the change won't be reflected on the class
-	2. Classes with departmental manager
-		1. Combination with preferences set only on the scheduling subpart level (not on individual classes): The subpart preferences are combined with instructor's preferences for each class and any changes made to instructor's preferences later are reflected on classes
-		2. Combination with preferences set on individual classes (in the [Edit Class](edit-class) screen): The class preferences overwrite instructor's preferences
+1. Classes with external manager
+	1. Instructor preferences are applied only at the moment when the instructor is being assigned to a class in the [Edit Class](edit-class) screen; if you change that instructor's preferences later, the change won't be reflected on the class
+2. Classes with departmental manager
+	1. Combination with preferences set only on the scheduling subpart level (not on individual classes): The subpart preferences are combined with instructor's preferences for each class and any changes made to instructor's preferences later are reflected on classes
+	2. Combination with preferences set on individual classes (in the [Edit Class](edit-class) screen): The class preferences overwrite instructor's preferences
 
 
  Recommended usage:

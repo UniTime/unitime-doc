@@ -7,8 +7,10 @@ title: UniTime 4.8 Online Help
 {:.no_toc}
 * table
 {:toc}
-## Courses
 
+![UniTime 4.8 Online Help](images/university-timetabling-application-1.png){:class='screenshot'}
+
+## Courses
 * Input Data
 	* [Instructional Offerings](instructional-offerings)
 		* [Add Course Offering](add-course-offering)
@@ -18,19 +20,13 @@ title: UniTime 4.8 Online Help
 		* [Instructional Offering Configuration](instructional-offering-configuration)
 		* [Multiple Class Setup](multiple-class-setup)
 		* [Assign Instructors](assign-instructors)
-
 * [Setup Teaching Requests](setup-teaching-requests)
-
 * [Scheduling Subpart Detail](scheduling-subpart-detail)
-
 * [Edit Scheduling Subpart](edit-scheduling-subpart)
 	* [Class Detail](class-detail)
 		* [Edit Class](edit-class)
-
 * [Class Assignment](class-assignment)
-
 * [Classes](classes)
-
 * [Curricula](curricula)
 	* [Curriculum Detail](curriculum-detail)
 		* [Edit Curriculum](edit-curriculum)
@@ -38,7 +34,6 @@ title: UniTime 4.8 Online Help
 	* [Add Curriculum](add-curriculum)
 	* [Curriculum Requested Enrollments](curriculum-requested-enrollments)
 	* [Curriculum Projection Rules](curriculum-projection-rules)
-
 * [Instructors](instructors)
 	* [Instructor Detail](instructor-detail)
 		* [Edit Instructor](edit-instructor)
@@ -50,9 +45,7 @@ title: UniTime 4.8 Online Help
 	* [Instructor Attributes](instructor-attributes)
 		* [Add Instructor Attribute](add-instructor-attribute)
 		* [Edit Instructor Attribute](edit-instructor-attribute)
-
 * [Instructor Survey](instructor-survey)
-
 * [Rooms](rooms)
 	* [Room Detail](room-detail)
 		* [Edit Room](edit-room)
@@ -64,42 +57,26 @@ title: UniTime 4.8 Online Help
 		* [Room Groups](room-groups)
 			* [Add Room Group](add-room-group)
 			* [Edit Room Group](edit-room-group)
-
 * [Distribution Preferences](distribution-preferences)
 	* [Add Distribution Preference](add-distribution-preference)
 	* [Edit Distribution Preference](edit-distribution-preference)
-
 * [Reservations](reservations)
 	* [Add Reservation](add-reservation)
 	* [Edit Reservation](edit-reservation)
 	* [Class Assignments](class-assignments)
-
 * Course Timetabling
-
-* [Saved Timetables](timetables)
-
-* [Solver](solver)
-
-* [Timetable Grid](timetable)
-
-* [Suggestions](suggestions)
-
-* [Assigned Classes](assigned-classes)
-
-* [Not-assigned Classes](not-assigned-classes)
-
-* [Changes](changes)
-
-* [History](assignment-history)
-
-* [Conflict Statistics](conflict-based-statistics)
-
-* [Solver Log](solver-log)
-
-* [Reports](solution-reports)
-
-* [Manage Solvers](manage-solvers) (admin)
-
+	* [Saved Timetables](timetables)
+	* [Solver](solver)
+	* [Timetable Grid](timetable)
+	* [Suggestions](suggestions)
+	* [Assigned Classes](assigned-classes)
+	* [Not-assigned Classes](not-assigned-classes)
+	* [Changes](changes)
+	* [History](assignment-history)
+	* [Conflict Statistics](conflict-based-statistics)
+	* [Solver Log](solver-log)
+	* [Reports](solution-reports)
+	* [Manage Solvers](manage-solvers) (admin)
 * [Instructor Scheduling](instructor-scheduling)
 	* [Instructor Scheduling Solver](instructor-scheduling-solver)
 	* [Instructor Scheduling Solver Log](instructor-scheduling-solver-log)
@@ -109,125 +86,82 @@ title: UniTime 4.8 Online Help
 	* [Teaching Assignments](teaching-assignments)
 		* [Teaching Assignment Detail](teaching-assignment-detail)
 	* [Teaching Assignment Changes](teaching-assignment-changes)
-
 * [Course Reports](course-reports)
-
 * [Point In Time Data Reports](point-in-time-data-reports)
-
-
-![UniTime 4.8 Online Help](images/university-timetabling-application-1.png){:class='screenshot'}
-
 
 ![UniTime 4.8 Online Help](images/university-timetabling-application-2.png){:class='screenshot'}
 
 ## Students
-
 * [Student Scheduling Solver](student-scheduling-solver) 
-
 * [Student Scheduling Solver Log](student-scheduling-solver-log)
-
 * [Batch Student Solver Dashboard](batch-student-solver-dashboard)
 	* [Enrollments of Class or Course](enrollments-of-class-or-course)
 	* [Classes for Student](classes-for-student)
 		* [Change Log](change-log-for-student)
 	* [Batch Student Solver Reports](batch-student-solver-reports)
-
 * [Published Schedule Runs](published-schedule-runs)
-
 * [Student Course Requests](student-course-requests)
-
 * [Student Scheduling Assistant](student-scheduling-assistant)
 	* [Alternatives](alternatives-for-class)
-
 * [Online Student Scheduling Dashboard](online-student-scheduling-dashboard)
 	* [Send Email](send-email)
 	* [Mass Cancel](mass-cancel)
 	* [Change Message](change-message-for-student)
-
 * [Online Student Scheduling Reports](online-student-scheduling-reports)
-
 * [Enrollment Audit](enrollment-audit-pdf-reports)
-
 * [Advisor Course Recommendations](advisor-course-recommendations) 
-
 * [Student Scheduling Reports](student-scheduling-reports) 
 
 
 ![UniTime 4.8 Online Help](images/university-timetabling-application-3.png){:class='screenshot'}
 
 ## Examinations
-
 * Input Data
-
 * [Instructors](instructors)
-
 * [Rooms](rooms)
 	* [Features](room-features)
 	* [Groups](room-groups)
 	* [Availability](room-availability)
-
 * [Examinations](examinations)
 	* [Add Examination](add-examination)
 	* [Examination Detail](examination-detail)
 		* [Edit Examination](edit-examination)
 		* [Examination Assignment](examination-assignment)
-
 * [Distribution Prefs](examination-distribution-preferences)
 	* [Add Examination Distribution Preference](add-examination-distribution-preference)
 	* [Edit Examination Distribution Preference](edit-examination-distribution-preference)
-
 * Examination Timetabling
-
-* [Examination Solver](examination-solver)
-
-* [Timetable Grid](examination-timetable)
-
-* [Assigned Exams](assigned-examinations)
-
-* [Not-assigned Exams](not-assigned-examinations)
-
-* [Changes](examination-assignment-changes)
-
-* [Conflict Statistics](examination-conflict-based-statistics) Under construction
-
-* [Solver Log](examination-solver-log) Under construction
-
-* [Reports](examination-reports)
-
-* [PDF Reports](examination-pdf-reports)
-
+	* [Examination Solver](examination-solver)
+	* [Timetable Grid](examination-timetable)
+	* [Assigned Exams](assigned-examinations)
+	* [Not-assigned Exams](not-assigned-examinations)
+	* [Changes](examination-assignment-changes)
+	* [Conflict Statistics](examination-conflict-based-statistics) Under construction
+	* [Solver Log](examination-solver-log) Under construction
+	* [Reports](examination-reports)
+	* [PDF Reports](examination-pdf-reports)
 
 ![UniTime 4.8 Online Help](images/university-timetabling-application-4.png){:class='screenshot'}
 
 ## Events
-
 * [Events](events) ([Room Filter](events-room-filter), [Event Filter](events-event-filter))
 	* [Event Detail](event-detail)
 		* [Edit Event](edit-event)
-
 * [Add Event](add-event)
-
 * [Room Availability](event-room-availability)
-
 * [Timetable](event-timetable)
-
-## Preferences
-
-* [Change Role](select-academic-session)
-
-* [Switch User](chameleon) (admin)
-
-* [Settings](manager-settings)
-	* [Edit Manager Setting](edit-manager-setting)
-
 
 ![UniTime 4.8 Online Help](images/university-timetabling-application-5.png){:class='screenshot'}
 
+## Preferences
+* [Change Role](select-academic-session)
+* [Switch User](chameleon) (admin)
+* [Settings](manager-settings)
+	* [Edit Manager Setting](edit-manager-setting)
 
 ![UniTime 4.8 Online Help](images/university-timetabling-application-6.png){:class='screenshot'}
 
 ## Administration
-
 * Academic Sessions
 	* [Academic Sessions](academic-sessions) (admin)
 		* [Add Academic Session](add-academic-session) (admin)
@@ -255,15 +189,10 @@ title: UniTime 4.8 Online Help
 		* [Add Time Pattern](add-time-pattern) (admin)
 		* [Edit Time Pattern](edit-time-pattern) (admin)
 	* [Exact Time](exact-time-pattern) (admin)
-
 * [Academic Areas](academic-areas) (admin)
-
 * [Academic Classifications](academic-classifications) (admin)
-
 * [Majors](majors) (admin)
-
 * [Minors](minors) (admin)
-
 * [Student Groups](student-groups) (admin)
 	* [Add Student Group](add-student-group) (admin)
 	* [Edit Student Group](edit-student-group) (admin)
@@ -278,25 +207,18 @@ title: UniTime 4.8 Online Help
 	* [Event Statuses](event-statuses) (admin, event manager)
 		* [Edit Event Status](edit-event-status) (admin, event manager)
 		* [Edit Event Statuses](edit-event-statuses) (admin, event manager)
-
 * [Instructor Roles](instructor-roles)
 	* [Data Exchange](data-exchange) (admin)
 	* [Roll Forward Session](roll-forward-session) (admin)
 	* [Change Log](last-changes) (admin)
-
 * [Task Scheduler](task-scheduler)
 	* [Task Details](task-details)
-
 * [Reports](administration-reports)
-
 * [Point In Time Data Snapshots](point-in-time-data-snapshots) (admin)
 	* [Edit Point In Time Data Snapshot](edit-point-in-time-data-snapshot)
 	* [Edit Point In Time Data Snapshots](edit-point-in-time-data-snapshots)
-
 * [Limit and Projection Snapshot](limit-and-projection-snapshot) (admin)
-
 * Solver
-
 * [Manage Solvers](manage-solvers)
 	* [Parameter Groups](solver-parameter-groups) (admin)
 		* [Add Solver Parameter Group](add-solver-parameter-group) (admin)
@@ -309,7 +231,6 @@ title: UniTime 4.8 Online Help
 		* [Edit Solver Configuration](edit-solver-configuration) (admin)
 	* [Distribution Types](distribution-types) (admin)
 		* [Edit Distribution Type](edit-distribution-type) (admin)
-
 * Other
 	* [Instructional Types](instructional-types) (admin)
 	* [Add Instructional Type](add-instructional-type) (admin)
@@ -324,118 +245,74 @@ title: UniTime 4.8 Online Help
 		* [Room Feature Types](room-feature-types) (admin)
 		* [Course Types](course-types) (admin)
 		* [Users](users-database-authentication) (admin)
-
 * [Add User](add-user) (admin)
-
 * [Edit User](edit-user) (admin)
-
 * [Instructional Methods](instructional-methods) (admin)
-
 * [Override Types](override-types) (admin)
-
 * [Instructor Attribute Types](instructor-attribute-types) (admin)
-
 * [Sponsoring Organizations](sponsoring-organizations) (admin)
-
 * [Add Sponsoring Organization](add-sponsoring-organization) (admin)
-
 * [Edit Sponsoring Organization](edit-sponsoring-organization) (admin)
 	* [Standard Notes](standard-event-notes) (admin)
-
 * [Add Standard Event Note](add-standard-event-note) (admin)
-
 * [Edit Standard Event Note](edit-standard-event-note) (admin)
 	* [Event Service Providers](event-service-providers) (admin)
 	* [Attachment Types](attachment-types) (admin)
 	* [Consent Types](offering-consent-types) (admin)
-
 * [Course Credit](course-credit)
-
 * [Course Credit Formats](course-credit-formats) (admin)
-
 * [Course Credit Types](course-credit-types) (admin)
-
 * [Course Credit Units](course-credit-units) (admin)
-
 * [Position Types](position-types) (admin)
-
 * [Teaching Responsibilities](teaching-responsibilities) (admin)
-
 * [Student Status Types](student-scheduling-status-types) (admin)
-
 * [Add Student Scheduling Status Type](add-student-scheduling-status-type) (admin)
-
 * [Edit Student Scheduling Status Type](edit-student-scheduling-status-type) (admin)
-
 * [Edit Student Scheduling Status Types](edit-student-scheduling-status-types) (admin)
-
 * [Student Group Types](student-group-types) (admin)
-
 * [Student Scheduling Rules](student-scheduling-rules) (admin)
-
 * [Examination Types](examination-types) (admin)
-
 * [Roles](roles) (admin)
-
 * [Add Role](add-role) (admin)
-
 * [Edit Role](edit-role) (admin)
-
 * [Edit Roles](edit-roles) (admin)
-
 * [Permissions](permissions) (admin)
-
 * [Edit Permission](edit-permission) (admin)
-
 * [Edit Permissions](edit-permissions) (admin)
-
 * Defaults
-
 * [Configuration](application-configuration) (admin)
 	* [Add Application Setting](add-application-setting) (admin)
 	* [Edit Application Setting](edit-application-setting) (admin)
-
 * [User Settings](default-manager-settings) (admin)
 	* [Add Default Manager Setting](add-default-manager-setting) (admin)
 	* [Edit Default Manager Setting](edit-default-manager-setting) (admin)
-
 * [Logging](logging-levels)
-
 * Utilities
-
 * [Page Statistics](page-statistics)
 	* [Hibernate Statistics](hibernate-statistics) (admin)
 	* [Test HQL](test-hql) (admin)
-
 * [Scripts](scripts)
 
+![UniTime 4.8 Online Help](images/university-timetabling-application-7.png){:class='screenshot'}
+
 ## Help
-
 * [Contact Us](contact-us)
-
 * [Tips and Tricks](tips-and-tricks)
-
 * [FAQ](frequently-asked-questions)
-
 * Release Notes
-
 * [Contact Us](contact-us)
+
+![UniTime 4.8 Online Help](images/university-timetabling-application-8.png){:class='screenshot'}
 
 ## Other
-
 * [Examination Timetabling](examination-timetabling)
-
 * Timetables
 	* [Examinations](exam-timetable)
 	* [Classes](class-timetable)
 	* [Personal Timetable](personal-timetable)
-
 * [Types of Distribution Preferences](types-of-distribution-preferences)
-
 * [Structure of Distribution Preferences](structure-of-distribution-preferences)
-
 * Current User
-
 * Solver
 	* [Solution Properties](solution-properties)
 	* [Class Assignment Properties](class-assignment-properties)
@@ -444,28 +321,11 @@ title: UniTime 4.8 Online Help
 	* [Examination Solver Status](examination-solver-status)
 	* [Application Of Preferences](application-of-preferences)
 	* [Student Conflicts](student-conflicts)
-
 * [Timetabling Installation](installation)
-
 * [Timetabling Installation FAQ](timetabling-installation-faq)
-
 * [Customizations](customizations)
-
 * [Localization](localization)
-
 * [LDAP Authentication / Lookup](LDAP)
-
 * [CAS Authentication](CAS)
-
 * [Exam Naming Convention](exam-naming-convention)
-
 * [Custom Room Availability](custom-room-availability)
-
-
- Back to [University Timetabling Project Page](timetabling).
-
-
-![UniTime 4.8 Online Help](images/university-timetabling-application-7.png){:class='screenshot'}
-
-
-![UniTime 4.8 Online Help](images/university-timetabling-application-8.png){:class='screenshot'}
