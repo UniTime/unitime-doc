@@ -56,7 +56,6 @@ title: Room Timetable
  The page displays a personal timetable of the user. This includes all events requested by the user. For students, it also includes all classes and examinations he/she is enrolled and the related course related events. For instructors, it includes all classes and examinations they are assigned to.
 
 
- 
 
 
  Users with Event Lookup Schedule permission can lookup a timetable of another person using the **Lookup** button.

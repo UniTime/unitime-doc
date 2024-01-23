@@ -241,49 +241,19 @@ title: Exam Naming Convention
  Default settings (that corresponds with the naming convention described at the beginning of this document):
 ```
 tmtbl.exam.name.maxLength=100
-```
-```
 tmtbl.exam.name.Course=%s %c
-```
-```
 tmtbl.exam.name.Offering=%s %c
-```
-```
 tmtbl.exam.name.Config=%s %c [%x]
-```
-```
 tmtbl.exam.name.Class=%s %c %i %n
-```
-```
 tmtbl.exam.name.suffix=
-```
-```
 tmtbl.exam.name.sameSubject.Course=; %c
-```
-```
 tmtbl.exam.name.sameSubject.Offering=; %c
-```
-```
 tmtbl.exam.name.sameSubject.Config=; %c [%x]
-```
-```
 tmtbl.exam.name.sameSubject.Class=; %c %i %n
-```
-```
 tmtbl.exam.name.sameCourse.Config=, [%x]
-```
-```
 tmtbl.exam.name.sameCourse.Class=, %i %n
-```
-```
 tmtbl.exam.name.sameSubpart.Class=, %n
-```
-```
 tmtbl.exam.name.diffSubject.separator=;%_
-```
-```
 tmtbl.exam.name.type.Final=
-```
-```
 tmtbl.exam.name.type.Midterm=(t)
 ```

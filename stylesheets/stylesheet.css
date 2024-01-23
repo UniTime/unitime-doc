@@ -102,6 +102,7 @@ a:hover {
 
 .footer-table td {
   padding-top: 2px;
+  border: none;
 }
 
 .img_container {
@@ -134,6 +135,16 @@ a:hover {
 
 p:has(> .screenshot) {
   text-align: center;
+}
+
+table td {
+  border: 1px solid #9CB0CE;
+  padding: 2px;
+  vertical-align: top;
+}
+table th {
+  border: 1px solid #9CB0CE;
+  padding: 2px;
 }
 
 @media all and (max-width: 1200px) {

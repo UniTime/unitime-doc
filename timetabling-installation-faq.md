@@ -3,6 +3,10 @@ layout: default
 title: Timetabling Installation FAQ
 ---
 
+### Table of Contents
+{:.no_toc}
+* table
+{:toc}
 
 ## Q1: How to enable debug logging
 
@@ -10,26 +14,12 @@ title: Timetabling Installation FAQ
  To enable debug logging from UniTime, add the following lines to Tomcat/conf/catalina.properties
 ```
 log4j.appender.unitimeLogFile=org.apache.log4j.DailyRollingFileAppender
-```
-```
 log4j.appender.unitimeLogFile.File=${catalina.base}/logs/unitime-debug.log
-```
-```
 log4j.appender.unitimeLogFile.DatePattern='.'yyyy-MM-dd
-```
-```
 log4j.appender.unitimeLogFile.Append=true
-```
-```
 log4j.appender.unitimeLogFile.layout=org.apache.log4j.PatternLayout
-```
-```
 log4j.appender.unitimeLogFile.layout.ConversionPattern=[%-d{MM/dd/yy HH:mm:ss}] %-6p %c{1} -> %m%n
-```
-```
 log4j.logger.org.unitime=DEBUG, unitimeLogFile
-```
-```
 log4j.logger.net.sf.cpsolver=DEBUG, unitimeLogFile
 ```
 
@@ -45,53 +35,21 @@ log4j.logger.net.sf.cpsolver=DEBUG, unitimeLogFile
  If everything goes right, you should be able to see the following messages in the log:
 ```
 [11/06/07 17:03:45] INFO logMessage -> *** Initializing Timetabling Application : START ***
-```
-```
 [11/06/07 17:03:45] INFO logMessage -> - Initializing Debugger ...
-```
-```
 [11/06/07 17:03:45] INFO load -> Reading file:/Library/Tomcat/webapps/UniTime/WEB-INF/lib/timetable.jar!/application.properties ...
-```
-```
 [11/06/07 17:03:45] INFO logMessage -> - Initializing Hibernate ...
-```
-```
 [11/06/07 17:03:47] INFO ConnectionProviderFactory -> Initializing connection provider: org.unitime.commons.hibernate.connection.DBCPConnectionProvider
-```
-```
 [11/06/07 17:03:47] INFO Dialect -> Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
-```
-```
 [11/06/07 17:03:47] INFO TransactionFactoryFactory -> Using default transaction strategy (direct JDBC transactions)
-```
-```
 [11/06/07 17:03:47] INFO TransactionManagerLookupFactory -> No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-```
-```
 [11/06/07 17:03:47] INFO ASTQueryTranslatorFactory -> Using ASTQueryTranslatorFactory
-```
-```
 [11/06/07 17:03:47] INFO SessionFactoryImpl -> building session factory
-```
-```
 [11/06/07 17:03:48] INFO run -> InfoCache cleanup thread started.
-```
-```
 [11/06/07 17:03:51] INFO SessionFactoryObjectFactory -> Not binding factory to JNDI, no JNDI name configured
-```
-```
 [11/06/07 17:03:51] INFO UpdateTimestampsCache -> starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
-```
-```
 [11/06/07 17:03:51] INFO StandardQueryCache -> starting query cache at region: org.hibernate.cache.StandardQueryCache
-```
-```
 [11/06/07 17:03:51] INFO logMessage -> - Initializing Solver Register ...
-```
-```
 [11/06/07 17:03:51] INFO SolverRegisterService -> service started
-```
-```
 [11/06/07 17:03:51] INFO logMessage -> *** Timetabling Application : Initializing DONE ***
 ```
 
@@ -124,6 +82,7 @@ lower_case_table_names=1
 
 
  You can verify some of that by checking the content of table mysql.user (there should be a line withuser=timetable). You can also try to connect to the database as timetable user using mysql tool with the following options (also trying to use the same port and protocol as the UniTime application):
+
 ```
 mysql --user=timetable --password=unitime --port=3306 --host=localhost --protocol=TCP timetable
 ```
@@ -131,18 +90,11 @@ mysql --user=timetable --password=unitime --port=3306 --host=localhost --protoco
 
  If the localhost as the host for the timetable user does not work, try 127.0.0.1 or without it (which usually creates % as host -- that should work as any host, but usually does not). Also, you should post "flush privileges" after any change to make sure MySQL authentication knows about it.
 
-
- ```create user timetable@`127.0.0.1` identified by 'unitime';```
-
-
- ```grant all on timetable.* to timetable@`127.0.0.1`;```
 ```
+create user timetable@`127.0.0.1` identified by 'unitime';
+grant all on timetable.* to timetable@`127.0.0.1`; 
 create user timetable dentified by 'unitime';
-```
-```
 grant all on timetable.* to timetable;
-```
-```
 flush privileges;
 ```
 
@@ -150,29 +102,13 @@ flush privileges;
  So, you would have the following three timetable users in the user table.
 ```
 mysql> select user,host,password from mysql.user where user = 'timetable';
-```
-```
 +-----------+-----------+-------------------------------------------+
-```
-```
 | user      | host      | password                                  |
-```
-```
 +-----------+-----------+-------------------------------------------+
-```
-```
 | timetable | %         | *2E46E61A1C47ADC309CADC6DF8D89654F013D3DD |
-```
-```
 | timetable | localhost | *2E46E61A1C47ADC309CADC6DF8D89654F013D3DD |
-```
-```
 | timetable | 127.0.0.1 | *2E46E61A1C47ADC309CADC6DF8D89654F013D3DD |
-```
-```
 +-----------+-----------+-------------------------------------------+
-```
-```
 3 rows in set (0.00 sec)
 ```
 
@@ -203,11 +139,7 @@ log4j.logger.org.unitime.timetable.authenticate.jaas=DEBUG
  There is a possibility that a password hash is computed differently due to a use of a different Java or operation system (we are using MD5 encoding provided by Java class java.security.MessageDigest). If the password is incorrect, there should be the following messages in the log (when JAAS debugging is enabled):
 ```
 Performing db authentication ...
-```
-```
 Db authentication failed ...
-```
-```
 ERROR execute -> Login Failure: all modules ignored
 ```
 
@@ -221,8 +153,6 @@ java -cp solver/timetable.jar org.unitime.timetable.authenticate.jaas.DbAuthenti
  It just prints one string which is the hash of the given argument admin, in my case, it is "ISMvKXpXpadDiUoOSoAfww==". This string needs to be set as password in the users table, i.e.,
 ```
 update timetable.users set password='ISMvKXpXpadDiUoOSoAfww==' where username='admin';
-```
-```
 commit;
 ```
 
@@ -279,14 +209,8 @@ tmtbl.solver.mem_limit=50
  Other solution seems to be to set default-character-set variable to utf8 in mysql configuration (usually located at /etc/my.cnf, both mysqld and client sections):
 ```
 [client]
-```
-```
 default-character-set=utf8
-```
-```
 [mysqld]
-```
-```
 default-character-set=utf8
 ```
 
@@ -314,8 +238,6 @@ default-character-set=utf8
  2. Remove the following lines from **hibernate.cfg.xml** (2nd – 4th line)
 ```
 <!DOCTYPE hibernate-configuration
-```
-```
 PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
 ```
 
@@ -329,15 +251,10 @@ PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
  Alternatively, you can go to Tomcat/webapps and:
 
 * Delete UniTime.war (it should be already unzipped into Tomcat/webapps/UniTime)
-
 * Create folder classes under Tomcat/webapps/UniTime/WEB-INF
-
 * Unzip all content of Tomcat/webapps/UniTime/WEB-INF/lib/timetable.jar into the new classes folder (Tomcat/webapps/UniTime/WEB-INF/classes)
-
 * Delete timetable.jar (files from the folder classes will be used instead)
-
 * Edit file classes/hibernate.cfg.xml, delete the above three lines
-
 * Start tomcat
 
 ## Q10: ClassNotFoundException: com.mysql.jdbc.Driver

@@ -107,11 +107,9 @@ ant -Dlocale=XX -Ddownload=false import-translations
     -->
   <loc:message name="labelConfiguration"><bean:write property='configName'/></loc:message>
 
- 
   <%-- translated message, using MSG property -->
   <%=MSG.confirmRoomSizeDifferentFromCapacity()%>
 
- 
   <%-- additional message bundle -->
   <loc:bundle name="ConstantsMessages" id="CONST">
     <loc:messsage name="monday" id="CONST"/>
@@ -129,7 +127,6 @@ protected final static CourseMessages MSG = Localization.create(CourseMessages.c
 if (!Web.isLoggedIn(request.getSession()))
  throw new Exception(MSG.exceptionAccessDenied());
 
- 
 // Localized message
 MSG.listInstructors(department.getDeptCode(), department.getName())
 ```

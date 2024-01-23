@@ -20,71 +20,27 @@ title: Custom Room Availability
  Following application properties need to be set to enable this interface.
 ```
 # Custom room availability service (a class implementing org.unitime.timetable.interfaces.RoomAvailabilityInterface)
-```
-```
 tmtbl.room.availability.class=org.unitime.timetable.util.RoomAvailabilityService
-```
-```
 # Maximum age of the room availability (in seconds, defaults to 600)
-```
-```
 tmtbl.room.availability.maxage=600
-```
-```
 # Room availability refresh period (in seconds, defaults to 60)
-```
-```
 tmtbl.room.availability.refresh=60
-```
-```
 # Time to live for the cache (if no request is made for the room availability in this time, it will stop asking for
-```
-```
 # an update, in seconds defaults to 3600)
-```
-```
 tmtbl.room.availability.timetolive=3600
-```
-```
 # Time limit for the response (in seconds, defaults to 60)
-```
-```
 tmtbl.room.availability.timeout=60
-```
-```
 # Request XML file (defaults to Tomcat/data/unitime/request.xml)
-```
-```
 #tmtbl.room.availability.request=
-```
-```
 # Response XML file (defaults to Tomcat/data/unitime/response.xml)
-```
-```
 #tmtbl.room.availability.response=
-```
-```
 # Delete the response file after the response is read
-```
-```
 tmtbl.room.availability.delete=true
-```
-```
 # Midterm exam event type (so that these can be ignored when room availability is used for evening examination)
-```
-```
 tmtbl.room.availability.eventType.midtermExam=Midterm Examination Event
-```
-```
 # Final exam event type
-```
-```
 tmtbl.room.availability.eventType.finalExam=Final Examination Event
-```
-```
 # Class event type
-```
-```
 tmtbl.room.availability.eventType.class=Class Event
 ```
 
@@ -92,20 +48,10 @@ tmtbl.room.availability.eventType.class=Class Event
  An alternative is the [BlobRoomAvailabilityService](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/util/BlobRoomAvailabilityService.java), that stores and requests the XMLs as blobs in the database.
 ```
  # Custom room availability service (a class implementing org.unitime.timetable.interfaces.RoomAvailabilityInterface)
-```
-```
 tmtbl.room.availability.class=org.unitime.timetable.util.BlobRoomAvailabilityService
-```
-```
 # SQL query that passes the XML request as CLOB
-```
-```
 tmtbl.room.availability.request={ call room_avail_interface.request(?) }
-```
-```
 # SLQ query that reads the XML response as CLOB
-```
-```
 tmtbl.room.availability.response={? = call room_avail_interface.response()}
 ```
 

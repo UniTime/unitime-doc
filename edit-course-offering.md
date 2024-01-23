@@ -93,14 +93,8 @@ title: Edit Course Offering
  Course number format is controlled by the regular expression in the tmtbl.courseNumber.pattern application property. If the validation fails, the message from tmtbl.courseNumber.patternInfo property is displayed. It is possible to allow for non unique course numbers by setting the application property tmtbl.courseNumber.unique to false. When application property tmtbl.courseNumber.upperCase is set to true, course numbers are automatically upper cased. These properties can be changed using the [Application Configuration](application-configuration) page, the default settings is as follows:
 ```
 tmtbl.courseNumber.pattern=^[0-9][0-9][0-9]([A-Za-z]){0,1}$
-```
-```
 tmtbl.courseNumber.patternInfo=Course Number must have 3 numbers followed by an optional letter (e.g. 214, 342X)
-```
-```
 tmtbl.courseNumber.unique=false
-```
-```
 tmtbl.courseNumber.upperCase=true
 ```
 

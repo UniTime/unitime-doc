@@ -66,7 +66,6 @@ tmtbl.custom.css=custom/test.css
 ```
 
 
- 
 ```
 .unitime-Page {
         border: 1px solid #101010;
@@ -74,7 +73,6 @@ tmtbl.custom.css=custom/test.css
 ```
 
 
- 
 ```
 .unitime-Footer {
         border: 1px solid #101010;
@@ -83,7 +81,6 @@ tmtbl.custom.css=custom/test.css
 ```
 
 
- 
 ```
 .unitime-Footer td {
         padding-left: 3px;
@@ -94,7 +91,6 @@ tmtbl.custom.css=custom/test.css
 ```
 
 
- 
 ```
 .unitime-FooterText {
         color: #101010;
@@ -102,7 +98,6 @@ tmtbl.custom.css=custom/test.css
 ```
 
 
- 
 ```
 a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:active,a.unitime-FooterLink:hover {
         color: #a37b2c;
@@ -110,7 +105,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .unitime-Disclaimer {
         color: #999;
@@ -123,7 +117,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .unitime-MenuHeaderLabel {
         color: #101010;
@@ -131,7 +124,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .unitime-MenuHeaderOpen {
         border: 1px solid #101010;
@@ -140,7 +132,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .gwt-DisclosurePanel .content {
         border-left: 1px solid #101010;
@@ -152,7 +143,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .gwt-StackPanel {
         border-bottom: 1px solid #505050;
@@ -160,7 +150,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .gwt-StackPanel .gwt-StackPanelItem {
         border: 1px solid #505050;
@@ -168,7 +157,6 @@ a.unitime-FooterLink:link,a.unitime-FooterLink:visited,a.unitime-FooterLink:acti
 ```
 
 
- 
 ```
 .gwt-StackPanel .gwt-StackPanelContent {
         border: 1px solid #505050;

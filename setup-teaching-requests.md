@@ -51,65 +51,25 @@ title: Setup Teaching Requests
  To demonstrate how the teaching requests can be configured, let’s consider a course with 3 Lectures and 12 Labs and 12 Recitations in a parent-child relation as follows
 ```
 Lec 1
-```
-```
     Lab 1
-```
-```
         Rec 1
-```
-```
     Lab 2
-```
-```
         Rec 2
-```
-```
     Lab 3
-```
-```
         Rec 3
-```
-```
     Lab 4
-```
-```
         Rec 4
-```
-```
 Lec 2
-```
-```
     Lab 5
-```
-```
         Rec 5
-```
-```
     ...
-```
-```
     Lab 8
-```
-```
         Rec 8
-```
-```
 Lec 3
-```
-```
     Lab 9
-```
-```
         Rec 9
-```
-```
     ...
-```
-```
     Lab 12
-```
-```
         Rec 12
 ```
 

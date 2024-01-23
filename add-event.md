@@ -116,7 +116,6 @@ title: Add Event
  When a new course related event is being created, a Courses / Classes section will appear. Here one or more classes, course configurations, course offerings, or instructional offerings can be entered.
 
 
- 
 
 
 ![Add Event](images/add-event-14.png){:class='screenshot'}

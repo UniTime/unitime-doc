@@ -2,1354 +2,503 @@
 layout: default
 title: Application.properties
 ---
-
 ```
 # The Apereo Foundation licenses this file to you under the Apache License,
-```
-```
 # Version 2.0 (the "License"); you may not use this file except in
-```
-```
 # compliance with the License. You may obtain a copy of the License at:
-```
-```
 #
-```
-```
 # http://www.apache.org/licenses/LICENSE-2.0
-```
-```
 #
-```
-```
 # Unless required by applicable law or agreed to in writing, software
-```
-```
 # distributed under the License is distributed on an "AS IS" BASIS,
-```
-```
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-```
-```
 #
-```
-```
 # See the License for the specific language governing permissions and
-```
-```
 # limitations under the License.
-```
-```
 # 
-```
-```
 #############################################################################
 ```
-
-
- 
 ```
 # Application settings
 ```
-
-
- 
 ```
 # Use the following property to set the login page when user types '/UniTime' 
-```
-```
 tmtbl.login_url=login.jsp
 ```
-
-
- 
 ```
 # Use the following property to configure maximum number of failed login attempts
-```
-```
 #   before the user is locked out of the system for a period of time
-```
-```
 #   defaults to 7 if not set
-```
-```
 #tmtbl.login.max.failed.attempts=7
 ```
-
-
- 
 ```
 # Use the following property to configure the number of minutes a user will be locked
-```
-```
 #   out of the system if they exceed the maximum number of failed login attempts
-```
-```
 #   defaults to 15 if not set
-```
-```
 #tmtbl.login.failed.lockout.minutes=15
 ```
-
-
- 
 ```
 # Use the following property to configure the number of milliseconds to delay responding
-```
-```
 #   to a user with an unable to log in error if they have exceeded their maximum number
-```
-```
 #   of failed login attempts by more than 3
-```
-```
 #   defaults to 15000
-```
-```
 #tmtbl.login.failed.delay.milliseconds=15000
 ```
-
-
- 
 ```
 # Headers and Footers
-```
-```
 #tmtbl.header.external=custom/header.jsp
-```
-```
 #tmtbl.footer.external=custom/footer.jsp
 ```
-
-
- 
 ```
 # System message displayed to all users when the log on
-```
-```
 tmtbl.system_message=
 ```
-
-
- 
 ```
 # Reload this file on the fly if modified when deployed to the app server
-```
-```
 # Should probably be set to false in production but useful during development
-```
-```
 tmtbl.properties.dynamic_reload=false
 ```
-
-
- 
 ```
 # Set the periodicity (in milliseconds) for checking if property files have changed
-```
-```
 tmtbl.properties.dynamic_reload_interval=15000
 ```
-
-
- 
 ```
 #Enable "local" option in the solver host selection
-```
-```
 tmtbl.solver.local.enabled=true
 ```
-
-
- 
 ```
 #Minimum amount of available memory (in megabytes) needed to be able to start additional solver instance
-```
-```
 #If there is not enough memory on any of the registered solver servers, the following exception is thrown:
-```
-```
 # "Not enough resources to create a solver instance, please try again later."
-```
-```
 tmtbl.solver.mem_limit=200
 ```
-
-
- 
 ```
 # Logging properties
-```
-```
 log4j.logger.org.hibernate.cfg=WARN
-```
-```
 log4j.logger.org.hibernate.connection.DriverManagerConnectionProvider=WARN
-```
-```
 log4j.logger.org.hibernate.util.JDBCExceptionReporter=ERROR
-```
-```
 log4j.logger.org.hibernate.cache.EhCacheProvider=ERROR
-```
-```
 log4j.logger.org.hibernate.cache.CacheFactory=ERROR
-```
-```
 log4j.logger.org.hibernate.engine.internal.StatefulPersistenceContext=ERROR
-```
-```
 log4j.logger.org.hibernate.ps.PreparedStatementCache=WARN
-```
-```
 log4j.logger.org.hibernate.engine.transaction.internal.jta.JtaTransaction=ERROR
-```
-```
 log4j.logger.net.sf.ehcache.distribution.jgroups.JGroupsCacheReceiver=ERROR
-```
-```
 log4j.logger.net.sf.ehcache.distribution.jgroups.JGroupsBootstrapManager=WARN
-```
-```
 log4j.logger.org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory=ERROR
-```
-```
 log4j.logger.org.infinispan.jmx=WARN
 ```
-
-
- 
 ```
 log4j.appender.stdout=org.apache.log4j.ConsoleAppender
-```
-```
 log4j.appender.stdout.Target=System.out
-```
-```
 log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
-```
-```
 log4j.appender.stdout.layout.ConversionPattern=[%-d{MM/dd/yy HH:mm:ss}] %-6p %c{1} -> %m%n
 ```
-
-
- 
 ```
 log4j.appender.unitime=org.apache.log4j.DailyRollingFileAppender
-```
-```
 log4j.appender.unitime.File=${catalina.base}/logs/unitime.log
-```
-```
 log4j.appender.unitime.DatePattern='.'yyyy-MM-dd
-```
-```
 log4j.appender.unitime.Append=true
-```
-```
 log4j.appender.unitime.layout=org.apache.log4j.PatternLayout
-```
-```
 log4j.appender.unitime.layout.ConversionPattern=[%-d{MM/dd/yy HH:mm:ss}] %-6p %c{1} -> %m%n
 ```
-
-
- 
 ```
 log4j.rootLogger=INFO, stdout, unitime
 ```
-
-
- 
 ```
 #Show SQL commands
-```
-```
 #log4j.logger.org.hibernate.SQL=DEBUG
 ```
-
-
- 
 ```
 #Hide warnings by ActionMapping
-```
-```
 log4j.logger.org.apache.struts.action.ActionMapping=ERROR
 ```
-
-
- 
 ```
 # Email settings (UniTime 3.2+)
-```
-```
 # Common settings
-```
-```
 mail.smtp.host=127.0.0.1
-```
-```
 mail.smtp.port=25
-```
-```
 # If SMTP authentication is needed
-```
-```
 # mail.smtp.user=
-```
-```
 # mail.smtp.password=
-```
-```
 # Enable SSL if needed. Other mail.smtp.ssl properties may need to be set
-```
-```
 # (see http://java.sun.com/products/javamail/javadocs/com/sun/mail/smtp/package-summary.html)
-```
-```
 # mail.smtp.ssl.enable=true
-```
-```
 # Sender address
-```
-```
 unitime.email.sender=noreply@unitime.org
-```
-```
 unitime.email.sender.name=UniTime Application
-```
-```
 # Reply to address
-```
-```
 unitime.email.replyto=support@unitime.org
-```
-```
 unitime.email.replyto.name=UniTime Support
 ```
-
-
- 
 ```
 # Email notifications
-```
-```
 unitime.email.notif=demo@unitime.org
-```
-```
 unitime.email.notif.name=UniTime Demo
-```
-```
 # Send solution commit / uncommit notifications
-```
-```
 unitime.email.notif.commit=false
-```
-```
 # Send error reports
-```
-```
 unitime.email.notif.error=false
-```
-```
 # Data import/export emails
-```
-```
 unitime.email.notif.data=false
 ```
-
-
- 
 ```
 # Email inquires (Contact us page)
-```
-```
 # If not defined, unitime.email.notif is used instead.admin
-```
-```
 unitime.email.inquiry=demo@unitime.org
-```
-```
 unitime.email.inquiry.name=UniTime Demo
-```
-```
 # For users without email, an email is constructed as login name + the following suffix
-```
-```
 unitime.email.inquiry.suffix=@unitime.org
-```
-```
 # Also send an autoreply message back to the user (if false, the user is CC-ed in the original message)
-```
-```
 # This is handy when sending emails to users can fail (e.g., because of an invalid email address)
-```
-```
 unitime.email.inquiry.autoreply=false
 ```
-
-
- 
 ```
 # Email confirmations
-```
-```
 # Enable event confirmations
-```
-```
 unitime.email.confirm.event=true
 ```
-
-
- 
 ```
 #Integration with Wiki
-```
-```
 tmtbl.wiki.help=true
-```
-```
 #tmtbl.wiki.url=http://help45.unitime.org/
-```
-```
 #tmtbl.help.root=http://help45.unitime.org/Timetabling
-```
-```
 tmtbl.help.manual.events=https://docs.google.com/document/d/1bDzKBMEKOFYN_aBwzA6E4PAsBOGV7Tx-A3i_kuMae6U
-```
-```
 tmtbl.help.manual.events_admin=https://docs.google.com/document/d/1Aye5LrLiAcTBR7aNOJO6laYg7-eEDlkfd5s0EW3jFZ4
-```
-```
 tmtbl.help.manual.input_data=https://docs.google.com/document/d/1rjS_6ebwegSTcN5Iw57qui5CHG8_6TWnk8MCwBwAt58
-```
-```
 tmtbl.help.manual.solver=https://docs.google.com/document/d/1NZmKnmrjM2Tqg7dO18cWcMIe_GrtilQtKw6d1WGWBtY
-```
-```
 tmtbl.help.manual.instructorScheduling=https://docs.google.com/document/d/1JksFtB9ecIoKpuyY0SDdl3dKnATe8UQAPKlGfBWi2JU
-```
-```
 tmtbl.help.manual.administration=https://docs.google.com/document/d/1iuj9NwrqkiVeJvKn1Sd41qqaVEJGwO79y1KZo1mtwuw
-```
-```
 tmtbl.help.manual.schedulingAssistant=https://docs.google.com/document/d/1QTCKwLhU62yGtr6XlW_XM68q3hgohxLpwWXdyajr30g
-```
-```
 tmtbl.help.manual.schedulingDashboard=https://docs.google.com/document/d/1ap13URaw7UVT0FN9NZtgSROEKoS-V7S1uq0214Sh43M
-```
-```
 tmtbl.help.manual.other=https://docs.google.com/document/d/1OoCI2GZ7-2R_HSuW7slNfN9sp-_guHxRCJaB2asOH7Y
-```
-```
 #tmtbl.help.faq=http://help45.unitime.org/Frequently_Asked_Questions
-```
-```
 #tmtbl.help.tricks=http://help45.unitime.org/Tips_and_Tricks
-```
-```
 tmtbl.help.release_notes=help/Release-Notes.xml
-```
-```
 #HTTPS version of help pages
-```
-```
 #  Enable when UniTime is access via https to prevent mixed content warnings in IE.
-```
-```
 tmtbl.wiki.url=https://help46.unitime.org/
-```
-```
 tmtbl.help.root=https://help46.unitime.org/timetabling
-```
-```
 tmtbl.help.faq=https://help46.unitime.org/frequently-asked-questions
-```
-```
 tmtbl.help.tricks=https://help46.unitime.org/tips-and-tricks
 ```
-
-
- 
 ```
 #Override default Scheduling Subpart Editing Preference
-```
-```
 tmtbl.subpart.credit.editable=true
 ```
-
-
- 
 ```
 #Enable these properties on a test server
-```
-```
 #tmtbl.global.warn=This is a test version of the Timetabling application, no data entered here will be used in production.
-```
-```
 #tmtbl.custom.css=styles/test.css
-```
-```
 #tmtbl.title=Timetabling TEST
 ```
-
-
- 
 ```
 #Course Number pattern (3 numbers followed by an optional letter) 
-```
-```
 tmtbl.courseNumber.pattern=^[0-9][0-9][0-9]([A-Za-z]){0,1}$
-```
-```
 tmtbl.courseNumber.patternInfo=Course Number must have 3 numbers followed by an optional letter (e.g. 214, 342X)
-```
-```
 # If true, course numbers are automatically converted to upper case
-```
-```
 tmtbl.courseNumber.upperCase=true
 ```
-
-
- 
 ```
 #Non University Location name pattern
-```
-```
 #tmtbl.nonUniversityLocation.pattern=^[A-Za-z0-9][A-Za-z0-9 &/-]{0,19}$
-```
-```
 #tmtbl.nonUniversityLocation.patternInfo=Non University Location name must start with a letter or number followed by up to 19 other letters, numbers, dashes, ampersands or spaces.
 ```
-
-
- 
 ```
 # Default decimal format of the room area 
-```
-```
 unitime.room.area.units.format=#,##0.##
 ```
-
-
- 
 ```
 #Course Number must be unique within a subject area
-```
-```
 #  If you set this to false you must removed the unique key UK_COURSE_OFFERING_SUBJ_CRS and its corresponding index
-```
-```
 #  If this value is not set it defaults to true
-```
-```
 tmtbl.courseNumber.unique=true
 ```
-
-
- 
 ```
 #Manager External Id Lookup
-```
-```
 #Must implement the interface org.unitime.timetable.interfaces.ExternalUidLookup
-```
-```
 tmtbl.manager.external_id.lookup.enabled=false
-```
-```
 tmtbl.manager.external_id.lookup.class=
 ```
-
-
- 
 ```
 #Instructor External Id Lookup
-```
-```
 #Must implement the interface org.unitime.timetable.interfaces.ExternalUidLookup
-```
-```
 tmtbl.instructor.external_id.lookup.enabled=false
-```
-```
 tmtbl.instructor.external_id.lookup.class=
 ```
-
-
- 
 ```
 #Contact information (Contact Us page)
-```
-```
 tmtbl.contact.address=
-```
-```
 tmtbl.contact.phone=
-```
-```
 tmtbl.contact.office_hours=
-```
-```
 tmtbl.contact.email=timetabling@universty.edu
-```
-```
 tmtbl.contact.email_mailto=timetabling@universty.edu?subject=TIMETABLING: &lt;add subject here&gt
 ```
-
-
- 
 ```
 #Custom properties (loaded on top of application properties)
-```
-```
 tmtbl.custom.properties=custom.properties
 ```
-
-
- 
 ```
 #Enable export of PDF Worksheet files on Instructional Offerings page 
-```
-```
 tmtbl.pdf.worksheet=true
-```
-```
 #tmtbl.pdf.worksheet.author=UniTime 3.1
-```
-```
 #tmtbl.pdf.worksheet.title=PDF WORKSHEET
 ```
-
-
- 
 ```
 #If the following property is defined and set to true, last used academic session is 
-```
-```
 #automatically selected for an authenticated user (if it is still available for the user).
-```
-```
 tmtbl.keeplastused.session=false
 ```
-
-
- 
 ```
 #Generated exam name
-```
-```
 # Basic codes
-```
-```
 # s ... subject area
-```
-```
 # c ... course number
-```
-```
 # i ... itype abbv
-```
-```
 # n ... section number
-```
-```
 # x ... configuration name
-```
-```
 # Additional codes
-```
-```
 # d ... department abbv
-```
-```
 # D ... department code
-```
-```
 # a ... class suffix (div-sec number)
-```
-```
 # y ... itype suffix (a, b etc.)
-```
-```
 # e ... class extended id
-```
-```
 # f ... course extended id
-```
-```
 # o ... offering extended id
-```
-```
 # t ... exam type suffix (tmtbl.exam.name.type.Final and tmtbl.exam.name.type.Midterm)
-```
-```
 # I ... itype code
-```
-```
 # p ... itype parent abbv
-```
-```
 # P ... itype parent code
-```
-```
 # _ ... space
-```
-```
 tmtbl.exam.name.maxLength=100
-```
-```
 tmtbl.exam.name.Course=%s %c
-```
-```
 tmtbl.exam.name.Offering=%s %c
-```
-```
 tmtbl.exam.name.Config=%s %c [%x]
-```
-```
 tmtbl.exam.name.Class=%s %c %i %n
-```
-```
 tmtbl.exam.name.suffix=
-```
-```
 tmtbl.exam.name.sameSubject.Course=; %c
-```
-```
 tmtbl.exam.name.sameSubject.Offering=; %c
-```
-```
 tmtbl.exam.name.sameSubject.Config=; %c [%x]
-```
-```
 tmtbl.exam.name.sameSubject.Class=; %c %i %n
-```
-```
 tmtbl.exam.name.sameCourse.Config=, [%x]
-```
-```
 tmtbl.exam.name.sameCourse.Class=, %i %n
-```
-```
 tmtbl.exam.name.sameSubpart.Class=, %n
-```
-```
 tmtbl.exam.name.diffSubject.separator=;%_
-```
-```
 tmtbl.exam.name.type.Final=Final
-```
-```
 tmtbl.exam.name.type.Midterm=Midterm
 ```
-
-
- 
 ```
 #Room availability -- by default, use the included event management system
-```
-```
 tmtbl.room.availability.class=org.unitime.timetable.util.DefaultRoomAvailabilityService
 ```
-
-
- 
 ```
 # Examination Timetabling: Consider direct student and instructor conflicts with other events 
-```
-```
 #  (that is class events, course events with required attendance)
-```
-```
 #  for final examination problem
-```
-```
 tmtbl.exam.eventConflicts.final=true
-```
-```
 #  final midterm examination problem
-```
-```
 tmtbl.exam.eventConflicts.midterm=true
-```
-```
 #  Required minimal travel time between class event and an exam (in the number of 5-minute long time slots)
-```
-```
 tmtbl.exam.eventConflicts.travelTime.classEvent=6
-```
-```
 #  Required minimal travel time between course event and an exam (in the number of 5-minute long time slots)
-```
-```
 tmtbl.exam.eventConflicts.travelTime.courseEvent=0
 ```
-
-
- 
 ```
 # Examination Timetabling: Automatically create strongly preferred same room constraint between exams of the same owner(s)
-```
-```
 #  (while examination data are loaded into the solver)
-```
-```
 #  for final examination problem
-```
-```
 tmtbl.exam.sameRoom.final=false
-```
-```
 #  final midterm examination problem
-```
-```
 tmtbl.exam.sameRoom.midterm=true
 ```
-
-
- 
 ```
 # Examnation Timetabling: Automatically create following preferences
-```
-```
 #  (while an exam is being saved into the database)
-```
-```
 # 
-```
-```
 # For an exam that is attached to an evening class -> put period preference on a period that overlaps 
-```
-```
 # in time and day of week with the class (if not preference is set by the user)
-```
-```
 # 
-```
-```
 # Final exams --> require appropriate period (overlapping day of week and time) for an evening class 
-```
-```
 #   (evening class is a class that takes place after 6pm, defined by firstEveningPeriod -- number of 5-minute long time slots from midnight)
-```
-```
 #   (preference: R for required, -2 strongly preferred, -1 preferred, 0 rule disabled, 1 discouraged, 2 strongly discouraged, P prohibited)   
-```
-```
 #tmtbl.exam.defaultPrefs.final.eveningClasses.pref=R
-```
-```
 #tmtbl.exam.defaultPrefs.final.eveningClasses.firstEveningPeriod=216
-```
-```
 #
-```
-```
 # Final exams --> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.final.eveningClasses.pref=0
-```
-```
 tmtbl.exam.defaultPrefs.final.eveningClasses.firstEveningPeriod=216
-```
-```
 #
-```
-```
 # Evening exams --> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.midterm.eveningClasses.pref=0
-```
-```
 tmtbl.exam.defaultPrefs.midterm.eveningClasses.firstEveningPeriod=216
-```
-```
 #
-```
-```
 # For an exam that is attached to a class -> put room preference on a room (if it allows exams) of the class
-```
-```
 # Final exams -> strongly prefer original room (room where the class is placed) 
-```
-```
 #tmtbl.exam.defaultPrefs.final.originalRoom.pref=-2
-```
-```
 # Final exams -> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.final.originalRoom.pref=0
-```
-```
 # Midterm exams -> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.midterm.originalRoom.pref=0
-```
-```
 #
-```
-```
 # For an exam that is attached to a class -> put building preference on a room of the class
-```
-```
 # Final exams -> prefer original building (of the room where the class is placed) 
-```
-```
 #tmtbl.exam.defaultPrefs.final.originalBuilding.pref=-1
-```
-```
 # Final exams -> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.final.originalBuilding.pref=0
-```
-```
 # Midterm exams -> rule disabled
-```
-```
 tmtbl.exam.defaultPrefs.midterm.originalBuilding.pref=0
-```
-```
 # If the rule is enabled, set whether it is to be applied only when a class is in a room that allows exams.
-```
-```
 #tmtbl.exam.defaultPrefs.final.originalBuilding.onlyForExaminationRooms=false
-```
-```
 #tmtbl.exam.defaultPrefs.midterm.originalBuilding.onlyForExaminationRooms=false
 ```
-
-
- 
-
-
- 
-
-
- 
 ```
 # Exams default start and stop offsets - This is to be used to reserve time for
-```
-```
 #   students entering the exam room before the exam begins and time for students
-```
-```
 #   to leave the exam after the exam has finished. The start offset must be a
-```
-```
 #   positive number that is not greater than the number of minutes in the exam
-```
-```
 #   period.  The stop offset must be a number whose value is
-```
-```
 #   greater than the number of minutes in the exam period.  By default the start time displayed
-```
-```
 #   for the exam with be the start time of the exam period plus the start offset
-```
-```
 #   and the end time displayed will be the end time of the exam period minus the
-```
-```
 #   stop offset.  If no offset is defined then 0 is assumed. e.g.
-```
-```
 #tmtbl.exam.defaultStartOffset.midterm=15
-```
-```
 #tmtbl.exam.defaultStopOffset.midterm=15
-```
-```
 #tmtbl.exam.defaultStartOffset.final=20
-```
-```
 #tmtbl.exam.defaultStopOffset.final=0
 ```
-
-
- 
 ```
 #Trim leading zeros from student and staff external ids when loading from xml
-```
-```
 # This is useful if the data loads have ids with leading zeros and external lookup systems ignore the leading zeros
-```
-```
 # In this case the trim leading zeros should be set to true, by default it is false.
-```
-```
 #tmtbl.data.exchange.trim.externalId=false
 ```
-
-
- 
 ```
 #If you are using UniTime in conjunction with an external system that identifies classes differently than UniTime
-```
-```
 #   you can create a java class that implements the ExternalClassNameHelperInterface interface to create custom
-```
-```
 #   naming for the class that is displayed in places such as the personal exam schedule and personal class 
-```
-```
 #   schedule for students.  If this is not set org.unitime.timetable.util.DefaultExternalClassNameHelper is used
-```
-```
 #tmtbl.class.naming.helper=org.unitime.timetable.util.DefaultExternalClassNameHelper
 ```
-
-
- 
 ```
 # Disclaimer to be added at the bottom of every page (in HTML format).
-```
-```
 #tmtbl.page.disclaimer=Thanks for using UniTime, the best software ever made for University Timetabling. If you have any questions contact us at support@unitime.org.
 ```
-
-
- 
 ```
 # Room coordinations
-```
-```
 # The following property sets the ellipsoid that is used to compute distances.
-```
-```
 # Values:
-```
-```
 #    LEGACY ... Euclidean metric (1 unit equals to 10 meters)
-```
-```
 #    WGS84 ... WGS-84 (GPS, a = 6378137 m, b = 6356752.3142 m)
-```
-```
 #    GRS80 ... GRS-80 (a = 6378137 m, b = 6356752.3141 m)
-```
-```
 #    Airy1830 ... Airy (1830) (a = 6377563.396 m, b = 6356256.909 m)
-```
-```
 #    Intl1924 ... Int'l 1924 (a = 6378388 m, b = 6356911.946 m)
-```
-```
 #    Clarke1880 ... Clarke (1880) (a = 6378249.145 m, b = 6356514.86955 m)
-```
-```
 #    GRS67 ... GRS-67 (a = 6378160 m, b = 6356774.719 m)
-```
-```
 unitime.distance.ellipsoid=WGS84
-```
-```
 # Minimap (to be displayed if set)
-```
-```
 #   Strings %x and %y are replaced by the room's coordinates
-```
-```
 #   String %n is replaced by the room name
-```
-```
 #   String %i is replaced by the room external id 
-```
-```
 unitime.minimap.url=maps?center=%x,%y&zoom=16&size=600x400
-```
-```
 # Minimap to be used in location's tooltip
-```
-```
 unitime.minimap.hint=maps?center=%x,%y&zoom=15&size=300x200
-```
-```
 # QR Code example:
-```
-```
 # unitime.minimap.hint=http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=%n+(%x,%y)+%i
-```
-```
 # Use Google maps to enter room / building coordinates
-```
-```
 unitime.coordinates.googlemap=false
 ```
-
-
- 
 ```
 # Application Configuration page
-```
-```
 # Only properties matching the following regular expression are displayed 
-```
-```
 tmtbl.appConfig.pattern=^(tmtbl|unitime)\\..*$
 ```
-
-
- 
-
-
- 
 ```
 # Default application menu style
-```
-```
 # Values
-```
-```
 #  Static On Top ... Horizontal menu bar on the top of the page (takes 100% width of the page, does not move with the page)
-```
-```
 #  Dynamic On Top ... Horizontal menu bar on the top of the page (takes 100% width of the client window, moves with the page as it is scrolled)
-```
-```
 #  Tree On Side ... Tree on the left side of the page content (moves with the page, resembles the UniTime 3.1 menu the most)
-```
-```
 #  Stack On Side ... Tree on the left side of the page content, but the first level of the tree is a StackPanel (only one top level item can be opened at a time)
-```
-```
 # If manager setting for this property is created, each user (timetable manager) can change his/her menu style.
-```
-```
 unitime.menu.style=Dynamic On Top
 ```
-
-
- 
 ```
 # Solution passivation time
-```
-```
 # Number of minutes after which an inactive solution can be passivated to disk to save memory
-```
-```
 # Passivation is disabled if set to zero, default is 30 minutes
-```
-```
 unitime.solver.passivation.time=30
 ```
-
-
- 
 ```
 # For various PDF exports, if you need other fonts than the ones bundled in the iText library (e.g., because of their poor unicode support), 
-```
-```
 # set the following unitime.pdf.font properties. The fonts will be embedded in the exported PDF.
-```
-```
 #
-```
-```
 # Here are some tested examples (please check that you have the fonts installed before uncommenting of the appropriate section):
-```
-```
 # Windows 7 Arial and Courier Fonts
-```
-```
 #unitime.pdf.font=c:\\Windows\\Fonts\\arial.ttf
-```
-```
 #unitime.pdf.font.italic=c:\\Windows\\Fonts\\ariali.ttf
-```
-```
 #unitime.pdf.font.bold=c:\\Windows\\Fonts\\arialbd.ttf
-```
-```
 #unitime.pdf.font.bolditalic=c:\\Windows\\Fonts\\arialbi.ttf
-```
-```
 #unitime.pdf.font.fixed=c:\\Windows\\Fonts\\cour.ttf
-```
-```
 # Mac OS X Arial and Courier New Fonts
-```
-```
 #unitime.pdf.font=/Library/Fonts/Arial.ttf
-```
-```
 #unitime.pdf.font.italic=/Library/Fonts/Arial Italic.ttf
-```
-```
 #unitime.pdf.font.bold=/Library/Fonts/Arial Bold.ttf
-```
-```
 #unitime.pdf.font.bolditalic=/Library/Fonts/Arial Bold Italic.ttf
-```
-```
 #unitime.pdf.font.fixed=/Library/Fonts/Courier New.ttf
-```
-```
 # Linux DejaVu Fonts (see http://dejavu-fonts.org/)
-```
-```
 #unitime.pdf.font=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
-```
-```
 #unitime.pdf.font.bold=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf
-```
-```
 #unitime.pdf.font.bolditalic=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-BoldOblique.ttf
-```
-```
 #unitime.pdf.font.italic=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Oblique.ttf
-```
-```
 #unitime.pdf.font.fixed=/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf
-```
-```
 #unitime.pdf.fontsize.small=8
-```
-```
 #unitime.pdf.fontsize.normal=10
-```
-```
 #unitime.pdf.fontsize.fixed=8
-```
-```
 # Linux Bitstream Vera Fonts (http://www-old.gnome.org/fonts/)
-```
-```
 #unitime.pdf.font=/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf
-```
-```
 #unitime.pdf.font.bold=/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf
-```
-```
 #unitime.pdf.font.bolditalic=/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf
-```
-```
 #unitime.pdf.font.italic=/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf
-```
-```
 #unitime.pdf.font.fixed=/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf
-```
-```
 #unitime.pdf.fontsize.small=8
-```
-```
 #unitime.pdf.fontsize.normal=10
-```
-```
 #unitime.pdf.fontsize.fixed=8
 ```
-
-
- 
-
-
- 
 ```
 unitime.authentication.ldap.url=ldap://null
-```
-```
 unitime.authentication.ldap.user-dn-pattern=uid={0},ou=authenticate
-```
-```
 unitime.authentication.ldap.group-search-base=ou=authorize
-```
-```
 unitime.authentication.ldap.group-role-attribute=uid
-```
-```
 unitime.authentication.ldap.group-search-filter=uid\={1}
-```
-```
 unitime.authentication.ldap.group-convert-to-uppercase=false
 ```
-
-
- 
 ```
 # Translation between LDAP uid and UniTime's external user id
-```
-```
 #tmtbl.externalUid.translation=org.unitime.timetable.spring.ldap.SpringLdapExternalUidTranslation
-```
-```
 unitime.authentication.ldap.identify=uid={0},ou=identify
 ```
-
-
- 
 ```
 # External user lookup using LDAP
-```
-```
 #tmtbl.manager.external_id.lookup.class=org.unitime.timetable.spring.ldap.SpringLdapExternalUidLookup
-```
-```
 #tmtbl.manager.external_id.lookup.enabled=true
-```
-```
 #tmtbl.instructor.external_id.lookup.class=org.unitime.timetable.spring.ldap.SpringLdapExternalUidLookup
-```
-```
 #tmtbl.instructor.external_id.lookup.enabled=true
 ```
-
-
- 
 ```
 # Enable UniTime to receive replies on event confirmation emails
-```
-```
 # If a reply message is received, a new note is added to the event's notes and an updated confirmation is sent to all contacts of the event.
-```
-```
 # If the reply message contains an attachment, it is also added to the new event note and included in the new confirmation email.
-```
-```
 unitime.email.inbound.enabled=false
-```
-```
 # IMAP connection for receiving replies (using SSL, see the following example for Gmail)
-```
-```
 # If username contains a whole email address, use %40 instead of @ in the username
-```
-```
 unitime.email.inbound.uri=imaps://[username]:[password]@imap.gmail.com/INBOX
-```
-```
 # Reply-to address for event confirmation emails
-```
-```
 unitime.email.inbound.address=[username]@gmail.com
-```
-```
 # Reply-to address name for event confirmation emails
-```
-```
 unitime.email.inbound.name=UniTime Events
 ```
-
-
- 
-
-
- 
 ```
 # JGroups configuration defaults
-```
-```
 unitime.enrollment.jgroups.config=sectioning-jgroups-tcp.xml
-```
-```
 unitime.hibernate.jgroups.config=hibernate-jgroups-tcp.xml
-```
-```
 unitime.solver.jgroups.config=solver-jgroups-tcp.xml
 ```

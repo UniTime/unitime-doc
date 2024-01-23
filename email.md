@@ -11,35 +11,15 @@ title: Email
  Here is an example using Gmail:
 ```
 mail.smtp.host=smtp.gmail.com
-```
-```
 mail.smtp.auth=true
-```
-```
 mail.smtp.starttls.enable=true
-```
-```
 mail.smtp.socketFactory.port=465
-```
-```
 mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
-```
-```
 mail.smtp.user=username@gmail.com
-```
-```
 mail.smtp.password=XXX
-```
-```
 unitime.email.sender=username@gmail.com
-```
-```
 unitime.email.sender.name=UniTime Application
-```
-```
 unitime.email.replyto=username@gmail.com
-```
-```
 unitime.email.replyto.name=UniTime Support
 ```
 

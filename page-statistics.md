@@ -10,7 +10,7 @@ title: Page Statistics
  The Page Statistics page provide some basic information about usage of UniTime pages during the past 24 hours, 7 days, and 3 months. It also provides some basic information about each page and GWT/RPC asynchronous calls.
 
 
- The page is based on the [QueryLog](https://code.google.com/p/unitime/source/browse/trunk/JavaSource/QueryLog.hbm.xml). It may take a bit of time (usually a couple of minutes) for the charts to be computed and the page to appear.
+ The page is based on the [QueryLog]( https://github.com/UniTime/unitime/tree/master/JavaSource/QueryLog.hbm.xml). It may take a bit of time (usually a couple of minutes) for the charts to be computed and the page to appear.
 
 ## Details
 

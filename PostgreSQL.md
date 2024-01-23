@@ -61,7 +61,6 @@ LOAD DATABASE
 ```
 
 
- 
 ```
 CAST type int when (= precision 1) to boolean drop typemod using tinyint-to-boolean,
   type decimal when (and (= precision 1) (= scale 0)) to boolean drop typemod using tinyint-to-boolean,

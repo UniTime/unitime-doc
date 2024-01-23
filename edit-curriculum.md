@@ -56,7 +56,6 @@ title: Edit Curriculum
 	* Number of students of this curriculum (i.e., who have the majors from this curriculum) currently enrolled in the courses of this curriculum
 
 
- 
 
 
  **Course Projections**

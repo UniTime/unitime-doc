@@ -13,19 +13,13 @@ title: Logging Levels
  UniTime is using [log4j](http://logging.apache.org/log4j/1.2/) for logging. Each class writing messages into the log is using a separate **logger**, typically named after the class. The loggers form a tree in a similar manner as the classes do. A logging level can be changed for a particular class (logger) or for all classes (loggers) of a given package. For instance, all org.hibernate.cfg classes have the logging level set to Warning, meaning that only warnings or higher messages (errors, fatals) appear in the log. The following logging levels are available:
 
 * All (all messages are logged)
-
 * Trace
-
 * Debug
-
 * Info
-
 * Warning
-
 * Error
-
 * Fatal
-	* Off (no messages are logged)
+* Off (no messages are logged)
 
 
  If a logging level is set to a particular level, only messages of the level or higher are printed in the log. The page requires Application Config permission.
@@ -33,7 +27,7 @@ title: Logging Levels
 ## Details
 
 
- UniTime logging is defined in the application properties (see [application.properties](https://code.google.com/p/unitime/source/browse/trunk/JavaSource/application.properties#78)) and can be overridden using custom properties (see [customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization)). The changes to the logging made on the Logging Levels page are saved in the custom properties as well (see [Application Configuration](application-configuration) page). The format is
+ UniTime logging is defined in the application properties (see [application.properties]( https://github.com/UniTime/unitime/tree/master/JavaSource/application.properties#78)) and can be overridden using custom properties (see [customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization)). The changes to the logging made on the Logging Levels page are saved in the custom properties as well (see [Application Configuration](application-configuration) page). The format is
 
 
  log4.logger.<logger>=<level>
@@ -42,7 +36,7 @@ title: Logging Levels
  where <logger> is the name of the logger and <level> is the level, i.e., one of TRACE, DEBUG, WARN, ERROR, or FATAL.
 
 
- By default, the logging messages are written in Tomcat/logs/unitime.log. Warning and higher messages are also written in the [MessageLog](https://code.google.com/p/unitime/source/browse/trunk/JavaSource/MessageLog.hbm.xml) table using the [MessageLogAppender](https://code.google.com/p/unitime/source/browse/trunk/JavaSource/org/unitime/timetable/util/MessageLogAppender.java). The logging level for the MessageLog can be changed using the unitime.message.log.level application property (it defaults to WARN). The messages from the message log can be seen on the [Administration Reports](administration-reports) page, Message Log report.
+ By default, the logging messages are written in Tomcat/logs/unitime.log. Warning and higher messages are also written in the [MessageLog]( https://github.com/UniTime/unitime/tree/master/JavaSource/MessageLog.hbm.xml) table using the [MessageLogAppender]( https://github.com/UniTime/unitime/tree/master/JavaSource/org/unitime/timetable/util/MessageLogAppender.java). The logging level for the MessageLog can be changed using the unitime.message.log.level application property (it defaults to WARN). The messages from the message log can be seen on the [Administration Reports](administration-reports) page, Message Log report.
 
 
 ![Logging Levels](images/logging-levels-1.png){:class='screenshot'}
@@ -70,26 +64,12 @@ title: Logging Levels
  MySQL
 ```
  select
-```
-```
   timeStamp as Time,
-```
-```
   (case level when 50000 then '<font color="red">Fatal</font>' when 40000 then '<font color="red">Error</font>'
-```
-```
    when 30000 then '<font color="orange">Warning</font>' when 20000 then 'Info' when 10000 then 'Debug' else 'Other' end) as Level,
-```
-```
   logger as Logger,
-```
-```
   (case when exception is null then message when message is null then exception else (message || '\\n' || exception) end) as Message,
-```
-```
   (case when ndc is null then thread else (thread || '\\n' || ndc) end) as Context
-```
-```
 from MessageLog order by timeStamp desc
 ```
 
@@ -97,28 +77,12 @@ from MessageLog order by timeStamp desc
  Oracle
 ```
  select
-```
-```
   timeStamp as Time,
-```
-```
   (case level when 50000 then '<font color="red">Fatal</font>' when 40000 then '<font color="red">Error</font>'
-```
-```
    when 30000 then '<font color="orange">Warning</font>' when 20000 then 'Info' when 10000 then 'Debug' else 'Other' end) as Level,
-```
-```
   logger as Logger,
-```
-```
   (case when exception is null then to_char(message) when message is null then to_char(exception) else
-```
-```
    (to_char(message) || '\n' || to_char(exception)) end) as Message,
-```
-```
   (case when ndc is null then thread else (thread || '\n' || to_char(ndc)) end) as Context
-```
-```
 from MessageLog order by timeStamp desc
 ```
