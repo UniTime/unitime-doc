@@ -12,6 +12,8 @@ title: Add Application Setting
 
  Note: The setting should be first implemented and recognized by the application before it is added here.
 
+![Add Application Setting](images/add-application-setting.png){:class='screenshot'}
+
 ## Details
 
 * **Name**
@@ -30,6 +32,3 @@ title: Add Application Setting
 
 * **Back** (ALT+B)
 	* Go back to the [Application Configuration](application-configuration) screen without saving the new setting
-
-
-![Add Application Setting](images/add-application-setting-1.png){:class='screenshot'}

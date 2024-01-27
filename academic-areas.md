@@ -7,7 +7,7 @@ title: Academic Areas
 
  The Academic Areas screen provides an overview of academic areas for a given session. It also has an editable version for authorized users (accessible by clicking on the Edit button).
 
-![Academic Areas](images/academic-areas-1.png){:class='screenshot'}
+![Academic Areas](images/academic-areas.png){:class='screenshot'}
 
 ## Details
 

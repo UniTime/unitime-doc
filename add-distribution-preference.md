@@ -9,6 +9,8 @@ title: Add Distribution Preference
 
  The Add Distribution Preference screen is used to define a new distribution preference.
 
+![Add Distribution Preference](images/add-distribution-preference.png){:class='screenshot'}
+
 ## Details
 
 * **Distribution Type**
@@ -43,4 +45,4 @@ title: Add Distribution Preference
 	* Go back to [Distribution Preferences](distribution-preferences) without saving this new preference
 
 
-![Add Distribution Preference](images/add-distribution-preference-1.png){:class='screenshot'}
+

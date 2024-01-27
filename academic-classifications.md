@@ -9,6 +9,8 @@ title: Academic Classifications
 
  The Academic Classifications screen provides an overview of academic classifications. Its editable version (after clicking the Edit button) serves for setting up or editing academic classifications.
 
+![Academic Classifications](images/academic-classifications.png){:class='screenshot'}
+
 ## Details
 
 
@@ -43,5 +45,3 @@ title: Academic Classifications
 * **Back**
 	* Go back to the overview version of the screen without saving any changes
 
-
-![Academic Classifications](images/academic-classifications-1.png){:class='screenshot'}

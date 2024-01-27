@@ -12,6 +12,8 @@ title: Add Date Pattern
 
  A date pattern defines a set of dates associated with a term when a class may meet. The actual meeting times of a class are computed as a projection of a time pattern onto a date pattern (e.g., a class that is taught on Tuesdays and Thursdays meets on all dates from the date pattern that are on Tuesday and Thursday). Normally, a date pattern should contain all dates of particular weeks (e.g, Week 1-4 contains all dates between Monday of the first week and Sunday of the 4th week). Date patterns consist of dates rather than weeks in order to allow institutions to shift weeks around holidays.
 
+![Add Date Pattern](images/add-date-pattern.png){:class='screenshot'}
+
 ## Details
 
 * **Name**
@@ -52,4 +54,4 @@ title: Add Date Pattern
 	* Go back to the list view without saving anything
 
 
-![Add Date Pattern](images/add-date-pattern-1.png){:class='screenshot'}
+
