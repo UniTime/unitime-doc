@@ -9,7 +9,7 @@ title: Add Course Offering
 
  The Add Course Offering page can be used to create a new course offering. Together with a course offering, instructional offering is also created and the new course offering is marked as controlling (see [Instructional Offering Cross List](instructional-offering-cross-lists)).
 
-![Add Course Offering](images/add-course-offering-1.png){:class='screenshot'}
+![Add Course Offering](images/add-course-offering.png){:class='screenshot'}
 
 ## Details
 
@@ -56,11 +56,11 @@ title: Add Course Offering
 * **Coordinators**
 	* A list of instructors (from the department to which the course belongs) who will be able to provide the consent of instructor required for the course
 
-* **Delete**
-	* Click to delete the coordinator on the same line
+	* **Delete**
+		* Click to delete the coordinator on the same line
 
-* **Add Coordinator**
-	* Click to add another line with the drop down list of possible coordinators
+	* **Add Coordinator**
+		* Click to add another line with the drop down list of possible coordinators
 
 * **By Reservation Only**
 	* A checkbox indicating whether it is possible to enter the course without meeting its reservation criteria (if checked, only students meeting reservations will be allowed to enroll into the offering)
@@ -74,10 +74,10 @@ title: Add Course Offering
 
 * **Funding Department**
 	* The department funding the classes for this course if they are funded by a department other than the department which is funding the subject area.
-		* This column is not visible by default.  To enable this column the unitime.courses.funding_departments_enabled application property must be set to true.
+		* This column is not visible by default.  To enable this column the `unitime.courses.funding_departments_enabled` application property must be set to `true`.
 
 * **Wait-Listing**
-	* Set whether wait-listing for the instructional offering follows the default wait-listing value set via the unitime.offering.waitListDefault application property or is Enabled or Disabled.
+	* Set whether wait-listing for the instructional offering follows the default wait-listing value set via the `unitime.offering.waitListDefault` application property or is Enabled or Disabled.
 
 * **Prohibited Overrides**
 	* If there are override types defined, it is possible to mark which of the override types students are prohibited from requesting for the course offering. See [Override Types](override-types) page for more details.

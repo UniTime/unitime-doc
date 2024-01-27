@@ -9,6 +9,8 @@ title: Add Course Credit Unit
 
  The Add Course Credit Unit page can be used to create a new credit unit. See [Course Credit](course-credit) description for more details.
 
+![Add Course Credit Unit](images/add-course-credit-unit.png){:class='screenshot'}
+
 ## Details
 
 
@@ -20,4 +22,4 @@ title: Add Course Credit Unit
  Click **Save** to create the new course credit unit. The button **Back** will get you back to [Course Credit Units](course-credit-units) page without creating any new units.
 
 
-![Add Course Credit Unit](images/add-course-credit-unit-1.png){:class='screenshot'}
+

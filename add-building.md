@@ -9,6 +9,8 @@ title: Add Building
 
  The Add Building screen provides interface for adding a new building.
 
+![Add Building](images/add-building.png){:class='screenshot'}
+
 ## Details
 
 * **Name**
@@ -38,4 +40,4 @@ title: Add Building
 	* Go back to the [Buildings](buildings) screen without saving anything
 
 
-![Add Building](images/add-building-1.png){:class='screenshot'}
+

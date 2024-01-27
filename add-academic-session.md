@@ -9,6 +9,8 @@ title: Add Academic Session
 
  In the Add Academic Session screen, you can define a new academic session, including e.g. its start and end date or holidays throughout a term.
 
+![Add Academic Session](images/add-academic-session.png){:class='screenshot'}
+
 ## Details
 
 * **Academic Initiative**
@@ -74,5 +76,3 @@ title: Add Academic Session
 * **Back**
 	* Go back to the [Academic Sessions](academic-sessions) screen without saving the new session
 
-
-![Add Academic Session](images/add-academic-session-1.png){:class='screenshot'}

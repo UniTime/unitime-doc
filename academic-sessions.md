@@ -9,6 +9,8 @@ title: Academic Sessions
 
  The Academic Sessions screen provides a list of existing academic sessions.
 
+![Academic Sessions](images/academic-sessions.png){:class='screenshot'}
+
 ## Details
 
 * **Default**
@@ -60,5 +62,3 @@ title: Academic Sessions
 * **Add Session**
 	* Add a new academic session in the [Add Academic Session](add-academic-session) screen
 
-
-![Academic Sessions](images/academic-sessions-1.png){:class='screenshot'}

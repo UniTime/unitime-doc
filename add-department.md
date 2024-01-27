@@ -9,6 +9,8 @@ title: Add Department
 
  Add a new department in the Add Department screen.
 
+![Add Department](images/add-department.png){:class='screenshot'}
+
 ## Details
 
 * **Academic Session**
@@ -60,10 +62,8 @@ title: Add Department
 	* Check if the departmental schedule deputies should be allowed to enter required times (by default, they cannot use required/prohibited for time preferences)
 
 * **Allow Required Room**
-
-* Option for an externally managed department
-
-* Check if the departmental schedule deputies should be allowed to enter required rooms (by default, they cannot use required/prohibited for room preferences)
+	* Option for an externally managed department
+	* Check if the departmental schedule deputies should be allowed to enter required rooms (by default, they cannot use required/prohibited for room preferences)
 
 * **Allow Required Distribution**
 	* Option for an externally managed department
@@ -80,7 +80,7 @@ title: Add Department
 
 * **External Funding Department**
 	* Check if this department can be used as an external funding department for classes
-		* This field is not visible by default.  To enable this field the unitime.courses.funding_departments_enabled application property must be set to true.
+		* This field is not visible by default. To enable this field the `unitime.courses.funding_departments_enabled` application property must be set to `true`.
 
 ## Operations
 
@@ -91,4 +91,4 @@ title: Add Department
 	* Go back to the [Departments](departments) screen without saving the department
 
 
-![Add Department](images/add-department-1.png){:class='screenshot'}
+
