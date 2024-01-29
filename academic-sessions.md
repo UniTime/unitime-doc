@@ -9,6 +9,8 @@ title: Academic Sessions
 
  The Academic Sessions screen provides a list of existing academic sessions.
 
+![Academic Sessions](images/academic-sessions.png){:class='screenshot'}
+
 ## Details
 
 * **Default**
@@ -49,9 +51,26 @@ title: Academic Sessions
 * **Events End**
 	* Last date for which events can be entered for this academic session
 
-* **Event Management**
-	* Types of rooms that can be used for event management for that academic session
+* **Deadline**
+	* Deadlines are related to online student scheduling
+	* **Enrollment**
+		* Deadline for allowing students to enroll in a new course
+	* **Change**
+		* Deadline for allowing students to make a change in a course they are already enrolled in (e.g. move to a different section)
+	* **Drop**
+		* Deadline for allowing students to drop a course
 
+* **Scheduling Status**
+	* Default student scheduling status (no restrictions set by default)
+	* Student scheduling statuses are defined in the [Student Scheduling Status Types](student-scheduling-status-types) screen
+
+* **Default IM**
+	* Default instructional method
+	* Used in the Scheduling Assistant to allow students to put a preference on instructional configurations without an instructional method selected
+	* Instructional methods are defined in the [Instructional Methods](instructional-methods) screen
+
+* **Email Notifications**
+	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
 
  Click on any line to change the session's properties in the [Edit Academic Session](edit-academic-session) screen.
 
@@ -60,5 +79,3 @@ title: Academic Sessions
 * **Add Session**
 	* Add a new academic session in the [Add Academic Session](add-academic-session) screen
 
-
-![Academic Sessions](images/academic-sessions-1.png){:class='screenshot'}

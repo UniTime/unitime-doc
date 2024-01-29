@@ -9,6 +9,8 @@ title: Edit Course Credit Units
 
  The Edit Course Credit Units page can be used to create, modify, or delete existing credit units using a single page. See [Course Credit](course-credit) description for more details.
 
+![Edit Course Credit Units](images/edit-course-credit-units.png){:class='screenshot'}
+
 ## Details
 
 
@@ -23,4 +25,4 @@ title: Edit Course Credit Units
  Please note that the credit units that cannot be deleted do not have the red x button.
 
 
-![Edit Course Credit Units](images/edit-course-credit-units-1.png){:class='screenshot'}
+

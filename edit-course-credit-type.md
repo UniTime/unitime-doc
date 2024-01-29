@@ -9,6 +9,8 @@ title: Edit Course Credit Type
 
  The Edit Course Credit Type page can be used to modify an existing credit type. See [Course Credit](course-credit) description for more details.
 
+![Edit Course Credit Type](images/edit-course-credit-type.png){:class='screenshot'}
+
 ## Details
 
 
@@ -23,4 +25,4 @@ title: Edit Course Credit Type
  The buttons **Previous** and **Next** can be used to save the current type and get to the Edit Course Credit Type page for the previous / next credit type.
 
 
-![Edit Course Credit Type](images/edit-course-credit-type-1.png){:class='screenshot'}
+

@@ -9,6 +9,8 @@ title: Course Credit Units
 
  The Course Credit Units page can be used to manage credit units. See [Course Credit](course-credit) description for more details.
 
+![Course Credit Units](images/course-credit-units.png){:class='screenshot'}
+
 ## Details
 
 
@@ -25,5 +27,7 @@ title: Course Credit Units
 
  The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
 
+Use the **Export** buttons to export this page's content.
 
-![Course Credit Units](images/course-credit-units-1.png){:class='screenshot'}
+
+

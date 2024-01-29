@@ -9,6 +9,8 @@ title: Course Credit Formats
 
  The Course Credit Formats page displays the existing credit formats. The four available formats are hard coded in UniTime, only their names and abbreviations are allowed to be changed.
 
+![Course Credit Formats](images/course-credit-formats.png){:class='screenshot'}
+
 ## Details
 
 
@@ -19,5 +21,6 @@ title: Course Credit Formats
 
  A particular course credit format can be changed by clicking the appropriate line. All formats can be edited at once by clicking the **Edit** button.
 
+Use the **Export** buttons to export this page's content.
 
-![Course Credit Formats](images/course-credit-formats-1.png){:class='screenshot'}
+

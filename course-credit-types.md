@@ -9,6 +9,8 @@ title: Course Credit Types
 
  The Course Credit Types page can be used to manage credit types. See [Course Credit](http://help34.unitime.org/Course_Credit) description for more details.
 
+![Course Credit Types](images/course-credit-types.png){:class='screenshot'}
+
 ## Details
 
 
@@ -25,5 +27,6 @@ title: Course Credit Types
 
  The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
 
+Use the **Export** buttons to export this page's content.
 
-![Course Credit Types](images/course-credit-types-1.png){:class='screenshot'}
+

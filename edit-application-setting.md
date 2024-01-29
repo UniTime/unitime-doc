@@ -9,11 +9,16 @@ title: Edit Application Setting
 
  The Edit Application Setting screen provides interface for editing an existing application setting.
 
+![Edit Application Setting](images/edit-application-setting.png){:class='screenshot'}
+
 ## Details
 
 * **Name**
 	* Name of the setting recognized by the application
 	* Cannot be changed
+
+* **Applies To**
+	* Which sessions the setting will affect
 
 * **Value**
 	* Current value of the setting (cannot be arbitrary, must be recognized by the application)
@@ -34,4 +39,4 @@ title: Edit Application Setting
 	* Go back to the [Application Configuration](application-configuration) screen without saving any changes
 
 
-![Edit Application Setting](images/edit-application-setting-1.png){:class='screenshot'}
+

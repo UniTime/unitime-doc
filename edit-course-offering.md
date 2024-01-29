@@ -9,6 +9,8 @@ title: Edit Course Offering
 
  Most of the information that you enter in the Edit Course Offering screen has to match the course catalog.
 
+![Edit Course Offering](images/edit-course-offering.png){:class='screenshot'}
+
 ## Details
 
 * **Course Number**
@@ -51,30 +53,28 @@ title: Edit Course Offering
 * **Coordinators**
 	* A list of instructors (from the department to which the course belongs) who will be able to provide the consent of instructor required for the course
 
-* **Delete**
-	* Click to delete the coordinator on the same line
+	* **Delete**
+		* Click to delete the coordinator on the same line
 
-* **Add Coordinator**
-	* Click to add another line with the drop down list of possible coordinators
+	* **Add Coordinator**
+		* Click to add another line with the drop down list of possible coordinators
 
 * **By Reservation Only**
 	* A checkbox indicating whether it is possible to enter the course without meeting its reservation criteria (if checked, only students meeting reservations will be allowed to enroll into the offering)
 
 * **Deadlines**
-
-* These deadlines are used to control enrollment during online student scheduling (both via scheduling assistant and wait-list). The defaults are set on the academic session ([Edit Academic Session](edit-academic-session)), but can be overridden on each instructional offering.
-
-* Deadlines are given in the number of weeks, relative to the class start (weeks start on the day of the session begin date).
+	* These deadlines are used to control enrollment during online student scheduling (both via scheduling assistant and wait-list). The defaults are set on the academic session ([Edit Academic Session](edit-academic-session)), but can be overridden on each instructional offering.
+	* Deadlines are given in the number of weeks, relative to the class start (weeks start on the day of the session begin date).
 
 * **Requests / Notes**
 	* A note that schedule managers can use to describe the scheduling needs for the course.  This can be used to document why certain things are/were being configured for the course.
 
 * **Funding Department**
 	* The department funding the classes for this course if they are funded by a department other than the department which is funding the subject area.
-		* This column is not visible by default.  To enable this column the unitime.courses.funding_departments_enabled application property must be set to true.
+		* This column is not visible by default.  To enable this column the `unitime.courses.funding_departments_enabled` application property must be set to `true`.
 
 * **Wait-Listing**
-	* Set whether wait-listing for the instructional offering follows the default wait-listing value set via the unitime.offering.waitListDefault application property or is Enabled or Disabled.
+	* Set whether wait-listing for the instructional offering follows the default wait-listing value set via the `unitime.offering.waitListDefault` application property or is Enabled or Disabled.
 
 * **Prohibited Overrides**
 	* If there are override types defined, it is possible to mark which of the override types students are prohibited from requesting for the course offering. See [Override Types](override-types) page for more details.
@@ -99,4 +99,4 @@ tmtbl.courseNumber.upperCase=true
 ```
 
 
-![Edit Course Offering](images/edit-course-offering-1.png){:class='screenshot'}
+
