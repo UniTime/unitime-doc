@@ -15,6 +15,8 @@ title: Select Academic Session
 
  This screen is also presented after log-in into the application, when there is no default academic session identified for the user, e.g., if there are multiple academic initiatives with sessions available.
 
+![Select Academic Session](images/select-academic-session.png){:class='screenshot'}
+
 ## Details
 
 
@@ -33,4 +35,4 @@ title: Select Academic Session
 	* Status of the academic session - see more in the [Academic Sessions](academic-sessions) screen
 
 
-![Select Academic Session](images/select-academic-session-1.png){:class='screenshot'}
+

@@ -24,6 +24,12 @@ title: Add Date Pattern
 		* These types may be helpful for organizing the list of date patterns
 			* On classes and scheduling subparts, date patterns are ordered based on these types (Standard date patterns first, then Alternate Weeks, etc.)
 		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this date pattern (these are not visible as options on classes and scheduling subparts that are managed by departments not listed on these date patterns)
+	* Alternative Pattern Set type can be used to define alternative date patterns (e.g. every other week)
+		* In this case there is no pattern, but a list of date patterns the solver can choose from is selected (e.g. even weeks, odd weeks)
+
+* **Number of Weeks**
+	* Number of weeks of the date pattern for reporting purposes
+	* The number of weeks will be computed from the pattern when left blank
 
 * **Visible**
 	* When checked (checked by default), the date pattern will be available to users authorized to use it
@@ -35,6 +41,7 @@ title: Add Date Pattern
 	* To change the default date pattern, go to the add/edit screen of the date pattern that should be default and click on the Make Default button (alternatively, you can select a default date pattern on [Edit Academic Session](edit-academic-session) screen)
 
 * **Departments**
+	* This item is only accessible when either the Extended or the Alternative Pattern Set type is selected
 	* For the date patterns of type Extended, it is necessary to specify which departments should have access to the date pattern (unless the date pattern should be used by administrator only)
 	* Select a department in the drop down menu and click **Add Department** to authorize the department to use the date pattern (not applied until Save is clicked)
 	* Select a department in the drop down menu and click **Remove Department** to withhold the authorization to use a given date pattern by that department

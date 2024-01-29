@@ -25,6 +25,11 @@ title: Add Curriculum
 * **Academic Area**
 	* Academic area for which the curriculum will be set up
 
+* **Multiple Majors**
+	* Allows for defining curricula with multiple majors
+		* In this case, curricula from each major are inhereted and can be overridden on a multiple major level (when multiple majors are selected)
+		* Common courses can be similarly defined on a curriculum with no major
+
 * **Major(s)**
 	* The major (or more majors) within the selected academic area for which the curriculum will be set up 
 

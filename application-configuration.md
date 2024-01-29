@@ -9,6 +9,9 @@ title: Application Configuration
 
  The Application Configuration screen provides a list of application settings/properties together with their values. The settings can be edited through the application interface, while properties must be edited in a properties file. Read the Customization section of the [Timetabling Installation](installation) instructions to see where and how to set up the application properties.
 
+![Application Configuration](images/application-configuration-1.png){:class='screenshot'}
+![Application Configuration](images/application-configuration-2.png){:class='screenshot'}
+
 ## Application Settings
 
 * **Name**
@@ -42,4 +45,4 @@ title: Application Configuration
  Note: To change an application property, add an application setting with the appropriate name (application settings take precedence over application properties). Some of the application properties (e.g., database connection properties) cannot be changed through this interface, they must be changed in the configuration files, see [Timetabling Installation](installation) page.
 
 
-![Application Configuration](images/application-configuration-1.png){:class='screenshot'}
+

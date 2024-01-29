@@ -28,6 +28,8 @@ title: Add Building
 		* Coordinates cannot be negative
 		* A building with no coordinates is assumed to be too far from any other building (for instructor and student back-to-back constraints)
 
+* **Map**
+	* Alternative way of inputing coordinates. Input locations either by clicking on the map or by typing in an address
 
  Note: If you do not have coordinate system established, entering the same coordinates (e.g., [0,0]) for all buildings will ensure that there will be no "too far" instructor and student back-to-back constraint violations in the problem.
 

@@ -12,13 +12,15 @@ title: Course Credit
 
  Credit information is optional and it is only recorded in UniTime. It can be used in reporting. Most pages display the credit information in the abbreviated form with the name as a mouse over tooltip.
 
+![Course Credit](images/course-credit-1.png){:class='screenshot'}
+
 ## Details
 
 
  Credit information consists from a selection of credit format (e.g., variable credit or fixed units), credit type (e.g., collegiate or continuous education), credit unit type (typically semester hours) and a number of credits. Some credit formats do not have the number of units (arrange hours), some formats on the other hand have a range of units (e.g., variable credit). In case of a range, maximal number of units can be provided as well (the range is between the number of units and the max units number).
 
 
- Ability to define credit information on scheduling subparts is not enabled by default. To enabled it, set application property tmtbl.subpart.credit.editable to true (e.g., using [Application Configuration](application-configuration) page, see [UniTime Customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization) for more details).
+ Ability to define credit information on scheduling subparts is not enabled by default. To enabled it, set application property `tmtbl.subpart.credit.editable` to `true` (e.g., using [Application Configuration](application-configuration) page, see [UniTime Customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization) for more details).
 
 
  The number of units, credit format, type, and units are combined together in to one string. It can be also abbreviated using the abbreviations defined. For example:
@@ -32,7 +34,7 @@ title: Course Credit
 * Arrange hours equivalent credit translates to "Arrange Semester Hours of Equivalent Credit" and is abbreviated as "AH EQV"
 
 
-![Course Credit](images/course-credit-1.png){:class='screenshot'}
+
 
 
 ![Course Credit](images/course-credit-2.png){:class='screenshot'}
@@ -49,8 +51,8 @@ title: Course Credit
 
 * The **fixed unit** format expects the number of units to be provided (max units field is disabled). It is usually abbreviated just as the entered number of units.
 
-* The **variable min/max** format expects both number of units and max number of units to be entered. It is usually abbreviated as min, max (where min is the number of units, and max is the max number of units). The meaning is that the credit given to student for the course is one of the two unit numbers.
-	* The **variable range** format expects both number of units and max number of units to be entered. It is usually abbreviated as min - max (where min is the number of units, and max is the max number of units). The meaning is that the credit given to student for the course is between the two unit numbers.
+* The **variable min/max** format expects both number of units and max number of units to be entered. It is usually abbreviated as _min, max_ (where _min_ is the number of units, and _max_ is the max number of units). The meaning is that the credit given to student for the course is one of the two unit numbers.
+	* The **variable range** format expects both number of units and max number of units to be entered. It is usually abbreviated as _min - max_ (where _min_ is the number of units, and _max_ is the max number of units). The meaning is that the credit given to student for the course is between the two unit numbers.
 
 
  When variable range credit format is selected, fractional increments may be allowed (the Fractional Increments Allowed check box is enabled). If fractional increments are not allowed, the credit given to student must be a whole number.

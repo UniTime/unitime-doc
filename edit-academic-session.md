@@ -9,6 +9,8 @@ title: Edit Academic Session
 
  The Edit Academic Session screen provides interface for changing properties of an academic session.
 
+![Edit Academic Session](images/edit-academic-session.png){:class='screenshot'}
+
 ## Details
 
 * **Academic Initiative**
@@ -45,22 +47,38 @@ title: Edit Academic Session
 * **Session Status**
 	* The statuses are defined in the [Status Types](status-types) screen
 
+* **Default Class Duration**
+	* Set the default class duration type for this academic session
+	* _Minutes per Week_ is used by default
+		* This is the existing behavior, where the minutes per week equals to the number of meetings times the minutes per meeting.
+	* See [Class Duration Types](class-duration-types) for more detail
+
+* **Default Instructional Method**
+	* Default instructional method for this academic session
+	* Used in the Scheduling Assistant to allow students to put a preference on instructional configurations without an instructional method selected
+	* Instructional methods are defined in the [Instructional Methods](instructional-methods) screen
+	* This option is not available when no instructional methods are defined
+
 * **Holidays**
 	* Indicate holidays and breaks within the academic session by clicking on the colored squares in legend and then on dates in the calendar (classes are not held on these days)
 
-### Room Types
+### Online Student Scheduling Default Settings
 
+* **Deadline**
+	* Deadlines are related to online student scheduling
+	* **New Enrollment Deadline**
+		* Deadline for allowing students to enroll in a new course
+	* **Class Changes Deadline**
+		* Deadline for allowing students to make a change in a course they are already enrolled in (e.g. move to a different section)
+	* **Course Drop Deadline**
+		* Deadline for allowing students to drop a course
 
- In the Room Types section it can be selected which types of rooms (locations) can be used for event management. The locations that should be used still need to be controlled by a department that has an event manager associated with it, otherwise they cannot be used.
+* **Default Student Scheduling Status**
+	* Default student scheduling status (no restrictions set by default)
+	* Student scheduling statuses are defined in the [Student Scheduling Status Types](student-scheduling-status-types) screen
 
-* **Room Type**
-	* Room type - one of the types defined in the [Room Types](room-types) administrative screen
-
-* **Event Management**
-	* If the checkbox is checked, the appropriate room type can be used in event management
-
-* **Message**
-	* Not in use at the moment
+* **Email Notifications**
+	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
 
 ## Operations
 
@@ -76,4 +94,4 @@ title: Edit Academic Session
 	* Go back to the [Academic Sessions](academic-sessions) screen without saving anything
 
 
-![Edit Academic Session](images/edit-academic-session-1.png){:class='screenshot'}
+

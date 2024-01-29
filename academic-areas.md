@@ -23,11 +23,8 @@ title: Academic Areas
 * Abbreviation
 	* Academic area abbreviation
 
-* Short Title
-	* The short title of the academic area
-
-* Long Title
-	* The long title of the academic area
+* Title
+	* The title of the academic area
 
 * **+** (in the editable version)
 	* Add a line for a new academic area

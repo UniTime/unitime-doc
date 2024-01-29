@@ -13,7 +13,7 @@ title: Add Course Offering
 
 ## Details
 
-* **Subject Area**
+* **Subject**
 	* The subject area for the new course offering
 
 * **Course Number**

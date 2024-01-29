@@ -9,6 +9,8 @@ title: Buildings
 
  The Buildings screen contains a list of university buildings (that are included in the room inventory).
 
+![Buildings](images/buildings.png){:class='screenshot'}
+
 ## Details
 
 * **Abbreviation**
@@ -20,7 +22,7 @@ title: Buildings
 * **External ID**
 	* External ID of the building (optional)
 
-* **X-Coordinate**, **Y-Coordinate**
+* **Coordinates**
 	* Coordinates of the building (used in calculating distances between buildings)
 		* Distance between two buildings is computed as [Euclidean distance](http://en.wikipedia.org/wiki/Euclidean_distance) between coordinates × 10 meters (e.g., distance between coordinates [0,0] and [3,4] is 50 meters)
 		* Coordinates cannot be negative
@@ -41,4 +43,4 @@ title: Buildings
 	* Export the list of buildings into a PDF file
 
 
-![Buildings](images/buildings-1.png){:class='screenshot'}
+
