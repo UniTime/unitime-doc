@@ -6,13 +6,13 @@ title: Edit Room Feature
 
 ## Screen Description
 
+In the Edit Room Feature screen, you can change the feature's properties that you entered in the [Add Room Feature](add-room-feature) screen and you can indicate which rooms have this feature.
 
- In the Edit Room Feature screen, you can change the feature's properties that you entered in the [Add Room Feature](add-room-feature) screen and you can indicate which rooms have this feature.
+![Edit Room Feature](images/edit-room-feature-1.png){:class='screenshot'}
 
 ## Details
 
-
- The first part of the screen is the same as the [Add Room Feature](add-room-feature) screen:
+The first part of the screen is the same as the [Add Room Feature](add-room-feature) screen:
 
 * **Name**
 	* A name that is helpful to you
@@ -29,11 +29,9 @@ title: Edit Room Feature
 * **Department**
 	* Indicates which department wants to work with this feature
 
+**Type** field only appears if there are some room feature types defined on the [Room Feature Types](room-feature-types) administration page. Room feature types can be used to categorize room features (seating arrangement, black board size, etc.). It defaults to No Type (no room feature type selected).
 
- **Type** field only appears if there are some room feature types defined on the [Room Feature Types](room-feature-types) administration page. Room feature types can be used to categorize room features (seating arrangement, black board size, etc.). It defaults to No Type (no room feature type selected).
-
-
- The list of rooms assigned to a given department follows. It is divided into two parts:
+The list of rooms assigned to a given department follows. It is divided into two parts:
 
 * **Currently assigned rooms**
 	* The rooms that have this feature
@@ -53,6 +51,3 @@ title: Edit Room Feature
 
 * **Back** (Alt+B)
 	* Go back to the [Room Features](room-features) screen without saving any changes
-
-
-![Edit Room Feature](images/edit-room-feature-1.png){:class='screenshot'}

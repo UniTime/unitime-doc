@@ -6,8 +6,7 @@ title: Student Scheduling Solver
 
 ## Screen Description
 
-
- In the Student Scheduling Solver screen, the user can run the sectioning solver to assign classes to students whose course requests have been entered into the system. The assignment is based on the timetable, the student requests and, if needed, on the last-like or curriculum course demands (in case only a part of current student course requests are available).
+In the Student Scheduling Solver screen, the user can run the sectioning solver to assign classes to students whose course requests have been entered into the system. The assignment is based on the timetable, the student requests and, if needed, on the last-like or curriculum course demands (in case only a part of current student course requests are available).
 
 ## Solver not started
 
@@ -63,21 +62,18 @@ title: Student Scheduling Solver
 
 ## Loading input data
 
-
- During the loading phase, input data are loaded.
+During the loading phase, input data are loaded.
 
 ### Solver
 
 * **Input data loaded**
 	* Time stamp from the time when the latest load of input data started
 
-
- For the rest, see above.
+For the rest, see above.
 
 ### Current Student Schedule
 
-
- The Current Student Schedule is empty during the loading phase.
+The Current Student Schedule is empty during the loading phase.
 
 ### Operations
 
@@ -89,8 +85,7 @@ title: Student Scheduling Solver
 
 ### Current Student Schedule
 
-
- The Current Student Schedule has been loaded into the solver together with the input data. The section for the Current Student Schedule has one operation: Store To Best - store the current student schedule to the Best Student Schedule Found So Far.
+The Current Student Schedule has been loaded into the solver together with the input data. The section for the Current Student Schedule has one operation: Store To Best - store the current student schedule to the Best Student Schedule Found So Far.
 
 ### Operations
 
@@ -117,8 +112,7 @@ title: Student Scheduling Solver
 
 ### Solver
 
-
- See above
+See above
 
 ### Operations
 
@@ -132,19 +126,15 @@ title: Student Scheduling Solver
 
 ### Best Student Schedule Found So Far
 
+During the automated scheduling (when the solver is running), the best student schedule found so far is saved here. It is the schedule that is presented to the user when he/she stops the solver or when the time-out is reached.
 
- During the automated scheduling (when the solver is running), the best student schedule found so far is saved here. It is the schedule that is presented to the user when he/she stops the solver or when the time-out is reached.
-
-
- When the user interacts and makes changes, he/she can save intermediate results as "Best Student Schedule Found So Far" and later come back to this schedule if the current one is not good.
+When the user interacts and makes changes, he/she can save intermediate results as "Best Student Schedule Found So Far" and later come back to this schedule if the current one is not good.
 
 ### Current Student Schedule
 
+When solver is stopped, the Best Student Schedule Found So Far is the same as the Current Student Schedule. If the solver is running, you can see the current solution it is working with in this section.
 
- When solver is stopped, the Best Student Schedule Found So Far is the same as the Current Student Schedule. If the solver is running, you can see the current solution it is working with in this section.
-
-
- Operations
+Operations
 
 * **Restore From Best**
 	* Discard the current student schedule and start again from the best student schedule found so far
@@ -154,8 +144,7 @@ title: Student Scheduling Solver
 
 ### Problems
 
-
- The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
+The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
 
 ### Operations
 
@@ -180,11 +169,9 @@ title: Student Scheduling Solver
 
 ## Notes
 
+Description of the student weights as written in UniTime 3.3 Release Notes
 
- Description of the student weights as written in UniTime 3.3 Release Notes
-
-
- P**riority student weighting model**
+P**riority student weighting model**
 
 * First priority request has better weight than all the rest
 
@@ -198,8 +185,7 @@ title: Student Scheduling Solver
 
 * The rest to 1 -- put to the last request or split evenly between all of them.
 
-
- **Alternative (equal) weighting model**
+**Alternative (equal) weighting model**
 
 * All course (non alternative) requests have equal weight (priority is ignored)
 
@@ -207,8 +193,7 @@ title: Student Scheduling Solver
 
 * Second alternatives have lower weight than first alternatives, alternative course requests than second alternatives
 
-
- **There are three ways to use student sectioning**
+**There are three ways to use student sectioning**
 
 * When all students are preregistered, the projected demand is none
 

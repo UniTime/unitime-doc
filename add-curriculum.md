@@ -6,15 +6,13 @@ title: Add Curriculum
 
 ## Screen Description
 
-
- In the Add Curriculum screen, a new curriculum can be added for a selected academic area and one or more majors within the academic area.
+In the Add Curriculum screen, a new curriculum can be added for a selected academic area and one or more majors within the academic area.
 
 ![Add Curriculum](images/add-curriculum.png){:class='screenshot'}
 
 ## Details
 
-
- **Curriculum Details**
+**Curriculum Details**
 
 * **Abbreviation**
 	* Curriculum abbreviation
@@ -38,8 +36,7 @@ title: Add Curriculum
 
 ### Curriculum Classifications
 
-
- The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
+The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
 
 * **Name**
 	* Name of the academic classification, i.e., of the semester in which the students will be
@@ -178,8 +175,7 @@ title: Add Curriculum
 
 ## Notes
 
-
- **Shortcuts for navigation through the Course Projections table**
+**Shortcuts for navigation through the Course Projections table**
 
 * **Windows (Firefox)**
 	* Moving a course up or down the list of courses
@@ -201,8 +197,6 @@ title: Add Curriculum
 		* alt+→ - move one editable field to the right
 		* alt+← - move one editable field to the left
 
+**Exiting pop-up windows**
 
- **Exiting pop-up windows**
-
-
- To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc.
+To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc.

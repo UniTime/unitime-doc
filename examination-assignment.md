@@ -6,13 +6,13 @@ title: Examination Assignment
 
 ## Screen Description
 
+The Examination Assignment screen provides interface for assigning time period and/or room to an examination manually (that includes making changes to the current assignment).
 
- The Examination Assignment screen provides interface for assigning time period and/or room to an examination manually (that includes making changes to the current assignment).
+![Examination Assignment](images/examination-assignment-1.png){:class='screenshot'}
 
 ## Examination
 
-
- The top section of the screen provides an overview of examination properties.
+The top section of the screen provides an overview of examination properties.
 
 * **Courses/Classes**
 	* The instructional offering components that identify the students who need to take the examination (the students of these classes/courses/instructional offerings/configurations have to take this examination)
@@ -41,12 +41,9 @@ title: Examination Assignment
 	* The room (or rooms) currently assigned to the examination
 
 
-![Examination Assignment](images/examination-assignment-1.png){:class='screenshot'}
-
 ## New Assignment(s)
 
-
- A list of changes that will be made to the examination timetable after the **Assign** button is clicked.
+A list of changes that will be made to the examination timetable after the **Assign** button is clicked.
 
 * **Examination**
 	* Name of the examination
@@ -68,8 +65,7 @@ title: Examination Assignment
 
 ## Violated Distribution Preferences
 
-
- This list of violated distribution preferences is displayed only if applicable.
+This list of violated distribution preferences is displayed only if applicable.
 
 * **Preference**
 	* The preference level (prohibited, strongly discouraged, ..., required)
@@ -88,8 +84,7 @@ title: Examination Assignment
 
 ## Student Conflicts
 
-
- This table lists details about student conflicts for the selected examination.
+This table lists details about student conflicts for the selected examination.
 
 * **Students**
 	* Number of students with the conflict detailed on a particular line
@@ -108,13 +103,11 @@ title: Examination Assignment
 
 ## Instructor Conflicts
 
-
- The structure of the Instructor Conflicts table is the same as the one of the Student Conflicts table described above.
+The structure of the Instructor Conflicts table is the same as the one of the Student Conflicts table described above.
 
 ## Available Periods
 
-
- This section presents a list of available time periods for this examination with the following information for each of the periods:
+This section presents a list of available time periods for this examination with the following information for each of the periods:
 
 * **Available Period**
 	* A time period available for the examination
@@ -143,8 +136,7 @@ title: Examination Assignment
 
 ## Available Rooms
 
-
- This section, listing rooms available for the examination at a given time, is displayed after a time period has been selected.
+This section, listing rooms available for the examination at a given time, is displayed after a time period has been selected.
 
 * **Room Size**
 	* Only rooms with seating capacity in this range will be displayed
@@ -162,16 +154,13 @@ title: Examination Assignment
 * **Order**
 	* Select order of the rooms displayed in this section
 
+Click **Apply** to apply changes to the list of rooms
 
- Click **Apply** to apply changes to the list of rooms
-
-
- The rooms are displayed in six columns. For each of the room there is a building abbreviation, room number and room capacity. To select a room for a given examination, click on its name. Only when you have the desired number of seats in the room(s) selected the rooms become a part of the assignment in the New Assignment(s) section. (You can select more than one room if the number in Maximum Number of Rooms is larger than one.)
+The rooms are displayed in six columns. For each of the room there is a building abbreviation, room number and room capacity. To select a room for a given examination, click on its name. Only when you have the desired number of seats in the room(s) selected the rooms become a part of the assignment in the New Assignment(s) section. (You can select more than one room if the number in Maximum Number of Rooms is larger than one.)
 
 ## Suggestions
 
-
- The Suggestions section is only displayed when the examinations are loaded to the solver (through the [Examination Solver](examination-solver) page). Check the checkbox in front of the name of the section to see possible period/room assignment changes (suggestions). The suggestions are listed in the order of possible "harmfulness" to the existing examination timetable.
+The Suggestions section is only displayed when the examinations are loaded to the solver (through the [Examination Solver](examination-solver) page). Check the checkbox in front of the name of the section to see possible period/room assignment changes (suggestions). The suggestions are listed in the order of possible "harmfulness" to the existing examination timetable.
 
 * **Value**
 	* Change in the value of the optimization function caused by accepting this suggestion (the lower number the better)
@@ -198,11 +187,9 @@ title: Examination Assignment
 
 ### Sample use of this screen
 
+Situation: The user wants to switch rooms for two examinations that are held at the same time. At the beginning, Exam 1 has Room A at a certain time and Exam 2 has Room B at the same time. The user wants to end up with Exam 1 in Room B and Exam 2 in Room A, time unchanged.
 
- Situation: The user wants to switch rooms for two examinations that are held at the same time. At the beginning, Exam 1 has Room A at a certain time and Exam 2 has Room B at the same time. The user wants to end up with Exam 1 in Room B and Exam 2 in Room A, time unchanged.
-
-
- Solution:
+Solution:
 
 	1. Get to this Examination Assignment screen for Exam 1 from e.g. the list of Examinations.
 	2. In Available Periods, click on the time period highlighted with a blue background - that is the currently assigned time period.
@@ -214,5 +201,4 @@ title: Examination Assignment
 	8. Click on the Assign button under the New Assignment(s) section
 	9. Click OK in the pop-up window (yes, you want to save changes)
 
-
- The switch has been made!
+The switch has been made!

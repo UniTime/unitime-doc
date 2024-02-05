@@ -6,11 +6,11 @@ title: Edit Default Manager Setting
 
 ## Screen Description
 
+The Edit Default Manager Setting screen provides interface for editing an existing manager setting and setting its default value.
 
- The Edit Default Manager Setting screen provides interface for editing an existing manager setting and setting its default value.
+![Edit Default Manager Setting](images/edit-default-manager-setting-1.png){:class='screenshot'}
 
-
- Note: Some changes should be implemented and recognized by the application before they are made here.
+**Note:** Some changes should be implemented and recognized by the application before they are made here.
 
 ## Details
 
@@ -36,6 +36,3 @@ title: Edit Default Manager Setting
 
 * **Back** (ALT+B)
 	* Go back to the [Default Manager Settings](default-manager-settings) screen without saving any changes
-
-
-![Edit Default Manager Setting](images/edit-default-manager-setting-1.png){:class='screenshot'}

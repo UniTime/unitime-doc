@@ -6,11 +6,9 @@ title: Add Default Manager Setting
 
 ## Screen Description
 
+The Add Default Manager Setting screen provides interface for adding a new manager setting and setting its default value.
 
- The Add Default Manager Setting screen provides interface for adding a new manager setting and setting its default value.
-
-
- _Note: A manager setting should be implemented and recognized by the application before it is added here._
+_Note: A manager setting should be implemented and recognized by the application before it is added here._
 
 ![Add Default Manager Setting](images/add-default-manager-setting.png){:class='screenshot'}
 

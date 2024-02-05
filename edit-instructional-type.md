@@ -6,8 +6,9 @@ title: Edit Instructional Type
 
 ## Screen Description
 
+The Edit Instructional Types screen provides interface for editing an existing instructional type.
 
- The Edit Instructional Types screen provides interface for editing an existing instructional type.
+![Edit Instructional Type](images/edit-instructional-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -40,5 +41,3 @@ title: Edit Instructional Type
 * **Back**
 	* Go back to the [Instructional Types](instructional-types) screen without saving any changes
 
-
-![Edit Instructional Type](images/edit-instructional-type-1.png){:class='screenshot'}

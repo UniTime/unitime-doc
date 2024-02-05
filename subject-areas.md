@@ -6,13 +6,11 @@ title: Subject Areas
 
 ## Screen Description
 
-
- The Subject Areas screen lists all subject areas for a given academic session with some basic information about them.
+The Subject Areas screen lists all subject areas for a given academic session with some basic information about them.
 
 ## Details
 
-
- The top line shows the academic session for which the subject areas are listed. The list contains the following columns (and can be sorted by any of them by clicking on the column heading)
+The top line shows the academic session for which the subject areas are listed. The list contains the following columns (and can be sorted by any of them by clicking on the column heading)
 
 * **Abbv**
 	* Abbreviation of the subject area
@@ -36,8 +34,7 @@ title: Subject Areas
 * **Last Change**
 	* Date and time of the last change made to the input data of that subject area
 
-
- Click on any subject area to edit it in the [Edit Subject Area](edit-subject-area) screen.
+Click on any subject area to edit it in the [Edit Subject Area](edit-subject-area) screen.
 
 ## Operations
 

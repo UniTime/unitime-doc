@@ -6,13 +6,11 @@ title: Student Group Types
 
 ## Screen Description
 
-
- The Student Group Types page allows to define types of student groups. This way, student groups can be grouped by their type. There are additional properties that can be defined for each groups of a particular type.
+The Student Group Types page allows to define types of student groups. This way, student groups can be grouped by their type. There are additional properties that can be defined for each groups of a particular type.
 
 ## Details
 
-
- Each student group type can have a code, a name, and the following properties:
+Each student group type can have a code, a name, and the following properties:
 
 * **Keep Students Together**
 	* When set to true, the student scheduling solver will try to keep students of such groups together.
@@ -26,8 +24,7 @@ title: Student Group Types
 * **Advisors Can Set**
 	* Advisors and admins can use the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) to add or remove a student from a group of this type
 
-
- Click on any line with a status type to get to its [Edit Student Group Type](edit-student-group-type) screen.
+Click on any line with a status type to get to its [Edit Student Group Type](edit-student-group-type) screen.
 
 ## Operations
 

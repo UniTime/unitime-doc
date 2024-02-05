@@ -6,8 +6,7 @@ title: Multiple Class Setup
 
 ## Screen Description
 
-
- In the Multiple Class Setup screen it is possible to set properties on the class level (as opposed to setting them on the scheduling subpart level in the [Instructional Offering Configuration](instructional-offering-configuration) screen) - there is a line for each class for a given configuration in the instructional offering.
+In the Multiple Class Setup screen it is possible to set properties on the class level (as opposed to setting them on the scheduling subpart level in the [Instructional Offering Configuration](instructional-offering-configuration) screen) - there is a line for each class for a given configuration in the instructional offering.
 
 ## Details
 

@@ -6,8 +6,7 @@ title: Add Department
 
 ## Screen Description
 
-
- Add a new department in the Add Department screen.
+Add a new department in the Add Department screen.
 
 ![Add Department](images/add-department.png){:class='screenshot'}
 

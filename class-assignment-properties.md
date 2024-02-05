@@ -4,8 +4,7 @@ title: Class Assignment Properties
 ---
 
 
-
- Each class assignment has properties displayed in various screens (for example, in [Assigned Classes](assigned-classes)). All the displayed properties are described here, not only the properties displayed in the simplified mode.
+Each class assignment has properties displayed in various screens (for example, in [Assigned Classes](assigned-classes)). All the displayed properties are described here, not only the properties displayed in the simplified mode.
 
 * **Class**
 	* Subject area, course number, instructional type and class number within that type (for example, ECET 107 Lab 1)
@@ -26,8 +25,7 @@ title: Class Assignment Properties
 * **Students** or **Std**
 	* Change in the number of [student conflicts](student-conflicts) caused by this assignment
 
-
- The additional properties in case when the simplified mode is not used are
+The additional properties in case when the simplified mode is not used are
 
 * **Time** (Tm)
 	* Change in penalty for unmet time preferences caused by this assignment
@@ -71,5 +69,4 @@ title: Class Assignment Properties
 		* This is only applicable when the solver is loaded in MPP (minimal perturbation problem) mode
 		* Various weights can be assigned to different changes between the original and the new solution using [Solver Configurations](solver-configurations) page
 
-
- Note: for all of these properties, negative values mean improvements, positive values mean penalty for the timetable caused by this assignment.
+Note: for all of these properties, negative values mean improvements, positive values mean penalty for the timetable caused by this assignment.

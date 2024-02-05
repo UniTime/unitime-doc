@@ -6,13 +6,13 @@ title: Examinations
 
 ## Screen Description
 
+The Examinations screen provides a list of midterm or final examinations either for a given subject area or for all subject areas at once.
 
- The Examinations screen provides a list of midterm or final examinations either for a given subject area or for all subject areas at once.
+![Examinations](images/examinations-1.png){:class='screenshot'}
 
 ## Details
 
-
- The top section of the screen contains the options to select
+The top section of the screen contains the options to select
 
 * **Type**
 	* Type of the examination (Final or Midterm)
@@ -26,11 +26,9 @@ title: Examinations
 	* Course number of a course for which the examinations should be displayed
 	* Wild card can be used (such as "1*" for all course numbers starting with one)
 
+Click **Search** to apply changes in the Type, Subject or Course Number.
 
- Click **Search** to apply changes in the Type, Subject or Course Number.
-
-
- The table of midterm/final examinations contains the following information
+The table of midterm/final examinations contains the following information
 
 * **Classes/Courses**
 	* Instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take the given examination
@@ -67,8 +65,7 @@ title: Examinations
 * **Assigned Room**
 	* Room(s) assigned to the examination, color-coded based on the preference level of the assigned room(s)
 
-
- Click on any examination to get to its [Examination Detail](examination-detail) screen.
+Click on any examination to get to its [Examination Detail](examination-detail) screen.
 
 ## Operations
 
@@ -77,6 +74,3 @@ title: Examinations
 
 * **Add Examination**
 	* Add a new examination in the [Add Examination](add-examination) screen
-
-
-![Examinations](images/examinations-1.png){:class='screenshot'}

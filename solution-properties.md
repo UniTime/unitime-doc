@@ -70,8 +70,7 @@ title: Solution Properties
 * **Note**
 	* Solution note
 
-
- See properties of a loaded solution for the remaining properties
+See properties of a loaded solution for the remaining properties
 
 ## Properties of a loaded (current/best) solution
 

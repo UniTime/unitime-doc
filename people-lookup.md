@@ -6,19 +6,15 @@ title: People Lookup
 
 ## Screen Description
 
-
- The People Lookup screen provides interface for looking up people by name across UniTime tables (not only the imported staff data).
+The People Lookup screen provides interface for looking up people by name across UniTime tables (not only the imported staff data).
 
 ## Details
 
+**Filter**
 
- **Filter**
+Enter (a beginning of) the first or the last name of a person in the Name text field to look him/her up.
 
-
- Enter (a beginning of) the first or the last name of a person in the Name text field to look him/her up.
-
-
- **Table**
+**Table**
 
 * **Name**
 	* Name in the format Last, First Middle
@@ -35,8 +31,6 @@ title: People Lookup
 * **Source**  
 	* Source of data about the person
 
+Click on a line with a person's information to select the person. The People Lookup window will close and the data will be filled in the previous screen.
 
- Click on a line with a person's information to select the person. The People Lookup window will close and the data will be filled in the previous screen.
-
-
- To close the People Lookup window, click on the cross in the upper right hand side corner or click on the previous screen, outside the pop-up window or press Esc.
+To close the People Lookup window, click on the cross in the upper right hand side corner or click on the previous screen, outside the pop-up window or press Esc.

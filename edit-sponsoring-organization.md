@@ -6,8 +6,9 @@ title: Edit Sponsoring Organization
 
 ## Screen Description
 
+Interface for editing an existing sponsoring organization.
 
- Interface for editing an existing sponsoring organization.
+![Edit Sponsoring Organization](images/edit-sponsoring-organization-1.png){:class='screenshot'}
 
 ## Details
 
@@ -29,6 +30,3 @@ title: Edit Sponsoring Organization
 
 * **Back** (Alt+B)
 	* Go to the [Sponsoring Organizations](sponsoring-organizations) screen without saving changes to the organization
-
-
-![Edit Sponsoring Organization](images/edit-sponsoring-organization-1.png){:class='screenshot'}

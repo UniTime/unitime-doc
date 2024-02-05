@@ -6,13 +6,13 @@ title: Edit Class
 
 ## Screen Description
 
+In the Class Edit screen, you can change a few properties of the class and enter preferences. The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences). Changes made to this screen are not saved until you click on the Update, Previous, or Next button.
 
- In the Class Edit screen, you can change a few properties of the class and enter preferences. The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences). Changes made to this screen are not saved until you click on the Update, Previous, or Next button.
+![Edit Class](images/edit-class-1.png){:class='screenshot'}
 
 ## Details
 
-
- The following fields are displayed in the upper part of the screen (below the name of the class):
+The following fields are displayed in the upper part of the screen (below the name of the class):
 
 * **Manager**
 	* Manager responsible for timetabling of this class
@@ -55,8 +55,7 @@ title: Edit Class
 * **Student Schedule Note**
 	* The class note that will be displayed in the online Schedule of Classes
 
-
- In the **Timetable** part, you see the time, room and instructor assigned to this class (once a timetable has been created)
+In the **Timetable** part, you see the time, room and instructor assigned to this class (once a timetable has been created)
 
 * Normally, a committed timetable is displayed, unless there is a different timetable selected or loaded into the solver for the given class
 
@@ -64,11 +63,9 @@ title: Edit Class
 
 * See documentation for [Timetables](timetables) page for more details
 
+The text field in **Requests / Notes to Schedule Manager** is there for Requests/Notes for the manager who will timetable this class.
 
- The text field in **Requests / Notes to Schedule Manager** is there for Requests/Notes for the manager who will timetable this class.
-
-
- In the **Instructors**, the following information is displayed and can be edited
+In the **Instructors**, the following information is displayed and can be edited
 
 * **Name**
 	* Select an instructor's name from the drop down list
@@ -89,8 +86,7 @@ title: Edit Class
 
 ## Preferences
 
-
- **Time Preferences**
+**Time Preferences**
 
 * If you don't see any time grid, you need to select a time pattern from the drop down list and click **Add Time Preference** (Alt+T)
 
@@ -108,8 +104,7 @@ title: Edit Class
 
 * Note: To express that e.g. the class can only be taught on Monday, Wednesday, and Friday, fill in Tuesday and Thursday times as "Prohibited" (as opposed to setting Monday, Wednesday, and Friday as "Required"); this leaves you flexibility to indicate preferred or discouraged times within Monday, Wednesday, and Friday
 
-
- **Room Group Preferences**
+**Room Group Preferences**
 
 * Select a room group from the first drop down list and the preference level from the second drop down list
 
@@ -121,8 +116,7 @@ title: Edit Class
 
 * Blank lines are ignored
 
-
- **Room Preferences**
+**Room Preferences**
 
 * Select a room from the first drop down list and the preference level from the second drop down list
 
@@ -134,8 +128,7 @@ title: Edit Class
 
 * Blank lines are ignored
 
-
- **Building Preferences**
+**Building Preferences**
 
 * Select a building from the first drop down list and the preference level from the second drop down list
 
@@ -147,8 +140,7 @@ title: Edit Class
 
 * Blank lines are ignored
 
-
- **Room Feature Preferences**
+**Room Feature Preferences**
 
 * Select a room feature from the first drop down list and the preference level from the second drop down list
 
@@ -182,15 +174,11 @@ title: Edit Class
 
 ## Notes
 
+**Room Groups vs. Room Features**
 
- **Room Groups vs. Room Features**
-
-
- The difference between room groups and room features is as follows:
+The difference between room groups and room features is as follows:
 
 * If you require more than one room group for a given class, it is sufficient if the assigned room belongs to one of them
 
 * If you require more than one room feature, the assigned room has to have all of them
 
-
-![Edit Class](images/edit-class-1.png){:class='screenshot'}

@@ -6,18 +6,15 @@ title: Academic Classifications
 
 ## Screen Description
 
-
- The Academic Classifications screen provides an overview of academic classifications. Its editable version (after clicking the Edit button) serves for setting up or editing academic classifications.
+The Academic Classifications screen provides an overview of academic classifications. Its editable version (after clicking the Edit button) serves for setting up or editing academic classifications.
 
 ![Academic Classifications](images/academic-classifications.png){:class='screenshot'}
 
 ## Details
 
+**Table**
 
- **Table**
-
-
- The table contains an academic classification per line. It can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
+The table contains an academic classification per line. It can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
 
 * External Id
 	* External id of the academic classification

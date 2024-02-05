@@ -6,8 +6,7 @@ title: Solver
 
 ## Screen description
 
-
- In the Solver screen, you can load input data to the solver and run the solver in different configurations and modes. The operations available to you and the amount and kind of information displayed will depend on the status of the solver (the first item of the Solver section).
+In the Solver screen, you can load input data to the solver and run the solver in different configurations and modes. The operations available to you and the amount and kind of information displayed will depend on the status of the solver (the first item of the Solver section).
 
 ## Solver not started
 
@@ -77,24 +76,20 @@ title: Solver
 
 ## Loading input data
 
-
- During the loading phase, input data and student information is loaded and the classes which have only one required room and one required time will get them assigned.
+During the loading phase, input data and student information is loaded and the classes which have only one required room and one required time will get them assigned.
 
 ### Solver
 
 * **Input data loaded**
 	* Time stamp from the time when the latest load of input data started
 
-
- For the rest, see above
+For the rest, see above
 
 ### Current Timetable
 
+An initial timetable is created as soon as you start loading data. Only classes with one required time and one required room get there assignments at this point.
 
- An initial timetable is created as soon as you start loading data. Only classes with one required time and one required room get there assignments at this point.
-
-
- See [Solution Properties](solution-properties) for the description of the items in this part of the screen.
+See [Solution Properties](solution-properties) for the description of the items in this part of the screen.
 
 ### Operations
 
@@ -129,8 +124,7 @@ title: Solver
 
 ### Solver
 
-
- See above
+See above
 
 ### Operations
 
@@ -144,14 +138,11 @@ title: Solver
 
 ### Best Timetable Found So Far
 
+During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when he/she stops the solver or when the time-out is reached.
 
- During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when he/she stops the solver or when the time-out is reached.
+When the user interacts and makes changes, he/she can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
 
-
- When the user interacts and makes changes, he/she can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
-
-
- Operations are self-descriptive
+Operations are self-descriptive
 
 * **Save**
 	* Replace the timetable that was loaded originally with this new one
@@ -168,11 +159,9 @@ title: Solver
 
 ### Current Timetable
 
+When solver is stopped, the Best Timetable Found So Far is the same as the Current Timetable. From that moment, any manual changes made by the user are applied to the Current Timetable.
 
- When solver is stopped, the Best Timetable Found So Far is the same as the Current Timetable. From that moment, any manual changes made by the user are applied to the Current Timetable.
-
-
- Operations
+Operations
 
 * **Restore From Best**
 	* Discard the current timetable and start again from the best timetable found so far
@@ -182,11 +171,9 @@ title: Solver
 
 ### Problems
 
+The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
 
- The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
-
-
- Hint: See [Solver Warnings](solver-warnings) to see a detailed list of warnings and errors that may be produced by the solver. If you see a FATAL message, keep the solver in the memory and use [Contact Us](contact-us) (located in Help menu) page to report a problem.
+Hint: See [Solver Warnings](solver-warnings) to see a detailed list of warnings and errors that may be produced by the solver. If you see a FATAL message, keep the solver in the memory and use [Contact Us](contact-us) (located in Help menu) page to report a problem.
 
 ### Operations
 

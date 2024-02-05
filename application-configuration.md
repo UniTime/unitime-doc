@@ -6,8 +6,7 @@ title: Application Configuration
 
 ## Screen Description
 
-
- The Application Configuration screen provides a list of application settings/properties together with their values. The settings can be edited through the application interface, while properties must be edited in a properties file. Read the Customization section of the [Timetabling Installation](installation) instructions to see where and how to set up the application properties.
+The Application Configuration screen provides a list of application settings/properties together with their values. The settings can be edited through the application interface, while properties must be edited in a properties file. Read the Customization section of the [Timetabling Installation](installation) instructions to see where and how to set up the application properties.
 
 ![Application Configuration](images/application-configuration-1.png){:class='screenshot'}
 ![Application Configuration](images/application-configuration-2.png){:class='screenshot'}
@@ -24,8 +23,7 @@ title: Application Configuration
 * **Description**
 	* Description of the application setting
 
-
- Click on any application setting to get to the [Edit Application Setting](edit-application-setting) screen.
+Click on any application setting to get to the [Edit Application Setting](edit-application-setting) screen.
 
 ### Operations
 
@@ -41,8 +39,7 @@ title: Application Configuration
 * **Value**
 	* Current value of the application property
 
-
- Note: To change an application property, add an application setting with the appropriate name (application settings take precedence over application properties). Some of the application properties (e.g., database connection properties) cannot be changed through this interface, they must be changed in the configuration files, see [Timetabling Installation](installation) page.
+Note: To change an application property, add an application setting with the appropriate name (application settings take precedence over application properties). Some of the application properties (e.g., database connection properties) cannot be changed through this interface, they must be changed in the configuration files, see [Timetabling Installation](installation) page.
 
 
 

@@ -6,8 +6,9 @@ title: Instructional Offering Configuration
 
 ## Screen Description
 
+In the Instructional Offering Configuration screen you can set up or edit the general structure of the instructional offering. This is the only place where you can indicate for how many minutes per week the classes should meet and whether or not the classes are grouped in any way.
 
- In the Instructional Offering Configuration screen you can set up or edit the general structure of the instructional offering. This is the only place where you can indicate for how many minutes per week the classes should meet and whether or not the classes are grouped in any way.
+![Instructional Offering Configuration](images/instructional-offering-configuration-1.png){:class='screenshot'}
 
 ## Details
 
@@ -32,8 +33,7 @@ title: Instructional Offering Configuration
 		* This is necessary e.g. if you have a lecture that is twice a week in one room and once a week in another room - you will need one scheduling subpart for each of the rooms; or if you have a part of the lab in your departmental rooms and a part in instructional computing labs; there are many reasons for reusing the instructional type
 		* See the Nesting section below for further instructions when using the same instructional type for multiple subparts
 
-
- For each scheduling subpart that you added, you have
+For each scheduling subpart that you added, you have
 
 * Click **trashbin icon** to delete that subpart **Limit per Class**
 	* How many students should there be in each class of this scheduling subpart
@@ -66,19 +66,15 @@ title: Instructional Offering Configuration
 
 ## Grouping
 
+If an attendance relationship must be maintained across types of instructions within a course you will need to do a grouping i.e. Lec 01 with Rec 01 with Lab 01 and Lec 02 with Rec 02 and Lab 02. Grouping should be used only when necessary as student scheduling flexibility is reduced when grouping is used.
 
- If an attendance relationship must be maintained across types of instructions within a course you will need to do a grouping i.e. Lec 01 with Rec 01 with Lab 01 and Lec 02 with Rec 02 and Lab 02. Grouping should be used only when necessary as student scheduling flexibility is reduced when grouping is used.
-
-
- To group e.g. lectures with recitations, make sure that the lecture subpart is listed first and the recitation subpart is right under it (if you need to move a subpart up or down, use the blue arrows pointing up or down). Then click on the blue arrow pointing to the right for the recitation subpart. This way, each lecture will have its own set of recitations - for example, students from Rec 1 and Rec 2 will have to be in Lec 1, students from Rec 3 and Rec 4 have to be in Lec 2, etc.
+To group e.g. lectures with recitations, make sure that the lecture subpart is listed first and the recitation subpart is right under it (if you need to move a subpart up or down, use the blue arrows pointing up or down). Then click on the blue arrow pointing to the right for the recitation subpart. This way, each lecture will have its own set of recitations - for example, students from Rec 1 and Rec 2 will have to be in Lec 1, students from Rec 3 and Rec 4 have to be in Lec 2, etc.
 
 ## Nesting
 
+If you have more than one scheduling subpart of the same instructional type (for example, two lecture subparts), make sure that these two are listed one right under the other and the second one is "nested" - indented to the right the same way as when you group classes (click on the blue arrow pointing to the right for the second subpart of the same instructional type). You must have the same number of classes in all the nested scheduling subparts.
 
- If you have more than one scheduling subpart of the same instructional type (for example, two lecture subparts), make sure that these two are listed one right under the other and the second one is "nested" - indented to the right the same way as when you group classes (click on the blue arrow pointing to the right for the second subpart of the same instructional type). You must have the same number of classes in all the nested scheduling subparts.
-
-
- Nesting differentiates this from multiple classes within the instructional offering (i.e., all nested parts are considered the same class in the legacy master schedule).
+Nesting differentiates this from multiple classes within the instructional offering (i.e., all nested parts are considered the same class in the legacy master schedule).
 
 ## Operations
 
@@ -87,6 +83,3 @@ title: Instructional Offering Configuration
 
 * **Back** (Alt+B)
 	* Go back to the [Instructional Offering Detail](instructional-offering-detail) screen without saving any changes.
-
-
-![Instructional Offering Configuration](images/instructional-offering-configuration-1.png){:class='screenshot'}

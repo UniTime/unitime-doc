@@ -6,8 +6,9 @@ title: Add Room Type
 
 ## Screen Description
 
+The Add Room Type screen provides interface for adding a new room type.
 
- The Add Room Type screen provides interface for adding a new room type.
+![Add Room Type](images/add-room-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -31,6 +32,3 @@ title: Add Room Type
 
 * **Back** (Alt+B)
 	* Go back to the [Room Types](room-types) screen without saving the new room type
-
-
-![Add Room Type](images/add-room-type-1.png){:class='screenshot'}

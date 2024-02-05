@@ -6,13 +6,11 @@ title: Student Groups
 
 ## Screen Description
 
-
- The Student Groups screen provides an overview of student groups in UniTime. If a student group has an external id, it cannot be edited in UniTime.
+The Student Groups screen provides an overview of student groups in UniTime. If a student group has an external id, it cannot be edited in UniTime.
 
 ## Details
 
-
- The table of student groups contains the following information
+The table of student groups contains the following information
 
 * **External Id**
 	* Id of the student group as used outside UniTime
@@ -26,8 +24,7 @@ title: Student Groups
 * **Students**
 	* Number of students in the student group
 
-
- Clicking on any of the student groups takes you to the [Edit Student Group](edit-student-group) screen where you can edit that particular group.
+Clicking on any of the student groups takes you to the [Edit Student Group](edit-student-group) screen where you can edit that particular group.
 
 ## Operations
 

@@ -6,13 +6,11 @@ title: Instructor Scheduling Solver
 
 ## Screen Description
 
-
- The instructor scheduling solver works much like any other UniTime solver. It can be loaded, unloaded, started, saved, etc. using this page.
+The instructor scheduling solver works much like any other UniTime solver. It can be loaded, unloaded, started, saved, etc. using this page.
 
 ## Details
 
-
- The solver works with two solutions, current solution and the best ever found solution. This helps the solver to keep a record of the best solution is has seen while it is making changes in the current solution. A number of properties about the best and the current solutions are listed, these include the number of assigned variables (teaching requests, a complete solution should have 100%), the overall solution value (this is a weighted sum of all the optimization criteria, which the solver is trying to minimize), time and iteration when the current solution was reached and a number of optimization criteria that are being considered (criteria that are not used are not displayed):
+The solver works with two solutions, current solution and the best ever found solution. This helps the solver to keep a record of the best solution is has seen while it is making changes in the current solution. A number of properties about the best and the current solutions are listed, these include the number of assigned variables (teaching requests, a complete solution should have 100%), the overall solution value (this is a weighted sum of all the optimization criteria, which the solver is trying to minimize), time and iteration when the current solution was reached and a number of optimization criteria that are being considered (criteria that are not used are not displayed):
 
 * **Attribute Preferences**
 	* This criterion counts how well are the soft attribute preferences (that are set on teaching requests) met
@@ -53,16 +51,13 @@ title: Instructor Scheduling Solver
 * **Unused Instructor Load**
 	* If an instructor is being used (has at least one teaching assignment),  this criterion can penalize the remaining (unused) load of the instructor. That is the difference between instructor maximal load and the assigned load of the instructor
 
+Any attribute, course, time, instructor, same common, same course, or distribution preferences that have Required or Prohibited preference must be satisfied. The strongly preferred, preferred, discouraged, and strongly discouraged preferences are counted in the above criteria and a weighted sum of these criterions is used to compare two solutions.
 
- Any attribute, course, time, instructor, same common, same course, or distribution preferences that have Required or Prohibited preference must be satisfied. The strongly preferred, preferred, discouraged, and strongly discouraged preferences are counted in the above criteria and a weighted sum of these criterions is used to compare two solutions.
-
-
- The various solver weights and other parameters are configured on the Administration > Solver > [Configurations](solver-configurations) page. See the configuration with Instructor Scheduling Solver appearance.
+The various solver weights and other parameters are configured on the Administration > Solver > [Configurations](solver-configurations) page. See the configuration with Instructor Scheduling Solver appearance.
 
 ## Operations
 
-
- The solver page has the following operations:
+The solver page has the following operations:
 
 * **Load**
 	* Load the data (instructors and teaching requests) into the solver

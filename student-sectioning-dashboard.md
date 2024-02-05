@@ -6,8 +6,7 @@ title: Student Sectioning Dashboard
 
 ## Screen Description
 
-
- The Student Sectioning Dashboard screen displays information about student requests/enrollments that have been loaded into the batch sectioning solver. There are numerous filtering capabilities on this page.
+The Student Sectioning Dashboard screen displays information about student requests/enrollments that have been loaded into the batch sectioning solver. There are numerous filtering capabilities on this page.
 
 ## Details
 
@@ -38,14 +37,11 @@ title: Student Sectioning Dashboard
 
 ### Table(s)
 
+The table has two tabs on top - Enrollments and Students. A different table is displayed for each of them. Keep in mind that the table reflects the restrictions entered in the Filter.
 
- The table has two tabs on top - Enrollments and Students. A different table is displayed for each of them. Keep in mind that the table reflects the restrictions entered in the Filter.
+**Enrollments**
 
-
- **Enrollments**
-
-
- The top line of the column headers refers to courses, the bottom line to classes.
+The top line of the column headers refers to courses, the bottom line to classes.
 
 * A column with clickable plus signs that enable unfolding of a course into lines with individual classes
 
@@ -86,17 +82,13 @@ title: Student Sectioning Dashboard
 * **Need Consent**
 	* Number of students who need consent to be able to take the course (filtered by filtering criteria)
 
+The table can be sorted by any table header - just click on it, then on the "Sort by" option that opens.
 
- The table can be sorted by any table header - just click on it, then on the "Sort by" option that opens.
+Click on any line to get to the [Enrollments](enrollments-of-class-or-course) pop-up window with a list of enrolled students for a given course or class.
 
+**Students**
 
- Click on any line to get to the [Enrollments](enrollments-of-class-or-course) pop-up window with a list of enrolled students for a given course or class.
-
-
- **Students**
-
-
- The table of students lists students that meet the criteria of the Filter (e.g., all students who take a course from a given subject area, or all students of a given major, etc.).
+The table of students lists students that meet the criteria of the Filter (e.g., all students who take a course from a given subject area, or all students of a given major, etc.).
 
 * **Student**
 	* Name of the student
@@ -131,11 +123,9 @@ title: Student Sectioning Dashboard
 * **Requested**
 	* Date and time when the student made his/her requests for courses
 
+Click on any line from the table to get to a list of [Classes](classes-for-student) for a given student.
 
- Click on any line from the table to get to a list of [Classes](classes-for-student) for a given student.
-
-
- The table ends with a line of totals for number of students, student enrollments, wait listed student requests, reservations, and required consents.
+The table ends with a line of totals for number of students, student enrollments, wait listed student requests, reservations, and required consents.
 
 ## Operations
 

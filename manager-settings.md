@@ -6,16 +6,13 @@ title: Manager Settings
 
 ## Screen Description
 
+The Manager Settings screen provides a list of manager's settings, which can easily be changed by clicking on any of them.
 
- The Manager Settings screen provides a list of manager's settings, which can easily be changed by clicking on any of them.
-
-
- Manager Settings help the users display information and select functionality that is most helpful for them in the input data section of the application.
+Manager Settings help the users display information and select functionality that is most helpful for them in the input data section of the application.
 
 ## Details
 
-
- The following settings are available
+The following settings are available
 
 * **Automatically calculate number of classes and room size when editing configuration**
 	* Yes (default) - Automatically calculate the number of classes in a scheduling subpart after the limit per class is entered in the [Instructional Offering Configuration](instructional-offering-configuration) screen
@@ -66,11 +63,9 @@ title: Manager Settings
 	* All Week x Evening
 	* All Week x All Times
 
+Click on any setting to change its value in the [Edit Manager Setting](edit-manager-setting) screen.
 
- Click on any setting to change its value in the [Edit Manager Setting](edit-manager-setting) screen.
-
-
- Settings can be added/removed by administrator in the [Default Manager Settings](default-manager-settings) screen which is placed in the Default section of the Administration part of the left hand side menu.
+Settings can be added/removed by administrator in the [Default Manager Settings](default-manager-settings) screen which is placed in the Default section of the Administration part of the left hand side menu.
 
 
 ![Manager Settings](images/manager-settings-1.png){:class='screenshot'}

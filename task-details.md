@@ -6,13 +6,11 @@ title: Task Details
 
 ## Screen Description
 
-
- The Task Details page can be used to show (and edit) details of a particular scheduled task. It also allows to show individual runs, their output files, and execution logs.
+The Task Details page can be used to show (and edit) details of a particular scheduled task. It also allows to show individual runs, their output files, and execution logs.
 
 ## Details
 
-
- Each task has the following properties
+Each task has the following properties
 
 * **Name**
 	* Task name
@@ -40,8 +38,7 @@ title: Task Details
 	* **Finished** ... a task execution has finished
 	* **Failed** ... a task execution has failed
 
-
- Individual executions are shown in the **Scheduled Executions** table. Besides of the date and time of the execution, the line contains the queued, started, and finished time stamps, execution status and the last status message, and the resultant file (when available).
+Individual executions are shown in the **Scheduled Executions** table. Besides of the date and time of the execution, the line contains the queued, started, and finished time stamps, execution status and the last status message, and the resultant file (when available).
 
 * Click the execution line to see the log.
 

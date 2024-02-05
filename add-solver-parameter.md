@@ -5,9 +5,9 @@ title: Add Solver Parameter
 
 
 ## Screen Description
+The Add Solver Parameter screen provides interface for adding a new solver parameter. Note, however, that a parameter should be implemented and recognized by the solver before it is added here.
 
-
- The Add Solver Parameter screen provides interface for adding a new solver parameter. Note, however, that a parameter should be implemented and recognized by the solver before it is added here.
+![Add Solver Parameter](images/add-solver-parameter-1.png){:class='screenshot'}
 
 ## Details
 
@@ -39,6 +39,3 @@ title: Add Solver Parameter
 
 * **Back** (ALT+B)
 	* Go back to the [Solver Parameters](solver-parameters) screen without saving this new parameter
-
-
-![Add Solver Parameter](images/add-solver-parameter-1.png){:class='screenshot'}

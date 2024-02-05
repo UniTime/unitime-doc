@@ -6,11 +6,11 @@ title: Add Time Pattern
 
 ## Screen Description
 
+The Add Time Pattern screen provides interface for adding a new time pattern.
 
- The Add Time Pattern screen provides interface for adding a new time pattern.
+![Add Time Pattern](images/add-time-pattern-1.png){:class='screenshot'}
 
-
- A time pattern defines how many times a week a class meets for how many minutes and how much time should be allocated for a break when the class is over.
+A time pattern defines how many times a week a class meets for how many minutes and how much time should be allocated for a break when the class is over.
 
 ## Details
 
@@ -50,5 +50,3 @@ title: Add Time Pattern
 * **Back**
 	* Go back to the [Time Patterns](time-patterns) screen without saving this new time pattern
 
-
-![Add Time Pattern](images/add-time-pattern-1.png){:class='screenshot'}

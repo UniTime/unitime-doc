@@ -6,16 +6,13 @@ title: Instructor Assignment Preferences
 
 ## Screen Description
 
-
- Instructor attributes and other requirements can be set on the instructors. There is the Instructor Assignment Preferences page that can be reached from the Instructor Detail page by clicking the Edit Assignment Preferences button. See [Instructor Scheduling](instructor-scheduling) for more details about the instructor scheduling component.
+Instructor attributes and other requirements can be set on the instructors. There is the Instructor Assignment Preferences page that can be reached from the Instructor Detail page by clicking the Edit Assignment Preferences button. See [Instructor Scheduling](instructor-scheduling) for more details about the instructor scheduling component.
 
 ## Details
 
+This page allows setting the teaching preference (defaults to Prohibited -- the instructor cannot be used for the automated instructor scheduling), maximal teaching load, instructor attributes (grouped by type), time preferences, distribution preferences, and course preferences. The time and distribution preferences are the same as on the Instructor Preferences page. Distribution preferences other than Back-To-Back, Same Room, and Same Days are ignored by the instructor scheduling solver at the moment.
 
- This page allows setting the teaching preference (defaults to Prohibited -- the instructor cannot be used for the automated instructor scheduling), maximal teaching load, instructor attributes (grouped by type), time preferences, distribution preferences, and course preferences. The time and distribution preferences are the same as on the Instructor Preferences page. Distribution preferences other than Back-To-Back, Same Room, and Same Days are ignored by the instructor scheduling solver at the moment.
-
-
- The new attribute and preferences are also displayed on the Instructor Detail page and on the Instructors list.
+The new attribute and preferences are also displayed on the Instructor Detail page and on the Instructors list.
 
 ## Operations
 

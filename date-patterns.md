@@ -6,16 +6,15 @@ title: Date Patterns
 
 ## Screen Description
 
+The Date Patterns screen contains a list of date patterns for a given academic session.
 
- The Date Patterns screen contains a list of date patterns for a given academic session.
+![Date Patterns](images/date-patterns-1.png){:class='screenshot'}
 
-
- A date pattern defines a set of dates associated with a term when a class may meet. The actual meeting times of a class are computed as a projection of a time pattern onto a date pattern (e.g., a class that is taught on Tuesdays and Thursdays meets on all dates from the date pattern that are on Tuesday and Thursday). Normally, a date pattern should contain all dates of particular weeks (e.g, Week 1-4 contains all dates between Monday of the first week and Sunday of the 4th week). Date patterns consist of dates rather than weeks in order to allow institutions to shift weeks around holidays.
+A date pattern defines a set of dates associated with a term when a class may meet. The actual meeting times of a class are computed as a projection of a time pattern onto a date pattern (e.g., a class that is taught on Tuesdays and Thursdays meets on all dates from the date pattern that are on Tuesday and Thursday). Normally, a date pattern should contain all dates of particular weeks (e.g, Week 1-4 contains all dates between Monday of the first week and Sunday of the 4th week). Date patterns consist of dates rather than weeks in order to allow institutions to shift weeks around holidays.
 
 ## Details
 
-
- The list of date patterns contains the following information
+The list of date patterns contains the following information
 
 * **Name**
 	* Name of the date pattern
@@ -36,8 +35,7 @@ title: Date Patterns
 * **Departments**
 	* Departments that have access to this date pattern if the date pattern is of type Extended (if the type is not Extended and the date pattern is visible, all departments have access to it)
 
-
- The date patterns not usable for a given academic session are in gray letters (to make a date pattern not usable click on it and untoggle option visible).
+The date patterns not usable for a given academic session are in gray letters (to make a date pattern not usable click on it and untoggle option visible).
 
 ## Operations
 
@@ -53,5 +51,3 @@ title: Date Patterns
 * **Export CSV**
 	* Export the list of date patterns into a CSV file that can be easily open in Excel
 
-
-![Date Patterns](images/date-patterns-1.png){:class='screenshot'}

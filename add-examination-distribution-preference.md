@@ -6,8 +6,7 @@ title: Add Examination Distribution Preference
 
 ## Screen Description
 
-
- The Add Examination Distribution Preference screen provides user interface for adding a new distribution preference between midterm or final examinations. The type of the examination depends on the type selected in the screen from which the user got here - either in the [Examination Distribution Preferences](examination-distribution-preferences) screen or in the [Examination Detail](examination-detail) screen.
+The Add Examination Distribution Preference screen provides user interface for adding a new distribution preference between midterm or final examinations. The type of the examination depends on the type selected in the screen from which the user got here - either in the [Examination Distribution Preferences](examination-distribution-preferences) screen or in the [Examination Detail](examination-detail) screen.
 
 ![Add Examination Distribution Preference](images/add-examination-distribution-preference.png){:class='screenshot'}
 

@@ -6,10 +6,13 @@ title: Examination Timetable
 
 ## Screen Description
 
+The Examination Timetable screen displays a time grid for the midterm or final examination timetable.
 
- The Examination Timetable screen displays a time grid for the midterm or final examination timetable.
+![Examination Timetable](images/examination-timetable-2.png){:class='screenshot'}
 
 ## Filter
+
+![Examination Timetable](images/examination-timetable-1.png){:class='screenshot'}
 
 * **Examination Problem**
 	* Select whether midterm or final examinations should be displayed
@@ -46,24 +49,15 @@ title: Examination Timetable
 * **Order By**
 	* Select whether the grid should be ordered by name or size, in ascending or descending ordered
 
-
- To apply the changes made to the filter, click the **Change** button.
+To apply the changes made to the filter, click the **Change** button.
 
 ## Examination Timetable
 
-
- This section contains the time grid selected in the filter section of the screen.
-
-
-![Examination Timetable](images/examination-timetable-1.png){:class='screenshot'}
-
-
-![Examination Timetable](images/examination-timetable-2.png){:class='screenshot'}
+This section contains the time grid selected in the filter section of the screen.
 
 ## Legend
 
-
- Legend explains the scale for the selected background color coding.
+Legend explains the scale for the selected background color coding.
 
 ## Operations
 

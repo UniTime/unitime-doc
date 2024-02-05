@@ -6,19 +6,16 @@ title: Student Scheduling Rules
 
 ## Screen Description
 
-
- The Student Scheduling Rules page can be used to define special rules for student scheduling, both during batch and online. Using these rules, particular students can be restricted to only particular courses and/or to course configurations of specific instructional methods.
+The Student Scheduling Rules page can be used to define special rules for student scheduling, both during batch and online. Using these rules, particular students can be restricted to only particular courses and/or to course configurations of specific instructional methods.
 
 
 ![Student Scheduling Rules](images/student-scheduling-rules-1.png){:class='screenshot'}
 
 ## Examples
 
+During COVID, online-only students (not present on campus) were only allowed to attend special (Online-Only) courses identified by an online suffix, such as ENGL 106OL or COM 114OL-X. On the other hand, residential students (students present on campus) were allowed to request all courses except for these special Online-Only courses.
 
- During COVID, online-only students (not present on campus) were only allowed to attend special (Online-Only) courses identified by an online suffix, such as ENGL 106OL or COM 114OL-X. On the other hand, residential students (students present on campus) were allowed to request all courses except for these special Online-Only courses.
-
-
- Similarly, students of programs ending with -OL (Online) or -HY (Hybrid) may only attend course configurations of PO or PH instructional methods. So do the students of a couple of VNDL programs, except VNDL students may also take any course with a DIST suffix (such as ENGL 106DIST). All other students can be enrolled in course configurations of all the other remaining instructional methods.
+Similarly, students of programs ending with -OL (Online) or -HY (Hybrid) may only attend course configurations of PO or PH instructional methods. So do the students of a couple of VNDL programs, except VNDL students may also take any course with a DIST suffix (such as ENGL 106DIST). All other students can be enrolled in course configurations of all the other remaining instructional methods.
 
 ## Student Scheduling Rules
 
@@ -44,10 +41,8 @@ There are three places where the rules are used, and each rule may only apply to
 2. During the online student scheduling (**Online** filter). When the [Student Scheduling Assistant](student-scheduling-assistant) page is used, only valid enrollments in the new courses will be available when the Build Schedule (or + New Course) buttons are used. This means that students will be only scheduled (and be able to move around) in the course configurations that match their rule. The only exception is when the student is already enrolled in the course (e.g., by an admin when allowed). In such a case, the student can drop the course but cannot make other changes to the enrollment of the course other than moving to some other course configuration that they are allowed to take (if a course only has a non-matching course configuration or does not match the course name, the student can only keep the course or drop it, but cannot move to some other section(s) of the course). 
 3. During the batch scheduling (**Batch** filter). When the students are scheduled using the [Student Scheduling Solver](student-scheduling-solver) page, the students can only be placed in courses and course configurations that match their rule. There are no exceptions; the advisor and admin overrides do not apply to this mode.
 
-
- The rule may not apply when the course is being looked at or when the [Student Scheduling Assistant](student-scheduling-assistant) page is used by an advisor or an administrator on behalf of the student. These cases are indicated by the **Advisor Override** and the **Admin Override** toggles, respectively. So, for example, when the Advisor Override is checked, the advisor can put any course onto the [Advisor Course Recommendations](advisor-course-recommendations) page for the student, and the student will be able to pull it into their course requests.
+The rule may not apply when the course is being looked at or when the [Student Scheduling Assistant](student-scheduling-assistant) page is used by an advisor or an administrator on behalf of the student. These cases are indicated by the **Advisor Override** and the **Admin Override** toggles, respectively. So, for example, when the Advisor Override is checked, the advisor can put any course onto the [Advisor Course Recommendations](advisor-course-recommendations) page for the student, and the student will be able to pull it into their course requests.
 
 ## Operations
 
-
- A particular student scheduling rule can be changed by clicking the appropriate line. A new rule can be added at the bottom of the list using the **Add** button. All rules can be edited (including their order, or adding new rules) at once by clicking the **Edit** button.
+A particular student scheduling rule can be changed by clicking the appropriate line. A new rule can be added at the bottom of the list using the **Add** button. All rules can be edited (including their order, or adding new rules) at once by clicking the **Edit** button.

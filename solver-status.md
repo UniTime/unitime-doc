@@ -6,8 +6,7 @@ title: Solver Status
 
 ## Description
 
-
- The Solver Status section is displayed in the lower left hand side corner of the screen (below the menu) when solver is being used (otherwise it is a shaded tab next to the [Current User](current-user)).
+The Solver Status section is displayed in the lower left hand side corner of the screen (below the menu) when solver is being used (otherwise it is a shaded tab next to the [Current User](current-user)).
 
 ## Details
 
@@ -43,8 +42,7 @@ title: Solver Status
 * **Version**
 	* Current version of the application
 
-
- You can click on the Solver Status tab any time to refresh it. Otherwise it is refreshed automatically in regular intervals (such as every 10 seconds).
+You can click on the Solver Status tab any time to refresh it. Otherwise it is refreshed automatically in regular intervals (such as every 10 seconds).
 
 
 ![Solver Status](images/solver-status-1.png){:class='screenshot'}

@@ -6,13 +6,13 @@ title: Edit Student Accommodations
 
 ## Screen Description
 
+The Edit Student Accommodations screen makes it possible to edit all of the student accommodations (special needs or disabilities) in one place. See [Student Accommodations](student-accommodations) for more details about student accommodations.
 
- The Edit Student Accommodations screen makes it possible to edit all of the student accommodations (special needs or disabilities) in one place. See [Student Accommodations](student-accommodations) for more details about student accommodations.
+![Edit Student Accommodations](images/edit-student-accommodations-1.png){:class='screenshot'}
 
 ## Details
 
-
- The columns in the table are as follows
+The columns in the table are as follows
 
 * **External Id**
 	* Id of the accommodation as used outside UniTime
@@ -29,8 +29,7 @@ title: Edit Student Accommodations
 		* Click on this icon to edit the list of students in the accommodation
 		* If the accommodation has been imported from an authoritative source and has an External Id, editing of the students is not possible and this icon is not displayed
 
-
- There are two icons at the end of each line
+There are two icons at the end of each line
 
 * **+ icon:** Add a new line to add a new accommodation
 
@@ -45,6 +44,3 @@ title: Edit Student Accommodations
 
 * **Back**
 	* Go back to the [Student Accommodations](student-accommodations) screen without saving any changes
-
-
-![Edit Student Accommodations](images/edit-student-accommodations-1.png){:class='screenshot'}

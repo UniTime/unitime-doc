@@ -6,8 +6,7 @@ title: Buildings
 
 ## Screen Description
 
-
- The Buildings screen contains a list of university buildings (that are included in the room inventory).
+The Buildings screen contains a list of university buildings (that are included in the room inventory).
 
 ![Buildings](images/buildings.png){:class='screenshot'}
 
@@ -28,11 +27,9 @@ title: Buildings
 		* Coordinates cannot be negative
 		* A building with no coordinates is assumed to be too far from any other building (for instructor and student back-to-back constraints)
 
+Click on any building in the list to edit its details.
 
- Click on any building in the list to edit its details.
-
-
- Note: If you do not have coordinate system established, entering the same coordinates (e.g., [0,0]) for all buildings will ensure that there will be no "too far" instructor and student back-to-back constraint violations in the problem.
+Note: If you do not have coordinate system established, entering the same coordinates (e.g., [0,0]) for all buildings will ensure that there will be no "too far" instructor and student back-to-back constraint violations in the problem.
 
 ## Operations
 

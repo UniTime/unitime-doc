@@ -6,13 +6,11 @@ title: Timetable
 
 ## Screen Description
 
-
- The Timetable screen offers a view of the (selected/loaded/current) timetable in the form of a time grid organized either by room, by instructor, or by department.
+The Timetable screen offers a view of the (selected/loaded/current) timetable in the form of a time grid organized either by room, by instructor, or by department.
 
 ## Filter
 
-
- You can display the time grid in many different ways and filter it by certain parameters.
+You can display the time grid in many different ways and filter it by certain parameters.
 
 * **Week**
 	* Week(s) for which you want to see the timetable
@@ -74,25 +72,19 @@ title: Timetable
 * **Order By**
 	* Choose the order in which the resulting grid(s) will be displayed
 
-
- To apply the changes you have made to the filter, click on the **Change** button.
+To apply the changes you have made to the filter, click on the **Change** button.
 
 ## Timetable
 
+The resulting time grid is organized by the selected resource.
 
- The resulting time grid is organized by the selected resource.
+For both rooms and instructors, you will see not only the classes from your department, but also any other committed classes that are using this resource. The classes timetabled by other managers will have the background of an unavailable time slot (dark gray).
 
+Roll your mouse over a class to highlight all the parts of that class (for example, roll your mouse over the Monday part and all MWF parts will be highlighted).
 
- For both rooms and instructors, you will see not only the classes from your department, but also any other committed classes that are using this resource. The classes timetabled by other managers will have the background of an unavailable time slot (dark gray).
+Click on any of your classes to go to the [Suggestions](suggestions) screen where you can make changes to the time/room assignment. Note: The timetable has to be loaded for you to be able to make changes.
 
-
- Roll your mouse over a class to highlight all the parts of that class (for example, roll your mouse over the Monday part and all MWF parts will be highlighted).
-
-
- Click on any of your classes to go to the [Suggestions](suggestions) screen where you can make changes to the time/room assignment. Note: The timetable has to be loaded for you to be able to make changes.
-
-
- If "Show Preferences" is checked in the filter, the three comma separated numbers below each class abbreviation indicate the differential from the best possible placement for the time preference, student conflict, and room preference values respectively.
+If "Show Preferences" is checked in the filter, the three comma separated numbers below each class abbreviation indicate the differential from the best possible placement for the time preference, student conflict, and room preference values respectively.
 
 ## Operations
 

@@ -6,8 +6,7 @@ title: Examination Timetabling
 
 ## Examination Problem
 
-
- Examination timetabling problem consists of the following entities
+Examination timetabling problem consists of the following entities
 
 * A set of non overlapping **examination periods**. Each examination period has defined a date, a start time and a length. It may also have a preference associated with it. The preferences that are set on periods act as default preferences for all examinations (e.g., we can discourage the last day of the examination week if desired).
 	* So for instance, five 2 hour long periods can be defined for each day of the examination week for final exams, or an early and a late period can be defined for each date during the semester on which midterm examinations can take place.
@@ -30,8 +29,7 @@ title: Examination Timetabling
 
 ## Hard Constraints
 
-
- Examination timetabling problem is a problem of assigning exams to examination periods and rooms so that the following constraints are respected.
+Examination timetabling problem is a problem of assigning exams to examination periods and rooms so that the following constraints are respected.
 
 * Only one exam can be placed in a room at any period.
 
@@ -45,8 +43,7 @@ title: Examination Timetabling
 
 ## Soft Constraints (Optimization Criteria)
 
-
- During the search, besides looking for a complete solution (all exams are assigned to periods and rooms) that satisfies all hard constraints mentioned above, the following criteria are optimized. Each criterion has a weight associated with it (e.g., direct conflicts have typically much higher weight that back-to-back conflicts), overall weighted sum of the above criteria is minimized.
+During the search, besides looking for a complete solution (all exams are assigned to periods and rooms) that satisfies all hard constraints mentioned above, the following criteria are optimized. Each criterion has a weight associated with it (e.g., direct conflicts have typically much higher weight that back-to-back conflicts), overall weighted sum of the above criteria is minimized.
 
 ### Student Conflicts
 

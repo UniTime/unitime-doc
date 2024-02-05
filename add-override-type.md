@@ -5,8 +5,7 @@ title: Add Override Type
 
 
 ## Screen Description
-
- The Add Override Type page allows the creation of a new override type.
+The Add Override Type page allows the creation of a new override type.
 
 ![Add Override Type](images/add-override-type-1.png){:class='screenshot'}
 

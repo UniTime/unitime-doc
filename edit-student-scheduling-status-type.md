@@ -6,8 +6,9 @@ title: Edit Student Scheduling Status Type
 
 ## Screen Description
 
+The Edit Student Scheduling Status Type screen provides interface for editing an existing student scheduling status type. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
 
- The Edit Student Scheduling Status Type screen provides interface for editing an existing student scheduling status type. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
+![Edit Student Scheduling Status Type](images/edit-student-scheduling-status-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -71,8 +72,7 @@ title: Edit Student Scheduling Status Type
 * **Fallback Status**
 	* Fallback status when outside of the effective period. The fallback status can also have an effective period defined and its own fallback status.
 
-
- If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
+If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
 
 ## Operations
 
@@ -84,6 +84,3 @@ title: Edit Student Scheduling Status Type
 
 * **Back**
 	* Go back to the [Student Scheduling Status Types](student-scheduling-status-types) screen without saving any changes
-
-
-![Edit Student Scheduling Status Type](images/edit-student-scheduling-status-type-1.png){:class='screenshot'}

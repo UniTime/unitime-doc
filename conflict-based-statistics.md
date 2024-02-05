@@ -6,11 +6,11 @@ title: Conflict-Based Statistics
 
 ## Screen Description
 
+The Conflict-Based Statistics screen displays the conflicts created during the solver's attempts to assign possible rooms and times to the class (i.e., other class assignments that were incompatible) and the reasons for these conflicts. These reasons correspond to violations of various constraints on the problem (for example, two classes requiring a single instructor at the same time, or three classes requiring the same time when only two rooms are available). Typically these conflicts are caused by too many classes competing over a fixed resource. The statistics can help point out the constraining resource, or an overly restrictive requirement, so that changes can be made to the input data which allow the problem to be solved.
 
- The Conflict-Based Statistics screen displays the conflicts created during the solver's attempts to assign possible rooms and times to the class (i.e., other class assignments that were incompatible) and the reasons for these conflicts. These reasons correspond to violations of various constraints on the problem (for example, two classes requiring a single instructor at the same time, or three classes requiring the same time when only two rooms are available). Typically these conflicts are caused by too many classes competing over a fixed resource. The statistics can help point out the constraining resource, or an overly restrictive requirement, so that changes can be made to the input data which allow the problem to be solved.
+![Conflict-Based Statistics](images/conflict-based-statistics-1.png){:class='screenshot'}
 
-
- **Hint:** To check the feasibility of a problem, you can try to solve it using **Check** configuration first (using [Solver](solver) page). This will ignore all but required or prohibited constraints so that if there is no complete solution due to some inconsistencies in the problem, these will be easier to see in the Conflict-Based Statistics (since classes are competing only for required resources/constraints).
+**Hint:** To check the feasibility of a problem, you can try to solve it using `Check` configuration first (using [Solver](solver) page). This will ignore all but required or prohibited constraints so that if there is no complete solution due to some inconsistencies in the problem, these will be easier to see in the Conflict-Based Statistics (since classes are competing only for required resources/constraints).
 
 ## Details
 
@@ -28,19 +28,16 @@ title: Conflict-Based Statistics
 
 ### Conflict-based Statistics
 
+The structure for each mode is as follows
 
- The structure for each mode is as follows
-
-
- **Constraint-oriented**
+**Constraint-oriented**
 
 * Constraint
 	* Class in the constraint that got unassigned
 		* Time, room and instructor for that class
 			* The class that caused the unassignment of the unassigned class
 
-
- **Variable-oriented**
+**Variable-oriented**
 
 * Class that got unassigned
 	* Time, room, and instructor for that class
@@ -56,4 +53,3 @@ title: Conflict-Based Statistics
 	* Refresh the screen
 
 
-![Conflict-Based Statistics](images/conflict-based-statistics-1.png){:class='screenshot'}

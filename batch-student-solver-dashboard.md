@@ -6,21 +6,17 @@ title: Batch Student Solver Dashboard
 
 ## Screen Description
 
-
- The Batch Student Solver Dashboard screen displays information about student requests/enrollments that have been loaded into the batch sectioning solver. There are numerous filtering capabilities on this page.
+The Batch Student Solver Dashboard screen displays information about student requests/enrollments that have been loaded into the batch sectioning solver. There are numerous filtering capabilities on this page.
 
 ## Filter
 
+The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
 
- The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
-
-
- **Note:** In addition to any search criteria entered into the Filter, the data displayed in the Scheduling Dashboard is also filtered by the access to the data granted by a user’s role.
+**Note:** In addition to any search criteria entered into the Filter, the data displayed in the Scheduling Dashboard is also filtered by the access to the data granted by a user’s role.
 
 ## Details
 
-
- The page shows up to two tabs - Enrollments with detailed information about courses and classes, Students with enrollment information ordered by students. Keep in mind that the table reflects the restrictions entered in the Filter. See the description for each of them below.
+The page shows up to two tabs - Enrollments with detailed information about courses and classes, Students with enrollment information ordered by students. Keep in mind that the table reflects the restrictions entered in the Filter. See the description for each of them below.
 
 ### Enrollments
 
@@ -78,16 +74,13 @@ title: Batch Student Solver Dashboard
 * **Need Override**
 	* This column is only populated if UniTime is integrated with a system that will inform UniTime of the need for overrides.  This label applies to both the course and class level data. When the search criteria used in the Filter does not restrict the student population then a single number which is the total number of students who require an override to enroll in the course or class is displayed.  For example, if there were 6 students who require an override to enroll in a course then the number 6 would be displayed.  When the search criteria used in the Filter does restrict the student population for the data displayed the in this column will be two numbers separated by a slash(/).  For example, if 2 of the students in the population retrieved by the search criteria in the Filter require an override to enroll in a course and in total there are 6 students who require an override to enroll in a course, then the number displayed would be 2 / 6.
 
+Click on any class or course to get to its [Enrollments](enrollments-of-class-or-course) dialog (which shows a list of enrolled students together with some additional information).
 
- Click on any class or course to get to its [Enrollments](enrollments-of-class-or-course) dialog (which shows a list of enrolled students together with some additional information).
-
-
- The table can be sorted by any table header - just click on it, then on the "Sort by" option that opens.
+The table can be sorted by any table header - just click on it, then on the "Sort by" option that opens.
 
 ### Students
 
-
- **Note:** some columns need not be displayed in the table if they are not applicable to the current situation
+**Note:** some columns need not be displayed in the table if they are not applicable to the current situation
 
 * **External Id** (optional column)
 	* Student's external id (university id)
@@ -186,11 +179,9 @@ title: Batch Student Solver Dashboard
 	* The number of not-enrolled critical courses is highlighted the same way as in the Missing Courses column (in red with cr superscript). The courses are listed on the mouseover.
 	* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has been advised.
 
+Click on any line from the table to get to a list of [Classes](classes-for-student) for a given student.
 
- Click on any line from the table to get to a list of [Classes](classes-for-student) for a given student.
-
-
- The table ends with a line of totals for the number of students, student enrollments, wait-enrolled student requests, reservations, and required consents.
+The table ends with a line of totals for the number of students, student enrollments, wait-enrolled student requests, reservations, and required consents.
 
 ## Operations
 

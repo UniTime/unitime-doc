@@ -8,11 +8,9 @@ title: Room Features
 
 ## Details
 
+Select the department for which you want to display its room features in the drop down list next to the **Department** label.
 
- Select the department for which you want to display its room features in the drop down list next to the **Department** label.
-
-
- The list of features is divided into two parts:
+The list of features is divided into two parts:
 
 * **Global Room Features**
 	* Features that are populated from the room inventory
@@ -25,8 +23,7 @@ title: Room Features
 	* To add a department room feature, click Add New Room Feature
 	* To add or remove departmental rooms that have this feature click on the line with the feature - that takes you to the [Edit Room Feature](edit-room-feature) screen
 
-
- In the Room Features screen you have an overview of the features applicable to the rooms of the department selected in the upper part of the screen.
+In the Room Features screen you have an overview of the features applicable to the rooms of the department selected in the upper part of the screen.
 
 
 ![Room Features](images/room-features-1.png){:class='screenshot'}

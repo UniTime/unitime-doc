@@ -6,8 +6,7 @@ title: Building UniTime
 
 ## Checkout
 
-
- UniTime sources can be checked out from GitHub, [https://github.com/UniTime/unitime](https://github.com/UniTime/unitime) project.
+UniTime sources can be checked out from GitHub, [https://github.com/UniTime/unitime](https://github.com/UniTime/unitime) project.
 ```
 git clone https://github.com/UniTime/unitime.git
 Cloning into 'unitime'...
@@ -19,8 +18,7 @@ Resolving deltas: 100% (76687/76687), done.
 Checking out files: 100% (3776/3776), done.
 ```
 
-
- Later on, it can be updated using git pull (called inside of the unitime folder)
+Later on, it can be updated using git pull (called inside of the unitime folder)
 ```
 cd unitime
 git pull
@@ -33,11 +31,9 @@ Fast-forward
 
 ## Making a build
 
+UniTime can be built using [Apache Ant](https://ant.apache.org/) or [Apache Maven](https://maven.apache.org/).
 
- UniTime can be built using [Apache Ant](https://ant.apache.org/) or [Apache Maven](https://maven.apache.org/).
-
-
- 1. Using Apache Ant:
+1. Using Apache Ant:
 ```
 ant
 Buildfile: /Users/muller/git/unitime/build.xml
@@ -85,11 +81,9 @@ BUILD SUCCESSFUL
 Total time: 5 minutes 33 seconds
 ```
 
+The resultant UniTime.war and timetable.jar files are located in the unitime/Distributions folder.
 
- The resultant UniTime.war and timetable.jar files are located in the unitime/Distributions folder.
-
-
- 2. Using Apache Maven:
+2. Using Apache Maven:
 ```
 mvn package
 [INFO] Scanning for projects...
@@ -164,8 +158,7 @@ main:
 [INFO] ------------------------------------------------------------------------
 ```
 
-
- The resultant UniTime.war and timetable.jar files are located in the unitime/target folder.
+The resultant UniTime.war and timetable.jar files are located in the unitime/target folder.
 
 ## Updating UniTime with a new build 
 
@@ -180,5 +173,4 @@ main:
 
 ## Notes
 
-
- The master branch usually contains the latest development version (UniTime 4.8) at the moment. Older versions are placed on maint_XXX branches (e.g., maint_UniTime47 for UniTime 4.7), and development versions are on the dev_XXX branches (e.g., dev_UniTime44 for UniTime 4.4).
+The master branch usually contains the latest development version (UniTime 4.8) at the moment. Older versions are placed on maint_XXX branches (e.g., maint_UniTime47 for UniTime 4.7), and development versions are on the dev_XXX branches (e.g., dev_UniTime44 for UniTime 4.4).

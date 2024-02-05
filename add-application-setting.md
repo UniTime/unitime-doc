@@ -6,11 +6,9 @@ title: Add Application Setting
 
 ## Screen Description
 
+The Add Application Setting screen provides interface for adding a new application setting.
 
- The Add Application Setting screen provides interface for adding a new application setting.
-
-
- Note: The setting should be first implemented and recognized by the application before it is added here.
+Note: The setting should be first implemented and recognized by the application before it is added here.
 
 ![Add Application Setting](images/add-application-setting.png){:class='screenshot'}
 

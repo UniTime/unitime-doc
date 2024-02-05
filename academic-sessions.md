@@ -6,8 +6,7 @@ title: Academic Sessions
 
 ## Screen Description
 
-
- The Academic Sessions screen provides a list of existing academic sessions.
+The Academic Sessions screen provides a list of existing academic sessions.
 
 ![Academic Sessions](images/academic-sessions.png){:class='screenshot'}
 
@@ -71,8 +70,7 @@ title: Academic Sessions
 
 * **Email Notifications**
 	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
-
- Click on any line to change the session's properties in the [Edit Academic Session](edit-academic-session) screen.
+Click on any line to change the session's properties in the [Edit Academic Session](edit-academic-session) screen.
 
 ## Operations
 

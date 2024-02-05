@@ -6,13 +6,11 @@ title: Point In Time Data Reports
 
 ## Screen Description
 
-
- The Point In Time Data Reports page contains a set of standard reports that are calculated from the static Point In Time Data snapshots for a session.  Please contact us at [support@unitime.org](mailto:support@unitime.org) if you would like to sponsor the development of a particular report.
+The Point In Time Data Reports page contains a set of standard reports that are calculated from the static Point In Time Data snapshots for a session.  Please contact us at [support@unitime.org](mailto:support@unitime.org) if you would like to sponsor the development of a particular report.
 
 ## Details
 
-
- The following reports can be run from the Point In Time Data Reports Page:
+The following reports can be run from the Point In Time Data Reports Page:
 
 * **Weekly Student Class Hour Report For Department By Class** - This report lists organized, not organized and total class hours for each class that occur between the session start date and the session class end date for the selected department.
 	* Department - The department to use when generating this report.
@@ -49,8 +47,7 @@ title: Point In Time Data Reports
 
 * **Organized Weekly Student Class Hours by Subject Area by Day Of Week and Hour of Day** - This report lists organized student class hours by subject area for each hour in the day collectively for all classes that fall between the session start date and the session class end date.
 
-
- In addition to any report specific parameters listed above, all reports support the following parameters:
+In addition to any report specific parameters listed above, all reports support the following parameters:
 
 * Point In Time Data - The Point In Time Data snapshot to use for report.
 
@@ -68,8 +65,7 @@ title: Point In Time Data Reports
 
 ## Notes
 
-
- Related Configuration Properties:
+Related Configuration Properties:
 
 * **unitime.pointInTimeData.standardMinutesInReportingHour** - defines the default number of minutes displayed in the Minutes in Reporting Hour parameter.  The default value is 50.
 

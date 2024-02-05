@@ -6,13 +6,13 @@ title: Edit Student Scheduling Status Types
 
 ## Screen Description
 
+The Edit Student Scheduling Status Types screen provides interface for editing all the student scheduling status types at once. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
 
- The Edit Student Scheduling Status Types screen provides interface for editing all the student scheduling status types at once. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
+![Edit Student Scheduling Status Types](images/edit-student-scheduling-status-types-1.png){:class='screenshot'}
 
 ## Details
 
-
- The table with status types has the following columns
+The table with status types has the following columns
 
 * **Abbreviation**
 	* Abbreviation of the scheduling status (as displayed e.g. in the Students table in the [Online Student Scheduling Dashboard](http://help.unitime.org/Online_Student_Scheduling_Dashboard) screen)
@@ -74,11 +74,9 @@ title: Edit Student Scheduling Status Types
 * **Fallback Status**
 	* Fallback status when outside of the effective period. The fallback status can also have an effective period defined and its own fallback status.
 
+If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
 
- If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
-
-
- The two icons at the end of each line are
+The two icons at the end of each line are
 
 * **+ icon:** Add a new line to add a new student scheduling status type
 
@@ -92,5 +90,3 @@ title: Edit Student Scheduling Status Types
 * **Back**
 	* Go back to the [Student Scheduling Status Types](student-scheduling-status-types) screen without saving any changes
 
-
-![Edit Student Scheduling Status Types](images/edit-student-scheduling-status-types-1.png){:class='screenshot'}

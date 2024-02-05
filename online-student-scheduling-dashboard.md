@@ -6,21 +6,17 @@ title: Online Student Scheduling Dashboard
 
 ## Screen Description
 
-
- The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status (admin only).
+The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status (admin only).
 
 ## Filter
 
+The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
 
- The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
-
-
- **Note:** In addition to any search criteria entered into the Filter, the data displayed in the Scheduling Dashboard is also filtered by the access to the data granted by a user’s role.
+**Note:** In addition to any search criteria entered into the Filter, the data displayed in the Scheduling Dashboard is also filtered by the access to the data granted by a user’s role.
 
 ## Details
 
-
- The page shows up to three tabs - **Enrollments** with detailed information about courses and classes, **Students** with enrollment information ordered by students, and **Change Log** with a list of changes in enrollments. See the description for each of them below.
+The page shows up to three tabs - **Enrollments** with detailed information about courses and classes, **Students** with enrollment information ordered by students, and **Change Log** with a list of changes in enrollments. See the description for each of them below.
 
 ## Enrollments
 
@@ -78,8 +74,7 @@ title: Online Student Scheduling Dashboard
 * **Need Override**
 	* This column is only populated if UniTime is integrated with a system that will inform UniTime of the need for overrides.  This label applies to both the course and class level data. When the search criteria used in the Filter does not restrict the student population then a single number which is the total number of students who require an override to enroll in the course or class is displayed.  For example, if there were 6 students who require an override to enroll in a course then the number 6 would be displayed.  When the search criteria used in the Filter does restrict the student population for the data displayed the in this column will be two numbers separated by a slash(/).  For example, if 2 of the students in the population retrieved by the search criteria in the Filter require an override to enroll in a course and in total there are 6 students who require an override to enroll in a course, then the number displayed would be 2 / 6.
 
-
- Click on any class or course to get to its [Enrollments](enrollments-of-class-or-course) dialog (which shows a list of enrolled students together with some additional information).
+Click on any class or course to get to its [Enrollments](enrollments-of-class-or-course) dialog (which shows a list of enrolled students together with some additional information).
 
 ## Students
 
@@ -205,13 +200,11 @@ title: Online Student Scheduling Dashboard
 * **Emailed**
 	* Information about emails sent to the student
 
-
- Click on any student to get to the screen with [Classes](classes-for-student) for that student.
+Click on any student to get to the screen with [Classes](classes-for-student) for that student.
 
 ## Change Log
 
-
- For the Change Log, the Filter can be used with further parameters
+For the Change Log, the Filter can be used with further parameters
 
 * **operation:** Operation that was executed during a change
 
@@ -219,8 +212,7 @@ title: Online Student Scheduling Dashboard
 
 * **result:** Result of the change
 
-
- The Change Log table has the following columns
+The Change Log table has the following columns
 
 * **Student**
 	* Name of the student whose enrollments have changed
@@ -243,8 +235,7 @@ title: Online Student Scheduling Dashboard
 * **Message**
 	* More details about the change (such as information about the class that was subject to the change)
 
-
- Click on any change in the change log to get to its [Change message](change-message-for-student) screen with more detailed information about the change.
+Click on any change in the change log to get to its [Change message](change-message-for-student) screen with more detailed information about the change.
 
 ## Operations
 

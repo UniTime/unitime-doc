@@ -6,8 +6,7 @@ title: Instructional Offering Detail
 
 ## Screen Description
 
-
- The Instructional Offering Detail screen provides an overview of the instructional offering. From here, you can also access screens to make changes to any property of that instructional offering.
+The Instructional Offering Detail screen provides an overview of the instructional offering. From here, you can also access screens to make changes to any property of that instructional offering.
 
 ## Navigation Line
 
@@ -54,8 +53,7 @@ title: Instructional Offering Detail
 * **Back** (Alt+B)
 	* Go back to the non-editable screen in which you were before
 
-
- Note: **Previous** and **Next** are stepping through the list that is displayed in the [Instructional Offerings](instructional-offerings) screen. You will not see **Previous** if you are in the detail screen for the first instructional offering from the list, and you will not see **Next** if you are in the last instructional offering from the list.
+Note: **Previous** and **Next** are stepping through the list that is displayed in the [Instructional Offerings](instructional-offerings) screen. You will not see **Previous** if you are in the detail screen for the first instructional offering from the list, and you will not see **Next** if you are in the last instructional offering from the list.
 
 ## Fields Under the Title Line
 
@@ -133,11 +131,9 @@ title: Instructional Offering Detail
 
 ## Curricula
 
+This section lists all the curricula that contain courses of this instructional offering.
 
- This section lists all the curricula that contain courses of this instructional offering.
-
-
- Click on the plus sign in front of the section header "Curricula" to see the whole table which contains the following information
+Click on the plus sign in front of the section header "Curricula" to see the whole table which contains the following information
 
 * **Curriculum**
 	* Abbreviation and/or name of the curriculum
@@ -155,14 +151,11 @@ title: Instructional Offering Detail
 * **Total**
 	* The total number of students of that curriculum who are expected to take the course(s) of this instructional offering
 
+The last line of the table sums up the expected (or last-like or what is selected in Curricula Operations) enrollments per curriculum classification and then the expected (or last-like or...) enrollments for all curricula.
 
- The last line of the table sums up the expected (or last-like or what is selected in Curricula Operations) enrollments per curriculum classification and then the expected (or last-like or...) enrollments for all curricula.
+Click on any header in the table to see the Curricula Operations (see list below).
 
-
- Click on any header in the table to see the Curricula Operations (see list below).
-
-
- Click on any curriculum to see its details.
+Click on any curriculum to see its details.
 
 ### Operations
 
@@ -204,8 +197,7 @@ title: Instructional Offering Detail
 
 ## Reservations
 
-
- The section lists all the reservations that are created for the instructional offering.
+The section lists all the reservations that are created for the instructional offering.
 
 * **Reservation Type**
 	* Individual, Student Group, Curriculum, or Course
@@ -235,22 +227,17 @@ title: Instructional Offering Detail
 	* Date upon which the reservation expires, i.e., the reserved spaces are made available for other students
 	* If there is no expiration date displayed, the reservation does not expire
 
+If the reservation is in grey letters, it is not editable (either you do not have the right to edit it or, during student scheduling, you need to first lock the instructional offering to be able to make changes).
 
- If the reservation is in grey letters, it is not editable (either you do not have the right to edit it or, during student scheduling, you need to first lock the instructional offering to be able to make changes).
+Click on any column header and then on the "Sort by..." menu item that pops up to sort by that column.
 
-
- Click on any column header and then on the "Sort by..." menu item that pops up to sort by that column.
-
-
- Click on any line with a reservation (if it is in black letters) to go to its [Edit Reservation](edit-reservation) screen to make changes. Click **Add Reservation** to go to the [Add Reservation](add-reservation) screen to add a new reservation.
+Click on any line with a reservation (if it is in black letters) to go to its [Edit Reservation](edit-reservation) screen to make changes. Click **Add Reservation** to go to the [Add Reservation](add-reservation) screen to add a new reservation.
 
 ## Configuration
 
+There can be one or more configurations per instructional offering. Each of them should be an approved configuration. This is not automatically checked against the course catalog at the time of entry.
 
- There can be one or more configurations per instructional offering. Each of them should be an approved configuration. This is not automatically checked against the course catalog at the time of entry.
-
-
- For each configuration, the following operations are available
+For each configuration, the following operations are available
 
 * **Edit Configuration**
 	* Go to the [Instructional Offering Configuration](instructional-offering-configuration) screen where you can configure the instructional offering on the subpart level
@@ -261,35 +248,28 @@ title: Instructional Offering Detail
 * **Assign Instructors**
 	* Go to the [Assign Instructors](assign-instructors) screen where you can set instructors for each of the classes of this configuration
 
-
- The configuration consists of two parts
+The configuration consists of two parts
 
 * The light blue shaded area contains information about scheduling subparts; clicking on a line with a subpart takes you to the [Scheduling Subpart Detail](scheduling-subpart-detail) screen
 
 * The area with white background contains information about classes; clicking on a line with a class takes you to the [Class Detail](class-detail) screen
 
+Most of the columns in the Configuration part of this screen are the same as in the [Instructional Offerings](instructional-offerings) screen. Refer to the [Instructional Offerings](instructional-offerings) screen for their description.
 
- Most of the columns in the Configuration part of this screen are the same as in the [Instructional Offerings](instructional-offerings) screen. Refer to the [Instructional Offerings](instructional-offerings) screen for their description.
-
-
- The configuration part of this screen also contains a legend to explain the colors of preferences.
+The configuration part of this screen also contains a legend to explain the colors of preferences.
 
 
 ![Instructional Offering Detail](images/instructional-offering-detail-3.png){:class='screenshot'}
 
 ## Teaching Requests
 
+Teaching requests are used in the [Instructor Scheduling](instructor-scheduling). Instructors that are to be assigned automatically are not requested directly on classes, but there are teaching requests. Each teaching request may include multiple classes of the same course and provide some additional constraints.
 
- Teaching requests are used in the [Instructor Scheduling](instructor-scheduling). Instructors that are to be assigned automatically are not requested directly on classes, but there are teaching requests. Each teaching request may include multiple classes of the same course and provide some additional constraints.
+Use [Setup Teaching Requests](setup-teaching-requests) button to setup teaching requests. The created teaching requests are visible in the Teaching Requests section of the Instructor Offering Detail page and can be edited by clicking the [Setup Teaching Requests](setup-teaching-requests) button again.
 
+Once the solver has run, the table also shows the current instructor assignments, together with their details (instructor external id, name, assigned / maximal teaching load, attributes, time, course, and distribution preferences). [Teaching Request Detail](teaching-request-detail) dialog is shown when a teaching request is clicked that allows to see more details and to make an assignment change with or without the solver loaded in memory (see the Solver chapter below for more details).
 
- Use [Setup Teaching Requests](setup-teaching-requests) button to setup teaching requests. The created teaching requests are visible in the Teaching Requests section of the Instructor Offering Detail page and can be edited by clicking the [Setup Teaching Requests](setup-teaching-requests) button again.
-
-
- Once the solver has run, the table also shows the current instructor assignments, together with their details (instructor external id, name, assigned / maximal teaching load, attributes, time, course, and distribution preferences). [Teaching Request Detail](teaching-request-detail) dialog is shown when a teaching request is clicked that allows to see more details and to make an assignment change with or without the solver loaded in memory (see the Solver chapter below for more details).
-
-
- Each teaching request contains
+Each teaching request contains
 
 * Classes that are associated with the teaching requests (classes that the instructor is not to be assigned to are in italics)
 
@@ -308,8 +288,7 @@ title: Instructional Offering Detail
 
 ## Examinations
 
-
- The Examinations section lists all examinations created for the classes and/or courses of the instructional offering. The table contains the following information
+The Examinations section lists all examinations created for the classes and/or courses of the instructional offering. The table contains the following information
 
 * **Classes/Courses**
 	* Instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take the given examination
@@ -345,16 +324,14 @@ title: Instructional Offering Detail
 * **Student Conflicts**
 	* If the exam is assigned, the number of direct student conflicts, more than two exams on a day student conflicts, and back-to-back student conflicts are displayed
 
-
- Click on any examination to get to its [Examination Detail](examination-detail) screen. Click **Add Examination** button to add a new exam in the [Add Examination](add-examination) screen.
+Click on any examination to get to its [Examination Detail](examination-detail) screen. Click **Add Examination** button to add a new exam in the [Add Examination](add-examination) screen.
 
 
 ![Instructional Offering Detail](images/instructional-offering-detail-5.png){:class='screenshot'}
 
 ## Enrollments
 
-
- The Enrollments section lists all students that are requesting the course or that are enrolled in the course (or courses in case of a cross-list).
+The Enrollments section lists all students that are requesting the course or that are enrolled in the course (or courses in case of a cross-list).
 
 * **Student**
 	* Name of the student
@@ -382,8 +359,7 @@ title: Instructional Offering Detail
 
 ## Notes
 
-
- **Make Not Offered**: When the application property unitime.offering.makeNotOfferedStaysOnDetail is set to true, the Instructional Offering Detail screen with the newly not offered course will be displayed instead of going to the [Instructional Offerings](instructional-offerings) screen.
+**Make Not Offered**: When the application property unitime.offering.makeNotOfferedStaysOnDetail is set to true, the Instructional Offering Detail screen with the newly not offered course will be displayed instead of going to the [Instructional Offerings](instructional-offerings) screen.
 
 
 ![Instructional Offering Detail](images/instructional-offering-detail-6.png){:class='screenshot'}

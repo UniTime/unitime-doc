@@ -6,13 +6,13 @@ title: Class Detail
 
 ## Screen Description
 
+The Class Detail screen offers an overview of information about a class. Most of the information is editable in the [Edit Class](edit-class) screen.
 
- The Class Detail screen offers an overview of information about a class. Most of the information is editable in the [Edit Class](edit-class) screen.
+![Class Detail](images/class-detail-1.png){:class='screenshot'}
 
 ## Details
 
-
- The following fields are displayed in the upper part of the screen (below the name of the class):
+The following fields are displayed in the upper part of the screen (below the name of the class):
 
 * **Manager**
 	* Manager responsible for timetabling this class
@@ -75,8 +75,7 @@ title: Class Detail
 * **Last Change**
 	* Information about the last change made to the class (recorded automatically when the [Edit Class](edit-class) screen is updated)
 
-
- In the **Timetable** part, you see the time, room and instructor assigned to this class (once a timetable has been created)
+In the **Timetable** part, you see the time, room and instructor assigned to this class (once a timetable has been created)
 
 * Normally, a committed timetable is displayed, unless there is a different timetable selected or loaded into the solver for the given class
 
@@ -84,8 +83,7 @@ title: Class Detail
 
 * See documentation for [Timetables](timetables) page for more details.
 
-
- In the **Preferences**, you will see any preferences that have been set up for this class (with color coding for preference levels).
+In the **Preferences**, you will see any preferences that have been set up for this class (with color coding for preference levels).
 
 * In **Available Rooms**, you will see only those rooms that meet your preferences and are large enough for your class (the room capacity is greater than or equal to the minimum room capacity displayed in the upper part of this screen)
 	* Only the first few available rooms are displayed by default; if there are more rooms available than displayed, there are three dots at the end of the list - click on the three dots (...) to see the full list of available rooms
@@ -118,5 +116,3 @@ title: Class Detail
 * **Back** (Alt+B)
 	* Go to the last non-editable screen through which you got here
 
-
-![Class Detail](images/class-detail-1.png){:class='screenshot'}

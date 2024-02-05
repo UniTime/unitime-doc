@@ -6,8 +6,7 @@ title: Online Student Scheduling Reports
 
 ## Screen Description
 
-
- The Online Student Scheduling Reports page offers a list of standard reports computed from the online student scheduling server data. The page is only available when the online scheduling is enabled, and the online scheduling solver server is loaded for the current academic session.
+The Online Student Scheduling Reports page offers a list of standard reports computed from the online student scheduling server data. The page is only available when the online scheduling is enabled, and the online scheduling solver server is loaded for the current academic session.
 
 ## Details
 

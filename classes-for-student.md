@@ -6,19 +6,18 @@ title: Classes for Student
 
 ## Screen Description
 
-
- The Classes for ... (student's name) screen provides an overview of classes of a given student. All requested courses are listed, even if the student is not enrolled in some of them.
-
-
- The Classes has multiple tabs and various buttons that may be displayed to a user depending on the permissions granted by their user role and the status of the student.
-
+The Classes for ... (student's name) screen provides an overview of classes of a given student. All requested courses are listed, even if the student is not enrolled in some of them.
 
 ![Classes for Student](images/classes-for-student-1.png){:class='screenshot'}
 
+The Classes has multiple tabs and various buttons that may be displayed to a user depending on the permissions granted by their user role and the status of the student.
+
 ## Course Requests tab
 
+![Classes for Student](images/classes-for-student-2.png){:class='screenshot'}
 
- This tab lists the student’s course requests with alternates in priority order.
+
+This tab lists the student’s course requests with alternates in priority order.
 
 * **Priority**
 	* Course request priority
@@ -39,12 +38,13 @@ title: Classes for Student
 * **Requested**
 	* Timestamp of the course reques
 
+## List of Classes tab
+This tab displays the student’s course schedule in text format as the student would see it in the Scheduling Assistant.
 
-![Classes for Student](images/classes-for-student-2.png){:class='screenshot'}
+![Classes for Student](images/classes-for-student-3.png){:class='screenshot'}
 
-## .List of Classes tab
 
-* This tab displays the student’s course schedule in text format as the student would see it in the Scheduling Assistant.**Subject**
+* **Subject**
 	* Subject area of the course
 
 * **Course**
@@ -82,12 +82,12 @@ title: Classes for Student
 		* E.g., "Waiting for consent of instructor", or indication which lecture needs to be taken with a given recitation, etc
 
 
-![Classes for Student](images/classes-for-student-3.png){:class='screenshot'}
-
 ## Time Grid tab
 
+This tab displays the student’s course schedule in time grid format as the student would see it in the Scheduling Assistant.
 
- This tab displays the student’s course schedule in time grid format as the student would see it in the Scheduling Assistant.
+![Classes for Student](images/classes-for-student-4.png){:class='screenshot'}
+
 
 ## Operations
 
@@ -95,18 +95,13 @@ title: Classes for Student
 	* Go to the [Student Course Requests](student-course-requests) screen to make changes to the course requests
 
 * **Scheduling Assistant**
-
-* Go to the [Student Scheduling Assistant](student-scheduling-assistant) screen to make changes to the student-class enrollments
+	* Go to the [Student Scheduling Assistant](student-scheduling-assistant) screen to make changes to the student-class enrollments
 
 * **Change Log**
 	* Go to the [Change log](change-log-for-student) screen for a given student
 	* The pop-up screen will open only when there are any changes to be displayed
-
-* Available only when the screen is accessed from the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard)
+	* Available only when the screen is accessed from the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard)
 
 * **Close**
+	* Close the window and go back to the previous screen
 
-* Close the window and go back to the previous screen
-
-
-![Classes for Student](images/classes-for-student-4.png){:class='screenshot'}

@@ -6,13 +6,11 @@ title: Mass cancel...
 
 ## Screen Description
 
-
- The Mass cancel... screen provides interface for canceling requests and enrollments of students selected in the previous screen and changing the scheduling status of these students so that they cannot re-create their requests and enrollments.
+The Mass cancel... screen provides interface for canceling requests and enrollments of students selected in the previous screen and changing the scheduling status of these students so that they cannot re-create their requests and enrollments.
 
 ## Details
 
-
- Note: the names of the students whose requests and enrollments should be cancelled are not listed in this screen.
+Note: the names of the students whose requests and enrollments should be cancelled are not listed in this screen.
 
 * **Subject**
 	* Subject of an email sent to the students about the cancelation

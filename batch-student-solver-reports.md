@@ -6,8 +6,9 @@ title: Batch Student Solver Reports
 
 ## Screen Description
 
+The Batch Student Solver Reports page offers a list of standard reports computed directly from the student scheduling solver data.
 
- The Batch Student Solver Reports page offers a list of standard reports computed directly from the student scheduling solver data.
+![Batch Student Solver Reports](images/batch-student-solver-reports-1.png){:class='screenshot'}
 
 ## Details
 
@@ -28,5 +29,3 @@ title: Batch Student Solver Reports
 * **Export CSV**
 	* Run and export the report in a CSV format.
 
-
-![Batch Student Solver Reports](images/batch-student-solver-reports-1.png){:class='screenshot'}

@@ -6,15 +6,13 @@ title: Add Examination Period
 
 ## Screen Description
 
-
- The Add Examination Period screen provides interface for adding new examination periods. Note: the regular midterm examination periods can be set-up in the [Midterm Examination Periods](setup-examination-periods) screen, where it is easy to set up days and times for several weeks/months together.
+The Add Examination Period screen provides interface for adding new examination periods. Note: the regular midterm examination periods can be set-up in the [Midterm Examination Periods](setup-examination-periods) screen, where it is easy to set up days and times for several weeks/months together.
 
 ![Add Examination Period](images/add-examination-period.png){:class='screenshot'}
 
 ## Details
 
-
- To add an examination period, it is necessary to fill in the following fields
+To add an examination period, it is necessary to fill in the following fields
 
 * **Type**
 	* Type of the examination (Midterm, Final)

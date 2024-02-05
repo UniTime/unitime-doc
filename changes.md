@@ -6,18 +6,17 @@ title: Changes
 
 ## Screen Description
 
+In the Changes screen, you can see changes made to the timetable. You can compare the current timetable with the Initial, Best, or Selected timetable. To undo a change, click on it and click on the Assign button in the [Suggestions](suggestions) screen which will pop up.
 
- In the Changes screen, you can see changes made to the timetable. You can compare the current timetable with the Initial, Best, or Selected timetable. To undo a change, click on it and click on the Assign button in the [Suggestions](suggestions) screen which will pop up.
+![Changes](images/changes-1.png){:class='screenshot'}
 
-
- Hint: To compare two saved solutions, load one solution into the solver (using [Timetables](timetables) page) and then select the second one (also using [Timetables](timetables) page).
+Hint: To compare two saved solutions, load one solution into the solver (using [Timetables](timetables) page) and then select the second one (also using [Timetables](timetables) page).
 
 ## Details
 
 ### Filter
 
-
- Set up the filter to display changes you are interested in:
+Set up the filter to display changes you are interested in:
 
 * **Compare with**
 	* Select with which timetable you want the current timetable to be compared
@@ -35,8 +34,7 @@ title: Changes
 
 ### Changes
 
-
- A list of changes in time/room assignments. Click on any change to go to the [Suggestions](suggestions) screen where there will be a suggestion reversing that change (an "undo" of the change).
+A list of changes in time/room assignments. Click on any change to go to the [Suggestions](suggestions) screen where there will be a suggestion reversing that change (an "undo" of the change).
 
 ## Operations
 
@@ -50,4 +48,3 @@ title: Changes
 	* Refresh the screen
 
 
-![Changes](images/changes-1.png){:class='screenshot'}

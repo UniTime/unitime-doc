@@ -6,11 +6,9 @@ title: Users (Database Authentication)
 
 ## Screen Description
 
+The Users (Database Authentication) screen provides an overview of users' authentication data in case the timetabling application is not connected to any external database for this purpose.
 
- The Users (Database Authentication) screen provides an overview of users' authentication data in case the timetabling application is not connected to any external database for this purpose.
-
-
- Hint: You will be able to enter user's name and other information in the [Add Timetable Manager](add-timetable-manager) screen.
+Hint: You will be able to enter user's name and other information in the [Add Timetable Manager](add-timetable-manager) screen.
 
 ## Details
 
@@ -23,8 +21,7 @@ title: Users (Database Authentication)
 * **Manager**
 	* User's name as entered in the [Add Timetable Manager](add-timetable-manager) screen
 
-
- Click on any user in the list to edit his/her authentication data.
+Click on any user in the list to edit his/her authentication data.
 
 ## Operations
 

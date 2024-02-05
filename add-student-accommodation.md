@@ -6,8 +6,9 @@ title: Add Student Accommodation
 
 ## Screen Description
 
+The Add Student Accommodation screen provides interface for adding a new student accommodation without an External Id (accommodations with External Id can only be imported and their External Id is not editable in UniTime). See [Student Accommodations](student-accommodations) for more details about student accommodations.
 
- The Add Student Accommodation screen provides interface for adding a new student accommodation without an External Id (accommodations with External Id can only be imported and their External Id is not editable in UniTime). See [Student Accommodations](student-accommodations) for more details about student accommodations.
+![Add Student Accommodation](images/add-student-accommodation-1.png){:class='screenshot'}
 
 ## Details
 
@@ -34,5 +35,3 @@ title: Add Student Accommodation
 * **Back**
 	* Go back to the [Student Accommodations](student-accommodations) screen without saving the new student accommodation
 
-
-![Add Student Accommodation](images/add-student-accommodation-1.png){:class='screenshot'}

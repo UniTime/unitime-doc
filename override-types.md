@@ -6,8 +6,7 @@ title: Override Types
 
 ## Screen Description
 
-
- The Override Types page allows to define the types of overrides that can be enabled or disabled on the [Course Offering Edit](edit-course-offering) page.  This functionality is used when UniTime is integrated with a Student Information System that allows the students to request overrides for rejected enrollment requests.
+The Override Types page allows to define the types of overrides that can be enabled or disabled on the [Course Offering Edit](edit-course-offering) page.  This functionality is used when UniTime is integrated with a Student Information System that allows the students to request overrides for rejected enrollment requests.
 
 ## Details
 
@@ -17,8 +16,7 @@ title: Override Types
 * **Name**
 	* A description of the override type
 
-
- Click on any line with an override type to get to its [Edit Override Type](edit-override-type) screen.
+Click on any line with an override type to get to its [Edit Override Type](edit-override-type) screen.
 
 ## Operations
 

@@ -6,8 +6,7 @@ title: Status Types
 
 ## Screen Description
 
-
- The Status Types screen provides a list of status types. Each status is defined by the rights the managers or owners have regarding viewing and/or editing their data.
+The Status Types screen provides a list of status types. Each status is defined by the rights the managers or owners have regarding viewing and/or editing their data.
 
 ## Details
 
@@ -24,8 +23,7 @@ title: Status Types
 	* Rights associated with this status
 	* To see a description of each of these rights, click on the status type to get to the [Edit Status Type](edit-status-type) screen
 
-
- Click on any status type to get to its [Edit Status Type](edit-status-type) screen.
+Click on any status type to get to its [Edit Status Type](edit-status-type) screen.
 
 ## Operations
 

@@ -6,11 +6,11 @@ title: Edit Solver Group
 
 ## Screen Description
 
+The Edit Solver Group screen provides interface for editing an existing solver group.
 
- The Edit Solver Group screen provides interface for editing an existing solver group.
+![Edit Solver Group](images/edit-solver-group-1.png){:class='screenshot'}
 
-
- The solver group can include only departments that are not a part of another solver group. It can include any existing managers.
+The solver group can include only departments that are not a part of another solver group. It can include any existing managers.
 
 ## Details
 
@@ -48,6 +48,3 @@ title: Edit Solver Group
 
 * **Back**
 	* Go back to the [Solver Groups](solver-groups) screen without saving any changes
-
-
-![Edit Solver Group](images/edit-solver-group-1.png){:class='screenshot'}

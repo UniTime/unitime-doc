@@ -6,8 +6,9 @@ title: Edit User
 
 ## Screen Description
 
+The Edit User screen provides interface for changing user's authentication data, if the timetabling application is not connected to any external database for this purpose.
 
- The Edit User screen provides interface for changing user's authentication data, if the timetabling application is not connected to any external database for this purpose.
+![Edit User](images/edit-user-1.png){:class='screenshot'}
 
 ## Details
 
@@ -30,6 +31,3 @@ title: Edit User
 
 * **Cancel**
 	* Go back to the [Users (Database Authentication)](users-database-authentication) screen without saving any changes
-
-
-![Edit User](images/edit-user-1.png){:class='screenshot'}

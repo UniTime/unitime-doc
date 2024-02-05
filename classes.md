@@ -6,13 +6,16 @@ title: Classes
 
 ## Screen Description
 
+In the Classes screen you can see a list of classes from your department(s) filtered and sorted based on information that you are interested in. This screen may be used to review preferences for classes.
 
- In the Classes screen you can see a list of classes from your department(s) filtered and sorted based on information that you are interested in. This screen may be used to review preferences for classes.
+![Classes](images/classes-1.png){:class='screenshot'}
 
 ## Filter
 
+In the **Filter**, you can select what kind of classes you want to see and what information to display about each of the classes. You always need to click on the Search button to apply changes you have made to the filter.
 
- In the **Filter**, you can select what kind of classes you want to see and what information to display about each of the classes. You always need to click on the Search button to apply changes you have made to the filter.
+![Classes](images/classes-2.png){:class='screenshot small'}
+
 
 * **Optional Columns**
 	* Select what information you want to see about each of the classes in the list
@@ -67,9 +70,3 @@ title: Classes
 * Click on any class in this list to get to the [Class Detail](class-detail) screen for that class. In that screen, Previous/Next buttons will navigate you through detail screens of the classes you could see in the Classes screen.
 
 * The list has a separate section for each subject area.
-
-
-![Classes](images/classes-1.png){:class='screenshot'}
-
-
-![Classes](images/classes-2.png){:class='screenshot'}

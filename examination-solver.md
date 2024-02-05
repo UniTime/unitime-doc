@@ -6,11 +6,11 @@ title: Examination Solver
 
 ## Screen Description
 
+The Examination Solver screen provides interface for running the solver to schedule midterm or final examinations.
 
- The Examination Solver screen provides interface for running the solver to schedule midterm or final examinations.
+![Examination Solver](images/examination-solver-1.png){:class='screenshot'}
 
-
- Note: There can only be at most one examination solver running at any time in the application. That is different from the course timetabling solver where several users can have their solvers running at the same time.
+Note: There can only be at most one examination solver running at any time in the application. That is different from the course timetabling solver where several users can have their solvers running at the same time.
 
 ## Solver Not Started
 
@@ -47,24 +47,18 @@ title: Examination Solver
 
 ## Loading Input Data
 
-
- During the loading phase, input data and student information is loaded and the examinations which have only one required room and one required time period will get them assigned.
+During the loading phase, input data and student information is loaded and the examinations which have only one required room and one required time period will get them assigned.
 
 ### Solver
 
 * **Input data loaded**
 	* Time stamp from the time when the latest load of input data started
 
-
- For the rest, see above
+For the rest, see above
 
 ### Current Timetable
 
-
- An initial timetable is created as soon as you start loading data. Only examinations with one required time period and one required room get there assignments at this point.
-
-
- See [Examination Solution Properties](https://sites.google.com/a/unitime.org/help/index_php?title=Examination_Solution_Properties&action=edit) for the description of the items in this part of the screen.
+An initial timetable is created as soon as you start loading data. Only examinations with one required time period and one required room get there assignments at this point.
 
 ### Operations
 
@@ -99,8 +93,7 @@ title: Examination Solver
 
 ### Solver
 
-
- See above
+See above
 
 ### Operations
 
@@ -114,19 +107,15 @@ title: Examination Solver
 
 ### Best Timetable Found So Far
 
+During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when he/she stops the solver or when the time-out is reached.
 
- During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when he/she stops the solver or when the time-out is reached.
-
-
- When the user interacts and makes changes, he/she can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
+When the user interacts and makes changes, he/she can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
 
 ### Current Timetable
 
+When solver is stopped, the Best Timetable Found So Far is the same as the Current Timetable. From that moment, any manual changes made by the user are applied to the Current Timetable.
 
- When solver is stopped, the Best Timetable Found So Far is the same as the Current Timetable. From that moment, any manual changes made by the user are applied to the Current Timetable.
-
-
- Operations
+Operations
 
 * **Restore From Best**
 	* Discard the current timetable and start again from the best timetable found so far
@@ -136,8 +125,7 @@ title: Examination Solver
 
 ### Problems
 
-
- The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
+The list of warnings appears if any problem occurred during the data load. If there is a problem during solving, there will be an error message (such as Error: FATAL).
 
 ### Operations
 
@@ -158,6 +146,3 @@ title: Examination Solver
 
 * **Refresh**
 	* Refresh this screen
-
-
-![Examination Solver](images/examination-solver-1.png){:class='screenshot'}

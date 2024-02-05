@@ -5,9 +5,9 @@ title: Add Sponsoring Organization
 
 
 ## Screen Description
+Interface for adding a new sponsoring organization (to be used in event management).
 
-
- Interface for adding a new sponsoring organization (to be used in event management).
+![Add Sponsoring Organization](images/add-sponsoring-organization-1.png){:class='screenshot'}
 
 ## Details
 
@@ -25,7 +25,4 @@ title: Add Sponsoring Organization
 	* Save the new sponsoring organization and go back to the [Sponsoring Organizations](sponsoring-organizations) screen
 
 * **Back** (Alt+B)
-	* Go to the [Sponsoring Organizations](sponsoring-organizations) screen without saving the new organization
-
-
-![Add Sponsoring Organization](images/add-sponsoring-organization-1.png){:class='screenshot'}
+	* Go to the [Sponsoring Organizations](sponsoring-organizations) screen without saving the new organizatio

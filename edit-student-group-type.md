@@ -6,13 +6,13 @@ title: Edit Student Group Type
 
 ## Screen Description
 
+The Edit Student Group Type page allows to modify an existing student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
 
- The Edit Student Group Type page allows to modify an existing student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
+![Edit Student Group Type](images/edit-student-group-type-1.png){:class='screenshot'}
 
 ## Details
 
-
- Each student group type can have a code, a name, and the following properties:
+Each student group type can have a code, a name, and the following properties:
 
 * **Keep Students Together**
 	* When set to true, the student scheduling solver will try to keep students of such groups together.
@@ -39,6 +39,3 @@ title: Edit Student Group Type
 
 * **Back**
 	* Go back to the [Student Group Types](student-group-types) screen without saving this new status type
-
-
-![Edit Student Group Type](images/edit-student-group-type-1.png){:class='screenshot'}

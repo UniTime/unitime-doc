@@ -6,8 +6,7 @@ title: Edit Building
 
 ## Screen Description
 
-
- The Edit Buildings screen provides interface for editing an existing building.
+The Edit Buildings screen provides interface for editing an existing building.
 
 ![Edit Building](images/edit-building.png){:class='screenshot'}
 
@@ -30,8 +29,7 @@ title: Edit Building
 
 * **Map**
 	* Alternative way of inputing coordinates. Input locations either by clicking on the map or by typing in an address
-
- Note: If you do not have coordinate system established, entering the same coordinates (e.g., [0,0]) for all buildings will ensure that there will be no "too far" instructor and student back-to-back constraint violations in the problem.
+Note: If you do not have coordinate system established, entering the same coordinates (e.g., [0,0]) for all buildings will ensure that there will be no "too far" instructor and student back-to-back constraint violations in the problem.
 
 ## Operations
 

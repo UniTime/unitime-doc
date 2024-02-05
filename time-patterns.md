@@ -6,16 +6,13 @@ title: Time Patterns
 
 ## Screen Description
 
+The Time Patterns screen provides users with a list of available time patterns.
 
- The Time Patterns screen provides users with a list of available time patterns.
-
-
- A time pattern defines how many times a week a class meets for how many minutes and how much time should be allocated for a break when the class is over.
+A time pattern defines how many times a week a class meets for how many minutes and how much time should be allocated for a break when the class is over.
 
 ## Details
 
-
- The list of time patterns has the following columns (you can sort by any column by clicking on the column heading in green letters)
+The list of time patterns has the following columns (you can sort by any column by clicking on the column heading in green letters)
 
 * **Name**
 	* Name of the time pattern (e.g., 1 x 50)
@@ -63,8 +60,7 @@ title: Time Patterns
 * **Departments**
 	* If the time pattern is of type Extended, the departments which should have access to this time pattern are listed here
 
-
- Click on any time pattern to go to the [Edit Time Pattern](edit-time-pattern) screen.
+Click on any time pattern to go to the [Edit Time Pattern](edit-time-pattern) screen.
 
 ## Operations
 

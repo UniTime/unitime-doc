@@ -6,8 +6,9 @@ title: Add User
 
 ## Screen Description
 
+The Add User screen provides interface for entering authentication data for users in case the timetabling application is not connected to any external database for this purpose.
 
- The Add User screen provides interface for entering authentication data for users in case the timetabling application is not connected to any external database for this purpose.
+![Add User](images/add-user-1.png){:class='screenshot'}
 
 ## Details
 
@@ -28,5 +29,3 @@ title: Add User
 * **Back**
 	* Go back to the [Users (Database Authentication)](users-database-authentication) screen without saving the new user
 
-
-![Add User](images/add-user-1.png){:class='screenshot'}

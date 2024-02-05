@@ -6,16 +6,15 @@ title: Curriculum Requested Enrollments
 
 ## Screen Description
 
+The Curriculum Requested Enrollments screen provides interface for entering requested enrollments for two or more curricula at the same time.
 
- The Curriculum Requested Enrollments screen provides interface for entering requested enrollments for two or more curricula at the same time.
+![Curriculum Requested Enrollments](images/curriculum-requested-enrollments-1.png){:class='screenshot'}
 
-
- The screen is accessible e.g. from the Curricula screen - select two or more curricula and click on the option "Edit Requested Enrollment" in the menu that opens upon clicking on "More ∨" or the crossed ring column header.
+The screen is accessible e.g. from the Curricula screen - select two or more curricula and click on the option "Edit Requested Enrollment" in the menu that opens upon clicking on "More ∨" or the crossed ring column header.
 
 ## Details
 
-
- **Table**
+### Table
 
 * For each curriculum, its line is equivalent to the Requested Enrollments line in the [Edit Curriculum](edit-curriculum) screen (except for the Total column)
 	* Curriculum
@@ -52,5 +51,3 @@ title: Curriculum Requested Enrollments
 * **Print** (Alt+P)
 	* Print the screen as currently displayed
 
-
-![Curriculum Requested Enrollments](images/curriculum-requested-enrollments-1.png){:class='screenshot'}

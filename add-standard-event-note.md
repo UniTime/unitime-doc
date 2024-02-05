@@ -6,8 +6,9 @@ title: Add Standard Event Note
 
 ## Screen Description
 
+Interface for adding a new standard event note (to be used when approving/rejecting an event in the [Event Detail](event-detail) screen)
 
- Interface for adding a new standard event note (to be used when approving/rejecting an event in the [Event Detail](event-detail) screen)
+![Add Standard Event Note](images/add-standard-event-note-1.png){:class='screenshot'}
 
 ## Details
 
@@ -30,5 +31,3 @@ title: Add Standard Event Note
 * **Back** (Alt+B)
 	* Go to the [Standard Event Notes](standard-event-notes) screen without saving the new note
 
-
-![Add Standard Event Note](images/add-standard-event-note-1.png){:class='screenshot'}

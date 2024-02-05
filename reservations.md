@@ -6,8 +6,7 @@ title: Reservations
 
 ## Screen Description
 
-
- The Reservations screen provides an overview of all reservations in a given academic session. It is possible to filter the list by different criteria, sort the table by different columns and click on any of the reservations to get to its [Edit Reservation](edit-reservation) screen.
+The Reservations screen provides an overview of all reservations in a given academic session. It is possible to filter the list by different criteria, sort the table by different columns and click on any of the reservations to get to its [Edit Reservation](edit-reservation) screen.
 
 ## Details
 
@@ -21,8 +20,7 @@ title: Reservations
 
 ### Table
 
-
- The list of reservations resulting from the search has the following columns
+The list of reservations resulting from the search has the following columns
 
 * **Instructional Offering**
 	* The instructional offering on which the reservation has been made
@@ -56,14 +54,11 @@ title: Reservations
 	* Date upon which the reservation expires, i.e., the reserved spaces are made available for other students
 	* If there is no expiration date displayed, the reservation does not expire
 
+If the reservation is in grey letters, it is not editable (either you do not have the right to edit it or, during student scheduling, you need to go through the [Instructional Offering Detail](instructional-offering-detail) screen to first lock the instructional offering to be able to make changes and then make changes from the [Instructional Offering Detail](instructional-offering-detail) screen, the section Reservations).
 
- If the reservation is in grey letters, it is not editable (either you do not have the right to edit it or, during student scheduling, you need to go through the [Instructional Offering Detail](instructional-offering-detail) screen to first lock the instructional offering to be able to make changes and then make changes from the [Instructional Offering Detail](instructional-offering-detail) screen, the section Reservations).
+Click on any column header and then on the "Sort by..." menu item that pops up to sort by that column.
 
-
- Click on any column header and then on the "Sort by..." menu item that pops up to sort by that column.
-
-
- Click on any line with a reservation (if it is in black letters) to go to its [Edit Reservation](edit-reservation) screen to make changes.
+Click on any line with a reservation (if it is in black letters) to go to its [Edit Reservation](edit-reservation) screen to make changes.
 
 ## Operations
 

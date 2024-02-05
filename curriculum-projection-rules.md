@@ -6,16 +6,15 @@ title: Curriculum Projection Rules
 
 ## Screen Description
 
+The Curriculum Projection Rules displays numbers of students that are expected for given major(s) and academic areas, derived from projections based on last-like student data and other estimates. The table is editable by administrators.
 
- The Curriculum Projection Rules displays numbers of students that are expected for given major(s) and academic areas, derived from projections based on last-like student data and other estimates. The table is editable by administrators.
+![Curriculum Projection Rules](images/curriculum-projection-rules-1.png){:class='screenshot'}
 
 ## Details
 
+This section describes the editable version of the table, after the Edit button has been clicked. However, the content of the table is the same in both cases.
 
- This section describes the editable version of the table, after the Edit button has been clicked. However, the content of the table is the same in both cases.
-
-
- **Table**
+### Table
 
 * The table displays the projected demands per Academic Area and Major(s) for each academic classification (the academic areas and majors are on the left, academic classifications on top)
 	* Note: Click "Expand All" in the menu that opens when clicking on the table header to see the major(s); otherwise by default just the academic areas are displayed
@@ -55,5 +54,3 @@ title: Curriculum Projection Rules
 * **Print** (Alt+P)
 	* Print the table as displayed in the screen
 
-
-![Curriculum Projection Rules](images/curriculum-projection-rules-1.png){:class='screenshot'}

@@ -6,13 +6,13 @@ title: Add Student Group Type
 
 ## Screen Description
 
+The Add Student Group Type page allows create a new student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
 
- The Add Student Group Type page allows create a new student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
+![Add Student Group Type](images/add-student-group-type-1.png){:class='screenshot'}
 
 ## Details
 
-
- Each student group type can have a code, a name, and the following properties:
+Each student group type can have a code, a name, and the following properties:
 
 * **Keep Students Together**
 	* When set to true, the student scheduling solver will try to keep students of such groups together.
@@ -34,5 +34,3 @@ title: Add Student Group Type
 * **Back**
 	* Go back to the [Student Group Types](student-group-types) screen without saving this new status type
 
-
-![Add Student Group Type](images/add-student-group-type-1.png){:class='screenshot'}

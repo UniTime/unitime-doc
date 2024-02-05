@@ -6,13 +6,11 @@ title: Scheduling Subpart Detail
 
 ## Screen Description
 
-
- The Scheduling Subpart Detail screen offers an overview of information about a scheduling subpart. Most of the information is editable in the [Edit Scheduling Subpart](edit-scheduling-subpart) screen.
+The Scheduling Subpart Detail screen offers an overview of information about a scheduling subpart. Most of the information is editable in the [Edit Scheduling Subpart](edit-scheduling-subpart) screen.
 
 ## Details
 
-
- The following fields are displayed in the upper part of the screen (below the name of the scheduling subpart):
+The following fields are displayed in the upper part of the screen (below the name of the scheduling subpart):
 
 * **Manager**
 	* Manager responsible for timetabling the classes of this scheduling subpart

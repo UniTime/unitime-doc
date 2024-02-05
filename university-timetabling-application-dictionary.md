@@ -4,215 +4,144 @@ title: Dictionary
 ---
 
 
+If you want to work on a translation of UniTime, consider translating the below mentioned terms first before you go through all the words that need to be translated throughout the application. (This list should support you when finding the right terms in your language. It is not directly connected to any of the translation tools.)
 
- If you want to work on a translation of UniTime, consider translating the below mentioned terms first before you go through all the words that need to be translated throughout the application. (This list should support you when finding the right terms in your language. It is not directly connected to any of the translation tools.)
+Instructional Offering
 
+Scheduling Subpart
 
- Instructional Offering
+Configuration
 
+Class
 
- Scheduling Subpart
+Course
 
+Offered Courses
 
- Configuration
+Not Offered Courses
 
+Make Offered
 
- Class
+Make NOT Offered
 
+Subject Area
 
- Course
+Preferences
 
+Time Preferences
 
- Offered Courses
+Room Group Preferences
 
+Room Preferences
 
- Not Offered Courses
+Building Preferences
 
+Room Feature Preferences
 
- Make Offered
+Distribution Preferences
 
+Violated Constraints
 
- Make NOT Offered
+Manager
 
+Schedule Manager
 
- Subject Area
+Managing Department
 
+Department
 
- Preferences
+Title
 
+Configuration Name
 
- Time Preferences
+Course Offerings
 
+Controlling Course
 
- Room Group Preferences
+Cross Lists
 
+Instructional Type
 
- Room Preferences
+Parent Class
 
+Parent Scheduling Subpart
 
- Building Preferences
+Date Pattern
 
+Date
 
- Room Feature Preferences
+Time Pattern
 
+Time
 
- Distribution Preferences
+Time Locations
 
+Enrollment Information
 
- Violated Constraints
+Enrollment
 
+Unlimited Enrollment
 
- Manager
+Last Enrollment
 
+Projected Demand
 
- Schedule Manager
+Room
 
+Room Ratio
 
- Managing Department
+Room Feature
 
+Room Group
 
- Department
+Available Rooms
 
+Room Locations
 
- Title
+Room Size
 
+Room Capacity
 
- Configuration Name
+Building
 
+Instruktor
 
- Course Offerings
+% Share
 
+Timetable
 
- Controlling Course
+Update
 
+Save
 
- Cross Lists
+Class Setup
 
+Assign Instructors
 
- Instructional Type
+am
 
+pm
 
- Parent Class
+Required
 
+Strongly Preferred
 
- Parent Scheduling Subpart
+Preferred
 
+Discouraged
 
- Date Pattern
+Strongly Discouraged
 
+Prohibited
 
- Date
+Student Scheduling
 
+Academic Area
 
- Time Pattern
+Major
 
+Minor
 
- Time
+Academic Classification
 
-
- Time Locations
-
-
- Enrollment Information
-
-
- Enrollment
-
-
- Unlimited Enrollment
-
-
- Last Enrollment
-
-
- Projected Demand
-
-
- Room
-
-
- Room Ratio
-
-
- Room Feature
-
-
- Room Group
-
-
- Available Rooms
-
-
- Room Locations
-
-
- Room Size
-
-
- Room Capacity
-
-
- Building
-
-
- Instruktor
-
-
- % Share
-
-
- Timetable
-
-
- Update
-
-
- Save
-
-
- Class Setup
-
-
- Assign Instructors
-
-
- am
-
-
- pm
-
-
- Required
-
-
- Strongly Preferred
-
-
- Preferred
-
-
- Discouraged
-
-
- Strongly Discouraged
-
-
- Prohibited
-
-
- Student Scheduling
-
-
- Academic Area
-
-
- Major
-
-
- Minor
-
-
- Academic Classification
-
-
- Academic Session
+Academic Session

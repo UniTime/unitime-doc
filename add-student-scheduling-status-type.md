@@ -6,8 +6,9 @@ title: Add Student Scheduling Status Type
 
 ## Screen Description
 
+The Add Student Scheduling Status Type screen provides interface for adding a new student scheduling status type. When the status type is applied to a particular student, it influences the student's or his/her advisor's abilities to enroll the student into classes during online scheduling.
 
- The Add Student Scheduling Status Type screen provides interface for adding a new student scheduling status type. When the status type is applied to a particular student, it influences the student's or his/her advisor's abilities to enroll the student into classes during online scheduling.
+![Add Student Scheduling Status Type](images/add-student-scheduling-status-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -71,8 +72,7 @@ title: Add Student Scheduling Status Type
 * **Fallback Status**
 	* Fallback status when outside of the effective period. The fallback status can also have an effective period defined and its own fallback status.
 
-
- If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
+If there are course types defined ([Course Types](course-types) screen). It is possible to define which courses a student can request in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard). In this case, there is a toggle for each of the course types defined. There is also a toggle (named Other) that applies to all course offerings that do not have a course type set.
 
 ## Operations
 
@@ -82,5 +82,3 @@ title: Add Student Scheduling Status Type
 * **Back**
 	* Go back to the [Student Scheduling Status Types](student-scheduling-status-types) screen without saving this new status type
 
-
-![Add Student Scheduling Status Type](images/add-student-scheduling-status-type-1.png){:class='screenshot'}

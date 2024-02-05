@@ -6,13 +6,11 @@ title: Student Scheduling Solver Log
 
 ## Screen Description
 
-
- The Student Sectioning Solver Log screen can help an advanced user find what has been happening with the solver. The warnings and/or errors in the log are also displayed in the [Student Sectioning Solver](student-scheduling-solver) screen.
+The Student Sectioning Solver Log screen can help an advanced user find what has been happening with the solver. The warnings and/or errors in the log are also displayed in the [Student Sectioning Solver](student-scheduling-solver) screen.
 
 ## Details
 
-
- The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
+The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
 
 * Trace - Most detailed log information
 

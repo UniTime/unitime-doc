@@ -3,16 +3,15 @@ layout: default
 title: Enrollments of Class or Course
 ---
 
-
 ## Screen Description
 
+The pop-up screen Enrollments of ... (class or course) lists students enrolled in a given class or course. This screen is accessible from both [Student Sectioning Dashboard](student-sectioning-dashboard) and [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) and there can be differences based on the access point.
 
- The pop-up screen Enrollments of ... (class or course) lists students enrolled in a given class or course. This screen is accessible from both [Student Sectioning Dashboard](student-sectioning-dashboard) and [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) and there can be differences based on the access point.
+![Enrollments of Class or Course](images/enrollments-of-class-or-course-1.png){:class='screenshot'}
 
 ## Details
 
-
- The table of enrolled students has the following columns
+The table of enrolled students has the following columns
 
 * **External Id** (optional column)
 	* External id of the student
@@ -70,16 +69,11 @@ title: Enrollments of Class or Course
 	* Student's advisor(s)
 	* Displayed only if applicable
 
+You can sort by any column of this table.
 
- You can sort by any column of this table.
-
-
- Click on any line with a student to get to the pop-up window with [Classes](classes-for-student) for that student.
+Click on any line with a student to get to the pop-up window with [Classes](classes-for-student) for that student.
 
 ## Operations
 
 * **Close**
 	* Close the window and go back to the previous screen
-
-
-![Enrollments of Class or Course](images/enrollments-of-class-or-course-1.png){:class='screenshot'}

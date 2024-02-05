@@ -6,8 +6,7 @@ title: Edit Reservation
 
 ## Screen Description
 
-
- The Edit Reservation screen allows the user to edit an existing reservation.
+The Edit Reservation screen allows the user to edit an existing reservation.
 
 ## Details
 
@@ -69,5 +68,4 @@ title: Edit Reservation
 
 ## Notes
 
-
- There is a difference between setting an expiration date on a reservation and deleting a reservation. When a reservation is deleted, UniTime does not know about it any more. When a reservation has expired, UniTime knows about it and still sections/schedules the students into their correct sections; only the not yet occupied seats are available for any other students. This is useful for example when students have individual reservations and allow overlaps of their classes. If such an individual reservation is deleted (instead of "just" expired), there is a conflict between overlapping classes and it is not possible for that student to be scheduled into both of them.
+There is a difference between setting an expiration date on a reservation and deleting a reservation. When a reservation is deleted, UniTime does not know about it any more. When a reservation has expired, UniTime knows about it and still sections/schedules the students into their correct sections; only the not yet occupied seats are available for any other students. This is useful for example when students have individual reservations and allow overlaps of their classes. If such an individual reservation is deleted (instead of "just" expired), there is a conflict between overlapping classes and it is not possible for that student to be scheduled into both of them.

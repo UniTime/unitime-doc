@@ -6,13 +6,13 @@ title: Edit Status Type
 
 ## Screen Description
 
+The Edit Status Type screen provides interface for defining rights for an existing status. The rights are the same as in the [Add Status Type](add-status-type) screen and each of them contains a description.
 
- The Edit Status Type screen provides interface for defining rights for an existing status. The rights are the same as in the [Add Status Type](add-status-type) screen and each of them contains a description.
+![Edit Status Type](images/edit-status-type-1.png){:class='screenshot'}
 
 ## Details
 
-
- The items are the same as in the Add Status mode. Any of them can be changed.
+The items are the same as in the Add Status mode. Any of them can be changed.
 
 ## Operations
 
@@ -24,6 +24,3 @@ title: Edit Status Type
 
 * **Back**
 	* Go back to the [Status Types](status-types) screen without saving any changes
-
-
-![Edit Status Type](images/edit-status-type-1.png){:class='screenshot'}

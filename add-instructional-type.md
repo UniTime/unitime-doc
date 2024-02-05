@@ -6,8 +6,7 @@ title: Add Instructional Type
 
 ## Screen Description
 
-
- The Add Instructional Types screen provides interface for adding a new instructional type for the current academic session.
+The Add Instructional Types screen provides interface for adding a new instructional type for the current academic session.
 
 ![Add Instructional Type](images/add-instructional-type-1.png){:class='screenshot'}
 

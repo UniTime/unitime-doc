@@ -6,11 +6,11 @@ title: Edit Solver Parameter Group
 
 ## Screen Description
 
+The Edit Solver Parameter Group screen provides interface for editing an existing solver parameter group.
 
- The Edit Solver Parameter Group screen provides interface for editing an existing solver parameter group.
+![Edit Solver Parameter Group](images/edit-solver-parameter-group-1.png){:class='screenshot'}
 
-
- **Note:** Changes to solver parameters can dramatically change the behavior of the solver, therefore it is not recommended to make changes unless you know very well what you are doing.
+**Note:** Changes to solver parameters can dramatically change the behavior of the solver, therefore it is not recommended to make changes unless you know very well what you are doing.
 
 ## Details
 
@@ -31,6 +31,3 @@ title: Edit Solver Parameter Group
 
 * **Back** (ALT+B)
 	* Go back to the [Solver Parameter Groups](solver-parameter-groups) screen without saving any changes
-
-
-![Edit Solver Parameter Group](images/edit-solver-parameter-group-1.png){:class='screenshot'}

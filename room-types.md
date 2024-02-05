@@ -6,8 +6,7 @@ title: Room Types
 
 ## Screen Description
 
-
- The Room Types screen provides a list of available room types. Room types are used when it is needed to reduce possible rooms to a certain type, e.g. in event management where a user can ask e.g. for an available outside location or an available computing lab.
+The Room Types screen provides a list of available room types. Room types are used when it is needed to reduce possible rooms to a certain type, e.g. in event management where a user can ask e.g. for an available outside location or an available computing lab.
 
 ## Details
 
@@ -28,8 +27,7 @@ title: Room Types
 * **Rooms**
 	* Total number of different rooms (with different permanent ID) in the application that are of this type
 
-
- Click on any room type in the list to get to its [Edit Room Type](edit-room-type) screen.
+Click on any room type in the list to get to its [Edit Room Type](edit-room-type) screen.
 
 ## Operations
 

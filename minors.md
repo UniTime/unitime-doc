@@ -6,16 +6,13 @@ title: Minors
 
 ## Screen Description
 
-
- The Minors screen provides an overview of minors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
+The Minors screen provides an overview of minors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
 
 ## Details
 
+**Table**
 
- **Table**
-
-
- The table contains a minor per line. The table can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
+The table contains a minor per line. The table can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
 
 * External Id
 	* External id of the minor
@@ -48,5 +45,4 @@ title: Minors
 
 ## Notes
 
-
- The screen is for future use, the minors are currently not used for timetabling purposes.
+The screen is for future use, the minors are currently not used for timetabling purposes.

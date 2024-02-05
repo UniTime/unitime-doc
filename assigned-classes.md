@@ -6,8 +6,9 @@ title: Assigned Classes
 
 ## Screen Description
 
+The Assigned Classes screen provides a view of time/room assignments for classes of a selected or loaded timetable. Note: To see all the classes for a particular subject area, go to the [Classes](classes) or [Class Assignments](class-assignments) screen.
 
- The Assigned Classes screen provides a view of time/room assignments for classes of a selected or loaded timetable. Note: To see all the classes for a particular subject area, go to the [Classes](classes) or [Class Assignments](class-assignments) screen.
+![Assigned Classes](images/assigned-classes-1.png){:class='screenshot'}
 
 ## Filter
 
@@ -25,11 +26,9 @@ title: Assigned Classes
 
 ## Assigned Classes
 
+The list of assigned classes contains classes of the selected/loaded timetable together with their time and room assignments. The colors of the time and room assignments reflect the preference put on a given class for that given time or room (for example, a blue time means that the time was a required time for a given class, an orange room means that the room was strongly discouraged for a given class). The legend for this color coding is displayed at the bottom of the list.
 
- The list of assigned classes contains classes of the selected/loaded timetable together with their time and room assignments. The colors of the time and room assignments reflect the preference put on a given class for that given time or room (for example, a blue time means that the time was a required time for a given class, an orange room means that the room was strongly discouraged for a given class). The legend for this color coding is displayed at the bottom of the list.
-
-
- The color on the class name indicates how easily is the class to move.
+The color on the class name indicates how easily is the class to move.
 
 * a class that can be moved to some other room without any conflict is marked as strongly preferred
 
@@ -43,14 +42,11 @@ title: Assigned Classes
 
 * a class that is fixed in time and room is marked as required
 
+The color coding is very similar but computed slightly differently for a class that is not assigned (based on whether it can be assigned to one or more times and one or more rooms).
 
- The color coding is very similar but computed slightly differently for a class that is not assigned (based on whether it can be assigned to one or more times and one or more rooms).
+The columns displayed in the table are described in the [Class Assignment Properties](class-assignment-properties) help page. You can sort by any of the columns by clicking on the appropriate column heading.
 
-
- The columns displayed in the table are described in the [Class Assignment Properties](class-assignment-properties) help page. You can sort by any of the columns by clicking on the appropriate column heading.
-
-
- Click on any class to get to the [Suggestions](suggestions) screen for that class - you can make changes to the time and/or room assignment in that screen.
+Click on any class to get to the [Suggestions](suggestions) screen for that class - you can make changes to the time and/or room assignment in that screen.
 
 ## Operations
 
@@ -64,5 +60,3 @@ title: Assigned Classes
 	* Refresh the list of assigned classes
 		* Do this e.g. after you have changed a time/room assignment for a class in the [Suggestions](suggestions) screen - the Assigned Classes screen is not refreshed automatically in such case
 
-
-![Assigned Classes](images/assigned-classes-1.png){:class='screenshot'}

@@ -6,13 +6,13 @@ title: Edit Event Status
 
 ## Screen Description
 
+The Edit Event Status screen provides interface for changing the status for a given department and a given event room type or room. It is also possible to set up a default room note that appears for events in the corresponding rooms and the break time.
 
- The Edit Event Status screen provides interface for changing the status for a given department and a given event room type or room. It is also possible to set up a default room note that appears for events in the corresponding rooms and the break time.
+![Edit Event Status](images/edit-event-status-1.png){:class='screenshot'}
 
 ## Details
 
-
- When a line with a room type is clicked in the [Event Statuses](event-statuses) screen, the first two lines are
+When a line with a room type is clicked in the [Event Statuses](event-statuses) screen, the first two lines are
 
 * **Department**
 	* The event department for which the status/message/break time should be set
@@ -21,8 +21,7 @@ title: Edit Event Status
 * **Room Type**
 	* The event room type for which the status, room note, and break time should be set
 
-
- When a line with a particular room is clicked in the [Event Statuses](event-statuses) screen, the first two lines are
+When a line with a particular room is clicked in the [Event Statuses](event-statuses) screen, the first two lines are
 
 * **Type**
 	* The event department and the type of this room
@@ -30,8 +29,7 @@ title: Edit Event Status
 * **Room**
 	* The room for which the status, room note, and break time should be set
 
-
- The remaining items are
+The remaining items are
 
 * **Event Status**
 	* The status of this department and room or rooms of this room type for event management
@@ -57,5 +55,3 @@ title: Edit Event Status
 * **Back**
 	* Go back to the [Event Statuses](event-statuses) screen without saving any changes
 
-
-![Edit Event Status](images/edit-event-status-1.png){:class='screenshot'}

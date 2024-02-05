@@ -6,13 +6,11 @@ title: Task Scheduler
 
 ## Screen Description
 
-
- The Task Scheduler page can be used to schedule periodic execution of the existing [Scripts](scripts) within the current academic session.
+The Task Scheduler page can be used to schedule periodic execution of the existing [Scripts](scripts) within the current academic session.
 
 ## Details
 
-
- Each task has the following properties
+Each task has the following properties
 
 * **Name**
 	* Task name
@@ -40,11 +38,9 @@ title: Task Scheduler
 	* **Finished** ... a task execution has finished
 	* **Failed** ... a task execution has failed
 
+More details can be seen when clicking on a task, including the log and output files for the executions that have already finished. This will show the [Task Details](task-details) page.
 
- More details can be seen when clicking on a task, including the log and output files for the executions that have already finished. This will show the [Task Details](task-details) page.
-
-
- It is possible to roll scheduled tasks from one academic session to the next using the [Roll Forward Session](roll-forward-session) page. The dates are relative to the academic session start date.
+It is possible to roll scheduled tasks from one academic session to the next using the [Roll Forward Session](roll-forward-session) page. The dates are relative to the academic session start date.
 
 
 ![Task Scheduler](images/task-scheduler-1.png){:class='screenshot'}

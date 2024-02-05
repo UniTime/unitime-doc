@@ -6,22 +6,17 @@ title: Rooms
 
 ## Screen Description
 
+The Rooms screen provides an overview of rooms that can be used for classes, examinations or events together with the properties of these rooms, such as room features or room availability. The screen also has the capability of filtering rooms by a variety of criteria. The same Rooms screen can be accessed from different parts of the application (Courses, Examinations, Events), however, the default settings of the page (filter and visible columns) are based on this.
 
- The Rooms screen provides an overview of rooms that can be used for classes, examinations or events together with the properties of these rooms, such as room features or room availability. The screen also has the capability of filtering rooms by a variety of criteria. The same Rooms screen can be accessed from different parts of the application (Courses, Examinations, Events), however, the default settings of the page (filter and visible columns) are based on this.
+When the screens is opened from the event management, the Filter also contains a section of the academic session for which the rooms are to be selected. Changes made to the display of the rooms table and the content of the filter are remembered in the browser's cookie and are also dependent on the menu item that was used to access the page. This means that the Rooms page will remember different settings when used from course timetabling than if used form examination timetabling or events.
 
-
- When the screens is opened from the event management, the Filter also contains a section of the academic session for which the rooms are to be selected. Changes made to the display of the rooms table and the content of the filter are remembered in the browser's cookie and are also dependent on the menu item that was used to access the page. This means that the Rooms page will remember different settings when used from course timetabling than if used form examination timetabling or events.
-
-
- The screen is divided into two parts - a filter and the actual list of rooms.
+The screen is divided into two parts - a filter and the actual list of rooms.
 
 ## Filter
 
+When the page is accessed from the event management, the user can also select an academic session for which are the rooms to be displayed.
 
- When the page is accessed from the event management, the user can also select an academic session for which are the rooms to be displayed.
-
-
- The [Room Filter](http://help41.unitime.org/Events/Room_Filter) can be used to filter the available rooms by various parameters. Rooms can be filtered by name, department, room type, room feature, room group, building, and occupant capacity.  Filter criteria can be entered directly in the input area or selected from a dialog box activated by clicking on the triangle symbol at the right hand side of the input area.
+The [Room Filter](http://help41.unitime.org/Events/Room_Filter) can be used to filter the available rooms by various parameters. Rooms can be filtered by name, department, room type, room feature, room group, building, and occupant capacity.  Filter criteria can be entered directly in the input area or selected from a dialog box activated by clicking on the triangle symbol at the right hand side of the input area.
 
 ## Operations
 
@@ -44,8 +39,7 @@ title: Rooms
 
 ## List of Rooms
 
-
- The resulting list of rooms is displayed in the table. The following columns can be shown:
+The resulting list of rooms is displayed in the table. The following columns can be shown:
 
 * **Name**
 	* Room name including the display name if set
@@ -174,8 +168,7 @@ title: Rooms
 		* **Tablet Arm Chairs** (TArmC)
 	* Room features of a particular room feature type are displayed in a separate column (named after the feature type)
 
-
- When working with rooms from your department, click on any line with information about a room to get to its [Room Detail](room-detail) screen. You will be able to change some properties of the room, such as availability or room sharing, in screens accessible from this [Room Detail](room-detail) screen.
+When working with rooms from your department, click on any line with information about a room to get to its [Room Detail](room-detail) screen. You will be able to change some properties of the room, such as availability or room sharing, in screens accessible from this [Room Detail](room-detail) screen.
 
 
 ![Rooms](images/rooms-2.png){:class='screenshot'}

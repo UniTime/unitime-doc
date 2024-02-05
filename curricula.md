@@ -6,13 +6,13 @@ title: Curricula
 
 ## Screen Description
 
+The Curricula screen provides an overview of all curricula for a given semester. Click on any curriculum to go to the [Curriculum Detail](curriculum-detail) screen.
 
- The Curricula screen provides an overview of all curricula for a given semester. Click on any curriculum to go to the [Curriculum Detail](curriculum-detail) screen.
+![Curricula](images/curricula-1.png){:class='screenshot'}
 
 ## Details
 
-
- **Filter**
+### Filter
 
 * Enter search criteria in the editable field and click on **Search** (Alt+S) to search for corresponding curricula 
 
@@ -20,11 +20,9 @@ title: Curricula
 
 * When the mouse is placed over the filter field and is not moved for several seconds, a help text appears with suggested ways of entering search parameters
 
+### Curricula table
 
- **Curricula table**
-
-
- The table displays a list of curricula meeting the search parameters entered in the filter field. The column headers are clickable and provide further options for working with the table:
+The table displays a list of curricula meeting the search parameters entered in the filter field. The column headers are clickable and provide further options for working with the table:
 
 *  Crossed ring
 	* The crossed ring is a header for checkboxes, displayed only for administrators
@@ -120,11 +118,9 @@ title: Curricula
 	* The menu has only the option to Sort by Current Enrollment
 		* Sort the table by this column increasingly
 
+When the mouse rolls over a line, the Curriculum Classification table from the [Curriculum Detail](curriculum-detail) screen is displayed in a text field for that curriculum.
 
- When the mouse rolls over a line, the Curriculum Classification table from the [Curriculum Detail](curriculum-detail) screen is displayed in a text field for that curriculum.
-
-
- Click on any curriculum in the list to go to the [Curriculum Detail](curriculum-detail) screen for that curriculum.
+Click on any curriculum in the list to go to the [Curriculum Detail](curriculum-detail) screen for that curriculum.
 
 ## Operations
 
@@ -140,6 +136,3 @@ title: Curricula
 * **More ↓** (Alt+M) 
 	* More options for actions/operations in this screen
 	* The options are described above, as they are the same as for the "Crossed ring" table header
-
-
-![Curricula](images/curricula-1.png){:class='screenshot'}

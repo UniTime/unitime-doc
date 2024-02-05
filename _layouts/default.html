@@ -35,6 +35,9 @@
     </div>
     <div class='container' style='text-align: justify; border-top: 2px solid #749ad1;'>
         <h1>{{page.title}}</h1>
+        {% if page.forward %}
+        See <a href='{{ page.forward }}'>{{ page.forward }}</a> for more details.<br><br>
+        {% endif %}
         {{ content }}
     </div>
     <div class='container'>

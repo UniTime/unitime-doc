@@ -6,8 +6,9 @@ title: Curriculum Detail
 
 ## Screen Description
 
+The Curriculum Detail screen provides information about an existing curriculum.
 
- The Curriculum Detail screen provides information about an existing curriculum.
+![Curriculum Detail](images/curriculum-detail-1.png){:class='screenshot'}
 
 ## Details
 
@@ -30,8 +31,7 @@ title: Curriculum Detail
 
 ### Curriculum Classifications
 
-
- The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
+The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
 
 * **Name**
 	* Name of the academic classification, i.e., of the semester in which the students will be
@@ -51,8 +51,7 @@ title: Curriculum Detail
 * **Current Enrollment**
 	* Number of students of this curriculum (i.e., who have the majors from this curriculum) currently enrolled in the courses of this curriculum
 
-
- Note: There is an option to Hide empty columns / Show all columns for the table (when applicable - i.e., when there are classifications with no last-like or requested enrollments) - see the bottom right end of the table, the shaded text. Click on the text to perform the task the text describes.
+Note: There is an option to Hide empty columns / Show all columns for the table (when applicable - i.e., when there are classifications with no last-like or requested enrollments) - see the bottom right end of the table, the shaded text. Click on the text to perform the task the text describes.
 
 
 ### Course Projections
@@ -120,5 +119,3 @@ title: Curriculum Detail
 * **Back** (Alt+B)
 	* Go back to the [Curricula](curricula) screen
 
-
-![Curriculum Detail](images/curriculum-detail-1.png){:class='screenshot'}

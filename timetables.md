@@ -6,24 +6,20 @@ title: Timetables
 
 ## Screen Description
 
-
- The Timetables screen contains information about saved timetables. This page can also be used to select, load, save, commit, uncommit or delete a timetable.
+The Timetables screen contains information about saved timetables. This page can also be used to select, load, save, commit, uncommit or delete a timetable.
 
 ## Saved Timetables
 
+This section contains a list of saved timetables with their properties. The description of the properties can be found in the [Solution Properties](solution-properties) screen.
 
- This section contains a list of saved timetables with their properties. The description of the properties can be found in the [Solution Properties](solution-properties) screen.
-
-
- Under the list of saved timetables, there is a line for loading an empty timetable/solution into the interactive solver. The operation is
+Under the list of saved timetables, there is a line for loading an empty timetable/solution into the interactive solver. The operation is
 
 * **Load Empty Solution**
 	* Load input data, but do not do any automatic assignments except for the classes that require a particular room at a particular time - all other classes can be manually assigned by the user. This will normally be used only if you wish to use the interactive solver to manually place all classes.
 
 ## Selected Timetable
 
-
- To select a timetable, click on the appropriate line in the Saved Timetables table. Once there is a timetable selected, there is a Selected Timetable section present in the **Timetables** screen displaying the properties of the timetable (see [Solution Properties](solution-properties) for the description of these properties) as well as the operations that can be executed on a selected timetable.
+To select a timetable, click on the appropriate line in the Saved Timetables table. Once there is a timetable selected, there is a Selected Timetable section present in the **Timetables** screen displaying the properties of the timetable (see [Solution Properties](solution-properties) for the description of these properties) as well as the operations that can be executed on a selected timetable.
 
 ### Operations
 
@@ -56,13 +52,11 @@ title: Timetables
 
 ## Loaded Timetable
 
-
- You can load one or more of the saved and selected timetables or an "empty" timetable (in this case, only the classes that require a particular time and room will have those assigned).
+You can load one or more of the saved and selected timetables or an "empty" timetable (in this case, only the classes that require a particular time and room will have those assigned).
 
 ### Operations
 
-
- The operations available depend on the status of the solver (whether the data is loaded, the solver running, etc.).
+The operations available depend on the status of the solver (whether the data is loaded, the solver running, etc.).
 
 	1. While the timetable is loading, the only operation available is
 		1. **Refresh**

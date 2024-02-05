@@ -6,8 +6,9 @@ title: Assigned Examinations
 
 ## Screen Description
 
+The Assigned Examinations screen provides a list of examinations that have been assigned time and room(s).
 
- The Assigned Examinations screen provides a list of examinations that have been assigned time and room(s).
+![Assigned Examinations](images/assigned-examinations-1.png){:class='screenshot'}
 
 ## Filter
 
@@ -24,8 +25,7 @@ title: Assigned Examinations
 
 ## Assigned Examinations
 
-
- A list of examinations with assigned periods and rooms
+A list of examinations with assigned periods and rooms
 
 * **Classes/Courses**
 	* Classes/Courses whose students should take this examination
@@ -76,5 +76,3 @@ title: Assigned Examinations
 * **Refresh**
 	* Refresh the list of assigned examinations
 
-
-![Assigned Examinations](images/assigned-examinations-1.png){:class='screenshot'}

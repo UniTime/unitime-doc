@@ -6,8 +6,9 @@ title: Edit Instructor
 
 ## Screen Description
 
+Edit information about an instructor in this Edit Instructor screen.
 
- Edit information about an instructor in this Edit Instructor screen.
+![Edit Instructor](images/edit-instructor-2.png){:class='screenshot'}
 
 ## Details
 
@@ -75,9 +76,3 @@ title: Edit Instructor
 
 * **Back** (Alt+B)
 	* Return to the [Instructor Detail](instructor-detail) screen without saving any changes
-
-
-![Edit Instructor](images/edit-instructor-1.png){:class='screenshot'}
-
-
-![Edit Instructor](images/edit-instructor-2.png){:class='screenshot'}

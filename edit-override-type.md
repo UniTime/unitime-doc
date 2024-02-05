@@ -6,8 +6,9 @@ title: Edit Override Type
 
 ## Screen Description
 
+The Edit Override Type page allows for the editing of an override type.
 
- The Edit Override Type page allows for the editing of an override type.
+![Edit Override Type](images/edit-override-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -26,5 +27,3 @@ title: Edit Override Type
 * **Back**
 	* Go back to the [Override Types](override-types) screen without saving the changes to this override type
 
-
-![Edit Override Type](images/edit-override-type-1.png){:class='screenshot'}

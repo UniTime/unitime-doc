@@ -6,8 +6,9 @@ title: Examination Detail
 
 ## Screen Description
 
+The Examination Detail screen provides an overview of properties of an examination, including preferences on its time/room and the assigned time/room, if applicable.
 
- The Examination Detail screen provides an overview of properties of an examination, including preferences on its time/room and the assigned time/room, if applicable.
+![Examination Detail](images/examination-detail-1.png){:class='screenshot'}
 
 ## Details
 
@@ -47,8 +48,7 @@ title: Examination Detail
 
 ### Classes/Courses
 
-
- This section provides information about the instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take this examination. These components define what students are to be attending the examination (i.e., students that are enrolled into the classes/courses/etc. displayed in this section).
+This section provides information about the instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take this examination. These components define what students are to be attending the examination (i.e., students that are enrolled into the classes/courses/etc. displayed in this section).
 
 * **Object**
 	* Class, instructional offering configuration, course offering, or instructional offering
@@ -75,13 +75,11 @@ title: Examination Detail
 * **Assignment**
 	* The timetable for the class/course
 
-
- Note: For midterm examinations, an examination must be placed in a room (or rooms) that are of equal or greater capacity (either normal or examination capacity, based on the seating type of the exam) of total enrollment of the offering components associated with the exam as well as the total of limit of these offering components. The reason for this is that the enrollment might not be fixed by the time the midterm examination schedule is being produced. For final examinations, only total enrollment of the appropriate offering components is considered.
+Note: For midterm examinations, an examination must be placed in a room (or rooms) that are of equal or greater capacity (either normal or examination capacity, based on the seating type of the exam) of total enrollment of the offering components associated with the exam as well as the total of limit of these offering components. The reason for this is that the enrollment might not be fixed by the time the midterm examination schedule is being produced. For final examinations, only total enrollment of the appropriate offering components is considered.
 
 ### Assignment
 
-
- Current assignment for the examination. To change it, click on the Assign button in this screen.
+Current assignment for the examination. To change it, click on the Assign button in this screen.
 
 * **Examination Period**
 	* Time period assigned to the examination
@@ -132,5 +130,3 @@ title: Examination Detail
 * **Back**
 	* Go back to the screen from which you entered this screen
 
-
-![Examination Detail](images/examination-detail-1.png){:class='screenshot'}

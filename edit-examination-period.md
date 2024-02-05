@@ -6,8 +6,9 @@ title: Edit Examination Period
 
 ## Screen Description
 
+The Edit Examination Period screen provides interface for making changes to an existing examination period.
 
- The Edit Examination Period screen provides interface for making changes to an existing examination period.
+![Edit Examination Period](images/edit-examination-period-1.png){:class='screenshot'}
 
 ## Details
 
@@ -43,5 +44,3 @@ title: Edit Examination Period
 * **Back**
 	* Go back to the [Examination Periods](http://help.unitime.org/Examination_Periods) screen without saving any changes
 
-
-![Edit Examination Period](images/edit-examination-period-1.png){:class='screenshot'}

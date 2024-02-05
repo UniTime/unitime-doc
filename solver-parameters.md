@@ -6,14 +6,11 @@ title: Solver Parameters
 
 ## Screen Description
 
+The Solver Parameters screen provides a list of parameters together with their properties. The parameters are organized into groups defined in the [Solver Parameter Groups](solver-parameter-groups) screen.
 
- The Solver Parameters screen provides a list of parameters together with their properties. The parameters are organized into groups defined in the [Solver Parameter Groups](solver-parameter-groups) screen.
+The values of the parameters in the Basic Settings can be changed by any user just before running the solver in the [Solver](solver) screen. The values of other parameters can be changed by administrator only e.g. in [Solver Configurations](solver-configurations).
 
-
- The values of the parameters in the Basic Settings can be changed by any user just before running the solver in the [Solver](solver) screen. The values of other parameters can be changed by administrator only e.g. in [Solver Configurations](solver-configurations).
-
-
- **Note:** Changes to solver parameters can dramatically change the behavior of the solver, therefore it is not recommended to make changes unless you know very well what you are doing.
+**Note:** Changes to solver parameters can dramatically change the behavior of the solver, therefore it is not recommended to make changes unless you know very well what you are doing.
 
 ## Details
 
@@ -32,8 +29,7 @@ title: Solver Parameters
 * **Default**
 	* Default value of the parameter
 
-
- Click on any solver parameter to go to its [Edit Solver Parameter](edit-solver-parameter) screen.
+Click on any solver parameter to go to its [Edit Solver Parameter](edit-solver-parameter) screen.
 
 ## Operations
 

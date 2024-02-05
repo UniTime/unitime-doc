@@ -6,8 +6,7 @@ title: Manage Instructor List
 
 ## Screen Description
 
-
- The Manage Instructor List screen is populated with names of employees of a given department. The source of the information about employees is the university staff table (see [staff import](http://www.unitime.org/uct_interfaces.php)). The schedule manager can indicate which people from this list should be included in the list of instructors in the [Instructors](instructors) screen.
+The Manage Instructor List screen is populated with names of employees of a given department. The source of the information about employees is the university staff table (see [staff import](http://www.unitime.org/uct_interfaces.php)). The schedule manager can indicate which people from this list should be included in the list of instructors in the [Instructors](instructors) screen.
 
 ## Filter
 
@@ -26,11 +25,9 @@ title: Manage Instructor List
 
 ## Instructors
 
+The employees of a given department are divided between those that appear in the [Instructors](instructors) screen (those are the **Department Instructors**) and the ones who do not appear there (**Instructors not in the Department List**). Each of these groups is then sorted by position and within a position by the last name.
 
- The employees of a given department are divided between those that appear in the [Instructors](instructors) screen (those are the **Department Instructors**) and the ones who do not appear there (**Instructors not in the Department List**). Each of these groups is then sorted by position and within a position by the last name.
-
-
- For each instructor in the list, you can see his/her ID and name (as it appears in the staff database). Check/uncheck the checkbox in front of that person's ID if you want/don't want the person to appear in your list of instructors in the [Instructors](instructors) screen. You can also Check All or Clear All checkboxes of a given position (on the line with the name of the position).
+For each instructor in the list, you can see his/her ID and name (as it appears in the staff database). Check/uncheck the checkbox in front of that person's ID if you want/don't want the person to appear in your list of instructors in the [Instructors](instructors) screen. You can also Check All or Clear All checkboxes of a given position (on the line with the name of the position).
 
 ## Operations
 

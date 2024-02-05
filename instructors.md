@@ -6,8 +6,7 @@ title: Instructors
 
 ## Screen Description
 
-
- The Instructors screen displays a list of instructors that can be used throughout the application - for example, to assign instructors to classes/examinations or to add instructors to a designator list. Clicking on any instructor will take you to his/her [Instructor Detail](instructor-detail) screen.
+The Instructors screen displays a list of instructors that can be used throughout the application - for example, to assign instructors to classes/examinations or to add instructors to a designator list. Clicking on any instructor will take you to his/her [Instructor Detail](instructor-detail) screen.
 
 ## Top Line with Search
 
@@ -21,8 +20,7 @@ title: Instructors
 
 ## Details
 
-
- For each instructor, you can see
+For each instructor, you can see
 
 * **External Id**
 	* Instructor's Id as used in other systems; used to identify instructors throughout UniTime
@@ -68,8 +66,7 @@ title: Instructors
 		* When your timetable is created, make sure you check whether the instructor for whom you chose to ignore too far distances has a feasible timetable (that the instructor can in fact teach the classes that are back to back)
 	* This check about distances will be performed only for those classes for which the instructor is has conflict checking on
 
-
- You can sort by any column which tells you so when you roll the mouse over its header. An arrow will be displayed next to the column header to indicate by which column and in which order the list of instructors is sorted.
+You can sort by any column which tells you so when you roll the mouse over its header. An arrow will be displayed next to the column header to indicate by which column and in which order the list of instructors is sorted.
 
 ## Operations
 

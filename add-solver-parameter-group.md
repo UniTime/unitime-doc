@@ -6,8 +6,9 @@ title: Add Solver Parameter Group
 
 ## Screen Description
 
+The Add Solver Parameter Group screen provides interface for adding a new solver parameter group.
 
- The Add Solver Parameter Group screen provides interface for adding a new solver parameter group.
+![Add Solver Parameter Group](images/add-solver-parameter-group-1.png){:class='screenshot'}
 
 ## Details
 
@@ -24,6 +25,3 @@ title: Add Solver Parameter Group
 
 * **Back** (ALT+B)
 	* Go back to the [Solver Parameter Groups](solver-parameter-groups) screen without saving this new solver parameter group
-
-
-![Add Solver Parameter Group](images/add-solver-parameter-group-1.png){:class='screenshot'}

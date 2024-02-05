@@ -6,8 +6,7 @@ title: Edit Time Pattern
 
 ## Screen Description
 
-
- The Edit Time Pattern screen provides an interface for editing an existing time pattern.
+The Edit Time Pattern screen provides an interface for editing an existing time pattern.
 
 ## Details
 

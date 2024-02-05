@@ -6,8 +6,9 @@ title: Add Status Type
 
 ## Screen Description
 
+The Add Status Type screen provides interface for adding a new status. Each status is defined by the rights the managers or owners have regarding viewing and/or editing their data. Each right has its description in the screen.
 
- The Add Status Type screen provides interface for adding a new status. Each status is defined by the rights the managers or owners have regarding viewing and/or editing their data. Each right has its description in the screen.
+![Add Status Type](images/add-status-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -20,8 +21,7 @@ title: Add Status Type
 * **Apply**
 	* Choose whether a given status should be applicable only to a session, only to a department, or to both (for example, "Initial Data Load" applies to a session only while "External Manager Timetabling" applies to a department only)
 
-
- The rights are divided into several categories:
+The rights are divided into several categories:
 
 * **Course Timetabling**
 	* Owner/manager rights related to creating a course timetable
@@ -40,5 +40,3 @@ title: Add Status Type
 * **Back** (Alt+B)
 	* Go back to the [Status Types](status-types) screen without saving this new status
 
-
-![Add Status Type](images/add-status-type-1.png){:class='screenshot'}

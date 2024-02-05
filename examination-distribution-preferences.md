@@ -6,13 +6,13 @@ title: Examination Distribution Preferences
 
 ## Screen Description
 
+The Examination Distribution Preferences screen provides a list of distribution preferences related to either midterm or final examinations.
 
- The Examination Distribution Preferences screen provides a list of distribution preferences related to either midterm or final examinations.
+![Examination Distribution Preferences](images/examination-distribution-preferences-1.png){:class='screenshot'}
 
 ## Details
 
-
- The following criteria can be used to specify what distribution preferences should be listed
+The following criteria can be used to specify what distribution preferences should be listed
 
 * **Type**
 	* Type of the examination (midterm or final)
@@ -23,11 +23,9 @@ title: Examination Distribution Preferences
 * **Course Number**
 	* Course number or a "wild card" (such as "2*" for all courses starting with 2)
 
+Click the **Search** button to apply any changes to the search criteria.
 
- Click the **Search** button to apply any changes to the search criteria.
-
-
- The list of distribution preferences has the following columns
+The list of distribution preferences has the following columns
 
 * **Type**
 	* Type of the distribution preference
@@ -48,8 +46,7 @@ title: Examination Distribution Preferences
 * **Class/Course**
 	* Instructional components (offerings, courses, configurations, classes) associated with the examination
 
-
- Click on any distribution preference to get to the [Edit Examination Distribution Preference](edit-examination-distribution-preference) screen.
+Click on any distribution preference to get to the [Edit Examination Distribution Preference](edit-examination-distribution-preference) screen.
 
 ## Operations
 
@@ -59,5 +56,3 @@ title: Examination Distribution Preferences
 * **Add Distribution Preference** (ALT+A)
 	* Go to the [Add Examination Distribution Preference](add-examination-distribution-preference) screen to add a new distribution preference
 
-
-![Examination Distribution Preferences](images/examination-distribution-preferences-1.png){:class='screenshot'}

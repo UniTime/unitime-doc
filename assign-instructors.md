@@ -6,13 +6,12 @@ title: Assign Instructors
 
 ## Screen Description
 
+In Assign Instructors, you can enter instructor names for each of the classes and set some properties of this assignment. When you assign an instructor to a departmental class, the preferences of the instructor are automatically inherited on the class if the instructor is marked as lead and has instructor preferences (even if "Inherit instructor preferences on a class" is set to "ask" or "never" in [Manager Settings](manager-settings)). You can assign more than one instructor to a class. You can also go through the instructional offerings (configurations) one by one using Next and/or Previous buttons.
 
- In Assign Instructors, you can enter instructor names for each of the classes and set some properties of this assignment. When you assign an instructor to a departmental class, the preferences of the instructor are automatically inherited on the class if the instructor is marked as lead and has instructor preferences (even if "Inherit instructor preferences on a class" is set to "ask" or "never" in [Manager Settings](manager-settings)). You can assign more than one instructor to a class. You can also go through the instructional offerings (configurations) one by one using Next and/or Previous buttons.
+![Assign Instructors](images/assign-instructors-1.png){:class='screenshot'}
 
 ## Details
-
-
- There is a line (or more) for each class of that configuration of the instructional offering.
+There is a line (or more) for each class of that configuration of the instructional offering.
 
 * **Trashbin icon**
 	* Displayed only if there is more than one instructor for a given class
@@ -70,5 +69,3 @@ title: Assign Instructors
 * **Back** (Alt+B)
 	* Go back to the [Instructional Offering Detail](instructional-offering-detail) screen without saving any changes
 
-
-![Assign Instructors](images/assign-instructors-1.png){:class='screenshot'}

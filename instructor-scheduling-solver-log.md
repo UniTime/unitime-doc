@@ -6,13 +6,11 @@ title: Instructor Scheduling Solver Log
 
 ## Screen Description
 
-
- The Instructor Scheduling Solver Log page can be useful to see what the solver has been doing. Also, any solver warnings and errors are listed in here.
+The Instructor Scheduling Solver Log page can be useful to see what the solver has been doing. Also, any solver warnings and errors are listed in here.
 
 ## Details
 
-
- The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
+The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
 
 * Trace - Most detailed log information
 

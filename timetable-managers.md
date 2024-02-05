@@ -6,13 +6,11 @@ title: Timetable Managers
 
 ## Screen Description
 
-
- The Timetable Managers screen contains a list of all users allowed to work with the timetabling application (all managers). The list can be sorted by any column heading in green color. Click on any manager to make changes.
+The Timetable Managers screen contains a list of all users allowed to work with the timetabling application (all managers). The list can be sorted by any column heading in green color. Click on any manager to make changes.
 
 ## Details
 
-
- The columns in the list are as follows
+The columns in the list are as follows
 
 * **Roles**
 	* Administrator - user who has access to all screens and can do anything
@@ -41,8 +39,7 @@ title: Timetable Managers
 * **Last Change**
 	* Last change made by the manager
 
-
- Click on a line with a manager to change the values in any of the columns.
+Click on a line with a manager to change the values in any of the columns.
 
 ## Operations
 

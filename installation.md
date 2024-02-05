@@ -212,40 +212,33 @@ An alternative JGroups configuration file can be provided with this property. Th
 
 ## Having Multiple Tomcats (Clustering)
 
-
- With UniTime 4.0, it is possible to run multiple instances of UniTime on a cluster of Tomcats and/or remote solver servers. Besides the Solver cluster and Enrollment cluster, it is also possible to form a Hibernate cluster that is used to replicate Hibernate L2 cache. The following properties can be used to configure the Hibernate cluster.
+With UniTime 4.0, it is possible to run multiple instances of UniTime on a cluster of Tomcats and/or remote solver servers. Besides the Solver cluster and Enrollment cluster, it is also possible to form a Hibernate cluster that is used to replicate Hibernate L2 cache. The following properties can be used to configure the Hibernate cluster.
 ```
 unitime.hibernate.cluster=true
 ```
 
-
- This property enables the Hibernate cluster. This cluster is used for replication of Hibernate second level cache between multiple UniTime instances.
+This property enables the Hibernate cluster. This cluster is used for replication of Hibernate second level cache between multiple UniTime instances.
 ```
 unitime.hibernate.port=7833
 ```
 
-
- Default communication port for the Hibernate cluster. If the given port is taken (e.g., there are running multiple remote solver server(s) on the same machine), the next one available will be used instead.
+Default communication port for the Hibernate cluster. If the given port is taken (e.g., there are running multiple remote solver server(s) on the same machine), the next one available will be used instead.
 ```
 unitime.hibernate.initial_hosts=127.0.0.1[7833]
 ```
 
-
- By default, TCP ping discovery is used to form a cluster. The above parameter defines a comma-separated list of machines (and their communication ports) on which a UniTime instance may be running. It does not necessarily need to have all the possible IP addresses; usually, it is set to the IP addresses of the Tomcat server(s) running UniTime.
+By default, TCP ping discovery is used to form a cluster. The above parameter defines a comma-separated list of machines (and their communication ports) on which a UniTime instance may be running. It does not necessarily need to have all the possible IP addresses; usually, it is set to the IP addresses of the Tomcat server(s) running UniTime.
 ```
 unitime.hibernate.jgroups.config=hibernate-jgroups-tcp.xml
 ```
 
+An alternative JGroups configuration file can be provided with this property. The default configuration file is available [here](https://github.com/UniTime/unitime/tree/master/JavaSource/hibernate-jgroups-tcp.xml).
 
- An alternative JGroups configuration file can be provided with this property. The default configuration file is available [here](https://github.com/UniTime/unitime/tree/master/JavaSource/hibernate-jgroups-tcp.xml).
-
-
- Please note that Hibernate cluster is only needed when there are two or more Tomcats running UniTime. Remote solver servers have the L2 cache disabled and hence no need to connect to the Hibernate cluster.
+Please note that Hibernate cluster is only needed when there are two or more Tomcats running UniTime. Remote solver servers have the L2 cache disabled and hence no need to connect to the Hibernate cluster.
 
 ## Using Oracle Database
 
-
- Here are some notes about using Oracle Database
+Here are some notes about using Oracle Database
 
 The following custom properties need to be set (connection URL, username, and password may vary)
 ```

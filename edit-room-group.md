@@ -6,13 +6,13 @@ title: Edit Room Group
 
 ## Screen Description
 
+In the Edit Room Group screen, you can change the room group's properties that you entered in the [Add Room Group](add-room-group) screen and you can indicate which rooms belong to this group.
 
- In the Edit Room Group screen, you can change the room group's properties that you entered in the [Add Room Group](add-room-group) screen and you can indicate which rooms belong to this group.
+![Edit Room Group](images/edit-room-group-1.png){:class='screenshot'}
 
 ## Details
 
-
- The first part of the screen is the same as the [Add Room Group](add-room-group) screen:
+The first part of the screen is the same as the [Add Room Group](add-room-group) screen:
 
 * **Name**
 	* A name that is helpful to you
@@ -30,8 +30,7 @@ title: Edit Room Group
 	* Indicates which department should be able to work with this room group
 	* Displayed only for departmental room groups
 
-
- The list of rooms assigned to a given department follows. It is divided into two parts:
+The list of rooms assigned to a given department follows. It is divided into two parts:
 
 * **Currently Assigned Rooms**
 	* The rooms that belong to this room group
@@ -51,6 +50,3 @@ title: Edit Room Group
 
 * **Back** (Alt+B)
 	* Go back to the [Room Groups](room-groups) screen without saving any changes
-
-
-![Edit Room Group](images/edit-room-group-1.png){:class='screenshot'}

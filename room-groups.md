@@ -6,16 +6,13 @@ title: Room Groups
 
 ## Screen Description
 
-
- In the Room Groups screen you have an overview of the groups of rooms applicable to the department selected in the upper part of the screen.
+In the Room Groups screen you have an overview of the groups of rooms applicable to the department selected in the upper part of the screen.
 
 ## Details
 
+Select the department for which you want to display its room groups in the drop down list next to the **Department** label.
 
- Select the department for which you want to display its room groups in the drop down list next to the **Department** label.
-
-
- The list of groups is divided into two parts:
+The list of groups is divided into two parts:
 
 * **Global Room Groups**
 	* Groups that are populated by administrators

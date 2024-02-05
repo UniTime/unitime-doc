@@ -6,8 +6,9 @@ title: Edit Distribution Preference
 
 ## Screen Description
 
+The Edit Distribution Preference screen provides interface for editing existing distribution preferences.
 
- The Edit Distribution Preference screen provides interface for editing existing distribution preferences.
+![Edit Distribution Preference](images/edit-distribution-preference-1.png){:class='screenshot'}
 
 ## Details
 
@@ -47,5 +48,3 @@ title: Edit Distribution Preference
 * **Back** (Alt+B)
 	* Go back to the previous screen without saving changes
 
-
-![Edit Distribution Preference](images/edit-distribution-preference-1.png){:class='screenshot'}

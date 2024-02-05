@@ -6,16 +6,13 @@ title: Majors
 
 ## Screen Description
 
-
- The Majors screen provides an overview of majors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
+The Majors screen provides an overview of majors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
 
 ## Details
 
+**Table**
 
- **Table**
-
-
- The table contains a major per line. The table can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
+The table contains a major per line. The table can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
 
 * External Id
 	* External id of the major

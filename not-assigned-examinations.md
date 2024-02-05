@@ -6,8 +6,7 @@ title: Not-Assigned Examinations
 
 ## Screen Description
 
-
- The Not-Assigned Examinations screen provides a list of examinations that have not yet been assigned period and room(s).
+The Not-Assigned Examinations screen provides a list of examinations that have not yet been assigned period and room(s).
 
 ## Filter
 
@@ -24,8 +23,7 @@ title: Not-Assigned Examinations
 
 ## Not-assigned Examinations
 
-
- A list of examinations that do not have assigned periods and rooms
+A list of examinations that do not have assigned periods and rooms
 
 * **Classes/Courses**
 	* Classes/Courses whose students should take this examination

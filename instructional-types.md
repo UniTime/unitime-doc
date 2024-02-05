@@ -6,11 +6,9 @@ title: Instructional Types
 
 ## Screen Description
 
+The Instructional Types screen provides a list of all instructional types available for the current academic session.
 
- The Instructional Types screen provides a list of all instructional types available for the current academic session.
-
-
- Instructional type is a property of a scheduling subpart, reflecting the nature of activity of classes of that subpart (Lecture, Lab, etc.).
+Instructional type is a property of a scheduling subpart, reflecting the nature of activity of classes of that subpart (Lecture, Lab, etc.).
 
 ## Details
 
@@ -31,8 +29,7 @@ title: Instructional Types
 	* Basic - these itypes are always a part of the drop down list in the [Instructional Offering Configuration](instructional-offering-configuration) screen
 	* Extended - these itypes are displayed in the [Instructional Offering Configuration](instructional-offering-configuration) screen only when the user clicks on "More Options >>>" in the drop down list
 
-
- Click on any itype to get to change its properties in the [Edit Instructional Type](edit-instructional-type) screen.
+Click on any itype to get to change its properties in the [Edit Instructional Type](edit-instructional-type) screen.
 
 ## Operations
 

@@ -6,8 +6,7 @@ title: Room Availability
 
 ## Screen Description
 
-
- The Room Availability screen provides a list of events that overlap with the examination periods of the selected examination problem. This screen is useful when an institution does not use the Event Management section of UniTime and imports information about room availability from external resources (see more about that [here](custom-room-availability)).
+The Room Availability screen provides a list of events that overlap with the examination periods of the selected examination problem. This screen is useful when an institution does not use the Event Management section of UniTime and imports information about room availability from external resources (see more about that [here](custom-room-availability)).
 
 ## Filter
 

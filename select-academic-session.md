@@ -6,21 +6,17 @@ title: Select Academic Session
 
 ## Screen Description
 
+In Select Academic Session screen, select an academic session on which you want to work (for which you want to be able to access input data, solver, and, if administrator, all the administration pages).
 
- In Select Academic Session screen, select an academic session on which you want to work (for which you want to be able to access input data, solver, and, if administrator, all the administration pages).
+Schedule managers with multiple roles will be presented with the [Select User Role](select-user-role) screen when they click on Change Role in the left hand side menu. Alternatively, you can get to this page by clicking on the Session field in the Current User window (bottom left of the screen).
 
-
- Schedule managers with multiple roles will be presented with the [Select User Role](select-user-role) screen when they click on Change Role in the left hand side menu. Alternatively, you can get to this page by clicking on the Session field in the Current User window (bottom left of the screen).
-
-
- This screen is also presented after log-in into the application, when there is no default academic session identified for the user, e.g., if there are multiple academic initiatives with sessions available.
+This screen is also presented after log-in into the application, when there is no default academic session identified for the user, e.g., if there are multiple academic initiatives with sessions available.
 
 ![Select Academic Session](images/select-academic-session.png){:class='screenshot'}
 
 ## Details
 
-
- Each option has the following columns
+Each option has the following columns
 
 * **User Role**
 	* Role such as Administrator, Department Schedule Manager, etc.

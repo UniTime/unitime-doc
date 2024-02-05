@@ -6,19 +6,15 @@ title: Change Message for Student
 
 ## Screen Description
 
-
- The Change message for (student's name) screen provides history of changes in enrollments of a given student into particular class(es). Even changes that did not result in enrollments (such as looking for alternatives, rescheduling, etc.) are listed here for the purpose of understanding how the student has worked with the scheduling assistant.
+The Change message for (student's name) screen provides history of changes in enrollments of a given student into particular class(es). Even changes that did not result in enrollments (such as looking for alternatives, rescheduling, etc.) are listed here for the purpose of understanding how the student has worked with the scheduling assistant.
 
 ## Details
 
+The screen is divided into several sections. The first and the last one are always the same, the middle sections depend on the operation of the change.
 
- The screen is divided into several sections. The first and the last one are always the same, the middle sections depend on the operation of the change.
+**General**
 
-
- **General**
-
-
- General properties of the change
+General properties of the change
 
 * **Operation**
 	* Operation performed during the change
@@ -55,44 +51,30 @@ title: Change Message for Student
 * **CPU Time [s]**
 	* Duration of the operation
 
+**Courses**
 
- **Courses**
+A list of courses subject to the change.
 
+**Stored Enrollments**
 
- A list of courses subject to the change.
+Usually enrollments stored in the database - a list of classes the student is enrolled to and their properties. For operation Enroll: The enrollments stored in the database at the end of the operation as the result of the enrollment.
 
+**Approved Enrollments**
 
- **Stored Enrollments**
+For operation Approve Enrollments: classes for which a consent has been granted during this change.
 
+**Requested Enrollments**
 
- Usually enrollments stored in the database - a list of classes the student is enrolled to and their properties. For operation Enroll: The enrollments stored in the database at the end of the operation as the result of the enrollment.
+For operation Enroll: The list of scheduled classes for which the student hits the Enroll button in the [Student Scheduling Assistant](student-scheduling-assistant) screen.
 
+**Previous Enrollments**
 
- **Approved Enrollments**
+Enrollments as stored in memory (not necessarily database) before the operation was executed.
 
+**Computed Enrollments**
 
- For operation Approve Enrollments: classes for which a consent has been granted during this change.
+Enrollments as calculated by computer after Schedule or Re-schedule button had been clicked. For operation Suggestions: A section of Computed Enrollments is created for each alternative suggestion in the [Alternatives](alternatives-for-class) screen.
 
+**Proto Buffer**
 
- **Requested Enrollments**
-
-
- For operation Enroll: The list of scheduled classes for which the student hits the Enroll button in the [Student Scheduling Assistant](student-scheduling-assistant) screen.
-
-
- **Previous Enrollments**
-
-
- Enrollments as stored in memory (not necessarily database) before the operation was executed.
-
-
- **Computed Enrollments**
-
-
- Enrollments as calculated by computer after Schedule or Re-schedule button had been clicked. For operation Suggestions: A section of Computed Enrollments is created for each alternative suggestion in the [Alternatives](alternatives-for-class) screen.
-
-
- **Proto Buffer**
-
-
- Very detailed information about the change in a computer-readable format.
+Very detailed information about the change in a computer-readable format.

@@ -6,16 +6,15 @@ title: Departments
 
 ## Screen Description
 
+The Departments screen contains a list of departments. Click on any department to edit its details.
 
- The Departments screen contains a list of departments. Click on any department to edit its details.
+![Departments](images/departments-1.png){:class='screenshot'}
 
 ## Details
 
+The top line contains the session for which the list is valid. You can change the session from the [Academic Sessions](academic-sessions) screen.
 
- The top line contains the session for which the list is valid. You can change the session from the [Academic Sessions](academic-sessions) screen.
-
-
- The list of departments consists of the following columns
+The list of departments consists of the following columns
 
 * **Number / Code**
 	* The departmental number (may be the departmental ID within the university)
@@ -76,5 +75,3 @@ title: Departments
 * **Export PDF** (ALT+P)
 	* Export the list of departments into a PDF document
 
-
-![Departments](images/departments-1.png){:class='screenshot'}

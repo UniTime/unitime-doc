@@ -6,8 +6,7 @@ title: Edit Application Setting
 
 ## Screen Description
 
-
- The Edit Application Setting screen provides interface for editing an existing application setting.
+The Edit Application Setting screen provides interface for editing an existing application setting.
 
 ![Edit Application Setting](images/edit-application-setting.png){:class='screenshot'}
 

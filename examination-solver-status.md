@@ -6,8 +6,7 @@ title: Examination Solver Status
 
 ## Description
 
-
- The Examination Solver Status section is displayed in the lower left hand side corner of the screen (below the menu) when examination solver is being used (otherwise it is a shaded tab next to the [Current User](current-user)).
+The Examination Solver Status section is displayed in the lower left hand side corner of the screen (below the menu) when examination solver is being used (otherwise it is a shaded tab next to the [Current User](current-user)).
 
 ## Details
 
@@ -42,5 +41,4 @@ title: Examination Solver Status
 * **Session**
 	* Session for which a timetable is being created
 
-
- You can click on the Examination Solver Status tab any time to refresh it. Otherwise it is refreshed automatically in regular intervals (such as every 10 seconds).
+You can click on the Examination Solver Status tab any time to refresh it. Otherwise it is refreshed automatically in regular intervals (such as every 10 seconds).

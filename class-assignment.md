@@ -6,13 +6,13 @@ title: Class Assignment
 
 ## Screen Description
 
+The Class Assignment screen provides interface for making changes to the current time and room assignment of a class. The changes can be made here  when no timetable is loaded (as opposed to the screens in the Solver section) since this screen only works with available times/rooms and does not provide suggestions that would include suggested changes of the assignment of other classes. The screen is accessible from the [Class Detail](class-detail) screen in case the department for this class has a committed solution (and no other solution is selected or loaded into the solver).
 
- The Class Assignment screen provides interface for making changes to the current time and room assignment of a class. The changes can be made here  when no timetable is loaded (as opposed to the screens in the Solver section) since this screen only works with available times/rooms and does not provide suggestions that would include suggested changes of the assignment of other classes. The screen is accessible from the [Class Detail](class-detail) screen in case the department for this class has a committed solution (and no other solution is selected or loaded into the solver).
+![Class Assignment](images/class-assignment-1.png){:class='screenshot'}
 
 ## Details
 
-
- The first section of the screen provides an overview of the class-related information.
+The first section of the screen provides an overview of the class-related information.
 
 * **Manager**
 	* Manager responsible for timetabling this class
@@ -61,8 +61,7 @@ title: Class Assignment
 
 ## New Assignment(s)
 
-
- A list of draft assignments that have been made through this screen. The new assignments are not executed until the **Assign** button is clicked. To remove an assignment from the list of new assignments, click on the **trash bin** at the beginning of the line.
+A list of draft assignments that have been made through this screen. The new assignments are not executed until the **Assign** button is clicked. To remove an assignment from the list of new assignments, click on the **trash bin** at the beginning of the line.
 
 * **Class**
 	* Class for which the assignment is about to change
@@ -81,8 +80,7 @@ title: Class Assignment
 
 ## Student Conflicts
 
-
- A list of student conflicts caused by new assignments.
+A list of student conflicts caused by new assignments.
 
 * **Students**
 	* Number of students for which a given conflict has occurred
@@ -98,13 +96,11 @@ title: Class Assignment
 
 ## Available Times
 
-
- A list of times available for the class that meet the restrictions on required time patterns. Time preferences are color coded in the text color of the times. To select a new time assignment for a class, click on the time.
+A list of times available for the class that meet the restrictions on required time patterns. Time preferences are color coded in the text color of the times. To select a new time assignment for a class, click on the time.
 
 ## Available Rooms
 
-
- A list of available rooms for the class. This section is displayed only when time for a class has been selected. "( selected size: X of Y )" next to the section header means that the rooms selected so far have a total of X seats available while the minimum required room capacity is Y.
+A list of available rooms for the class. This section is displayed only when time for a class has been selected. "( selected size: X of Y )" next to the section header means that the rooms selected so far have a total of X seats available while the minimum required room capacity is Y.
 
 * **Size**
 	* Only rooms with room capacity in this range will be displayed
@@ -133,11 +129,8 @@ title: Class Assignment
 * **Room Features**
 	* Limit displayed rooms by room feature
 
+Click **Apply** to apply changes to the list of rooms.
 
- Click **Apply** to apply changes to the list of rooms.
-
-
- Click on a room from the list of available rooms to tentatively assign it to the class (and add the assignment to the New Assignment(s) section where it can be confirmed or removed).
+Click on a room from the list of available rooms to tentatively assign it to the class (and add the assignment to the New Assignment(s) section where it can be confirmed or removed).
 
 
-![Class Assignment](images/class-assignment-1.png){:class='screenshot'}

@@ -6,11 +6,9 @@ title: Solver Groups
 
 ## Screen Description
 
+The Solver Groups screen provides a list of solver groups for the current academic session.
 
- The Solver Groups screen provides a list of solver groups for the current academic session.
-
-
- A solver group is a group of departments and managers where each of the managers can create (and commit) a timetable for all the given departments together. A department can only be in one solver group, but a manager can be a part of more than one solver group.
+A solver group is a group of departments and managers where each of the managers can create (and commit) a timetable for all the given departments together. A department can only be in one solver group, but a manager can be a part of more than one solver group.
 
 ## Details
 
@@ -29,8 +27,7 @@ title: Solver Groups
 * **Committed**
 	* Date and time when a timetable was committed for the solver group
 
-
- Click on any solver group to edit it in the [Edit Solver Group](edit-solver-group) screen.
+Click on any solver group to edit it in the [Edit Solver Group](edit-solver-group) screen.
 
 ## Operations
 

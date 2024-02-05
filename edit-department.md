@@ -6,8 +6,9 @@ title: Edit Department
 
 ## Screen Description
 
+Edit an existing department in the Edit Department screen.
 
- Edit an existing department in the Edit Department screen.
+![Edit Department](images/edit-department-1.png){:class='screenshot'}
 
 ## Details
 
@@ -93,5 +94,3 @@ title: Edit Department
 * **Back** (ALT+B)
 	* Go back to the [Departments](departments) screen without saving changes
 
-
-![Edit Department](images/edit-department-1.png){:class='screenshot'}

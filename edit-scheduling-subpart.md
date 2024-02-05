@@ -6,8 +6,9 @@ title: Edit Scheduling Subpart
 
 ## Screen Description
 
+In the Scheduling Subpart Edit screen, you can change a few properties of the scheduling subpart and enter preferences which will then be applied to the classes of the scheduling subpart. The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences). Changes made to this screen are not saved until you click on the Update, Previous, or Next button.
 
- In the Scheduling Subpart Edit screen, you can change a few properties of the scheduling subpart and enter preferences which will then be applied to the classes of the scheduling subpart. The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences). Changes made to this screen are not saved until you click on the Update, Previous, or Next button.
+![Edit Scheduling Subpart](images/edit-scheduling-subpart-1.png){:class='screenshot'}
 
 ## Details
 
@@ -36,8 +37,7 @@ title: Edit Scheduling Subpart
 
 ## Preferences
 
-
- **Time Preferences**
+**Time Preferences**
 
 * If you don't see any time grid, you need to select a time pattern from the drop down list and click **Add Time Preference** (Alt+T)
 
@@ -55,8 +55,7 @@ title: Edit Scheduling Subpart
 
 * Note: To express that e.g. the classes of this scheduling subpart can only be taught on Monday, Wednesday, and Friday, fill in Tuesday and Thursday times as "Prohibited" (as opposed to setting Monday, Wednesday, and Friday as "Required"); this leaves you flexibility to indicate preferred or discouraged times within Monday, Wednesday, and Friday
 
-
- **Room Group Preferences**
+**Room Group Preferences**
 
 * Select a room group from the first drop down list and the preference level from the second drop down list
 
@@ -68,8 +67,7 @@ title: Edit Scheduling Subpart
 
 * Blank lines are ignored
 
-
- **Room Preferences**
+**Room Preferences**
 
 * Select a room from the first drop down list and the preference level from the second drop down list
 
@@ -81,8 +79,7 @@ title: Edit Scheduling Subpart
 
 * Blank lines are ignored
 
-
- **Building Preferences**
+**Building Preferences**
 
 * Select a building from the first drop down list and the preference level from the second drop down list
 
@@ -94,8 +91,7 @@ title: Edit Scheduling Subpart
 
 * Blank lines are ignored
 
-
- **Room Feature Preferences**
+**Room Feature Preferences**
 
 * Select a room feature from the first drop down list and the preference level from the second drop down list
 
@@ -128,15 +124,11 @@ title: Edit Scheduling Subpart
 
 ## Notes
 
+**Room Groups vs. Room Features**
 
- **Room Groups vs. Room Features**
-
-
- The difference between room groups and room features is as follows:
+The difference between room groups and room features is as follows:
 
 * If you require more than one room group for a given scheduling subpart, it is sufficient if the assigned room belongs to one of them
 
 * If you require more than one room feature, the assigned room has to have all of them
 
-
-![Edit Scheduling Subpart](images/edit-scheduling-subpart-1.png){:class='screenshot'}

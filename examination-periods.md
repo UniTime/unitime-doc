@@ -6,8 +6,9 @@ title: Examination Periods
 
 ## Screen Description
 
+The Examination Periods screen provides a list of all examination periods set up for the current session.
 
- The Examination Periods screen provides a list of all examination periods set up for the current session.
+![Examination Periods](images/examination-periods-1.png){:class='screenshot'}
 
 ## Details
 
@@ -32,8 +33,7 @@ title: Examination Periods
 * **Preference**
 	* Is it preferable in general to use this examination period? For example, some schools may discourage examinations on Saturdays (there are still examination periods on Saturday, but if possible, examinations are timetabled on other days)
 
-
- Click on any examination period to get to its [Edit Examination Period](edit-examination-period) screen.
+Click on any examination period to get to its [Edit Examination Period](edit-examination-period) screen.
 
 ## Operations
 
@@ -42,6 +42,3 @@ title: Examination Periods
 
 * **Midterm Periods**
 	* Go to the [Setup Examination Periods](setup-examination-periods) screen to set up midterm examination periods all at once
-
-
-![Examination Periods](images/examination-periods-1.png){:class='screenshot'}

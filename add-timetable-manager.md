@@ -6,18 +6,17 @@ title: Add Timetable Manager
 
 ## Screen Description
 
+In the Add Timetable Manager screen you can add a new user and indicate which departments should be associated with him/her.
 
- In the Add Timetable Manager screen you can add a new user and indicate which departments should be associated with him/her.
+![Add Timetable Manager](images/add-timetable-manager-1.png){:class='screenshot'}
 
 ## Details
 
-
- There are two different layouts of the upper part of the screen, in one case all users are entered through the timetabling application (users are authenticated by the application), in the other case the application is connected to an employee database (users are authenticated through an external interface).
+There are two different layouts of the upper part of the screen, in one case all users are entered through the timetabling application (users are authenticated by the application), in the other case the application is connected to an employee database (users are authenticated through an external interface).
 
 ### Using Internal Authentication
 
-
- The upper part of the screen contains the following
+The upper part of the screen contains the following
 
 * **Academic Session**
 	* Session to which the new user should have access
@@ -37,8 +36,7 @@ title: Add Timetable Manager
 
 ### Using External Authentication
 
-
- The upper part of the screen contains the following
+The upper part of the screen contains the following
 
 * **Academic Session**
 	* Session to which the new user should have access
@@ -56,27 +54,21 @@ title: Add Timetable Manager
 
 ### Departments
 
+Select a department in the drop down list and click **Add Department** to make the user a manager for a department. Add as many departments as needed.
 
- Select a department in the drop down list and click **Add Department** to make the user a manager for a department. Add as many departments as needed.
-
-
- Note: A user that has "Departmental Schedule Manager" role has to be associated with at least one department.
+Note: A user that has "Departmental Schedule Manager" role has to be associated with at least one department.
 
 ### Solver Groups
 
-
- Select a solver group for which the user should be able to create a timetable and click **Add Solver Group**. Do it for all solver groups to which the user should have access.
+Select a solver group for which the user should be able to create a timetable and click **Add Solver Group**. Do it for all solver groups to which the user should have access.
 
 ### Roles
 
+Select a role for the user from the drop down list and click **Add Role**. Add as many roles as needed and then select which one of them should be the primary role (the one applied whenever the user logs on to the application).
 
- Select a role for the user from the drop down list and click **Add Role**. Add as many roles as needed and then select which one of them should be the primary role (the one applied whenever the user logs on to the application).
+Note: Only the "Departmental Schedule Manager" role reflects the choice of departments and solver groups in this screen. "View All" and "Administrator" have access to all data (a user in the "View All" role cannot make any changes and can only see committed timetables).
 
-
- Note: Only the "Departmental Schedule Manager" role reflects the choice of departments and solver groups in this screen. "View All" and "Administrator" have access to all data (a user in the "View All" role cannot make any changes and can only see committed timetables).
-
-
- Note: A user needs to be associated with at least one role.
+Note: A user needs to be associated with at least one role.
 
 ## Operations
 
@@ -87,4 +79,3 @@ title: Add Timetable Manager
 	* Go back to the [Timetable Managers](timetable-managers) screen without saving this new user
 
 
-![Add Timetable Manager](images/add-timetable-manager-1.png){:class='screenshot'}

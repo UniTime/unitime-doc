@@ -6,8 +6,9 @@ title: Add Room
 
 ## Screen Description
 
+The administrative page Add Room allows the administrator to add a new room in any existing building (a building can be added from the [Buildings](buildings) screen). Schedule managers may use the page to add locations that are not on campus (or not in the room inventory).
 
- The administrative page Add Room allows the administrator to add a new room in any existing building (a building can be added from the [Buildings](buildings) screen). Schedule managers may use the page to add locations that are not on campus (or not in the room inventory).
+![Add Room](images/add-room-1.png){:class='screenshot'}
 
 ## Details
 
@@ -157,6 +158,3 @@ title: Add Room
 
 * **Back** (Alt+B)
 	* Go back to the [Rooms](rooms) screen without saving any changes
-
-
-![Add Room](images/add-room-1.png){:class='screenshot'}

@@ -6,8 +6,9 @@ title: Current User
 
 ## Screen Description
 
+The Current User section can be found below the left hand side menu (in the lower left hand side corner). It provides basic data about the user currently logged on and the current academic session.
 
- The Current User section can be found below the left hand side menu (in the lower left hand side corner). It provides basic data about the user currently logged on and the current academic session.
+![Current User](images/current-user-1.png){:class='screenshot'}
 
 ## Details
 
@@ -37,5 +38,3 @@ title: Current User
 * **Logged**
 	* Date and time of last login
 
-
-![Current User](images/current-user-1.png){:class='screenshot'}

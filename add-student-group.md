@@ -6,8 +6,7 @@ title: Add Student Group
 
 ## Screen Description
 
-
- The Add Student Group screen provides interface for adding a new student group without an External Id (groups with External Id can only be imported and their External Id is not editable in UniTime).
+The Add Student Group screen provides interface for adding a new student group without an External Id (groups with External Id can only be imported and their External Id is not editable in UniTime).
 
 ## Details
 

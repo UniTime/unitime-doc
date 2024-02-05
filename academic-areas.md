@@ -3,19 +3,13 @@ layout: default
 title: Academic Areas
 ---
 
-## Screen Description
-
- The Academic Areas screen provides an overview of academic areas for a given session. It also has an editable version for authorized users (accessible by clicking on the Edit button).
+## Screen DescriptionThe Academic Areas screen provides an overview of academic areas for a given session. It also has an editable version for authorized users (accessible by clicking on the Edit button).
 
 ![Academic Areas](images/academic-areas.png){:class='screenshot'}
 
 ## Details
-
-
- **Table**
-
-
- The table contains an academic area per each line. It can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
+**Table**
+The table contains an academic area per each line. It can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
 * External Id
 	* External id of the academic area
@@ -31,9 +25,7 @@ title: Academic Areas
 
 * **×** (in the editable version)
 	* Remove the academic area
-
-
- In the editable version of the table, each field can be edited by an authorized user.
+In the editable version of the table, each field can be edited by an authorized user.
 
 ## Operations
 

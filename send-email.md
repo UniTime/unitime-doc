@@ -6,13 +6,11 @@ title: Send email...
 
 ## Screen Description
 
-
- The Send email... screen (or pop-up window) provides interface for sending an email to one or more students during online student scheduling.
+The Send email... screen (or pop-up window) provides interface for sending an email to one or more students during online student scheduling.
 
 ## Details
 
-
- Note: The names of the students addressed by this email (selected in the previous screen) are not displayed in this screen.
+Note: The names of the students addressed by this email (selected in the previous screen) are not displayed in this screen.
 
 * **Subject**
 	* The Subject is pre-populated with "Class schedule for %session%", where "%session%" will be replaced with the name of the current session automatically

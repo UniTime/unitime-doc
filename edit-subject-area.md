@@ -6,8 +6,9 @@ title: Edit Subject Area
 
 ## Screen Description
 
+The Edit Subject Area screen provides administrators with interface for editing an existing subject area.
 
- The Edit Subject Area screen provides administrators with interface for editing an existing subject area.
+![Edit Subject Area](images/edit-subject-area-1.png){:class='screenshot'}
 
 ## Details
 
@@ -44,6 +45,3 @@ title: Edit Subject Area
 
 * **Back** (ALT+B)
 	* Go back to the [Subject Areas](subject-areas) screen without saving any changes
-
-
-![Edit Subject Area](images/edit-subject-area-1.png){:class='screenshot'}

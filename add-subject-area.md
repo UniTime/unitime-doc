@@ -6,8 +6,9 @@ title: Add Subject Area
 
 ## Screen Description
 
+The Add Subject Area screen provides you with interface for adding a new subject area.
 
- The Add Subject Area screen provides you with interface for adding a new subject area.
+![Add Subject Area](images/add-subject-area-1.png){:class='screenshot'}
 
 ## Details
 
@@ -41,4 +42,3 @@ title: Add Subject Area
 	* Go back to the [Subject Areas](subject-areas) screen without saving any changes
 
 
-![Add Subject Area](images/add-subject-area-1.png){:class='screenshot'}

@@ -6,11 +6,11 @@ title: Add Solver Group
 
 ## Screen Description
 
+The Add Solver Group screen provides interface for adding a new solver group.
 
- The Add Solver Group screen provides interface for adding a new solver group.
+![Add Solver Group](images/add-solver-group-1.png){:class='screenshot'}
 
-
- The new solver group can include only departments that are not a part of another solver group. It can include any existing managers.
+The new solver group can include only departments that are not a part of another solver group. It can include any existing managers.
 
 ## Details
 
@@ -35,6 +35,3 @@ title: Add Solver Group
 
 * **Back**
 	* Go back to the [Solver Groups](solver-groups) screen without saving this new solver group
-
-
-![Add Solver Group](images/add-solver-group-1.png){:class='screenshot'}

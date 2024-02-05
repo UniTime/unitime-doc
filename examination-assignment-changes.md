@@ -6,15 +6,15 @@ title: Examination Assignment Changes
 
 ## Screen Description
 
+In the Examination Assignment Changes screen, you can see changes made to the examination timetable. You can compare the current timetable with the Initial, Best, or Saved timetable. You can click on any change get to the [Examination Assignment](examination-assignment) screen for the changed exam.
 
- In the Examination Assignment Changes screen, you can see changes made to the examination timetable. You can compare the current timetable with the Initial, Best, or Saved timetable. You can click on any change get to the [Examination Assignment](examination-assignment) screen for the changed exam.
+![Examination Assignment Changes](images/examination-assignment-changes-1.png){:class='screenshot'}
 
 ## Details
 
 ### Filter
 
-
- Set up the filter to display changes you are interested in.
+Set up the filter to display changes you are interested in.
 
 * **Show classes/courses**
 	* Show classes/courses instead of examination name
@@ -36,8 +36,7 @@ title: Examination Assignment Changes
 
 ### Changes
 
-
- A list of changes in period/room assignments. Click on any change to go to the [Examination Assignment](examination-assignment) screen to see the details about the examination and make a change in its assignment.
+A list of changes in period/room assignments. Click on any change to go to the [Examination Assignment](examination-assignment) screen to see the details about the examination and make a change in its assignment.
 
 ## Operations
 
@@ -50,5 +49,3 @@ title: Examination Assignment Changes
 * **Refresh**
 	* Refresh the screen
 
-
-![Examination Assignment Changes](images/examination-assignment-changes-1.png){:class='screenshot'}

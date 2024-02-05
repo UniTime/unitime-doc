@@ -6,16 +6,13 @@ title: Select User Role
 
 ## Screen Description
 
+In Select User Role screen, select an academic session on which you want to work (for which you want to be able to access input data, solver, and, if administrator, all the administration pages) and the user role under which you want to work.
 
- In Select User Role screen, select an academic session on which you want to work (for which you want to be able to access input data, solver, and, if administrator, all the administration pages) and the user role under which you want to work.
-
-
- This screen is also presented after log-in into the application, when there is no default academic session identified for the user with multiple roles, e.g., if there are multiple academic initiatives with sessions available.
+This screen is also presented after log-in into the application, when there is no default academic session identified for the user with multiple roles, e.g., if there are multiple academic initiatives with sessions available.
 
 ## Details
 
-
- Each option has the following columns
+Each option has the following columns
 
 * **User Role**
 	* Role such as Administrator, Department Schedule Manager, etc.

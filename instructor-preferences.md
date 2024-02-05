@@ -6,13 +6,11 @@ title: Instructor Preferences
 
 ## Screen Description
 
-
- In the Instructor Preferences screen, you can enter instructor's preferences which will then be applied to the classes to which this instructor is assigned as (if conflict checking is turned on for those classes). The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences).
+In the Instructor Preferences screen, you can enter instructor's preferences which will then be applied to the classes to which this instructor is assigned as (if conflict checking is turned on for those classes). The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences).
 
 ## Preferences
 
-
- **Time Preferences**
+**Time Preferences**
 
 * Select the size (range) of time grid that you want to work with in the drop down menu above the time grid
 	* The default setting that you see when you enter the screen is what you can set up in the [Manager Settings](manager-settings) screen (in the main menu, go to Preferences → Settings; then click on "Time Grid Default Selection" to change the default time grid
@@ -27,8 +25,7 @@ title: Instructor Preferences
 
 * Note: To express that e.g. the instructor cannot teach on Tuesday and Thursday, fill in Tuesday and Thursday times as "Prohibited" (rather than setting Monday, Wednesday, and Friday as "Required") ; this leaves you flexibility to indicate preferred or discouraged times within Monday, Wednesday, and Friday
 
-
- **Room Group Preferences**
+**Room Group Preferences**
 
 * Select a room group from the first drop down list and the preference level from the second drop down list
 
@@ -40,8 +37,7 @@ title: Instructor Preferences
 
 * Blank lines are ignored
 
-
- **Room Preferences**
+**Room Preferences**
 
 * Select a room from the first drop down list and the preference level from the second drop down list
 
@@ -53,8 +49,7 @@ title: Instructor Preferences
 
 * Blank lines are ignored
 
-
- **Building Preferences**
+**Building Preferences**
 
 * Select a building from the first drop down list and the preference level from the second drop down list
 
@@ -66,8 +61,7 @@ title: Instructor Preferences
 
 * Blank lines are ignored
 
-
- **Room Feature Preferences**
+**Room Feature Preferences**
 
 * Select a room feature from the first drop down list and the preference level from the second drop down list
 
@@ -79,8 +73,7 @@ title: Instructor Preferences
 
 * Blank lines are ignored
 
-
- **Distribution Preferences**
+**Distribution Preferences**
 
 * The distribution preferences that you set up on an instructor will be applied to all the classes that the instructor is teaching, but only during the departmental timetabling
 	* Example: If the instructor teaches three classes and you put in that he/she requires his/her classes to be back-to-back, all three of these classes will have to be back-to-back; if you want to specify which two of these three classes need to be back-to-back, you will need to put the distribution preference on the classes themselves, not on the instructor (you can do that for example by clicking on "Add Distribution Preference" in the [Class Detail](class-detail) screen of one of those classes)
@@ -95,8 +88,7 @@ title: Instructor Preferences
 
 * Blank lines are ignored
 
-
- **Unavailable Dates**
+**Unavailable Dates**
 
 * This table can be used to mark the days of the semester when the instructor is not available to teach classes.
 

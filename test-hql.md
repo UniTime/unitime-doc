@@ -6,8 +6,7 @@ title: Test HQL
 
 ## Screen Description
 
-
- The Test HQL screen is a place to enter an [HQL](http://www.hibernate.org/hib_docs/reference/en/html/queryhql.html) query which uses the timetabling database and see the results of such query.
+The Test HQL screen is a place to enter an [HQL](http://www.hibernate.org/hib_docs/reference/en/html/queryhql.html) query which uses the timetabling database and see the results of such query.
 
 ## Details
 

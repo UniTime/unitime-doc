@@ -6,13 +6,11 @@ title: Edit Student Groups
 
 ## Screen Description
 
-
- The Edit Student Groups screen makes it possible to edit all of the student groups in one place.
+The Edit Student Groups screen makes it possible to edit all of the student groups in one place.
 
 ## Details
 
-
- The columns in the table are as follows
+The columns in the table are as follows
 
 * **External Id**
 	* Id of the student group as used outside UniTime
@@ -29,8 +27,7 @@ title: Edit Student Groups
 		* Click on this icon to edit the list of students in the student group
 		* If the student group has been imported from an authoritative source and has an External Id, editing of the students is not possible and this icon is not displayed
 
-
- There are two icons at the end of each line
+There are two icons at the end of each line
 
 * **+ icon:** Add a new line to add a new student group
 

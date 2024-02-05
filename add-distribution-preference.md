@@ -6,8 +6,7 @@ title: Add Distribution Preference
 
 ## Screen Description
 
-
- The Add Distribution Preference screen is used to define a new distribution preference.
+The Add Distribution Preference screen is used to define a new distribution preference.
 
 ![Add Distribution Preference](images/add-distribution-preference.png){:class='screenshot'}
 

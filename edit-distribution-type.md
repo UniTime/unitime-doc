@@ -6,15 +6,15 @@ title: Edit Distribution Type
 
 ## Screen Description
 
+In the Edit Distribution Type screen you can edit the information displayed about a type of a distribution preference and limit access to that preference to certain departments. You cannot redefine what a distribution preference does.
 
- In the Edit Distribution Type screen you can edit the information displayed about a type of a distribution preference and limit access to that preference to certain departments. You cannot redefine what a distribution preference does.
+![Edit Distribution Type](images/edit-distribution-type-1.png){:class='screenshot'}
 
 ## Details
 
 ### Type
 
-
- The "reference" of the distribution type is listed on the top line (it is the name of the type recognized by solver, cannot be edited in the timetabling application)
+The "reference" of the distribution type is listed on the top line (it is the name of the type recognized by solver, cannot be edited in the timetabling application)
 
 * **ID**
 	* ID of the distribution type
@@ -55,5 +55,3 @@ title: Edit Distribution Type
 * **Back**
 	* Go back to the [Distribution Types](distribution-types) screen without saving any changes
 
-
-![Edit Distribution Type](images/edit-distribution-type-1.png){:class='screenshot'}

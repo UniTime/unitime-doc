@@ -6,13 +6,13 @@ title: Contact Us
 
 ## Screen Description
 
+The Contact Us screen provides interface for the users to contact support people (either technical or timetabling support).
 
- The Contact Us screen provides interface for the users to contact support people (either technical or timetabling support).
+![Contact Us](images/contact-us-1.png){:class='screenshot'}
 
 ## Inquiry Details
 
-
- The various parts of an inquiry are
+The various parts of an inquiry are
 
 * **Category**
 	* Category of an inquiry; based on this category, the Message part is pre-populated with text indicating which information is required to successfully respond to the inquiry
@@ -28,9 +28,6 @@ title: Contact Us
 	* Body of the message sent to the support person(s) (pre-populated with some items for certain categories)
 
 
-![Contact Us](images/contact-us-1.png){:class='screenshot'}
-
 ## Contact Information
 
-
- Other means of contacts of the support team (may include office address, phone, email, and office hours). These can be defined in the application's custom properties file, properties ```tmtbl.contact.*```. See [Timetabling Installation](installation) for more details.
+Other means of contacts of the support team (may include office address, phone, email, and office hours). These can be defined in the application's custom properties file, properties ```tmtbl.contact.*```. See [Timetabling Installation](installation) for more details.

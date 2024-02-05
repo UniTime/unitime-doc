@@ -6,8 +6,7 @@ title: Solver Configurations
 
 ## Screen Description
 
-
- The Solver Configurations screen provides a list of solver configurations that can currently be used. See the Notes section below for some examples.
+The Solver Configurations screen provides a list of solver configurations that can currently be used. See the Notes section below for some examples.
 
 ## Details
 
@@ -20,8 +19,7 @@ title: Solver Configurations
 * **Appearance**
 	* Names of screens in which this configuration appears (can be used)
 
-
- Click on any solver configuration to go to its [Edit Solver Configuration](edit-solver-configuration) screen. This screen will also provide you with a lot more information about a given configuration than what can be seen in the list.
+Click on any solver configuration to go to its [Edit Solver Configuration](edit-solver-configuration) screen. This screen will also provide you with a lot more information about a given configuration than what can be seen in the list.
 
 
 ![Solver Configurations](images/solver-configurations-1.png){:class='screenshot'}
@@ -33,8 +31,7 @@ title: Solver Configurations
 
 ## Notes
 
-
- As an example, here is a brief description of three configurations present in the [online demo](http://www.unitime.org/uct_demo.php) for course timetabling:
+As an example, here is a brief description of three configurations present in the [online demo](http://www.unitime.org/uct_demo.php) for course timetabling:
 
 * **Check**
 	* Purpose: Check if input data is consistent and whether there is a complete (feasible) timetable consistent with the input data

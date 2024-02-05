@@ -6,13 +6,11 @@ title: Room Detail
 
 ## Screen Description
 
-
- The Room Detail screen provides details about a particular room or non-university location.
+The Room Detail screen provides details about a particular room or non-university location.
 
 ## Details
 
-
- The top line consists of the room name and all the buttons described in the Operations section of this page.
+The top line consists of the room name and all the buttons described in the Operations section of this page.
 
 * **Type**
 	* Room type of this room (room types are defined in Administration → Other → [Room Types](room-types))

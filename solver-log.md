@@ -6,16 +6,13 @@ title: Solver Log
 
 ## Screen Description
 
+The Solver Log screen can help an advanced user find what has been happening with the solver. The warnings and/or errors in the log are also displayed in the [Timetables](timetables) screen and in the [Solver](solver) screen.
 
- The Solver Log screen can help an advanced user find what has been happening with the solver. The warnings and/or errors in the log are also displayed in the [Timetables](timetables) screen and in the [Solver](solver) screen.
-
-
- Hint: See [Solver Warnings](solver-warnings) to see a detailed list of warnings and errors that may be produced by the solver. If you see a FATAL message, keep the solver in the memory and use [Contact Us](contact-us) (located in Help menu) page to report a problem.
+Hint: See [Solver Warnings](solver-warnings) to see a detailed list of warnings and errors that may be produced by the solver. If you see a FATAL message, keep the solver in the memory and use [Contact Us](contact-us) (located in Help menu) page to report a problem.
 
 ## Details
 
-
- The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
+The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
 
 * Trace - Most detailed log information
 

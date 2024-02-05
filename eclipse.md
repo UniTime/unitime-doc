@@ -4,17 +4,14 @@ title: Eclipse
 ---
 
 
-
- 1) Download and install Eclipse IDE for Enterprise Java and Web Developers (Eclipse IDE 2022‑12), e.g., from [eclipse.org/downloads](https://www.eclipse.org/downloads/) using the Eclipse Installer
-
-
-![Eclipse](images/eclipse-1.png){:class='screenshot'}
+1) Download and install Eclipse IDE for Enterprise Java and Web Developers (Eclipse IDE 2022‑12), e.g., from [eclipse.org/downloads](https://www.eclipse.org/downloads/) using the Eclipse Installer
 
 
- 2) Create UniTime project
+![Eclipse](images/eclipse-1.png){:class='screenshot small'}
 
+2) Create UniTime project
 
- If you plan to make changes, you should consider forking the [UniTime](https://github.com/UniTime/unitime) project first. See [Fork A Repo](https://help.github.com/articles/fork-a-repo/) for more details.
+If you plan to make changes, you should consider forking the [UniTime](https://github.com/UniTime/unitime) project first. See [Fork A Repo](https://help.github.com/articles/fork-a-repo/) for more details.
 
 * File > Import, select Git > Project from Git, Next
 
@@ -32,31 +29,30 @@ title: Eclipse
 * Once cloned, hit Next (import existing Eclipse projects) and Finish
 
 
-![Eclipse](images/eclipse-2.png){:class='screenshot'}
+![Eclipse](images/eclipse-2.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-3.png){:class='screenshot'}
+![Eclipse](images/eclipse-3.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-4.png){:class='screenshot'}
+![Eclipse](images/eclipse-4.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-5.png){:class='screenshot'}
+![Eclipse](images/eclipse-5.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-6.png){:class='screenshot'}
+![Eclipse](images/eclipse-6.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-7.png){:class='screenshot'}
+![Eclipse](images/eclipse-7.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-8.png){:class='screenshot'}
+![Eclipse](images/eclipse-8.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-9.png){:class='screenshot'}
+![Eclipse](images/eclipse-9.png){:class='screenshot small'}
 
-
- 3) Install GWT Eclipse Plugin
+3) Install GWT Eclipse Plugin
 
 * Help > Install New Software...
 
@@ -68,7 +64,7 @@ title: Eclipse
 	* If there is a warning about installing software that contains unsigned content, click OK
 
 
-![Eclipse](images/eclipse-10.png){:class='screenshot'}
+![Eclipse](images/eclipse-10.png){:class='screenshot small'}
 
 * Download the latest GWT (e.g., GWT 2.10.0) from [gwtproject.org/download.html](http://www.gwtproject.org/download.html) and unzip it.
 
@@ -79,62 +75,55 @@ title: Eclipse
 * Select the newly added GWT 2.10.0 as the default, click OK
 
 
-![Eclipse](images/eclipse-11.png){:class='screenshot'}
+![Eclipse](images/eclipse-11.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-12.png){:class='screenshot'}
+![Eclipse](images/eclipse-12.png){:class='screenshot small'}
 
 * Right-click on the UniTime project, click Properties, select GWT > Web Application, toggle "This project has a WAR directory", set WAR directory to "WebContent" and click OK
 
 
-![Eclipse](images/eclipse-13.png){:class='screenshot'}
+![Eclipse](images/eclipse-13.png){:class='screenshot small'}
 
-
- Additiona Configuration
+Additiona Configuration
 
 * Right-click on the UniTime project, click Properties
 
 * Select Project Facets, make sure that Dynamic Web Module (**version 4.0**), GWT, and Java (**version 1.8**) are selected, click Apply
 
 
-![Eclipse](images/eclipse-14.png){:class='screenshot'}
+![Eclipse](images/eclipse-14.png){:class='screenshot small'}
 
 * Select Deployment Assembly, and update the screen to look like this, hit Apply
 	* /JavaSouce deploys as WEB-INF/classes
 	* /WebContent deploys as /
 
 
-![Eclipse](images/eclipse-15.png){:class='screenshot'}
+![Eclipse](images/eclipse-15.png){:class='screenshot small'}
 
+4) Setup Apache Tomcat
 
- 4) Setup Apache Tomcat
+This guide expects that you already have the Apache Tomcat downloaded and installed somewhere.
 
-
- This guide expects that you already have the Apache Tomcat downloaded and installed somewhere.
-
-
- a) Setup JRE and its parameters
+a) Setup JRE and its parameters
 
 * Open File > Properties, select Java > Installed JREs, click Edit
 
 * Put in the following Default VM arguments, hit Finish
 
-
- -Xmx2g
+-Xmx2g
 
 * You can also include a path to the UniTime custom.properties file if needed
 
-
- -Dtmtbl.custom.properties=/path/to/custom.properties
-
-
-![Eclipse](images/eclipse-16.png){:class='screenshot'}
+-Dtmtbl.custom.properties=/path/to/custom.properties
 
 
-![Eclipse](images/eclipse-17.png){:class='screenshot'}
+![Eclipse](images/eclipse-16.png){:class='screenshot small'}
 
 
- b) Create Apache Tomcat v.9.0 server configuration
+![Eclipse](images/eclipse-17.png){:class='screenshot small'}
+
+b) Create Apache Tomcat v.9.0 server configuration
 
 * Open File > Properties, select Server > Runtime Environments, click Add
 
@@ -143,16 +132,15 @@ title: Eclipse
 * Select Tomcat installation directory, hit Finish
 
 
-![Eclipse](images/eclipse-18.png){:class='screenshot'}
+![Eclipse](images/eclipse-18.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-19.png){:class='screenshot'}
+![Eclipse](images/eclipse-19.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-20.png){:class='screenshot'}
+![Eclipse](images/eclipse-20.png){:class='screenshot small'}
 
-
- c) Compile GWT
+c) Compile GWT
 
 * Right click on the UniTime project, select GWT, click on Compile
 
@@ -161,13 +149,12 @@ title: Eclipse
 * If asked, select WebContent as the WAR directory
 
 
-![Eclipse](images/eclipse-21.png){:class='screenshot'}
+![Eclipse](images/eclipse-21.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-22.png){:class='screenshot'}
+![Eclipse](images/eclipse-22.png){:class='screenshot small'}
 
-
- d) Deploy UniTime
+d) Deploy UniTime
 
 * On the Servers tab, double-click Tomcat v9.0 Server at localhost
 
@@ -178,20 +165,19 @@ title: Eclipse
 * Save changes
 
 
-![Eclipse](images/eclipse-23.png){:class='screenshot'}
+![Eclipse](images/eclipse-23.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-24.png){:class='screenshot'}
+![Eclipse](images/eclipse-24.png){:class='screenshot small'}
 
 
-![Eclipse](images/eclipse-25.png){:class='screenshot'}
+![Eclipse](images/eclipse-25.png){:class='screenshot small'}
 
-
- d) Start the Tomcat
+d) Start the Tomcat
 
 * On the Servers tab, select Tomcat v9.0 and click the debug (little green bug) or start (green round icon with a triangle in it) 
 
 * Check the Console tab for any errors
 
 
-![Eclipse](images/eclipse-26.png){:class='screenshot'}
+![Eclipse](images/eclipse-26.png){:class='screenshot small'}

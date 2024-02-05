@@ -6,16 +6,13 @@ title: Published Schedule Runs
 
 ## Screen Description
 
-
- Since UniTime 4.4, a batch student scheduling solver run can be published. There can be only one published solver run for each academic session, but UniTime will retain a history of the previous runs that have been published. A published run can be visible to other users that have the permissions to see the Student Sectioning Dashboard and/or Published Schedule Runs page.
+Since UniTime 4.4, a batch student scheduling solver run can be published. There can be only one published solver run for each academic session, but UniTime will retain a history of the previous runs that have been published. A published run can be visible to other users that have the permissions to see the Student Sectioning Dashboard and/or Published Schedule Runs page.
 
 ## Details
 
+A published solver run is visible to all users that have the Student Scheduling and Student Sectioning Solver Dashboard and/or Student Sectioning Solver Reports permissions (possibly including advisors, departmental schedule managers, and instructors). It shows in the solver status (below the page name) as Solver Published. A published solver run is static (it is loaded in the solver, but cannot be started or modified using the Scheduling Assistant dialog on the dashboard).
 
- A published solver run is visible to all users that have the Student Scheduling and Student Sectioning Solver Dashboard and/or Student Sectioning Solver Reports permissions (possibly including advisors, departmental schedule managers, and instructors). It shows in the solver status (below the page name) as Solver Published. A published solver run is static (it is loaded in the solver, but cannot be started or modified using the Scheduling Assistant dialog on the dashboard).
-
-
- The Published Schedule Runs shows all runs that have been published so far. The one that is currently published has a light green background.
+The Published Schedule Runs shows all runs that have been published so far. The one that is currently published has a light green background.
 
 ## Operations
 

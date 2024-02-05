@@ -6,20 +6,17 @@ title: Last Changes
 
 ## Screen Description
 
-
- The Last Changes screen provides a log of times/authors/screens of the changes in the application (it does not contain information about what has changed in a given screen).
+The Last Changes screen provides a log of times/authors/screens of the changes in the application (it does not contain information about what has changed in a given screen).
 
 ## Details
 
 ### Filter
 
-
- It is possible to filter the list of changes by **Department**, **Subject Area**, and **Manager**. You can also change the **Number of Changes** to be displayed. After you make changes to the filter, click **Apply** to display the log in the form you want.
+It is possible to filter the list of changes by **Department**, **Subject Area**, and **Manager**. You can also change the **Number of Changes** to be displayed. After you make changes to the filter, click **Apply** to display the log in the form you want.
 
 ### Last Changes
 
-
- The list of last changes contains the following columns
+The list of last changes contains the following columns
 
 * **Date**
 	* Date and time of the change

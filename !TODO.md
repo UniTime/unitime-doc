@@ -135,7 +135,6 @@ title: TO DO
 * [class-assignment](class-assignment)
 * [class-assignments](class-assignments)
 * [class-detail](class-detail)
-* [class-detal](class-detal)
 * [class-duration-types](class-duration-types)
 * [class-timetable](class-timetable)
 * [classes-for-student](classes-for-student)

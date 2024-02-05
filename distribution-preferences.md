@@ -6,16 +6,15 @@ title: Distribution Preferences
 
 ## Screen Description
 
+The Distribution Preferences screen provides a list of existing distribution preferences. Distribution preferences are used if you want to have your classes distributed a certain way throughout the week (for example, classes should be back to back, or on the same days).
 
- The Distribution Preferences screen provides a list of existing distribution preferences. Distribution preferences are used if you want to have your classes distributed a certain way throughout the week (for example, classes should be back to back, or on the same days).
+![Distribution Preferences](images/distribution-preferences-1.png){:class='screenshot'}
 
 ## Details
 
+If you have more than one subject area, you can either display distribution preferences for all subject areas (select "All" in the drop down list) or select a **Subject Area** in the drop down list in the top part of the screen. You can also filter by the **Course Number**. Click **Search** if you have changed any of these.
 
- If you have more than one subject area, you can either display distribution preferences for all subject areas (select "All" in the drop down list) or select a **Subject Area** in the drop down list in the top part of the screen. You can also filter by the **Course Number**. Click **Search** if you have changed any of these.
-
-
- The list of distribution preferences has preferences for the subject area(s) and course number (if any). It can be sorted by any column - just click on the appropriate column heading in green letters. The columns are
+The list of distribution preferences has preferences for the subject area(s) and course number (if any). It can be sorted by any column - just click on the appropriate column heading in green letters. The columns are
 
 * [Type](types-of-distribution-preferences)
 	* Type of the preference (for example, Back-To-Back)
@@ -32,8 +31,7 @@ title: Distribution Preferences
 * **Class**
 	* Classes in the distribution preference (if there is no number after the name of the scheduling subpart, the preference is put on the subpart level - so for example Lec 1 means the preference is on the first lecture while Lec means that the preference is for all lectures)
 
-
- Click on any line with a distribution preference to go to the [Edit Distribution Preference](edit-distribution-preference) screen where you can edit it.
+Click on any line with a distribution preference to go to the [Edit Distribution Preference](edit-distribution-preference) screen where you can edit it.
 
 ## Operations
 
@@ -45,8 +43,5 @@ title: Distribution Preferences
 
 ## Notes
 
+A list of possible types of distribution preferences with their description can be found at [Types of Distribution Preferences](types-of-distribution-preferences), options for the structure and their description at [Structure of Distribution Preferences](structure-of-distribution-preferences).
 
- A list of possible types of distribution preferences with their description can be found at [Types of Distribution Preferences](types-of-distribution-preferences), options for the structure and their description at [Structure of Distribution Preferences](structure-of-distribution-preferences).
-
-
-![Distribution Preferences](images/distribution-preferences-1.png){:class='screenshot'}

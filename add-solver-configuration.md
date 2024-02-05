@@ -6,13 +6,13 @@ title: Add Solver Configuration
 
 ## Screen Description
 
+In the Add Solver Configuration screen, it is possible to set up a new solver configuration by setting values of solver parameters.
 
- In the Add Solver Configuration screen, it is possible to set up a new solver configuration by setting values of solver parameters.
+![Add Solver Configuration](images/add-solver-configuration-1.png){:class='screenshot'}
 
 ## Details
 
-
- The top part of the screen allows to enter
+The top part of the screen allows to enter
 
 * **Reference**
 	* Unique name of the configuration
@@ -23,8 +23,7 @@ title: Add Solver Configuration
 * **Appearance**
 	* Names of screens in which this configuration appears (can be used)
 
-
- The rest of the screen contains solver parameters grouped into solver parameter groups. The default value is set for each parameter. To change it, uncheck the checkbox in front of the parameter name and then change the value at the end of the line.
+The rest of the screen contains solver parameters grouped into solver parameter groups. The default value is set for each parameter. To change it, uncheck the checkbox in front of the parameter name and then change the value at the end of the line.
 
 ## Operations
 
@@ -33,6 +32,3 @@ title: Add Solver Configuration
 
 * **Back** (ALT+B)
 	* Go back to the [Solver Configurations](solver-configurations) screen without saving any changes
-
-
-![Add Solver Configuration](images/add-solver-configuration-1.png){:class='screenshot'}

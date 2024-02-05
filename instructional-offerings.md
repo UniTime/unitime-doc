@@ -6,16 +6,14 @@ title: Instructional Offerings
 
 ## Screen Description
 
-
- This screen displays all instructional offerings for the selected subject area. It is separated into two parts. The first section lists "Offered Courses" - those which will be offered in the semester being timetabled (semester is visible in the upper right hand corner under the title of the screen). The second section lists "Courses Not Offered" - courses from the course catalog which are not being offered for that semester.
+This screen displays all instructional offerings for the selected subject area. It is separated into two parts. The first section lists "Offered Courses" - those which will be offered in the semester being timetabled (semester is visible in the upper right hand corner under the title of the screen). The second section lists "Courses Not Offered" - courses from the course catalog which are not being offered for that semester.
 
 
 ![Instructional Offerings](images/instructional-offerings-1.png){:class='screenshot'}
 
 ## Details
 
-
- The first part of this screen helps you define what information you want to display in the list of instructional offerings. It consists of a filter and the line where you select a subject area and can type in a course number.
+The first part of this screen helps you define what information you want to display in the list of instructional offerings. It consists of a filter and the line where you select a subject area and can type in a course number.
 
 * In the **Filter**, you can select what information to display about each of your instructional offerings/scheduling subparts/classes. You always need to click on the Search button to apply changes you have made to the filter. Detailed description:
 	* **External Id**
@@ -135,8 +133,7 @@ title: Instructional Offerings
 
 * Click on **Add New** (Alt+A) after you fill in the course number of the new course in the **Course Number** field to add a new course. This will take you to the [Add Course Offering](add-course-offering) screen. If you enter a course number of a course that already exists, clicking on Add New will take you to the [Instructional Offering Detail](instructional-offering-detail) screen for that offering.
 
-
- When the list of the instructional offerings is displayed, you can see for each instructional offering
+When the list of the instructional offerings is displayed, you can see for each instructional offering
 
 * In the area with a light blue background:
 	* A line with the course number (clicking on that takes you to the [Instructional Offering Detail](instructional-offering-detail) screen)

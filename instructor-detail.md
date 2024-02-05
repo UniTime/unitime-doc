@@ -6,27 +6,22 @@ title: Instructor Detail
 
 ## Screen Description
 
-
- In the Instructor Detail screen, you can see information about a given instructor. From this screen, you have access to edit screens for most of that information.
+In the Instructor Detail screen, you can see information about a given instructor. From this screen, you have access to edit screens for most of that information.
 
 ## Instructor Information
 
+The header of this section is the instructor's name.
 
- The header of this section is the instructor's name.
-
-
- To see a detailed description of each of the fields in this section (External Id, Account Name, ...), go to the description of the [Edit Instructor](edit-instructor) screen.
+To see a detailed description of each of the fields in this section (External Id, Account Name, ...), go to the description of the [Edit Instructor](edit-instructor) screen.
 
 
 ![Instructor Detail](images/instructor-detail-1.png){:class='screenshot'}
 
 ## Class Assignments
 
+A list of all classes to which this instructor has been assigned. You can assign instructors to a class in the [Edit Class](edit-class) screen or in the [Assign Instructors](assign-instructors) screen.
 
- A list of all classes to which this instructor has been assigned. You can assign instructors to a class in the [Edit Class](edit-class) screen or in the [Assign Instructors](assign-instructors) screen.
-
-
- For each class, you can see the following properties:
+For each class, you can see the following properties:
 
 * **Class**
 	* The name of the class
@@ -56,8 +51,7 @@ title: Instructor Detail
 
 ## Examinations
 
-
- Information about examinations associated with the instructor.
+Information about examinations associated with the instructor.
 
 * **Classes/Courses**
 	* Instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) defining which students need to take the examination (i.e., students enrolled into these components)
@@ -93,21 +87,17 @@ title: Instructor Detail
 	* Number of student conflicts (direct, more than two examinations a day, back-to-back)
 	* Not Assigned when the exam has no period assigned.
 
-
- Clicking on an examination takes you to its [Examination Detail](examination-detail) screen which contains more detailed information.
+Clicking on an examination takes you to its [Examination Detail](examination-detail) screen which contains more detailed information.
 
 ## Preferences
 
-
- Preferences for the given instructor. You can hide or unhide this part of the Instructor Detail screen by clicking on the small square in front of the Preferences section heading. If you want to change these preferences, click on the Edit Instructor Preferences button in this detail screen. That will take you to the [Instructor Preferences](instructor-preferences) screen. There are more details about instructor preferences in the description of the [Instructor Preferences](instructor-preferences) screen.
+Preferences for the given instructor. You can hide or unhide this part of the Instructor Detail screen by clicking on the small square in front of the Preferences section heading. If you want to change these preferences, click on the Edit Instructor Preferences button in this detail screen. That will take you to the [Instructor Preferences](instructor-preferences) screen. There are more details about instructor preferences in the description of the [Instructor Preferences](instructor-preferences) screen.
 
 ## Instructor Scheduling
 
+If the [Instructor Scheduling](instructor-scheduling) is enabled, the Instructor Detail page shows instructor assignment information about the instructor. Besides of the new teaching preference, maximal teaching load, assigned instructor attributes, and course preferences, the Instructor Detail page contains a new table with [Teaching Assignments](teaching-assignments) that are assigned to the instructor. More details are shown when an assignment is clicked showing the [Teaching Assignment Detail](teaching-assignment-detail) dialog.
 
- If the [Instructor Scheduling](instructor-scheduling) is enabled, the Instructor Detail page shows instructor assignment information about the instructor. Besides of the new teaching preference, maximal teaching load, assigned instructor attributes, and course preferences, the Instructor Detail page contains a new table with [Teaching Assignments](teaching-assignments) that are assigned to the instructor. More details are shown when an assignment is clicked showing the [Teaching Assignment Detail](teaching-assignment-detail) dialog.
-
-
- Also, if the instructor is also a student (there is a student with matching external id in the current academic session), the [Enrollments](enrollments-of-class-or-course) table is displayed, showing all enrollments if the student. These include instructor assignments (dark blue color) as well as student class enrollments.
+Also, if the instructor is also a student (there is a student with matching external id in the current academic session), the [Enrollments](enrollments-of-class-or-course) table is displayed, showing all enrollments if the student. These include instructor assignments (dark blue color) as well as student class enrollments.
 
 ## Operations
 

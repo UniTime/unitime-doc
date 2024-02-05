@@ -6,8 +6,9 @@ title: Instructional Offering Cross Lists
 
 ## Screen description
 
+In the Instructional Offering Cross Lists screen, you can set up what courses a given instructional offering consists of. You can only work with the courses within your subject area(s). If you need to cross list your course with a course from a different department, see Details below.
 
- In the Instructional Offering Cross Lists screen, you can set up what courses a given instructional offering consists of. You can only work with the courses within your subject area(s). If you need to cross list your course with a course from a different department, see Details below.
+![Instructional Offering Cross Lists](images/instructional-offering-cross-lists-1.png){:class='screenshot'}
 
 ## Details
 
@@ -34,8 +35,7 @@ title: Instructional Offering Cross Lists
 * **Last Term**
 	* The number of students enrolled in this course in the last like semester 
 
-
- To remove a course from this list, click on the **trashbin icon** at the end of the line with that course
+To remove a course from this list, click on the **trashbin icon** at the end of the line with that course
 
 ## Operations
 
@@ -44,6 +44,3 @@ title: Instructional Offering Cross Lists
 
 * **Back** (Alt+B)
 	* Go back to the [Instructional Offering Detail](instructional-offering-detail) screen without saving any changes
-
-
-![Instructional Offering Cross Lists](images/instructional-offering-cross-lists-1.png){:class='screenshot'}

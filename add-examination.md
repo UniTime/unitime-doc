@@ -6,8 +6,7 @@ title: Add Examination
 
 ## Screen Description
 
-
- The Add Examination screen provides interface for adding a new midterm or final examination.
+The Add Examination screen provides interface for adding a new midterm or final examination.
 
 
 ![Add Examination](images/add-examination-1.png){:class='screenshot'}
@@ -45,11 +44,9 @@ title: Add Examination
 
 ### Classes/Courses
 
+This section provides information about the instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take this examination. These components define what students are to be attending the examination (i.e., students that are enrolled into the classes/courses/etc. displayed in this section).
 
- This section provides information about the instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take this examination. These components define what students are to be attending the examination (i.e., students that are enrolled into the classes/courses/etc. displayed in this section).
-
-
- The column names are self-explanatory.
+The column names are self-explanatory.
 
 * To add more lines for additional instructional offering components, click on **Add Object** (Alt+O)
 * To delete a line with an instructional offering component, click on the **Delete** button on that line
@@ -57,11 +54,9 @@ title: Add Examination
 
 ### Examination Period Preferences
 
+Time grids are displayed based on the examination type. For Midterm Examinations, the available time periods are all marked as Prohibited; the user needs to select a different preference level for the time periods that can be used.
 
- Time grids are displayed based on the examination type. For Midterm Examinations, the available time periods are all marked as Prohibited; the user needs to select a different preference level for the time periods that can be used.
-
-
- Select the preference level in the colored squares in the legend and then click on the examination time periods that should have that preference.
+Select the preference level in the colored squares in the legend and then click on the examination time periods that should have that preference.
 
 ### Room Group Preference
 

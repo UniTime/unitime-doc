@@ -6,8 +6,7 @@ title: Add Reservation
 
 ## Screen Description
 
-
- The Add Reservation screen allows the user to add a new reservation.
+The Add Reservation screen allows the user to add a new reservation.
 
 ## Details
 

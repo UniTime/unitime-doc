@@ -6,13 +6,13 @@ title: Edit Curriculum
 
 ## Screen Description
 
+The Edit Curriculum screen provides interface for editing an existing curriculum.
 
- The Edit Curriculum screen provides interface for editing an existing curriculum.
+![Edit Curriculum](images/edit-curriculum-1.png){:class='screenshot'}
 
 ## Details
 
-
- **Curriculum Details**
+**Curriculum Details**
 
 * **Abbreviation**
 	* Curriculum abbreviation
@@ -29,11 +29,9 @@ title: Edit Curriculum
 * **Department**
 	* The department whose curriculum managers should be able to edit the curriculum
 
+**Curriculum Classifications**
 
- **Curriculum Classifications**
-
-
- The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
+The curriculum classifications show numbers of students in particular semesters of study, including projected numbers or last-like enrollment.
 
 * **Name**
 	* Name of the academic classification, i.e., of the semester in which the students will be
@@ -57,8 +55,7 @@ title: Edit Curriculum
 
 
 
-
- **Course Projections**
+**Course Projections**
 
 * **Group**
 	* The user can define groups of courses that have students in common (such as "1st semester mandatory courses", etc.) or that do not have students in common (such as optional courses for 2nd semester students, out of which each student selects only one course)
@@ -201,8 +198,7 @@ title: Edit Curriculum
 
 ## Notes
 
-
- **Shortcuts for navigation through the Course Projections table**
+**Shortcuts for navigation through the Course Projections table**
 
 * **Windows (Firefox)**
 	* Moving a course up or down the list of courses
@@ -224,11 +220,7 @@ title: Edit Curriculum
 		* alt+→ - move one editable field to the right
 		* alt+← - move one editable field to the left
 
+**Exiting pop-up windows**
 
- **Exiting pop-up windows**
+To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc
 
-
- To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc
-
-
-![Edit Curriculum](images/edit-curriculum-1.png){:class='screenshot'}

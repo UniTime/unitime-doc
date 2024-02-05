@@ -6,8 +6,9 @@ title: Edit Standard Event Note
 
 ## Screen Description
 
+Interface for editing an existing standard event note.
 
- Interface for editing an existing standard event note.
+![Edit Standard Event Note](images/edit-standard-event-note-1.png){:class='screenshot'}
 
 ## Details
 
@@ -29,6 +30,3 @@ title: Edit Standard Event Note
 
 * **Back** (Alt+B)
 	* Go to the [Standard Event Notes](standard-event-notes) screen without saving any changes
-
-
-![Edit Standard Event Note](images/edit-standard-event-note-1.png){:class='screenshot'}

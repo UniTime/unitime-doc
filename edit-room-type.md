@@ -6,8 +6,9 @@ title: Edit Room Type
 
 ## Screen Description
 
+The Edit Room Type screen provides interface for editing an existing room type.
 
- The Edit Room Type screen provides interface for editing an existing room type.
+![Edit Room Type](images/edit-room-type-1.png){:class='screenshot'}
 
 ## Details
 
@@ -31,5 +32,3 @@ title: Edit Room Type
 * **Back** (Alt+B)
 	* Go back to the [Room Types](room-types) screen without saving changes to the room type
 
-
-![Edit Room Type](images/edit-room-type-1.png){:class='screenshot'}
