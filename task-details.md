@@ -8,6 +8,8 @@ title: Task Details
 
 The Task Details page can be used to show (and edit) details of a particular scheduled task. It also allows to show individual runs, their output files, and execution logs.
 
+![Task Details](images/task-details-2.png){:class='screenshot'}
+
 ## Details
 
 Each task has the following properties
@@ -57,6 +59,3 @@ Individual executions are shown in the **Scheduled Executions** table. Besides o
 
 * **Back**
 	* Go back to the [Task Scheduler](task-scheduler) page.
-
-
-![Task Details](images/task-details-2.png){:class='screenshot'}

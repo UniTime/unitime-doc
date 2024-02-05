@@ -8,6 +8,9 @@ title: Teaching Request Detail
 
 The Teaching Request Detail dialog is shown when a particular teaching request is clicked (on the [Instructional Offering Detail](instructional-offering-detail) page, [Assigned Teaching Requests](assigned-teaching-requests) page, or [Not-Assigned Teaching Requests](not-assigned-teaching-requests) page). The dialog contains information about the selected teaching request and the assigned instructor(s), if there are any. The dialog also shows other instructors that are available to teach the selected request and their conflicts. These are their current teaching assignments that would have to be unassigned for the instructor to be able to teach the selected request. If the solver is loaded in memory, the dialog also shows a list of solver computed suggestions containing suggestions up to three changes. More suggestions can be computed by searching longer (Search Longer button, when the default search limit is reached during the computation) or by increasing the number of allowed changes (Search Deeper button).
 
+![Teaching Request Detail](images/teaching-request-detail-1.png){:class='screenshot'}
+
+
 ## Details
 
 If the teaching request needs two or more instructors, a different instructor assignment can be selected by clicking the appropriate line in the Assigned Instructors table.
@@ -31,6 +34,3 @@ The dialog offers the following operations:
 * Click on an available instructor or on a suggestion to change the Selected Assignment
 
 * Click on **Search Deeper** (the solver will allow for more changes) or **Search Longer** (the solver will take more time to search for suggestions) to see more suggestions
-
-
-![Teaching Request Detail](images/teaching-request-detail-1.png){:class='screenshot'}

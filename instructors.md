@@ -8,6 +8,8 @@ title: Instructors
 
 The Instructors screen displays a list of instructors that can be used throughout the application - for example, to assign instructors to classes/examinations or to add instructors to a designator list. Clicking on any instructor will take you to his/her [Instructor Detail](instructor-detail) screen.
 
+![Instructors](images/instructors-1.png){:class='screenshot'}
+
 ## Top Line with Search
 
 * **Department**
@@ -75,6 +77,3 @@ You can sort by any column which tells you so when you roll the mouse over its h
 
 * **Add New Instructor** (Alt+A)
 	* Go to the [Add Instructor](add-instructor) screen to add a new instructor
-
-
-![Instructors](images/instructors-1.png){:class='screenshot'}

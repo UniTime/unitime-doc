@@ -8,6 +8,8 @@ title: Multiple Class Setup
 
 In the Multiple Class Setup screen it is possible to set properties on the class level (as opposed to setting them on the scheduling subpart level in the [Instructional Offering Configuration](instructional-offering-configuration) screen) - there is a line for each class for a given configuration in the instructional offering.
 
+![Multiple Class Setup](images/multiple-class-setup-1.png){:class='screenshot'}
+
 ## Details
 
 * **Configuration Limit**
@@ -76,6 +78,3 @@ In the Multiple Class Setup screen it is possible to set properties on the class
 
 * **Back** (Alt+B)
 	* Go back to the [Instructional Offering Detail](instructional-offering-detail) screen without saving any changes.
-
-
-![Multiple Class Setup](images/multiple-class-setup-1.png){:class='screenshot'}

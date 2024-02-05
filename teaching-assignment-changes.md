@@ -8,6 +8,8 @@ title: Teaching Assignment Changes
 
 The Teaching Assignment Changes page can be used to display changes made by the solver (or manually) when the solver is loaded in memory. The page can compare the teaching assignments of the current solution, with the best solution, initial solution (useful when the solver is used in the MPP mode), or with the data saved in the database.
 
+![Teaching Assignment Changes](images/teaching-assignment-changes-1.png){:class='screenshot'}
+
 The instructor scheduling solver must be loaded in memory for this page to show any data.
 
 ## Details
@@ -33,6 +35,3 @@ Select the solution to compare with and hit the **Search** button.
 The table page can be sorted by any column and particular columns can be shown/hidden using the context menu on the table header.
 
 More details are shown when a particular teaching request is clicked, see [Teaching Request Detail](teaching-request-detail).
-
-
-![Teaching Assignment Changes](images/teaching-assignment-changes-1.png){:class='screenshot'}

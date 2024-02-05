@@ -8,6 +8,8 @@ title: Standard Event Notes
 
 A list of standard event notes that can be used by an event manager or an administrator when approving/rejecting an event. For administrators, the page is available at Administration > Other > Standard Event Notes in the menu. For event managers, the page is at Preferences > Standard Event Notes.
 
+![Standard Event Notes](images/standard-event-notes-1.png){:class='screenshot'}
+
 Standard event notes provide a quick way to event managers to fill in the event note without the need to type the same message over and over.
 
 Standard notes can be global (available to all event managers across all the academic sessions), related to a single academic session, or to a particular department. Event managers can only create, edit, or delete departmental notes (standard notes that apply to their department).
@@ -31,6 +33,3 @@ Click on any standard event note to get to its [Edit Standard Event Note](edit-s
 
 * **Add Standard Note** (Alt+A)
 	* Go to the [Add Standard Event Note](add-standard-event-note) screen to add a new standard event note
-
-
-![Standard Event Notes](images/standard-event-notes-1.png){:class='screenshot'}

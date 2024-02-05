@@ -8,6 +8,8 @@ title: Roles
 
 The Roles page can be used to manage roles in UniTime. A role is a collections of permissions that are managed on the [Permissions](permissions) page. Unauthenticated users have **Anonymous** role, authenticated users with an appropriate record (with the matching external id) in the students table have **Student** role, instructors have **Instructor** role, and timetabling managers have one or more roles that are assigned to them on the [Timetable Managers](timetable-managers) page. Authenticated users with no match against students, instructors, and timetabling managers have the **No Role** role.
 
+![Roles](images/roles-1.png){:class='screenshot'}
+
 ## Details
 
 A role has a reference and a name. It can be enabled or disabled. A disabled role cannot be assigned to any authenticated user.
@@ -23,6 +25,3 @@ To edit or delete a role, click on the appropriate line, [Edit Role](edit-role) 
 A new role can be added on the [Edit Roles](edit-roles) page (button **Edit**) or using [Add Role](add-role) page (button **Add**).
 
 The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
-
-
-![Roles](images/roles-1.png){:class='screenshot'}

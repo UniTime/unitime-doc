@@ -8,6 +8,8 @@ title: Instructional Types
 
 The Instructional Types screen provides a list of all instructional types available for the current academic session.
 
+![Instructional Types](images/instructional-types-1.png){:class='screenshot'}
+
 Instructional type is a property of a scheduling subpart, reflecting the nature of activity of classes of that subpart (Lecture, Lab, etc.).
 
 ## Details
@@ -38,6 +40,3 @@ Click on any itype to get to change its properties in the [Edit Instructional Ty
 
 * **Export PDF**
 	* Export the list of instructional types into a PDF document
-
-
-![Instructional Types](images/instructional-types-1.png){:class='screenshot'}

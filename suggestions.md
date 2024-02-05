@@ -8,9 +8,14 @@ title: Suggestions
 
 The Suggestions screen provides you with information about a class, its current time and room assignment and possible alternatives. You can select any of the alternatives to change the assignment. If the selected assignment results in an unassignment of another class, you can continue by selecting an alternative assignment for the other class (for example, you place your current Lab 2 in a room at a time when there was Lab 1 and therefore Lab 1 gets unassigned; you continue by selecting an alternative assignment for Lab 1). The screen supports a "what if" scenario - you can select as many changes as you want and those changes will not be executed until you click the Assign button.
 
+![Suggestions](images/suggestions-2.png){:class='screenshot'}
+
+
 ## Filter
 
 The first (foldable) part of the filter is for you to select what sections of the screen you want to display (check appropriate checkboxes) and to what extent (the following two items):
+
+![Suggestions](images/suggestions-1.png){:class='screenshot'}
 
 * **Simplified mode**
 	* If unchecked, many additional columns appear in the Suggestions and Placements
@@ -40,9 +45,6 @@ The second part of the filter is not hidden when you fold the filter. All these 
 
 * **Close** (Alt+C)
 	* Close the window with the Suggestions screen
-
-
-![Suggestions](images/suggestions-1.png){:class='screenshot'}
 
 ## Current Assignment
 
@@ -87,8 +89,6 @@ Information about the current time and room assignment for a given class. If an 
 
 Color coding is employed for the information about times and rooms - see the legend under the Current Assignment section in the Suggestions screen.
 
-
-![Suggestions](images/suggestions-2.png){:class='screenshot'}
 
 ## Selected/Conflicting Assignments / Selected Suggestion
 

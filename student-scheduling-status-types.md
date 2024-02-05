@@ -8,6 +8,8 @@ title: Student Scheduling Status Types
 
 The Student Scheduling Status Types screen provides a table of possible statuses for students during online scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
 
+![Student Scheduling Status Types](images/student-scheduling-status-types-1.png){:class='screenshot'}
+
 ## Details
 
 The table of statuses has the following columns
@@ -83,6 +85,3 @@ If there are course types defined ([Course Types](course-types) screen). It is p
 
 * **Edit**
 	* Go to the [Edit Student Scheduling Status Types](edit-student-scheduling-status-types) screen to edit all the student scheduling status types at once
-
-
-![Student Scheduling Status Types](images/student-scheduling-status-types-1.png){:class='screenshot'}

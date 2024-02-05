@@ -8,6 +8,8 @@ title: Student Accommodations
 
 The Student Accommodations screen provides an overview of student accommodations (special needs or disabilities) in UniTime. If a student accommodation has an external id, it cannot be edited in UniTime.
 
+![Student Accommodations](images/student-accommodations-1.png){:class='screenshot'}
+
 ## Details
 
 The table of student accommodations contains the following information
@@ -38,8 +40,6 @@ Clicking on any of the student accommodations takes you to the [Edit Student Acc
 
 If there are students with accommodations, all pages that have Enrollments table ([Instructional Offering Detail](instructional-offering-detail), [Class Detail](class-detail), [Examination Detail](examination-detail), [Event Detail](event-detail)): if there is at lest one student with an accommodation (disability) enrolled, Accommodation column will appear with the code of the accommodation. The table can be also sorted by this column.
 
-
-![Student Accommodations](images/student-accommodations-1.png){:class='screenshot'}
 
 
 ![Student Accommodations](images/student-accommodations-2.png){:class='screenshot'}

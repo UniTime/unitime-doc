@@ -8,6 +8,8 @@ title: Not-Assigned Classes
 
 The Not-Assigned Classes screen lists classes of the selected/loaded timetable that currently do not have time and room assigned. When a timetable is loaded, it is possible to click on any of them to see more information about the class and/or to assign time and room manually.
 
+![Not-Assigned Classes](images/not-assigned-classes-1.png){:class='screenshot'}
+
 ## Filter
 
 * **Subject Area**
@@ -45,6 +47,3 @@ Click on any line with a class to get to the [Suggestions](suggestions) screen f
 * **Refresh**
 	* Refresh the screen
 		* Necessary if time and room was assigned manually to a class in the [Suggestions](suggestions) screen - the list of not-assigned classes is not refreshed automatically
-
-
-![Not-Assigned Classes](images/not-assigned-classes-1.png){:class='screenshot'}

@@ -8,6 +8,9 @@ title: Scheduling Subpart Detail
 
 The Scheduling Subpart Detail screen offers an overview of information about a scheduling subpart. Most of the information is editable in the [Edit Scheduling Subpart](edit-scheduling-subpart) screen.
 
+![Scheduling Subpart Detail](images/scheduling-subpart-detail-1.png){:class='screenshot'}
+
+
 ## Details
 
 The following fields are displayed in the upper part of the screen (below the name of the scheduling subpart):
@@ -78,6 +81,3 @@ The following fields are displayed in the upper part of the screen (below the na
 
 * **Back** (Alt+B)
 	* Go to the previous non-editable screen (from which you entered this one)
-
-
-![Scheduling Subpart Detail](images/scheduling-subpart-detail-1.png){:class='screenshot'}

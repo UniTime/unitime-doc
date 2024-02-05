@@ -28,15 +28,13 @@ With that, you should start seeing "Student lunch conflicts" property in the Bes
 
 Other than that, you can create the following parameters (if you need to change the defaults).
 
-StudentLunch.StartSlot=132           (lunch period start time, in 5 minute slots since midnight)
+| StudentLunch.StartSlot=132 | lunch period start time, in 5 minute slots since midnight |
+| StudentLunch.EndStart=162 | lunch period end time, in 5 minute slits since midnight |
+| StudentLunch.Length=6 | minimal lenght of a lunch break, in the number of 5 minute slots |
+| Comparator.StudentLunchWeight | conflict weight, defaults to Comparator.StudentConflictWeight which is the weight of a student conflict |
 
-StudentLunch.EndStart=162           (lunch period end time, in 5 minute slits since midnight)
 
-StudentLunch.Length=6        (minimal lenght of a lunch break, in the number of 5 minute slots)
-
-Comparator.StudentLunchWeight (conflict weight, defaults to Comparator.StudentConflictWeight which is the weight of a student conflict)
-
-Lunchtime is defined by StudentLunch.StartSlot and StudentLunch.EndStart properties (default is 11:00 am - 1:30 pm), with the lunch break of at least StudentLunch.Length slots (default is 30 minutes). The parameters are defined in time slots, one slot is 5 minutes and they start at midnight (132 is 11 am, that is (132 * 5) / 60). The weight of a lunch conflict (there is a conflict when there are two classes for a student overlapping the lunch period, that do not have enough time in between) is defined by Comparator.StudentLunchWeight parameter which defaults to the (ordinary) student conflict weight.
+Lunchtime is defined by `StudentLunch.StartSlot` and `StudentLunch.EndStart` properties (default is 11:00 am - 1:30 pm), with the lunch break of at least `StudentLunch.Length` slots (default is 30 minutes). The parameters are defined in time slots, one slot is 5 minutes and they start at midnight (132 is 11 am, that is (132 * 5) / 60). The weight of a lunch conflict (there is a conflict when there are two classes for a student overlapping the lunch period, that do not have enough time in between) is defined by `Comparator.StudentLunchWeight` parameter which defaults to the (ordinary) student conflict weight.
 
 You can define a new solver parameter by clicking on the Add Solver Parameter button, e.g.:
 

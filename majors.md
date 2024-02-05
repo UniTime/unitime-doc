@@ -8,6 +8,8 @@ title: Majors
 
 The Majors screen provides an overview of majors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
 
+![Majors](images/majors-1.png){:class='screenshot'}
+
 ## Details
 
 **Table**
@@ -42,6 +44,3 @@ The table contains a major per line. The table can be sorted by any of its colum
 
 * **Back**
 	* Go back to the overview version of the screen without saving any changes
-
-
-![Majors](images/majors-1.png){:class='screenshot'}

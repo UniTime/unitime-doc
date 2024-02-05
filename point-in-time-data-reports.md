@@ -8,6 +8,8 @@ title: Point In Time Data Reports
 
 The Point In Time Data Reports page contains a set of standard reports that are calculated from the static Point In Time Data snapshots for a session.  Please contact us at [support@unitime.org](mailto:support@unitime.org) if you would like to sponsor the development of a particular report.
 
+![Point In Time Data Reports](images/point-in-time-data-reports-1.png){:class='screenshot'}
+
 ## Details
 
 The following reports can be run from the Point In Time Data Reports Page:
@@ -72,6 +74,3 @@ Related Configuration Properties:
 * **unitime.pointInTimeData.standardWeeksInReportingTerm** - defines the default number of weeks displayed in the Weeks in Reporting Term parameter.  The default value is 15.
 
 * **unitime.pointInTimeData.hourlyReportsStartOnTheHalfHour** - defines whether the hourly reports start on the half hour or at the top of the hour.  The default value is true which means the reports start on the half hour.
-
-
-![Point In Time Data Reports](images/point-in-time-data-reports-1.png){:class='screenshot'}

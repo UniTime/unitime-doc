@@ -8,6 +8,8 @@ title: Instructor Survey
 
 The Instructor Survey page can be used to collect requirements from instructors.  It consists of two sections. The Preferences & Requirements are common to all courses the instructor is teaching and can be directly copied to the instructor's preferences. The Individual Course Requirements section can contain individual requirements for the courses that the instructor is teaching, planning to teach, or just wishes to comment on.
 
+![Instructor Survey](images/instructor-survey-1.png){:class='screenshot'}
+
 While the data entry is only available during certain times (based on the status of the academic session and/or the department), an instructor can always see the surveys he/she has filled in in the past. It is also possible to copy preferences & requirements or the individual course requirements using the Copy button (only available when older surveys have been filled in).
 
 ## Preferences & Requirements
@@ -42,11 +44,6 @@ The additional columns for the Individual Course Requirements table can be confi
 	* Submit the instructor survey. No changes can be made once the survey is submitted.
 	* A submitted survey can be unsubmitted by the Schedule Deputy (or an admin) using the [Instructor Detail](https://sites.google.com/unitime.org/help48/instructor-detail) page.
 
-
-![Instructor Survey](images/instructor-survey-1.png){:class='screenshot'}
-
-Instructor Survey page
-
 ## Integration
 
 The schedule deputy can see which instructors have filled in their survey and whether they have submitted it on the Instructor page. Additional information is available on the [Instructor Detail](instructor-detail) page, in the Instructor Survey section.
@@ -68,20 +65,21 @@ Individual course requirements are listed on each course (on the [Instructional 
 * Additional columns for the Individual Course Requirements table can be configured using the Administration > Other > Instructor Survey Note Types page.
 
 * For the Preferences & Requirements, it is possible to enable/disable which preference types the instructor will be able to see (e.g., Rooms can be disabled) or whether Required/Prohibited preferences are allowed, using the Administration > Defaults > [Configuration](application-configuration) page. See properties starting with unitime.instructorSurvey.
-	* This can also be configured individually for each department, adding department code in the property. E.g., to disable room preferences for department 101, set unitime.instructorSurvey.roomPrefs.101 to false.
-	* The days and times of the time preferences can be configured using the unitime.instructorSurvey.timePrefs property. The format is first day|last day|first slot|last slot|increment, e.g., 0|4|90|246|12 means Monday - Friday, starting at 7:30 am, ending at 8:30 pm, in one-hour increments
+	* This can also be configured individually for each department, adding department code in the property. E.g., to disable room preferences for department 101, set `unitime.instructorSurvey.roomPrefs.101` to false.
+	* The days and times of the time preferences can be configured using the unitime.instructorSurvey.timePrefs property. The format is `first day|last day|first slot|last slot|increment`, e.g., `0|4|90|246|12` means Monday - Friday, starting at 7:30 am, ending at 8:30 pm, in one-hour increments
 
 * It is possible to create a URL that opens the Instructor Survey page after an instructor has logged into UniTime by using the following URL (for example, see [here](https://demo.unitime.org/UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto))
 	* Parameter **session** can be used to select a particular academic session (e.g., session=Fal2010woebegon), or session=auto will automatically select the most recent academic session where the instructor survey is available for the instructor to fill in.
-	* UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto (explicitly going through authentication) 
-	* UniTime/gwt.jsp?page=instructorSurvey&session=auto (direct link)
+	* `UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto` (explicitly going through authentication) 
+	* `UniTime/gwt.jsp?page=instructorSurvey&session=auto` (direct link)
 
+
+### Instructor Survey section on the Instructor Detail page
 
 ![Instructor Survey](images/instructor-survey-2.png){:class='screenshot'}
 
-Instructor Survey section on the Instructor Detail page
 
+### Instructor Requirements section on the Instructional Offering Detail page
 
 ![Instructor Survey](images/instructor-survey-3.png){:class='screenshot'}
 
-Instructor Requirements section on the Instructional Offering Detail page

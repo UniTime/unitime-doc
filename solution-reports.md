@@ -8,6 +8,8 @@ title: Solution Reports
 
 The Solution Reports screen provides the user with information about the properties of the timetable such as room usage or student conflicts (see the details below).
 
+![Solution Reports](images/solution-reports-1.png){:class='screenshot'}
+
 ## Details
 
 The screen is divided into sections based on particular solution properties. If a property is not applicable, the appropriate section is not displayed (for example, balancing is turned off for departmental timetabling, so it is not displayed for a departmental schedule manager).
@@ -53,6 +55,3 @@ A list of changes and related penalties (when looking for a timetable as close t
 
 * **Refresh**
 	* Refresh the screen
-
-
-![Solution Reports](images/solution-reports-1.png){:class='screenshot'}

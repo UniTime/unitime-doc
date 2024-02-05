@@ -8,6 +8,8 @@ title: Timetable
 
 The Timetable screen offers a view of the (selected/loaded/current) timetable in the form of a time grid organized either by room, by instructor, or by department.
 
+![Timetable](images/timetable-1.png){:class='screenshot'}
+
 ## Filter
 
 You can display the time grid in many different ways and filter it by certain parameters.
@@ -98,6 +100,3 @@ If "Show Preferences" is checked in the filter, the three comma separated number
 * **Refresh**
 	* Refresh the time grid
 		* This is necessary after you have changed time/room assignment for a class e.g. in the [Suggestions](suggestions) screen
-
-
-![Timetable](images/timetable-1.png){:class='screenshot'}

@@ -8,6 +8,8 @@ title: Roll Forward Session
 
 The Roll Forward Session screen provides a method for populating session data for a new session with data from previous session(s). For example, when setting up fall 2008, class data can be rolled forward from fall 2007, while instructor data can be rolled forward from spring 2008.
 
+![Roll Forward Session](images/roll-forward-session-1.png){:class='screenshot'}
+
 ## Details
 
 * **Session To Roll Forward To**
@@ -25,6 +27,3 @@ Note: If the session is already populated with some data of the given type, the 
 
 * **Roll Forward**
 	* Populate the data of the new session (set at the top of the screen) with the selected data
-
-
-![Roll Forward Session](images/roll-forward-session-1.png){:class='screenshot'}

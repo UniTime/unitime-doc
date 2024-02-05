@@ -8,6 +8,8 @@ title: Permissions
 
 The table in the Permissions screen lists all the roles in UniTime and all the permissions that these roles have or do not have. A new role can be added by a user from the [Roles](roles) page. The permissions granted to each role can be changed by clicking on the line with that role or changes can be performed in bulk by clicking on the **Edit** button.
 
+![Permissions](images/permissions-1.png){:class='screenshot'}
+
 ## Details
 
 Since UniTime 3.4, there is a permission for each page and/or operation (see [Right]( https://github.com/UniTime/unitime/tree/master/JavaSource/org/unitime/timetable/security/rights/Right.java) enum for the full list). The roles are no longer used directly by UniTime, instead there is a mapping between a role and a set of these permissions (which is defined on this Permissions page). Each permission consist of a **right** (of the [Right]( https://github.com/UniTime/unitime/tree/master/JavaSource/org/unitime/timetable/security/rights/Right.java) enum), a **level** (an object type on which it is to be evaluated) and a permission check. For a user to have access, he/she has to have the right, and the permission check must succeed on the given object (e.g., an academic session, a department, a class, or a room). The object type is shown in the Level column on the Permissions page, next to the Name of the right it applies to. The rights with level Global do not evaluate on a particular object per se, they apply globally (like traditional role permissions) and there is no permission check.
@@ -48,6 +50,3 @@ The table can be sorted by any of the column headers - click on the column heade
 Click on any line to go to the [Edit Permission](edit-permission) screen for a particular permission, or click on the **Edit** button to go to the [Edit Permissions](edit-permissions) screen where you can edit all the combinations of roles and their permissions at once.
 
 Permissions page can be accessed by users with Permissions permission, but only users with Permission Edit permission can make changes.
-
-
-![Permissions](images/permissions-1.png){:class='screenshot'}

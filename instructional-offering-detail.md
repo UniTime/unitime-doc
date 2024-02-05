@@ -8,6 +8,8 @@ title: Instructional Offering Detail
 
 The Instructional Offering Detail screen provides an overview of the instructional offering. From here, you can also access screens to make changes to any property of that instructional offering.
 
+![Instructional Offering Detail](images/instructional-offering-detail-1.png){:class='screenshot'}
+
 ## Navigation Line
 
 * The button with the arrow pointing to the left takes you back to the previous page (roll your mouse over it to see exactly where it will take you).
@@ -126,12 +128,11 @@ Note: **Previous** and **Next** are stepping through the list that is displayed 
 
 * Deadlines are given in the number of weeks, relative to the class start (weeks start on the day of the session begin date).
 
-
-![Instructional Offering Detail](images/instructional-offering-detail-1.png){:class='screenshot'}
-
 ## Curricula
 
 This section lists all the curricula that contain courses of this instructional offering.
+
+![Instructional Offering Detail](images/instructional-offering-detail-2.png){:class='screenshot'}
 
 Click on the plus sign in front of the section header "Curricula" to see the whole table which contains the following information
 
@@ -193,11 +194,11 @@ Click on any curriculum to see its details.
 		* Projected Demand = Requested Demand for curricula + Projected Demand for other students (in Curricula Operations, select "Show Requested/Projected Enrollment" to see the numbers that will be used)
 
 
-![Instructional Offering Detail](images/instructional-offering-detail-2.png){:class='screenshot'}
-
 ## Reservations
 
 The section lists all the reservations that are created for the instructional offering.
+
+![Instructional Offering Detail](images/instructional-offering-detail-3.png){:class='screenshot'}
 
 * **Reservation Type**
 	* Individual, Student Group, Curriculum, or Course
@@ -258,12 +259,11 @@ Most of the columns in the Configuration part of this screen are the same as in 
 
 The configuration part of this screen also contains a legend to explain the colors of preferences.
 
-
-![Instructional Offering Detail](images/instructional-offering-detail-3.png){:class='screenshot'}
-
 ## Teaching Requests
 
 Teaching requests are used in the [Instructor Scheduling](instructor-scheduling). Instructors that are to be assigned automatically are not requested directly on classes, but there are teaching requests. Each teaching request may include multiple classes of the same course and provide some additional constraints.
+
+![Instructional Offering Detail](images/instructional-offering-detail-4.png){:class='screenshot'}
 
 Use [Setup Teaching Requests](setup-teaching-requests) button to setup teaching requests. The created teaching requests are visible in the Teaching Requests section of the Instructor Offering Detail page and can be edited by clicking the [Setup Teaching Requests](setup-teaching-requests) button again.
 
@@ -284,11 +284,11 @@ Each teaching request contains
 * Assigned instructors and their current/maximal teaching load, time preferences and availability, course and distribution preferences
 
 
-![Instructional Offering Detail](images/instructional-offering-detail-4.png){:class='screenshot'}
-
 ## Examinations
 
 The Examinations section lists all examinations created for the classes and/or courses of the instructional offering. The table contains the following information
+
+![Instructional Offering Detail](images/instructional-offering-detail-5.png){:class='screenshot'}
 
 * **Classes/Courses**
 	* Instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take the given examination
@@ -327,11 +327,11 @@ The Examinations section lists all examinations created for the classes and/or c
 Click on any examination to get to its [Examination Detail](examination-detail) screen. Click **Add Examination** button to add a new exam in the [Add Examination](add-examination) screen.
 
 
-![Instructional Offering Detail](images/instructional-offering-detail-5.png){:class='screenshot'}
-
 ## Enrollments
 
 The Enrollments section lists all students that are requesting the course or that are enrolled in the course (or courses in case of a cross-list).
+
+![Instructional Offering Detail](images/instructional-offering-detail-6.png){:class='screenshot'}
 
 * **Student**
 	* Name of the student
@@ -360,6 +360,3 @@ The Enrollments section lists all students that are requesting the course or tha
 ## Notes
 
 **Make Not Offered**: When the application property unitime.offering.makeNotOfferedStaysOnDetail is set to true, the Instructional Offering Detail screen with the newly not offered course will be displayed instead of going to the [Instructional Offerings](instructional-offerings) screen.
-
-
-![Instructional Offering Detail](images/instructional-offering-detail-6.png){:class='screenshot'}

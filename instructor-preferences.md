@@ -8,6 +8,8 @@ title: Instructor Preferences
 
 In the Instructor Preferences screen, you can enter instructor's preferences which will then be applied to the classes to which this instructor is assigned as (if conflict checking is turned on for those classes). The rules explaining how preferences are applied on classes are located in [Application Of Preferences](application-of-preferences).
 
+![Instructor Preferences](images/instructor-preferences-1.png){:class='screenshot'}
+
 ## Preferences
 
 **Time Preferences**
@@ -112,6 +114,3 @@ In the Instructor Preferences screen, you can enter instructor's preferences whi
 
 * **Back** (Alt+B)
 	* Go back to the [Instructor Detail](instructor-detail) screen without saving any changes in the preferences
-
-
-![Instructor Preferences](images/instructor-preferences-1.png){:class='screenshot'}

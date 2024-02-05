@@ -8,6 +8,8 @@ title: Manage Solvers
 
 The Manage Solvers screen provides an overview of all running solvers and servers available for running the solvers. The administrator can also access any of the running solvers and work with it the same way as the user who started it.
 
+![Manage Solvers](images/manage-solvers-1.png){:class='screenshot'}
+
 ## Details
 
 ### Manage Solvers
@@ -77,6 +79,3 @@ For each server, the following operations are available
 
 * **Refresh**
 	* Refresh this screen
-
-
-![Manage Solvers](images/manage-solvers-1.png){:class='screenshot'}

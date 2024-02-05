@@ -8,6 +8,8 @@ title: Teaching Assignment Detail
 
 The Teaching Assignment Detail dialog is shown when a particular teaching assignment is clicked (on the [Instructor Detail](instructor-detail) page, or the [Teaching Assignments](teaching-assignments) page). The dialog contains information about the selected instructor and his/her teaching assignments if there are any. The dialog also shows other assignments that are available to the selected instructor and their conflicts. These are their current teaching assignments that would have to be unassigned for the instructor to be able to teach the selected assignment. If the solver is loaded in memory, the dialog also shows a list of solver computed suggestions containing suggestions up to three changes. More suggestions can be computed by searching longer (Search Longer button, when the default search limit is reached during the computation) or by increasing the number of allowed changes (Search Deeper button).
 
+![Teaching Assignment Detail](images/teaching-assignment-detail-1.png){:class='screenshot'}
+
 ## Details
 
 The dialog shows details about the instructor, including a list of times when the instructor is not available because he/she is assigned to a class as an instructor (outside of the instructor scheduling problem that is being solved) or enrolled as a student. The dialog also shows current assignments of the instructor and the related criteria penalizations (objectives). The list of teaching assignments that the instructor can teach is also included.
@@ -32,5 +34,3 @@ The dialog offers the following operations:
 
 * Click on **Search Deeper** (the solver will allow for more changes) or **Search Longer** (the solver will take more time to search for suggestions) to see more suggestions
 
-
-![Teaching Assignment Detail](images/teaching-assignment-detail-1.png){:class='screenshot'}

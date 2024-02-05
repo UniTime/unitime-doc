@@ -8,6 +8,8 @@ title: Room Availability
 
 The Room Availability screen provides a list of events that overlap with the examination periods of the selected examination problem. This screen is useful when an institution does not use the Event Management section of UniTime and imports information about room availability from external resources (see more about that [here](custom-room-availability)).
 
+![Room Availability](images/room-availability-1.png){:class='screenshot'}
+
 ## Filter
 
 * **Examination Problem**
@@ -65,6 +67,3 @@ The Room Availability screen provides a list of events that overlap with the exa
 * **Refresh**
 	* Refresh the screen
 		* Also refresh the room availability information if it is coming from an external source
-
-
-![Room Availability](images/room-availability-1.png){:class='screenshot'}

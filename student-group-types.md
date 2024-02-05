@@ -8,6 +8,8 @@ title: Student Group Types
 
 The Student Group Types page allows to define types of student groups. This way, student groups can be grouped by their type. There are additional properties that can be defined for each groups of a particular type.
 
+![Student Group Types](images/student-group-types-1.png){:class='screenshot'}
+
 ## Details
 
 Each student group type can have a code, a name, and the following properties:
@@ -33,6 +35,3 @@ Click on any line with a status type to get to its [Edit Student Group Type](edi
 
 * **Edit**
 	* Go to the [Edit Student Group Types](edit-student-group-types) screen to edit all the student group types at once
-
-
-![Student Group Types](images/student-group-types-1.png){:class='screenshot'}

@@ -8,6 +8,8 @@ title: Time Patterns
 
 The Time Patterns screen provides users with a list of available time patterns.
 
+![Time Patterns](images/time-patterns-1.png){:class='screenshot'}
+
 A time pattern defines how many times a week a class meets for how many minutes and how much time should be allocated for a break when the class is over.
 
 ## Details
@@ -76,6 +78,3 @@ Click on any time pattern to go to the [Edit Time Pattern](edit-time-pattern) sc
 * **Export CSV**
 	* Export the list of time patterns into a CSV file
 		* For the time patterns of type Extended, it also exports the first few classes that are using the extended time pattern for each department allowed to use it
-
-
-![Time Patterns](images/time-patterns-1.png){:class='screenshot'}

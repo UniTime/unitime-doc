@@ -8,6 +8,8 @@ title: Setup Examination Periods
 
 The Setup Examination Periods screen provides interface for setting up regular examination periods all at once (as opposed to one by one in the [Add Examination Period](add-examination-period) screen).
 
+![Setup Examination Periods](images/setup-examination-periods-1.png){:class='screenshot'}
+
 ## Details
 
 In the first part of the screen, it is possible to set up up to five examination periods. Those periods will then be created for each of the dates indicated in the calendar in the second part. Only the periods that have their Start Time filled in will be created - the user can e.g. fill in data for two examination periods and leave the rest empty - then there will be two examination periods created for each date from the calendar.
@@ -46,6 +48,3 @@ In the first part of the screen, it is possible to set up up to five examination
 To set up a single examination period that is different from the "regular" ones, go to the [Add Examination Period](add-examination-period) screen.
 
 To make changes to an individual examination period (after the general pattern is set up in this screen), click on the midterm examination period in the [Examination Periods](examination-periods) screen and make changes (such as changing time or preference) in its [Edit Examination Period](edit-examination-period) screen.
-
-
-![Setup Examination Periods](images/setup-examination-periods-1.png){:class='screenshot'}

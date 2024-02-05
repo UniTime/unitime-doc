@@ -8,14 +8,13 @@ title: Instructor Detail
 
 In the Instructor Detail screen, you can see information about a given instructor. From this screen, you have access to edit screens for most of that information.
 
+![Instructor Detail](images/instructor-detail-1.png){:class='screenshot'}
+
 ## Instructor Information
 
 The header of this section is the instructor's name.
 
 To see a detailed description of each of the fields in this section (External Id, Account Name, ...), go to the description of the [Edit Instructor](edit-instructor) screen.
-
-
-![Instructor Detail](images/instructor-detail-1.png){:class='screenshot'}
 
 ## Class Assignments
 
@@ -120,6 +119,3 @@ Also, if the instructor is also a student (there is a student with matching exte
 
 * **Back** (Alt+B)
 	* Go back to the last non-editable screen from which you came
-
-
-![Instructor Detail](images/instructor-detail-2.png){:class='screenshot'}

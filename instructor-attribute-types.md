@@ -8,6 +8,8 @@ title: Instructor Attribute Types
 
 This page defines instructor attribute types (every instructor attribute must have a type). Instructor attribute types are used to categorize instructor attributes. Instructor attribute types are academic session independent (the same set is used across all academic sessions). The user needs to have Instructor Attribute Types permission to be able to see the instructor attribute types. The permission Instructor Attribute Type Edit is needed to make modifications.
 
+![Instructor Attribute Types](images/instructor-attribute-types-1.png){:class='screenshot'}
+
 ## Details
 
 Each attribute type has an abbreviation, a name, and two toggles:
@@ -27,6 +29,3 @@ To edit or delete an attribute type, click on the appropriate line, [Edit Instru
 A new attribute type can be added on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page (button **Edit**) or using [Add Instructor Attribute Type](add-instructor-attribute-type) page (button **Add**).
 
 The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
-
-
-![Instructor Attribute Types](images/instructor-attribute-types-1.png){:class='screenshot'}

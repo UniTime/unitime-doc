@@ -8,6 +8,8 @@ title: Not-Assigned Teaching Requests
 
 The list of not assigned teaching requests can be seen on the Not-Assigned Teaching Requests page. The page can either show the data as they are loaded in the solver (showing the current solution, when the solver is loaded in memory) or the teaching assignments as they are saved in the database.
 
+![Not-Assigned Teaching Requests](images/not-assigned-teaching-requests-1.png){:class='screenshot'}
+
 ## Details
 
 The page consists of a filter that allows to search for teaching requests by their subject area, individual attributes (that are requested or that the assigned instructors have), by a particular course or instructor.
@@ -17,10 +19,6 @@ The table shows a list of not-assigned teaching requests meeting the above filte
 ## Operations
 
 The table page can be sorted by any column and particular columns can be shown/hidden using the context menu on the table header. The content of the table can be exported in CSV (comma separated value) or PDF format using the Export CSV or Export PDF buttons respectively. The exported file contains the same columns as they are currently visible on the page and the requests are ordered in the same manner as well.
-
-
-![Not-Assigned Teaching Requests](images/not-assigned-teaching-requests-1.png){:class='screenshot'}
-
 
 ![Not-Assigned Teaching Requests](images/not-assigned-teaching-requests-2.png){:class='screenshot'}
 

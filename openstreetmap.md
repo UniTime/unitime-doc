@@ -47,8 +47,7 @@ You can change the map tiles using the following two properties (the table shows
 # Laflet maps tiles url template
 unitime.coordinates.leafletmap.tilesUrl=https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 # Laflet maps tiles attribution
-unitime.coordinates.leafletmap.tilesAttribution=
-  &copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors
+unitime.coordinates.leafletmap.tilesAttribution=&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
 ```
 
 For more details about Leaflet JS, see [https://leafletjs.com](https://leafletjs.com/). Different map tiles can be explored at [http://leaflet-extras.github.io/leaflet-providers/preview](http://leaflet-extras.github.io/leaflet-providers/preview).

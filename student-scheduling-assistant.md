@@ -8,6 +8,7 @@ title: Student Scheduling Assistant
 
 The Student Scheduling Assistant helps students build a workable class schedule.  It takes a list of courses a student is interested in and determines the class sections the student needs to take in order to get as many of the courses being requested as possible.  The Student Scheduling Assistant tries to calculate a schedule for the student based on the following criteria:
 
+
 * the student’s priority for the course
 
 * the student’s free time requests
@@ -29,6 +30,9 @@ The Student Scheduling Assistant helps students build a workable class schedule.
 Once the assistant has suggested a schedule a student can make changes to the schedule until she finds a combination of time for the classes that meets her needs.
 
 In the Student Scheduling Assistant screen, a student may enter a prioritized list of courses he/she would like to take in a given term. It is also possible to enter course alternatives and free time requests. Then a personal schedule is offered to the student and he/she can enroll in the classes as offered.
+
+![Student Scheduling Assistant](images/student-scheduling-assistant-1.png){:class='screenshot'}
+
 
 ## Courses and Priorities
 
@@ -58,8 +62,7 @@ Table of alternative courses in the order of priority. These alternatives will b
 
 The Personal Schedule mode of the Student Scheduling Assistant screen presents a list of classes with their assigned times and rooms to which further changes can be made. The user can click on any class and get to the [Alternatives](alternatives-for-class) screen where there are options for change (if any change is possible) - for example, to take a course at a different time or in a different location.
 
-
-![Student Scheduling Assistant](images/student-scheduling-assistant-1.png){:class='screenshot'}
+![Student Scheduling Assistant](images/student-scheduling-assistant-2.png){:class='screenshot'}
 
 ### List of Classes
 
@@ -120,9 +123,6 @@ The Personal Schedule mode of the Student Scheduling Assistant screen presents a
 		* **Two people icon:** There are more students expected than seats available; please, try to avoid this class if possible. To see if another class is available, click on the class; that will take you to the [Alternatives](alternatives-for-class) screen.
 		* **Red circle cross:** The class has been cancelled. 
 
-
-![Student Scheduling Assistant](images/student-scheduling-assistant-2.png){:class='screenshot'}
-
 Click on any class in the list to get to the [Alternatives](alternatives-for-class) screen to see if there are alternative times or rooms for that class.
 
 There is a small toggle **Show unassignments** in the lower right-hand corner. When the checkbox is checked, any classes that would be unassigned as a result of the current work with the Student Scheduling Assistant will be displayed.
@@ -131,15 +131,13 @@ There is a small toggle **Show unassignments** in the lower right-hand corner. W
 
 Student's schedule displayed as a time grid (as opposed to a list of classes).Click on any class in the timetable to get to the [Alternatives](alternatives-for-class) screen to see if there are alternative times or rooms for that class.
 
+![Student Scheduling Assistant](images/student-scheduling-assistant-4.png){:class='screenshot'}
+
 ### Student Availability
 
 A student may not be available during a particular time because he/she is teaching some other class. Both batch and online solvers now consider this student/instructor availability. A student can now see his/her teaching assignments in the Scheduling Assistant as well.
 
-
 ![Student Scheduling Assistant](images/student-scheduling-assistant-3.png){:class='screenshot'}
-
-
-![Student Scheduling Assistant](images/student-scheduling-assistant-4.png){:class='screenshot'}
 
 Teaching assignments are on top of the list, in dark blue with the teacher icon (teacher icon is not present when the student must be available during the class, but is not assigned as an instructor to it -- see [Instructor Scheduling](instructor-scheduling) component, common classes).
 
@@ -175,8 +173,8 @@ Teaching assignments are on top of the list, in dark blue with the teacher icon 
 
 There are two ways to enter a free time request
 
-	1. In the list of courses, enter the request in the form of "Free F 10:00a - 10:30a" or "Free TR 2:00p - 3:00p" etc.
-	2. Go to the [Course Finder](course-finder) screen and click on the "Free Time" tab; then click on the times that should stay free and then press Enter
+1. In the list of courses, enter the request in the form of "Free F 10:00a - 10:30a" or "Free TR 2:00p - 3:00p" etc.
+2. Go to the [Course Finder](course-finder) screen and click on the "Free Time" tab; then click on the times that should stay free and then press Enter
 
 **Shortcuts for navigation through the Courses or Alternatives table**
 

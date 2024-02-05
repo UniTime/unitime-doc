@@ -8,6 +8,8 @@ title: Not-Assigned Examinations
 
 The Not-Assigned Examinations screen provides a list of examinations that have not yet been assigned period and room(s).
 
+![Not-Assigned Examinations](images/not-assigned-examinations-1.png){:class='screenshot'}
+
 ## Filter
 
 * **Show classes/courses**
@@ -61,6 +63,3 @@ A list of examinations that do not have assigned periods and rooms
 
 * **Refresh**
 	* Refresh the list of unassigned examinations
-
-
-![Not-Assigned Examinations](images/not-assigned-examinations-1.png){:class='screenshot'}

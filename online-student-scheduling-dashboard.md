@@ -8,6 +8,8 @@ title: Online Student Scheduling Dashboard
 
 The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status (admin only).
 
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-1.png){:class='screenshot'}
+
 ## Filter
 
 The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
@@ -19,6 +21,8 @@ The filter at the top of the Online Student Scheduling Dashboard page controls t
 The page shows up to three tabs - **Enrollments** with detailed information about courses and classes, **Students** with enrollment information ordered by students, and **Change Log** with a list of changes in enrollments. See the description for each of them below.
 
 ## Enrollments
+
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-2.png){:class='screenshot'}
 
 * A column with clickable plus signs that enable unfolding of a course into lines with individual classes
 
@@ -77,6 +81,8 @@ The page shows up to three tabs - **Enrollments** with detailed information abou
 Click on any class or course to get to its [Enrollments](enrollments-of-class-or-course) dialog (which shows a list of enrolled students together with some additional information).
 
 ## Students
+
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-3.png){:class='screenshot'}
 
 * Note: some columns need not be displayed in the table if they are not applicable to the current situation⊗ (an optional column for the student selection checkboxes)
 	* Click on this column header to open a menu with possible actions (most actions are available only when at least one checkbox in this column is checked for some student)
@@ -204,6 +210,9 @@ Click on any student to get to the screen with [Classes](classes-for-student) fo
 
 ## Change Log
 
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-4.png){:class='screenshot'}
+
+
 For the Change Log, the Filter can be used with further parameters
 
 * **operation:** Operation that was executed during a change
@@ -266,14 +275,3 @@ Click on any change in the change log to get to its [Change message](change-mess
 	* **Sort By**
 		* Select column that will be used to sort the table
 
-
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-1.png){:class='screenshot'}
-
-
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-2.png){:class='screenshot'}
-
-
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-3.png){:class='screenshot'}
-
-
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-4.png){:class='screenshot'}

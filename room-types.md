@@ -8,6 +8,8 @@ title: Room Types
 
 The Room Types screen provides a list of available room types. Room types are used when it is needed to reduce possible rooms to a certain type, e.g. in event management where a user can ask e.g. for an available outside location or an available computing lab.
 
+![Room Types](images/room-types-1.png){:class='screenshot'}
+
 ## Details
 
 * **Up** and **down** arrows
@@ -33,6 +35,3 @@ Click on any room type in the list to get to its [Edit Room Type](edit-room-type
 
 * **Add Room Type** (Alt+A)
 	* Go to the [Add Room Type](add-room-type) screen to add a new room type
-
-
-![Room Types](images/room-types-1.png){:class='screenshot'}

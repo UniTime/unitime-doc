@@ -8,14 +8,13 @@ title: Page Statistics
 
 The Page Statistics page provide some basic information about usage of UniTime pages during the past 24 hours, 7 days, and 3 months. It also provides some basic information about each page and GWT/RPC asynchronous calls.
 
+![Page Statistics](images/page-statistics-1.png){:class='screenshot'}
+
 The page is based on the [QueryLog]( https://github.com/UniTime/unitime/tree/master/JavaSource/QueryLog.hbm.xml). It may take a bit of time (usually a couple of minutes) for the charts to be computed and the page to appear.
 
 ## Details
 
 For each time frame (last 24 hours, 7 days, and last 3 months), two charts are computed. Each point (horizontally) represents a time window of 15 minutes, 3 hours, 7 days respectively. The chart on the left (see the example below) contains the average number of users, the average number of distinct HTTP sessions (with the vertical axe on the left), the average number of displayed pages, and the average number of GWT calls per minute (with the vertical axe on the right).
-
-
-![Page Statistics](images/page-statistics-1.png){:class='screenshot'}
 
 
 ![Page Statistics](images/page-statistics-2.png){:class='screenshot'}

@@ -8,6 +8,8 @@ title: Subject Areas
 
 The Subject Areas screen lists all subject areas for a given academic session with some basic information about them.
 
+![Subject Areas](images/subject-areas-1.png){:class='screenshot'}
+
 ## Details
 
 The top line shows the academic session for which the subject areas are listed. The list contains the following columns (and can be sorted by any of them by clicking on the column heading)
@@ -46,6 +48,3 @@ Click on any subject area to edit it in the [Edit Subject Area](edit-subject-are
 
 * **Export PDF**
 	* Export the list of subject areas to a PDF document
-
-
-![Subject Areas](images/subject-areas-1.png){:class='screenshot'}

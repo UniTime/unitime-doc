@@ -8,6 +8,8 @@ title: Room Detail
 
 The Room Detail screen provides details about a particular room or non-university location.
 
+![Room Detail](images/room-detail-1.png){:class='screenshot'}
+
 ## Details
 
 The top line consists of the room name and all the buttons described in the Operations section of this page.
@@ -141,6 +143,3 @@ The top line consists of the room name and all the buttons described in the Oper
 
 * **Back** (Alt+B)
 	* Go back to the previous screen
-
-
-![Room Detail](images/room-detail-1.png){:class='screenshot'}

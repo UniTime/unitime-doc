@@ -8,6 +8,8 @@ title: Instructor Scheduling Solver
 
 The instructor scheduling solver works much like any other UniTime solver. It can be loaded, unloaded, started, saved, etc. using this page.
 
+![Instructor Scheduling Solver](images/instructor-scheduling-solver-1.png){:class='screenshot'}
+
 ## Details
 
 The solver works with two solutions, current solution and the best ever found solution. This helps the solver to keep a record of the best solution is has seen while it is making changes in the current solution. A number of properties about the best and the current solutions are listed, these include the number of assigned variables (teaching requests, a complete solution should have 100%), the overall solution value (this is a weighted sum of all the optimization criteria, which the solver is trying to minimize), time and iteration when the current solution was reached and a number of optimization criteria that are being considered (criteria that are not used are not displayed):
@@ -97,6 +99,3 @@ The solver page has the following operations:
 
 * **Export XML**
 	* Export the problem in the solver-compatible XML format
-
-
-![Instructor Scheduling Solver](images/instructor-scheduling-solver-1.png){:class='screenshot'}

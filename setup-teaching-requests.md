@@ -8,6 +8,8 @@ title: Setup Teaching Requests
 
 Instructors that are to be assigned automatically are not requested directly on classes, but there are teaching requests. Each teaching request may include multiple classes of the same course and provide some additional constraints.
 
+![Setup Teaching Requests](images/setup-teaching-requests-1.png){:class='screenshot'}
+
 Each teaching request contains:
 
 * **Number of Instructors**
@@ -94,6 +96,3 @@ The course coordinators are configured in the second part of the page, 2. Teachi
 The created teaching requests are visible in the Teaching Requests section of the [Instructor Offering Detail](instructional-offering-detail) page and can be edited by clicking the Setup Teaching Requests button again.
 
 Once the solver has run, the table also shows the current instructor assignments, together with their details (instructor external id, name, assigned / maximal teaching load, attributes, time, course, and distribution preferences). Teaching Request Detail dialog is shown when a teaching request is clicked that allows to see more details and to make an assignment change with or without the solver loaded in memory (see the Solver chapter below for more details).
-
-
-![Setup Teaching Requests](images/setup-teaching-requests-1.png){:class='screenshot'}

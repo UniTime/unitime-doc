@@ -8,6 +8,8 @@ title: Instructor Scheduling Solver Log
 
 The Instructor Scheduling Solver Log page can be useful to see what the solver has been doing. Also, any solver warnings and errors are listed in here.
 
+![Instructor Scheduling Solver Log](images/instructor-scheduling-solver-log-1.png){:class='screenshot'}
+
 ## Details
 
 The amount of information displayed depends on the **Debug Level** chosen from the drop-down list:
@@ -33,5 +35,3 @@ The amount of information displayed depends on the **Debug Level** chosen from t
 * **Refresh**
 	* Refresh this page
 
-
-![Instructor Scheduling Solver Log](images/instructor-scheduling-solver-log-1.png){:class='screenshot'}

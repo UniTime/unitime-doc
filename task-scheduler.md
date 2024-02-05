@@ -8,6 +8,8 @@ title: Task Scheduler
 
 The Task Scheduler page can be used to schedule periodic execution of the existing [Scripts](scripts) within the current academic session.
 
+![Task Scheduler](images/task-scheduler-2.png){:class='screenshot'}
+
 ## Details
 
 Each task has the following properties
@@ -53,5 +55,3 @@ It is possible to roll scheduled tasks from one academic session to the next usi
 * **Refresh**
 	* Refresh the page
 
-
-![Task Scheduler](images/task-scheduler-2.png){:class='screenshot'}

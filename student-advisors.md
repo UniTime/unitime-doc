@@ -8,6 +8,8 @@ title: Student Advisors
 
 The Student Advisors page can be used to define student advisors and their association with one or more students.
 
+![Student Advisors](images/student-advisors-1.png){:class='screenshot'}
+
 This table is used for authentication (to grant a user the student advisor role) and to populate the My Students filter on the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page. An advisor may be allowed to only modify his/her students by using the following permissions:
 
 * **Student Scheduling Advisor Can Modify My Students**
@@ -46,6 +48,3 @@ Click on any line with a student advisor to get to its __Edit Student Advisor__ 
 
 * **Edit**
 	* Go to the __Edit Student Advisors__ screen to edit all the student advisors at once
-
-
-![Student Advisors](images/student-advisors-1.png){:class='screenshot'}

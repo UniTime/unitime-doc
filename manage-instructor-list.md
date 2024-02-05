@@ -8,6 +8,8 @@ title: Manage Instructor List
 
 The Manage Instructor List screen is populated with names of employees of a given department. The source of the information about employees is the university staff table (see [staff import](https://www.unitime.org/uct_interfaces.php)). The schedule manager can indicate which people from this list should be included in the list of instructors in the [Instructors](instructors) screen.
 
+![Manage Instructor List](images/manage-instructor-list-1.png){:class='screenshot'}
+
 ## Filter
 
 * **Display**
@@ -36,6 +38,3 @@ For each instructor in the list, you can see his/her ID and name (as it appears 
 
 * **Back** (Alt+B)
 	* Go back to the [Instructors](instructors) screen without saving any changes
-
-
-![Manage Instructor List](images/manage-instructor-list-1.png){:class='screenshot'}

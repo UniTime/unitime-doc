@@ -8,6 +8,8 @@ title: Scripts
 
 The Scripts page allows to create a run pretty much any script within UniTime. A script can have many parameters, it can read or write a file, as well as change the database. The [JSR 223: Scripting for the Java Platform](http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/) is used, so many scripting engines can be plugged in if needed. The JavaScript based [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) is available by default, [Jython](http://www.jython.org/jythonbook/en/1.0/JythonAndJavaIntegration.html) has been tested as well.
 
+![Scripts](images/scripts-1.png){:class='screenshot'}
+
 The creation of such scripts requires a working knowledge of the UniTime's source code and the Hibernate model. There is no comprehensive development documentation at the moment, except for the source code itself. The Hibernate model (i.e., the *.hbm.xml files in [JavaSource](https://github.com/UniTime/unitime/tree/master/JavaSource) folder) is a good place to start. Please contact us at [support@unitime.org](mailto:support@unitime.org) if you need a help with development of a particular script.
 
 Users with Scripts permission can open the Scripts page, however, each script may require a particular permission for the user to be able to select and execute the script. To create, modify, or delete a script permission Script Edit is required.
@@ -23,9 +25,6 @@ Users with Scripts permission can open the Scripts page, however, each script ma
 ## Details
 
 To add a new script click on the **Add New** button. To edit an existing script, select the script in the drop down and click on **Edit** button. A script can be deleted from the Edit Script dialog, by clicking on the **Delete** button.
-
-
-![Scripts](images/scripts-1.png){:class='screenshot'}
 
 
 ![Scripts](images/scripts-2.png){:class='screenshot'}

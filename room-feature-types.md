@@ -8,6 +8,8 @@ title: Room Feature Types
 
 The Room Feature Types page can be used to categorize room features. Each room feature can have a room type (or no room type at all). Each room feature type has an abbreviation and a name. If the Event Management toggle is switched off, the room feature type and all its room features are not visible in the event management. This is useful for room features that are only important for course and examination timetabling.
 
+![Room Feature Types](images/room-feature-types-1.png){:class='screenshot'}
+
 Room feature types are independent of academic sessions. The relation between room feature types and room features is included in the academic session roll forward of building and room data.
 
 The permission Room Feature Types is needed to be able to access the page, the permission Room Feature Type Edit is needed to be able to make changes. A room feature type can only be deleted when there are no room feature with that type. Both abbreviation and name are required and should be unique within the list of all room feature types.
@@ -15,9 +17,6 @@ The permission Room Feature Types is needed to be able to access the page, the p
 ## Details
 
 Once there are some room feature types defined, a room feature can have a type set on the [Edit Room Feature](edit-room-feature) page. The Type column will also appear on the [Room Features](room-features) page (once there is at least one room feature which has a room feature type defined).
-
-
-![Room Feature Types](images/room-feature-types-1.png){:class='screenshot'}
 
 
 ![Room Feature Types](images/room-feature-types-2.png){:class='screenshot'}

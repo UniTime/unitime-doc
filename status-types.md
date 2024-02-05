@@ -8,6 +8,8 @@ title: Status Types
 
 The Status Types screen provides a list of status types. Each status is defined by the rights the managers or owners have regarding viewing and/or editing their data.
 
+![Status Types](images/status-types-1.png){:class='screenshot'}
+
 ## Details
 
 * **Reference**
@@ -33,8 +35,4 @@ Click on any status type to get to its [Edit Status Type](edit-status-type) scre
 * **Up** and **down** arrows
 	* Move the status type up or down in the list of Status Types
 	* The statuses are displayed in other screens (such as [Edit Department](edit-department)) in the same order in which they are listed in this screen
-
-
-![Status Types](images/status-types-1.png){:class='screenshot'}
-[](https://drive.google.com/folderview?id=1oi8M2dtxAPfimMrrvZc3QMLU9wGDriK4)
 

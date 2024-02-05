@@ -8,6 +8,8 @@ title: Manager Settings
 
 The Manager Settings screen provides a list of manager's settings, which can easily be changed by clicking on any of them.
 
+![Manager Settings](images/manager-settings-1.png){:class='screenshot'}
+
 Manager Settings help the users display information and select functionality that is most helpful for them in the input data section of the application.
 
 ## Details
@@ -66,6 +68,3 @@ The following settings are available
 Click on any setting to change its value in the [Edit Manager Setting](edit-manager-setting) screen.
 
 Settings can be added/removed by administrator in the [Default Manager Settings](default-manager-settings) screen which is placed in the Default section of the Administration part of the left hand side menu.
-
-
-![Manager Settings](images/manager-settings-1.png){:class='screenshot'}

@@ -8,6 +8,8 @@ title: Room Groups
 
 In the Room Groups screen you have an overview of the groups of rooms applicable to the department selected in the upper part of the screen.
 
+![Room Groups](images/room-groups-1.png){:class='screenshot'}
+
 ## Details
 
 Select the department for which you want to display its room groups in the drop down list next to the **Department** label.
@@ -32,6 +34,3 @@ The list of groups is divided into two parts:
 
 * **Add New Room Group** (Alt+G)
 	* Go to the [Add Room Group](add-room-group) screen to add a new room group applicable only to the rooms of the department selected in the Room Groups screen
-
-
-![Room Groups](images/room-groups-1.png){:class='screenshot'}

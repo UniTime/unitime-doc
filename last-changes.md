@@ -8,6 +8,8 @@ title: Last Changes
 
 The Last Changes screen provides a log of times/authors/screens of the changes in the application (it does not contain information about what has changed in a given screen).
 
+![Last Changes](images/last-changes-1.png){:class='screenshot'}
+
 ## Details
 
 ### Filter
@@ -50,6 +52,3 @@ The list of last changes contains the following columns
 
 * **Refresh**
 	* Refresh this screen
-
-
-![Last Changes](images/last-changes-1.png){:class='screenshot'}

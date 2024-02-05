@@ -8,6 +8,8 @@ title: Timetable Managers
 
 The Timetable Managers screen contains a list of all users allowed to work with the timetabling application (all managers). The list can be sorted by any column heading in green color. Click on any manager to make changes.
 
+![Timetable Managers](images/timetable-managers-1.png){:class='screenshot'}
+
 ## Details
 
 The columns in the list are as follows
@@ -48,6 +50,3 @@ Click on a line with a manager to change the values in any of the columns.
 
 * **Export PDF** (ALT+P)
 	* Export the list of managers to a PDF document
-
-
-![Timetable Managers](images/timetable-managers-1.png){:class='screenshot'}

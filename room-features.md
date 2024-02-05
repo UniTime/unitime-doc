@@ -6,6 +6,8 @@ title: Room Features
 
 ## Screen Description
 
+![Room Features](images/room-features-1.png){:class='screenshot'}
+
 ## Details
 
 Select the department for which you want to display its room features in the drop down list next to the **Department** label.
@@ -24,9 +26,6 @@ The list of features is divided into two parts:
 	* To add or remove departmental rooms that have this feature click on the line with the feature - that takes you to the [Edit Room Feature](edit-room-feature) screen
 
 In the Room Features screen you have an overview of the features applicable to the rooms of the department selected in the upper part of the screen.
-
-
-![Room Features](images/room-features-1.png){:class='screenshot'}
 
 ## Operations
 

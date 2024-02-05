@@ -8,6 +8,9 @@ title: Limit and Projection Snapshot
 
 The Limit and Projection Snapshot screen lists the timestamp the most recent limit and projection snapshot was taken.  It provides users with the appropriate rights to take a new limit and projection snapshot.
 
+![Limit and Projection Snapshot](images/limit-and-projection-snapshot-1.png){:class='screenshot'}
+
+
 ## Details
 
 The data displayed on the page is as follows
@@ -22,6 +25,3 @@ The data displayed on the page is as follows
 ## Notes
 
 Taking a new snapshot of the limit and projection data overwrites any existing snapshots of limit and projection data.
-
-
-![Limit and Projection Snapshot](images/limit-and-projection-snapshot-1.png){:class='screenshot'}
