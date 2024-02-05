@@ -172,7 +172,7 @@ Click on any curriculum to see its details.
 	* Show Last-Like Enrollment
 	* Show the number of students from given majors who were enrolled in the courses of this curriculum in the last-like semester
 	* Show Projected by Rule Enrollment
-	* Number of students as projected in the [Curriculum Projection Rules](http://help.unitime.org/Curriculum_Projection_Rules) page (calculated and entered by administrators)
+	* Number of students as projected in the [Curriculum Projection Rules](curriculum-projection-rules) page (calculated and entered by administrators)
 	* Show Requested / Current Enrollment
 		* Show both the numbers for the requested and the current enrollment
 	* Show Requested / Last-Like Enrollment

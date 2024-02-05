@@ -18,7 +18,7 @@ Each course credit unit has a reference, a name, and an abbreviation. References
 
 To edit or delete a credit unit, click on the appropriate line, [Edit Course Credit Unit](edit-course-credit-unit) page will appear. All the credit units can be edited on the [Edit Course Credit Units](edit-course-credit-units) page. To do so, click on the **Edit** button.
 
-A new credit unit can be added on the [Edit Course Credit Units](edit-course-credit-units) page (button **Edit**) or using [Add](http://goog_1604282881) [Course Credit Unit](add-course-credit-unit) page (button **Add**).
+A new credit unit can be added on the [Edit Course Credit Units](edit-course-credit-units) page (button **Edit**) or using [Add Course Credit Unit](add-course-credit-unit) page (button **Add**).
 
 The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
 

@@ -6,8 +6,9 @@ title: Add Event
 
 ## Screen Description
 
-![Add Event](images/add-event-1.png){:class='screenshot'}
 The Add Event screen is used to request an event. An event can have just one meeting, or there can be multiple meetings that are on the same or on different days, times, and/or locations. Each meeting can be also approved, cancelled, or rejected separately and it is possible to add additional meetings or cancel / delete some or all of the existing meetings later on as well (using the [Edit Event](edit-event) page). The only limitation is that all the meetings must be from the same academic session.
+
+![Add Event](images/add-event-1.png){:class='screenshot'}
 
 Each meeting of a requested event is in a _pending state_ (i.e., it is waiting to be approved) until the appropriate event manager approves, cancels or rejects the meeting. During this time, the owner of the event can delete or cancel the meeting. Once an event is approved, it may only get cancelled. Meetings that are deleted will disappear from the event, but cancelled or rejected meetings will leave a trace (e.g., you can see the cancelled or rejected meetings on the [Event Detail](event-detail) page). If all meetings of an event are deleted, the event is deleted as well. Each operation done to an event is also logged in the Event Notes section of the Event (see [Event Detail](event-detail) page).
 

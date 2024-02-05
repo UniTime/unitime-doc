@@ -36,11 +36,11 @@ The Edit Examination Period screen provides interface for making changes to an e
 ## Operations
 
 * **Update**
-	* Save changes made to the examination period and go back to the [Examination Periods](http://help.unitime.org/Examination_Periods) screen
+	* Save changes made to the examination period and go back to the [Examination Periods](examination-periods) screen
 
 * **Delete**
 	* Delete the examination period and go back to the [Examination Periods](examination-periods) screen
 
 * **Back**
-	* Go back to the [Examination Periods](http://help.unitime.org/Examination_Periods) screen without saving any changes
+	* Go back to the [Examination Periods](examination-periods) screen without saving any changes
 

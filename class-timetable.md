@@ -6,7 +6,7 @@ title: Class Timetable
 
 ## Screen Description
 
-Classes page is a variant of the [Events](http://help34.unitime.org/Events) page that allows to see all classes of a particular subject area or a course. The subject area or course can be entered in the Subject field.
+Classes page is a variant of the [Events](events) page that allows to see all classes of a particular subject area or a course. The subject area or course can be entered in the Subject field.
 
 ![Class Timetable](images/class-timetable-1.png){:class='screenshot'}
 

@@ -24,7 +24,7 @@ If the Skill attribute type is not marked as required attribute, instructors wit
 
 To edit or delete an attribute type, click on the appropriate line, [Edit Instructor Attribute Type](edit-instructor-attribute-type) page will appear. All the attribute types can be edited on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page. To do so, click on the **Edit** button. Only attribute types that are not being used can be deleted.
 
-A new attribute type can be added on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page (button **Edit**) or using [Add Instructor Attribute](http://goog_1869465913) [Type](add-instructor-attribute-type) page (button **Add**).
+A new attribute type can be added on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page (button **Edit**) or using [Add Instructor Attribute Type](add-instructor-attribute-type) page (button **Add**).
 
 The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
 

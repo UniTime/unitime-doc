@@ -6,7 +6,7 @@ title: Exporting Solver XML
 
 ## Description
 
-The data that are loaded into the course timetabling solver can be easily exported to an XML format (see the description at [University Course Timetabling Data Format](http://www.unitime.org/uct_dataformat_v24.php) page) that only contains the data needed by the solver to run and that can be used to run and or debug the solver outside of UniTime (only the [CPSolver](https://github.com/UniTime/cpsolver) library is needed, see [University Course Timetabling Solver Execution](http://www.unitime.org/uct_execution.php) page for more details). This data format can be also used to publish data instance for research purposes (see the [University Course Timetabling Benchmark Datasets](http://www.unitime.org/uct_datasets.php) page for more details). It is possible to make sure that the exported XML contains no labels, only the UniTime's unique ids which can be also obfuscated if needed.
+The data that are loaded into the course timetabling solver can be easily exported to an XML format (see the description at [University Course Timetabling Data Format](https://www.unitime.org/uct_dataformat_v24.php) page) that only contains the data needed by the solver to run and that can be used to run and or debug the solver outside of UniTime (only the [CPSolver](https://github.com/UniTime/cpsolver) library is needed, see [University Course Timetabling Solver Execution](https://www.unitime.org/uct_execution.php) page for more details). This data format can be also used to publish data instance for research purposes (see the [University Course Timetabling Benchmark Datasets](https://www.unitime.org/uct_datasets.php) page for more details). It is possible to make sure that the exported XML contains no labels, only the UniTime's unique ids which can be also obfuscated if needed.
 
 ## Details
 
@@ -43,7 +43,7 @@ When this parameter is set to true, UniTime unique ids are replaced by a new seq
 
 When this parameter is set to true, the exported XML contains solver parameters of the configuration that was used to load the data into the solver. It defaults to false. This parameter has been added in UniTime 4.1, so older UniTime versions do not have this capability and the solver configuration must be exported using the Administration > Solver > [Solver Configurations](solver-configurations) page if needed.
 
-The published benchmark data that are available on the [University Course Timetabling Benchmark Datasets](http://www.unitime.org/uct_datasets.php) page have been exported from UniTime using the above properties set as follows:
+The published benchmark data that are available on the [University Course Timetabling Benchmark Datasets](https://www.unitime.org/uct_datasets.php) page have been exported from UniTime using the above properties set as follows:
 ```
 unitime.solution.export.names=false
 unitime.solution.export.id-conv=false

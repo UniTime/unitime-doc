@@ -16,7 +16,7 @@ The screen is divided into two parts - a filter and the actual list of rooms.
 
 When the page is accessed from the event management, the user can also select an academic session for which are the rooms to be displayed.
 
-The [Room Filter](http://help41.unitime.org/Events/Room_Filter) can be used to filter the available rooms by various parameters. Rooms can be filtered by name, department, room type, room feature, room group, building, and occupant capacity.  Filter criteria can be entered directly in the input area or selected from a dialog box activated by clicking on the triangle symbol at the right hand side of the input area.
+The [Room Filter](events-room-filter) can be used to filter the available rooms by various parameters. Rooms can be filtered by name, department, room type, room feature, room group, building, and occupant capacity.  Filter criteria can be entered directly in the input area or selected from a dialog box activated by clicking on the triangle symbol at the right hand side of the input area.
 
 ## Operations
 

@@ -108,7 +108,7 @@ In the **Instructors**, the following information is displayed and can be edited
 
 * Select a room group from the first drop down list and the preference level from the second drop down list
 
-* You can see only those room groups that are applicable to classes of the given manager (for example, for Large Lecture Room classes you can see groups of large lecture rooms); for your departmental classes, you can see only those room groups that are listed in your [Room Groups](room-groups) screen - if you need to add another room group, go to the menu, to Courses → Input Data → [Room Groups](http://help.unitime.org/Room_Groups)
+* You can see only those room groups that are applicable to classes of the given manager (for example, for Large Lecture Room classes you can see groups of large lecture rooms); for your departmental classes, you can see only those room groups that are listed in your [Room Groups](room-groups) screen - if you need to add another room group, go to the menu, to Courses → Input Data → [Room Groups](room-groups)
 
 * To add more lines for additional room group preferences, click on **Add Room Group Preference** (Alt+G)
 

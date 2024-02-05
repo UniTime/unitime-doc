@@ -16,7 +16,7 @@ In the Student Scheduling Solver screen, the user can run the sectioning solver 
 	* Current status of the solver
 
 * **Solver configuration**
-	* Configuration - see [Solver Configurations](http://help.unitime.org/Solver_Configurations) for more information
+	* Configuration - see [Solver Configurations](solver-configurations) for more information
 	* Chose the appropriate configuration from choices listed
 
 * **Solver mode**

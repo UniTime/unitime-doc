@@ -6,9 +6,9 @@ title: UniTime 4.8 Documentation
 
 ## General
 
-* Homepage: [http://www.unitime.org/](http://www.unitime.org/)
+* Homepage: [https://www.unitime.org/](https://www.unitime.org/)
 * Online Demo: [https://demo.unitime.org/](https://demo.unitime.org/)
-* UniTime Highlights: [PDF](http://www.unitime.org/present/unitime-highlights.pdf) 
+* UniTime Highlights: [PDF](https://www.unitime.org/present/unitime-highlights.pdf) 
 
 
 ## Manuals
@@ -33,17 +33,17 @@ title: UniTime 4.8 Documentation
 
 ## Webinars
 
-* Introducing UniTime [https://youtu.be/anUOP14l1QE](https://youtu.be/anUOP14l1QE) [[slides](http://www.unitime.org/present/apereo14.pdf)]
-* Course Timetabling with UniTime [https://youtu.be/k3FAhKa3HOA](https://youtu.be/k3FAhKa3HOA) [[slides](http://www.unitime.org/present/apereo15-webinar.pdf)]
-* Examination Timetabling in UniTime [https://youtu.be/x3xQcXwKhn4](https://youtu.be/x3xQcXwKhn4) [[slides](http://www.unitime.org/present/apereo15-exams.pdf)]
-* Student Scheduling in UniTime [https://youtu.be/5zKP-uEI6fQ](https://youtu.be/5zKP-uEI6fQ) [[slides](http://www.unitime.org/present/apereo16-webinar.pdf)]
+* Introducing UniTime [https://youtu.be/anUOP14l1QE](https://youtu.be/anUOP14l1QE) [[slides](https://www.unitime.org/present/apereo14.pdf)]
+* Course Timetabling with UniTime [https://youtu.be/k3FAhKa3HOA](https://youtu.be/k3FAhKa3HOA) [[slides](https://www.unitime.org/present/apereo15-webinar.pdf)]
+* Examination Timetabling in UniTime [https://youtu.be/x3xQcXwKhn4](https://youtu.be/x3xQcXwKhn4) [[slides](https://www.unitime.org/present/apereo15-exams.pdf)]
+* Student Scheduling in UniTime [https://youtu.be/5zKP-uEI6fQ](https://youtu.be/5zKP-uEI6fQ) [[slides](https://www.unitime.org/present/apereo16-webinar.pdf)]
 * Event Management in UniTime [https://youtu.be/jH_YQmMKj8M](https://youtu.be/jH_YQmMKj8M) [[slides](https://www.unitime.org/present/events.pdf)]
 
 
 ## Presentations
 
-* UniTime Best Practices: [link](http://www.unitime.org/present/apereo17-workshop.pdf)
-* For other presentations see [http://www.unitime.org/presentations.php](http://www.unitime.org/presentations.php)
+* UniTime Best Practices: [link](https://www.unitime.org/present/apereo17-workshop.pdf)
+* For other presentations see [https://www.unitime.org/presentations.php](https://www.unitime.org/presentations.php)
 
 
 ## Administrator Documentation
@@ -53,7 +53,7 @@ title: UniTime 4.8 Documentation
 * LDAP Authentication / Lookup: [help.unitime.org/LDAP](LDAP)
 * CAS Authentication: [help.unitime.org/CAS](CAS)
 * Exam Naming Convention: [help.unitime.org/exam-naming-convention](exam-naming-convention)
-* XML Interfaces: [www.unitime.org/uct_interfaces.php](http://www.unitime.org/uct_interfaces.php)
+* XML Interfaces: [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php)
 * UniTime 4.8 APIs: [link](https://docs.google.com/document/d/1dLw4aheA22G58dAqkUOVM5zqwoysHkbi4swMoOirUS0/edit?usp=sharing)
 * UniTime 4.8 Exports: [link](https://docs.google.com/document/d/1y-aB6vJfXQ7x8zTJJAkKUlDr0TDkEe-6viu1oUc7qLo/edit?usp=sharing)
 
@@ -61,8 +61,8 @@ title: UniTime 4.8 Documentation
 ## Distribution
 
 * Latest Release: [https://github.com/UniTime/unitime/releases/latest](https://github.com/UniTime/unitime/releases/latest)
-* Nightly Builds: [http://builds.unitime.org/#UniTime48](http://builds.unitime.org/#UniTime48)
-* Release Notes: [builds.unitime.org/UniTime4.8/Release-Notes.xml](http://builds.unitime.org/UniTime4.8/Release-Notes.xml)
+* Nightly Builds: [https://builds.unitime.org/#UniTime48](https://builds.unitime.org/#UniTime48)
+* Release Notes: [builds.unitime.org/UniTime4.8/Release-Notes.xml](https://builds.unitime.org/UniTime4.8/Release-Notes.xml)
 
 
 ## Development Documentation
@@ -72,15 +72,15 @@ title: UniTime 4.8 Documentation
 * Using Eclipse: [https://help.unitime.org/eclipse](eclipse)
 * Constraint solver:
 	* GitHub: [https://github.com/UniTime/cpsolver](https://github.com/UniTime/cpsolver)
-	* JavaDoc: [www.unitime.org/api/cpsolver-1.3](http://www.unitime.org/api/cpsolver-1.3)
-	* Examples: [www.unitime.org/cpsolver_examples.php](http://www.unitime.org/cpsolver_examples.php) (including brief description of the course timetabling, examination timetabling, and student sectioning problems, XML data format, configuration, and data benchmarks)
-	* PhD thesis: [www.unitime.org/papers/phd05.pdf](http://www.unitime.org/papers/phd05.pdf) (especially sections 4.2, 4.3, 5.1, 6.3, and appendix A)
-	* Timetabling competition: [ITC2007](http://www.unitime.org/itc2007/), [ITC2019](https://www.itc2019.org)
+	* JavaDoc: [www.unitime.org/api/cpsolver-1.3](https://www.unitime.org/api/cpsolver-1.3)
+	* Examples: [www.unitime.org/cpsolver_examples.php](https://www.unitime.org/cpsolver_examples.php) (including brief description of the course timetabling, examination timetabling, and student sectioning problems, XML data format, configuration, and data benchmarks)
+	* PhD thesis: [www.unitime.org/papers/phd05.pdf](https://www.unitime.org/papers/phd05.pdf) (especially sections 4.2, 4.3, 5.1, 6.3, and appendix A)
+	* Timetabling competition: [ITC2007](https://www.unitime.org/itc2007/), [ITC2019](https://www.itc2019.org)
 
 
 ## Research Publications
 
-* [www.unitime.org/publications.php](http://www.unitime.org/publications.php)
+* [www.unitime.org/publications.php](https://www.unitime.org/publications.php)
 * Most interesting:
 	* Complex university course timetabling (course timetabling)
 	* Real-life examination timetabling (examination timetabling)
@@ -99,9 +99,9 @@ title: UniTime 4.8 Documentation
 ## User Contributed Documentation
 
 * Purdue University
-	* Event Management Instructions: [PDF](http://www.purdue.edu/registrar/documents/scheduling/Instructions-Sheet.pdf)
-	* UniTime Data Entry Manual: [PDF](http://www.purdue.edu/registrar/documents/scheduling/Unitime_Data_Entry_Manual.pdf)
-	* Student Scheduling Assistant: [link](http://www.purdue.edu/registrar/faculty/scheduling/student_scheduling_assistant.html)
+	* Event Management Instructions: [PDF](https://www.purdue.edu/registrar/documents/scheduling/Instructions-Sheet.pdf)
+	* UniTime Data Entry Manual: [PDF](https://www.purdue.edu/registrar/documents/scheduling/Unitime_Data_Entry_Manual.pdf)
+	* Student Scheduling Assistant: [link](https://www.purdue.edu/registrar/faculty/scheduling/student_scheduling_assistant.html)
 	* Course Requests: [link](https://docs.google.com/document/d/1fbY1RMVz5kup7e-ulGUhd1J_X6Ql9yYn0nr9xxSKb-w)
 
 * Masaryk University (in Czech)

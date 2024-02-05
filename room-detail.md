@@ -27,7 +27,7 @@ The top line consists of the room name and all the buttons described in the Oper
 
 * **Capacity**
 	* Seating capacity of the room (the maximum number of students who can have a class there at the same time)
-	* For rooms on campus (not non-university locations), it has to match the room inventory; for some rooms (e.g., not Classrooms), you can request a change in capacity in the [Contact Us](http://help34.unitime.org/Contact_Us) screen (the category "Request any other administrative change" is best suitable).
+	* For rooms on campus (not non-university locations), it has to match the room inventory; for some rooms (e.g., not Classrooms), you can request a change in capacity in the [Contact Us](contact-us) screen (the category "Request any other administrative change" is best suitable).
 
 * **Exam Seating Capacity**
 	* Examination seating capacity is displayed if the room can be used for examinations (the capacity is the same for final and midterm examinations) - it can be different from the room capacity if e.g. students are required to use only every other seat during an examination
@@ -43,7 +43,7 @@ The top line consists of the room name and all the buttons described in the Oper
 * **Area**
 	* Room area, if present.
 	* By default it is the square footage of the room
-	* The unit can be changed using the [Application Configuration](http://help41.unitime.org/Application_Configuration) screen
+	* The unit can be changed using the [Application Configuration](application-configuration) screen
 
 * **Distance Check**
 	* By default checked, which means that the distance is checked between classes in this location and other classes (to see if students can manage to get from one class to another)

@@ -48,7 +48,7 @@ Install MySQL JDBC driver
 ## Installation
 Download the latest UniTime 4.8 distribution from [UniTime Downloads](https://sourceforge.net/projects/unitime/files/UniTime%204.8/)
 * All distributions are platform-independent, distributed in either .zip or .tar.gz format
-* Alternatively, you can download the most recent nightly build from [UniTime Nightly Builds](http://builds.unitime.org/)
+* Alternatively, you can download the most recent nightly build from [UniTime Nightly Builds](https://builds.unitime.org/)
 
 Unzip the archive
 ```

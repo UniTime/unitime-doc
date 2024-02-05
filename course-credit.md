@@ -18,7 +18,7 @@ Credit information consists from a selection of credit format (e.g., variable cr
 
 ![Course Credit](images/course-credit-2.png){:class='screenshot'}
 
-Ability to define credit information on scheduling subparts is not enabled by default. To enabled it, set application property `tmtbl.subpart.credit.editable` to `true` (e.g., using [Application Configuration](application-configuration) page, see [UniTime Customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization) for more details).
+Ability to define credit information on scheduling subparts is not enabled by default. To enabled it, set application property `tmtbl.subpart.credit.editable` to `true` (e.g., using [Application Configuration](application-configuration) page, see [UniTime Customization](installation#customization) for more details).
 
 The number of units, credit format, type, and units are combined together in to one string. It can be also abbreviated using the abbreviations defined. For example:
 

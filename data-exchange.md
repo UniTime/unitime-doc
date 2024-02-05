@@ -24,7 +24,7 @@ Note: In most cases, the existing data (for the selected academic session) are r
 
 Type in the location of a file or click on **Browse** and select a file where the data is stored, then click on **Import**.
 
-The needed format is described at [http://www.unitime.org/uct_interfaces.php](http://www.unitime.org/uct_interfaces.php).
+The needed format is described at [https://www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php).
 
 
 ### Notes

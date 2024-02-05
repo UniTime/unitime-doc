@@ -6,7 +6,7 @@ title: Constraint Solver Howto
 
 ## Three step procedure to run the course timetabling solver alone (no web services)
 
-1. Download [the most recent distribution](http://sourceforge.net/project/showfiles.php?group_id=196711), [some configuration files](http://www.unitime.org/uct_execution.php), and [some instances](http://www.unitime.org/uct_datasets.php).
+1. Download [the most recent distribution](http://sourceforge.net/project/showfiles.php?group_id=196711), [some configuration files](https://www.unitime.org/uct_execution.php), and [some instances](https://www.unitime.org/uct_datasets.php).
 	1. I will assume later on that:
 	2. you extracted the main distribution into unitime,
 	3. that you copied the instances and configuration files to a new subdirectory unitime/instances.

@@ -24,7 +24,7 @@ At the moment, the following localizations are available in the official UniTime
 
 ## Translating UniTime using POEditor
 
-Starting with UniTime 4.7, we use [POEditor.com](https://poeditor.com/projects/view?id=568029) to support the cooperation of users on the translation of UniTime to other languages. Please note that if you want your translation to be a part of the standard distribution of UniTime, you need to sign a [contributor license agreement](http://www.unitime.org/uct_license.php) for Apereo.
+Starting with UniTime 4.7, we use [POEditor.com](https://poeditor.com/projects/view?id=568029) to support the cooperation of users on the translation of UniTime to other languages. Please note that if you want your translation to be a part of the standard distribution of UniTime, you need to sign a [contributor license agreement](https://www.unitime.org/uct_license.php) for Apereo.
 
 If you are interested in translating UniTime into a particular language, please send us your email at [support@unitime.org](mailto:support@unitime.org), and we will give you permission in POEditor. Alternatively, you can request to join the translation of UniTime at [poeditor.com/join/project/Aa5qIUPsnp](https://poeditor.com/join/project/Aa5qIUPsnp) .
 

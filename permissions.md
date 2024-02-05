@@ -19,7 +19,7 @@ In other words, having a particular permission **DOES NOT** necessary mean that 
 * Check that the object in question is of the department and the academic session of the current authorization (role and academic session selection) of the user.
 
 * Check that the academic and/or department status allows for the object to be viewed and/or edited. See [Status Types](status-types) for the existing statuses.
-	* For event permissions, check that the event status of the appropriate room allows for the room to be requested / approved. See [Event Statuses](event-statuses) page and the event [approval workflow & permissions](http://help34.unitime.org/Event_Detail#TOC-Approval-Workflow-Permissions).
+	* For event permissions, check that the event status of the appropriate room allows for the room to be requested / approved. See [Event Statuses](event-statuses) page and the event [approval workflow & permissions](event-detail#approval-workflow--permissions).
 
 * Few additional, permission specific checks. For instance, only a room that does not have any events already booked in can be deleted.
 

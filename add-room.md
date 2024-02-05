@@ -140,11 +140,11 @@ The administrative page Add Room allows the administrator to add a new room in a
 
 * The **Event Availability** can be used to define global unavailability of a room for the event management. 
 
-* If a particular time (e.g., Friday 7:30am - 6:30pm) is marked as unavailable, the room is not available during this time every week (e.g., every Friday between 7:30am and 6:30pm). For a less repetitive unavailabilities an unavailability event can be created. See [Add Event](http://help41.unitime.org/Add_Event) page for more details.
+* If a particular time (e.g., Friday 7:30am - 6:30pm) is marked as unavailable, the room is not available during this time every week (e.g., every Friday between 7:30am and 6:30pm). For a less repetitive unavailabilities an unavailability event can be created. See [Add Event](add-event) page for more details.
 
 * Click Available or Not Available in the legend to make a selection. When a particular time is clicked, it is changed to the selected type (either available or not available). All times (that are visible) can be changed by clicking the appropriate day of week, all (visible) days can be changed by clicking the appropriate time. Visible days and times can be changed in the drop down on the top left side. Horizontal or vertical mode can be changed by clicking the Horizontal check box on the top right side. The visible days and times and the horizontal / vertical mode are remembered in the browser cookie.
 
-* Permission Edit Room Event Availability is needed to be able to edit the event availability. Permission Room Detail Event Availability is needed to see event room availability on the [Room Detail](http://help41.unitime.org/Room_Detail) page.
+* Permission Edit Room Event Availability is needed to be able to edit the event availability. Permission Room Detail Event Availability is needed to see event room availability on the [Room Detail](room-detail) page.
 
 * **Room Pictures**
 	* One or more files can be attached to a location using this section.

@@ -6,7 +6,7 @@ title: Exam Timetable
 
 ## Screen Description
 
-Examinations page is a variant of the [Events](http://help34.unitime.org/Events) page that allows to see all final and midterm examinations of a particular subject area or a course.
+Examinations page is a variant of the [Events](events) page that allows to see all final and midterm examinations of a particular subject area or a course.
 
 ![Exam Timetable](images/exam-timetable-1.png){:class='screenshot'}
 

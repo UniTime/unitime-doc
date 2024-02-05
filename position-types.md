@@ -12,7 +12,7 @@ The Position Types page can be used to define position types. These are used on 
 
 Each position type has a reference, a name, and a number that is used for ordering position types. All fields are required and must be unique.
 
-The position type reference is also used in the [staff import XML](http://www.unitime.org/interface/staffImport.xml) file.
+The position type reference is also used in the [staff import XML](https://www.unitime.org/interface/staffImport.xml) file.
 
 Position types are academic session independent, relation between position types and instructors is rolled forward with the instructors. The Position Types page can be accessed with the Position Types permission, changes are permitted with the Position Type Edit permission.
 
@@ -23,6 +23,6 @@ To edit or delete a position type, click on the appropriate line, [Edit Position
 
 ![Position Types](images/position-types-1.png){:class='screenshot'}
 
-A new position type can be added on the [Edit Position Types](edit-position-types) page (button **Edit**) or using [Add](http://goog_1066910950) [Position Type](add-position-type) page (button **Add**).
+A new position type can be added on the [Edit Position Types](edit-position-types) page (button **Edit**) or using [Add Position Type](add-position-type) page (button **Add**).
 
 The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.

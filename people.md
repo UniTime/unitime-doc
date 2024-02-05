@@ -6,9 +6,9 @@ title: People
 
 ### Research & Development
 
-* [Tomas Muller](http://muller.unitime.org)
+* [Tomas Muller](https://muller.unitime.org)
 
-* [Keith Murray](http://web.ics.purdue.edu/~kmurray)
+* Keith Murray
 
 * Stephanie Schluttenhofer
 
@@ -16,7 +16,7 @@ title: People
 
 ### Documentation & Support
 
-* [Tomas Muller](http://muller.unitime.org)
+* [Tomas Muller](https://muller.unitime.org)
 
 * Zuzana Mullerova
 

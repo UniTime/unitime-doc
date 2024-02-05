@@ -11,7 +11,7 @@ Since UniTime 3.4, we use [Spring Security](http://projects.spring.io/spring-sec
 unitime.spring.context.security=securityContextLDAP.xml
 ```
 
-Besides of that, the LDAP server can be configured using the following custom properties. These properties are needed during the UniTime startup, so they need to be added in Tomcat/conf/catalina.properties or in a UniTime custom properties file (setting them using the [Application Configuration](application-configuration) will not do, see [UniTime Installation: Customization](http://help.unitime.org/Timetabling_Installation#TOC-Customization)  for more details).
+Besides of that, the LDAP server can be configured using the following custom properties. These properties are needed during the UniTime startup, so they need to be added in Tomcat/conf/catalina.properties or in a UniTime custom properties file (setting them using the [Application Configuration](application-configuration) will not do, see [UniTime Installation: Customization](installation#customization)  for more details).
 ```
 unitime.authentication.ldap.url=ldaps://some.university.edu:636/dc=university,dc=edu
 unitime.authentication.ldap.user-dn-pattern=uid={0},ou=authenticate
@@ -47,7 +47,6 @@ tmtbl.lookup.ldap.phone=phone,officePhone,homePhone,telephoneNumber
 tmtbl.lookup.ldap.department=department
 tmtbl.lookup.ldap.position=position,title
 ```
-[](http://www.google.com/url?q=http%3A%2F%2Fsites.google.com%2Fa%2Funitime.org%2Fhelp%2FLDAP%2FScreen%2520shot%25202011-01-28%2520at%25203.40.37%2520PM.png&sa=D&sntz=1&usg=AOvVaw08MmDljOCt6YwvARITrnyz)
 
 See [PeopleLookupBackend#findPeopleFromLdap](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/server/lookup/PeopleLookupBackend.java#L375) for the implementation.
 

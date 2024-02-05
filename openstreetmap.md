@@ -17,8 +17,8 @@ The static maps can be created using the [staticmaplite](https://github.com/dfac
 
 ![OpenStreetMap](images/openstreetmap-1.png){:class='screenshot'}
 ```
-unitime.minimap.url=http://www.unitime.org/maps?center=%x,%y&zoom=16&size=600x400&maptype=mapnik&markers=%x,%y
-unitime.minimap.hint=http://www.unitime.org/maps?center=%x,%y&zoom=15&size=300x200&maptype=mapnik&markers=%x,%y
+unitime.minimap.url=https://www.unitime.org/maps?center=%x,%y&zoom=16&size=600x400&maptype=mapnik&markers=%x,%y
+unitime.minimap.hint=https://www.unitime.org/maps?center=%x,%y&zoom=15&size=300x200&maptype=mapnik&markers=%x,%y
 ```
 
 Use UniTime to construct static maps and cache the map tiles (**new in UniTime 4.4**, using unitime.coordinates.leafletmap.tilesUrl to download the map tiles)
@@ -27,7 +27,7 @@ unitime.minimap.url=maps?center=%x,%y&zoom=16&size=600x400
 unitime.minimap.hint=maps?center=%x,%y&zoom=15&size=300x200
 ```
 
-Please note that the maps are no longer hosted by UniTime (the above properties can no longer contain http://www.unitime.org/maps/...).
+Please note that the maps are no longer hosted by UniTime (the above properties can no longer contain https://www.unitime.org/maps/...).
 
 For other options, see [https://wiki.openstreetmap.org/wiki/Static_map_images](https://wiki.openstreetmap.org/wiki/Static_map_images)
 

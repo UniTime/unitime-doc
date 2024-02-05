@@ -33,28 +33,28 @@ In the Solver screen, you can load input data to the solver and run the solver i
 	* Student course demands that are used during the timetabling to avoid student conflicts
 		* Last Like Student Course Demands
 			* Real student course enrollments from the last-like semester
-			* Source of demands: [XML import](http://www.unitime.org/interface/studentCrsDemandImport.xml)
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml)
 		* Weighted Last Like Student Course Demands
 			* Real enrollments weighted so that the courses are filled with students
 				* Example: When there were 15 students in a course last year and this year the course has a limit of 20, the last-like students in that course are multiplied by 20/15 
-			* Source of demands: [XML import](http://www.unitime.org/interface/studentCrsDemandImport.xml) and class limits
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml) and class limits
 		* Projected Student Course Demands
 			* Projected demands calculated from the last-like student course demands using the projection rules from the [Curriculum Projection Rules](curriculum-projection-rules) screen
-			* Source of demands: [XML import](http://www.unitime.org/interface/studentCrsDemandImport.xml) and [Projection Rules](curriculum-projection-rules)
-				* Unlike with Last Like Student Course Demands and Weighted Last Like Student Course Demands, in this case it is important to import students and their properties (academic areas, majors, and classifications), this [XML import](http://www.unitime.org/interface/studentInfoImport.xml) prior to importing last like student course demands.
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml) and [Projection Rules](curriculum-projection-rules)
+				* Unlike with Last Like Student Course Demands and Weighted Last Like Student Course Demands, in this case it is important to import students and their properties (academic areas, majors, and classifications), this [XML import](https://www.unitime.org/interface/studentInfoImport.xml) prior to importing last like student course demands.
 		* Curricula Course Demands
 			* Course demands calculated from curricula
-			* Source of demands: [Curricula](curricula) and/or [XML import](http://www.unitime.org/interface/curricula.xml)
+			* Source of demands: [Curricula](curricula) and/or [XML import](https://www.unitime.org/interface/curricula.xml)
 		* Curricula Last Like Course Demands
 			* A combination of curricula and (projected) last-like student course demands - the curricula help with course demands for new courses (and mandatory courses etc.) while the last-like information provides data about courses across curricula that the students took together
 				* Use case: curricula only contain information about mandatory and elective courses, demands for optional courses are taken from last-like enrollment data. Last like data are also used to better estimate joint demands between courses.
-			* Source of demands: [XML import](http://www.unitime.org/interface/studentCrsDemandImport.xml) and [Curricula](curricula)
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml) and [Curricula](curricula)
 		* Student Course Requests
 			* Real requests as entered by students
-			* Source of demands: either requests entered by students through the [Student Scheduling Assistant](student-scheduling-assistant) (Student Course Requests) or an [XML import](http://www.unitime.org/interface/woebegonStudents.xml)
+			* Source of demands: either requests entered by students through the [Student Scheduling Assistant](student-scheduling-assistant) (Student Course Requests) or an [XML import](https://www.unitime.org/interface/woebegonStudents.xml)
 		* Enrolled Student Course Demands
 			* Real enrollments of students for this semester that is being timetabled (used mainly for testing)
-			* Source of demands: [XML import](http://www.unitime.org/interface/studentEnrollmentImport.xml)
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentEnrollmentImport.xml)
 
 * **Student final sectioning**
 	* Solver will perform student sectioning as a final stage of solving the problem (i.e., when a complete solution is found for Check configuration or upon time-out for the other configurations) to have more accurate information about student conflicts

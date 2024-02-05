@@ -17,7 +17,7 @@ The new attribute and preferences are also displayed on the Instructor Detail pa
 ## Operations
 
 * **Update**
-	* Save the instructor assignment preferences and go back to the [Instructor Detail](http://help42.unitime.org/Instructor_Detail) screen
+	* Save the instructor assignment preferences and go back to the [Instructor Detail](instructor-detail) screen
 
 * **Previous**
 	* Save the assignment preferences and go to the Instructor Assignment Preferences screen for the previous instructor from your list
@@ -26,7 +26,7 @@ The new attribute and preferences are also displayed on the Instructor Detail pa
 	* Save the assignment preferences and go to the Instructor Assignment Preferences screen for the next instructor from your list
 
 * **Back**
-	* Go back to the [Instructor Detail](http://help42.unitime.org/Instructor_Detail) screen without saving any changes in the assignment preferences
+	* Go back to the [Instructor Detail](instructor-detail) screen without saving any changes in the assignment preferences
 
 
 ![Instructor Assignment Preferences](images/instructor-assignment-preferences-1.png){:class='screenshot'}

@@ -13,7 +13,7 @@ The Add Student Scheduling Status Type screen provides interface for adding a ne
 ## Details
 
 * **Abbreviation**
-	* Abbreviation of the scheduling status (as displayed e.g. in the Students table in the [Online Student Scheduling Dashboard](http://help.unitime.org/Online_Student_Scheduling_Dashboard) screen)
+	* Abbreviation of the scheduling status (as displayed e.g. in the Students table in the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) screen)
 
 * **Name**
 	* Name of the scheduling status

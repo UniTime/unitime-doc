@@ -23,7 +23,7 @@ If a logging level is set to a particular level, only messages of the level or h
 
 ## Details
 
-UniTime logging is defined in the application properties (see [application.properties]( https://github.com/UniTime/unitime/tree/master/JavaSource/application.properties#78)) and can be overridden using custom properties (see [customization](http://help34.unitime.org/Timetabling_Installation#TOC-Customization)). The changes to the logging made on the Logging Levels page are saved in the custom properties as well (see [Application Configuration](application-configuration) page). The format is
+UniTime logging is defined in the application properties (see [application.properties]( https://github.com/UniTime/unitime/tree/master/JavaSource/application.properties#78)) and can be overridden using custom properties (see [customization](installation#customization)). The changes to the logging made on the Logging Levels page are saved in the custom properties as well (see [Application Configuration](application-configuration) page). The format is
 
 log4.logger.<logger>=<level>
 

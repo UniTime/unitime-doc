@@ -6,7 +6,7 @@ title: Credits
 
 ### Constraint Solver and University Course Timetabling Application v1
 
-* The first version of the solver, including course timetabling extension, was created by [Tomas Muller](http://www.unitime.org/~muller) as a PhD thesis at Charles University in Prague, Czech Republic. This work was also supported by a grant from Purdue University between 2001-2005.
+* The first version of the solver, including course timetabling extension, was created by [Tomas Muller](https://www.unitime.org/~muller) as a PhD thesis at Charles University in Prague, Czech Republic. This work was also supported by a grant from Purdue University between 2001-2005.
 
 * Constraint Solver is publicly available under [GNU LGPL license](http://www.gnu.org/licenses/lgpl.html), University Course Timetabling Application under [GNU GPL license](http://www.gnu.org/licenses/gpl.html).
 

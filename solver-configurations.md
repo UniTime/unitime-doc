@@ -31,7 +31,7 @@ Click on any solver configuration to go to its [Edit Solver Configuration](edit-
 
 ## Notes
 
-As an example, here is a brief description of three configurations present in the [online demo](http://www.unitime.org/uct_demo.php) for course timetabling:
+As an example, here is a brief description of three configurations present in the [online demo](https://www.unitime.org/uct_demo.php) for course timetabling:
 
 * **Check**
 	* Purpose: Check if input data is consistent and whether there is a complete (feasible) timetable consistent with the input data

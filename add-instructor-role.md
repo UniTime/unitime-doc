@@ -20,7 +20,7 @@ A person can be looked up using the little dialog icon on the Instructor line. W
 
 Type in a name (or a part of a name) of a person. The list of matching people will appear. Select one person by clicking on the appropriate line or using keyboard Up and Down arrows and Enter to confirm the selection.
 
-Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](http://help34.unitime.org/Roles) for more details.
+Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](roles) for more details.
 
 If the instructor already exists in the department, it will have the role assigned. An instructor record will be created for a new person.
 
