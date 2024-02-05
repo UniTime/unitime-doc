@@ -9,6 +9,7 @@ title: Add Room Feature Type
 
  The Add Room Feature Type page can be used to create a new room feature type. Room feature types are used to categorize room features (each room feature can have a room feature type defined, e.g., seating arrangement, black board size). See [Room Feature Types](room-feature-types) for more details.
 
+![Add Room Feature Type](images/add-room-feature-type-1.png){:class='screenshot'}
 
  The user needs to have Room Feature Type Edit permission to be able to edit room feature types.
 
@@ -22,5 +23,3 @@ title: Add Room Feature Type
 
  Click **Save** to create the new room feature type. The button **Back** will get you back to [Room Feature Types](room-feature-types) page without creating any new room feature types.
 
-
-![Add Room Feature Type](images/add-room-feature-type-1.png){:class='screenshot'}

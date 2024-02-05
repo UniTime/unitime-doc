@@ -9,6 +9,9 @@ title: Add Examination
 
  The Add Examination screen provides interface for adding a new midterm or final examination.
 
+
+![Add Examination](images/add-examination-1.png){:class='screenshot'}
+
 ## Details
 
 ### New Examination
@@ -49,9 +52,7 @@ title: Add Examination
  The column names are self-explanatory.
 
 * To add more lines for additional instructional offering components, click on **Add Object** (Alt+O)
-
 * To delete a line with an instructional offering component, click on the **Delete** button on that line
-
 * Blank lines are ignored
 
 ### Examination Period Preferences
@@ -119,6 +120,3 @@ title: Add Examination
 
 * **Back** (Alt+B)
 	* Go back to the previous screen without saving this new examination
-
-
-![Add Examination](images/add-examination-1.png){:class='screenshot'}

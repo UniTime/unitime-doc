@@ -9,6 +9,7 @@ title: Add Instructor Attribute
 
  The Add Instructor Attribute page can be used to create a new instructor attributes and to assign it to instructors of the selected department. An instructor attribute can be either global (for all departments of the academic session) or departmental (only related to a particular department).
 
+![Add Instructor Attribute](images/add-instructor-attribute-1.png){:class='screenshot'}
 
  Instructor attribute types need to be defined first, see Administration > Other > [Instructor Attribute Types](instructor-attribute-types) for more details. Permission Instructor Attribute Add is needed to create a new instructor attribute.
 
@@ -21,6 +22,3 @@ title: Add Instructor Attribute
 
 
  Click **Create Attribute** button to create a new attribute. Click **Back** to go back to [Instructor Attributes](instructor-attributes) page without making any changes.
-
-
-![Add Instructor Attribute](images/add-instructor-attribute-1.png){:class='screenshot'}

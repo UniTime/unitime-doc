@@ -9,6 +9,9 @@ title: Add Room Feature
 
  In the Add Room Features screen, you can add room features for the rooms of your department(s). To indicate which rooms have this new feature, you will need to click on that feature in the [Room Features](room-features) screen after you have added it to your list by clicking on the Add New button in the current screen.
 
+
+![Add Room Feature](images/add-room-feature-1.png){:class='screenshot'}
+
 ## Details
 
 * **Name**
@@ -36,6 +39,3 @@ title: Add Room Feature
 
 * **Back** (Alt+B)
 	* Go back to the [Room Features](room-features) screen without adding any new feature
-
-
-![Add Room Feature](images/add-room-feature-1.png){:class='screenshot'}

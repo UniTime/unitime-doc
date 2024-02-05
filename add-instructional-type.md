@@ -9,6 +9,8 @@ title: Add Instructional Type
 
  The Add Instructional Types screen provides interface for adding a new instructional type for the current academic session.
 
+![Add Instructional Type](images/add-instructional-type-1.png){:class='screenshot'}
+
 ## Details
 
 * **Instructional Type** (IType)
@@ -34,6 +36,3 @@ title: Add Instructional Type
 
 * **Back**
 	* Go back to the [Instructional Types](instructional-types) screen without saving the new instructional type
-
-
-![Add Instructional Type](images/add-instructional-type-1.png){:class='screenshot'}

@@ -9,6 +9,8 @@ title: Add Instructor Attribute Type
 
  The Add Instructor Attribute Type can be used to create a new attribute type. Instructor attribute types are used to categorize instructor attributes. The user needs to have Instructor Attribute Type Edit permission to be able to create a new instructor attribute type. See [Instructor Attribute Types](instructor-attribute-types) for more details.
 
+![Add Instructor Attribute Type](images/add-instructor-attribute-type-1.png){:class='screenshot'}
+
 ## Details
 
 
@@ -28,6 +30,3 @@ title: Add Instructor Attribute Type
 
 
  Click **Save** to create the new attribute type. The button **Back** will get you back to [Instructor Attribute Types](instructor-attribute-types) page without creating any new attribute types.
-
-
-![Add Instructor Attribute Type](images/add-instructor-attribute-type-1.png){:class='screenshot'}

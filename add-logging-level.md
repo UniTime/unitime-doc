@@ -6,8 +6,9 @@ title: Add Logging Level
 
 ## Screen Description
 
-
  The Add Logging Level page can be used to add a new logging level. This effects what messages will be printed in the log. The page requires Application Config permission. See [Logging Levels](logging-levels) for more details.
+
+![Add Logging Level](images/add-logging-level-2.png){:class='screenshot'}
 
 ## Details
 
@@ -27,7 +28,8 @@ title: Add Logging Level
 * Error
 
 * Fatal
-	* Off (no messages are logged)
+
+* Off (no messages are logged)
 
 
  If a logging level is set to a particular level, only messages of the level or higher are printed in the log.
@@ -44,6 +46,3 @@ title: Add Logging Level
 
 
 ![Add Logging Level](images/add-logging-level-1.png){:class='screenshot'}
-
-
-![Add Logging Level](images/add-logging-level-2.png){:class='screenshot'}

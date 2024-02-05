@@ -9,6 +9,9 @@ title: Add Role
 
  The Add Role page can be used to create a new role. Such a role can be assigned to UniTime managers ([Timetable Managers](timetable-managers) page) or instructors ([Instructor Roles](instructor-roles) page). The user needs to have Role Edit permission to be able to edit roles. Permissions of a role can be defined on the [Permissions](permissions) page. See [Roles](roles) page for more details.
 
+
+![Add Role](images/add-role-1.png){:class='screenshot'}
+
 ## Details
 
 
@@ -19,5 +22,3 @@ title: Add Role
 
  Click **Save** to create the new role. The button **Back** will get you back to [Roles](roles) page without creating any new roles.
 
-
-![Add Role](images/add-role-1.png){:class='screenshot'}

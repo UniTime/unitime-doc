@@ -115,6 +115,10 @@ a:hover {
   padding: 2px;
 }
 
+.small {
+  max-width: 50%;
+}
+
 .border {
   border: 1px solid #9CB0CE;
   padding: 2px;

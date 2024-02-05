@@ -12,7 +12,7 @@ title: Add Event Date Mapping
 
  The user needs to have Event Date Mapping Edit permission to be able to create a new event date mapping. Also, there cannot be any course timetabling solution committed at that time.
 
-![Add Event Date Mapping](images/1-ooops.png){:class='screenshot'}
+![Add Event Date Mapping](images/add-event-date-mapping-1.png){:class='screenshot'}
 
 ## Details
 

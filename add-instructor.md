@@ -6,8 +6,9 @@ title: Add Instructor
 
 ## Screen Description
 
-
  In the Add Instructor screen, you can add an instructor to your list of instructors.
+
+![Add Instructor](images/add-instructor-1.png){:class='screenshot'}
 
 ## Details
 
@@ -30,6 +31,3 @@ title: Add Instructor
 
 * **Back** (Alt+B)
 	* Go back to the previous screen without saving any information
-
-
-![Add Instructor](images/add-instructor-1.png){:class='screenshot'}
