@@ -361,3 +361,6 @@ title: TO DO
 * [timetables](timetables)
 * [university-timetabling-application](university-timetabling-application)
 * [users-database-authentication](users-database-authentication)
+* [lookup-classes](lookup-classes)
+* [lookup-examinations](lookup-examinations)
+* [personal-schedule](personal-schedule)

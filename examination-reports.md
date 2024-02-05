@@ -39,8 +39,7 @@ There is another screen, [Examination PDF Reports](examination-pdf-reports), whi
 
 ## Report
 
-
- Report selected in the filter. The reports currently available are
+Report selected in the filter. The reports currently available are
 
 1. Exam Assignment Report
 	* Name of an examination (or classes/courses for which the examination is held) and time/room assignment together with details such as room capacity and seating type
