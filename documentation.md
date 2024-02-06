@@ -12,16 +12,15 @@ title: UniTime 4.8 Documentation
 
 
 ## Manuals
-
-* Administrative User Manual: [link](https://docs.google.com/document/d/1iuj9NwrqkiVeJvKn1Sd41qqaVEJGwO79y1KZo1mtwuw/edit?usp=sharing)
-* Course Timetabling Data Entry Manual: [link](https://docs.google.com/document/d/1rjS_6ebwegSTcN5Iw57qui5CHG8_6TWnk8MCwBwAt58) (with Banner notes [link](https://docs.google.com/document/d/1rerPODUPrKcpx019TfsSiO7jWpcJIr7_84Jc-Y5oRlE/edit?usp=sharing))
-* Course Timetabling Solver Manual: [link](https://docs.google.com/document/d/1NZmKnmrjM2Tqg7dO18cWcMIe_GrtilQtKw6d1WGWBtY/edit?usp=sharing)
-* Event Management Manual: [link](https://docs.google.com/document/d/1bDzKBMEKOFYN_aBwzA6E4PAsBOGV7Tx-A3i_kuMae6U/edit?usp=sharing)
-* Event Manager Administrative Tasks: [link](https://docs.google.com/document/d/1Aye5LrLiAcTBR7aNOJO6laYg7-eEDlkfd5s0EW3jFZ4/edit?usp=sharing)
-* Scheduling Assistant Manual: [link](https://docs.google.com/document/d/1QTCKwLhU62yGtr6XlW_XM68q3hgohxLpwWXdyajr30g) (Purdue specific [link](https://docs.google.com/document/d/1inz4UT4w_xrJi_XW_JkMV3JdDGJ7oajze-k_SRp0DEk/edit?usp=sharing))
-* Scheduling Assistant Dashboard: [link](https://docs.google.com/document/d/1ap13URaw7UVT0FN9NZtgSROEKoS-V7S1uq0214Sh43M) (Purdue specific [link](https://docs.google.com/document/d/1rJ_5JZWejruxe9ahZzKYZQwMRN5oslkEQ7cGEeO8mJ8))
-* Instructor Scheduling Manual: [link](https://docs.google.com/document/d/1JksFtB9ecIoKpuyY0SDdl3dKnATe8UQAPKlGfBWi2JU/edit?usp=sharing)
-* Managing Student Group Reservations: [link](https://docs.google.com/document/d/1-2tQNx87fdiLwVBSZdzDD6NHL_t-P1kDxEK3pst5L5Q)
+* [Course Timetabling Data Entry](manuals/courses-entry)
+* [Course Timetabling Solver](manuals/courses-solver) (with Banner notes [link](https://docs.google.com/document/d/1rerPODUPrKcpx019TfsSiO7jWpcJIr7_84Jc-Y5oRlE/edit?usp=sharing))
+* [Event Management](manuals/events)
+* [Instructor Scheduling](manuals/instructor-scheduling)
+* [Event Manager Administrative Tasks](manuals/event-administration)
+* [Student Scheduling Asisstant](manuals/scheduling-assistant) (Purdue specific [link](https://docs.google.com/document/d/1inz4UT4w_xrJi_XW_JkMV3JdDGJ7oajze-k_SRp0DEk/edit?usp=sharing))
+* [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) (Purdue specific [link](https://docs.google.com/document/d/1rJ_5JZWejruxe9ahZzKYZQwMRN5oslkEQ7cGEeO8mJ8))
+* [Managing Student Group Reservations](manuals/group-reservations)
+* [Administrative User Manual](manuals/administration)
 
 ## Page Documentation
 
