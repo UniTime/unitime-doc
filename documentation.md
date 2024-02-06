@@ -53,7 +53,7 @@ title: UniTime 4.8 Documentation
 * CAS Authentication: [help.unitime.org/CAS](CAS)
 * Exam Naming Convention: [help.unitime.org/exam-naming-convention](exam-naming-convention)
 * XML Interfaces: [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php)
-* UniTime 4.8 APIs: [link](https://docs.google.com/document/d/1dLw4aheA22G58dAqkUOVM5zqwoysHkbi4swMoOirUS0/edit?usp=sharing)
+* UniTime 4.8 APIs: [link](manuals/api)
 * UniTime 4.8 Exports: [link](https://docs.google.com/document/d/1y-aB6vJfXQ7x8zTJJAkKUlDr0TDkEe-6viu1oUc7qLo/edit?usp=sharing)
 
 
