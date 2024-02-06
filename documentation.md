@@ -17,7 +17,7 @@ title: UniTime 4.8 Documentation
 * [Event Management](manuals/events)
 * [Instructor Scheduling](manuals/instructor-scheduling)
 * [Event Manager Administrative Tasks](manuals/event-administration)
-* [Student Scheduling Asisstant](manuals/scheduling-assistant) (Purdue specific [link](https://docs.google.com/document/d/1inz4UT4w_xrJi_XW_JkMV3JdDGJ7oajze-k_SRp0DEk/edit?usp=sharing))
+* [Student Scheduling Assistant](manuals/scheduling-assistant) (Purdue specific [link](https://docs.google.com/document/d/1inz4UT4w_xrJi_XW_JkMV3JdDGJ7oajze-k_SRp0DEk/edit?usp=sharing))
 * [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) (Purdue specific [link](https://docs.google.com/document/d/1rJ_5JZWejruxe9ahZzKYZQwMRN5oslkEQ7cGEeO8mJ8))
 * [Managing Student Group Reservations](manuals/group-reservations)
 * [Administrative User Manual](manuals/administration)
