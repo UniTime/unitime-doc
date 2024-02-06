@@ -3,9 +3,9 @@ layout: default
 title: UniTime Installation
 ---
 For simplified step by step installation notes, see
-- [Setting up UniTime on Linux](https://docs.google.com/document/d/1Nkhlb61rjRY55MaLW44bSMm5-FBqQEPpb0K4DJOOUmM/edit?usp=sharing)
-- [Setting up UniTime on Windows](https://docs.google.com/a/unitime.org/document/d/1VCscHsSpazzmsh_DQZiicqOjAda3eX0f4S9oxlll8CY/edit?usp=sharing)
-- [Setting up UniTime on Mac](https://docs.google.com/document/d/1y3mKe1accr8qYPIbADqW40fd4HcAYNfAwJpduloGOQ0)
+- [Setting up UniTime on Linux](manuals/installation-linux)
+- [Setting up UniTime on Windows](manuals/installation-windows)
+- [Setting up UniTime on Mac](manuals/installation-mac)
 
 ### Table of Contents
 {:.no_toc}

@@ -38,8 +38,8 @@
             <tr><td rowspan='3' style="border: none; border-right: 1px solid black; vertical-align: middle;"><img class='logo' src='../images/unitime-logo.png' height="80px"/></td>
             <td style="font-family: miriam-bold; font-size: 40px; border: none;">{{page.title}}</td>
             </tr>
-            <tr><td style="border: none; padding-top: 10px;">UniTime Version: {{page.version}}</td></tr>
-            <tr><td style="border: none;">Last Updated: {{page.updated}}</td></tr>
+            <tr><td style="border: none; padding-top: 10px;">{% if page.version %}UniTime Version: {{page.version}}{% endif %}</td></tr>
+            <tr><td style="border: none;">{% if page.updated %}Last Updated: {{page.updated}}{% endif %}</td></tr>
         </table>
         {% if page.forward %}
         See <a href='{{ page.forward }}'>{{ page.forward }}</a> for more details.<br><br>
