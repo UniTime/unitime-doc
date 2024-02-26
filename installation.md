@@ -16,9 +16,8 @@ For simplified step by step installation notes, see
 
 ### Java Development Kit
 
-If you do not have Java SE (Standard Edition) Development Kit 11 or later already installed, you will need to download and install it from Java SE Downloads first.
-* OpenJDK 11 and 17 are used in development and/or testing.
-* Note: Starting with UniTime 4.8, Java 8 is no longer supported.
+If you do not have Java SE (Standard Edition) Development Kit 8 or later already installed, you will need to download and install it from Java SE Downloads first.
+* OpenJDK 8, 11 and 17 are used in development and/or testing.
 
 ### Apache Tomcat
 
@@ -46,13 +45,13 @@ Install MySQL JDBC driver
 * Unzip the downloaded driver if needed and place the mysql-connector-java-8.0.x.jar under the Tomcat/lib folder.
 
 ## Installation
-Download the latest UniTime 4.8 distribution from [UniTime Downloads](https://sourceforge.net/projects/unitime/files/UniTime%204.8/)
+Download the latest UniTime 4.7 distribution from [UniTime Downloads](https://sourceforge.net/projects/unitime/files/UniTime%204.7/)
 * All distributions are platform-independent, distributed in either .zip or .tar.gz format
 * Alternatively, you can download the most recent nightly build from [UniTime Nightly Builds](https://builds.unitime.org/)
 
 Unzip the archive
 ```
-tar -xvzf unitime-4.8_bld100.tar.gz
+tar -xvzf unitime-4.7_bld100.tar.gz
 ```
 
 Install `timetable` database
@@ -98,7 +97,6 @@ chown tomcat8 /var/lib/tomcat8/data
 * This is due to the new sandboxing feature. More details are available at [https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian](https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian)
 
 ## Upgrade
-Please note that UniTime 4.8 requires Java 11 or later. Java 8 is no longer supported.
 To upgrade an existing UniTime installation, only the new `UniTime.war` file should be placed in the `Tomcat/webapps` folder instead of the existing one. All the necessary changes to the database are done automatically during the first deployment. The safest way to do so is as follows:
 1. Stop tomcat
 2. Backup the existing database (e.g., using mysqldump on MySQL or exp on Oracle)
@@ -106,22 +104,7 @@ To upgrade an existing UniTime installation, only the new `UniTime.war` file sho
 4. Delete the content of `Tomcat/work` folder.
 5. Start the tomcat
 
-If you are using remove solver servers, the appropriate JARs need to be updated as well.
-* Some HQL reports may need to be updated due to the Hibernate upgrade, e.g.,
-* table = id no longer works (e.g., Session = %SESSION% must be changed to Session.uniqueId = %SESSION%)
-* is true needs to be changed to x = true
-* function BIT_AND needs to be changed to BITAND
-* InstructionalOffering.coordinators needs to be changed to InstructionalOffering.offeringCoordinators
-* Assignment.classId needs to be changed to Assignment.clazz.uniqueId
-* CourseOffering.isControl = 1 needs to be changed to CourseOffering.isControl = true
-* mod(x, n) may need to be changed to mod(cast(x as int), n)
-* sysdate - :days (where :days is an integer) may need to be changed to sysdate - numtodsinterval(:days, ‘day’) (Oracle)
-
-Some Scripts may need to be updated due to the Hibernate upgrade, e.g,
-* Query.setLong, setString, setDate, etc., needs to be changed to setParameter
-* QueueIn/QueueOut.setXml/getXML now takes a string (use setDocument/getDocument for XML access)
-
-See [UniTime 4.8 release notes](https://builds.unitime.org/UniTime4.8/Release-Notes.xml) for other changes.
+See [UniTime 4.7 release notes](https://builds.unitime.org/UniTime4.7/Release-Notes.xml) for other changes.
 
 ## Customization
 

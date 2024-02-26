@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UniTime 4.8 Documentation
+title: UniTime 4.7 Documentation
 ---
 
 
@@ -53,15 +53,15 @@ title: UniTime 4.8 Documentation
 * CAS Authentication: [help.unitime.org/CAS](CAS)
 * Exam Naming Convention: [help.unitime.org/exam-naming-convention](exam-naming-convention)
 * XML Interfaces: [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php)
-* UniTime 4.8 APIs: [link](manuals/api)
-* UniTime 4.8 Exports: [link](https://docs.google.com/document/d/1y-aB6vJfXQ7x8zTJJAkKUlDr0TDkEe-6viu1oUc7qLo/edit?usp=sharing)
+* UniTime 4.7 APIs: [link](manuals/api)
+* UniTime 4.7 Exports: [link](https://docs.google.com/document/d/1y-aB6vJfXQ7x8zTJJAkKUlDr0TDkEe-6viu1oUc7qLo/edit?usp=sharing)
 
 
 ## Distribution
 
 * Latest Release: [https://github.com/UniTime/unitime/releases/latest](https://github.com/UniTime/unitime/releases/latest)
-* Nightly Builds: [https://builds.unitime.org/#UniTime48](https://builds.unitime.org/#UniTime48)
-* Release Notes: [builds.unitime.org/UniTime4.8/Release-Notes.xml](https://builds.unitime.org/UniTime4.8/Release-Notes.xml)
+* Nightly Builds: [https://builds.unitime.org/#UniTime47](https://builds.unitime.org/#UniTime47)
+* Release Notes: [builds.unitime.org/UniTime4.7/Release-Notes.xml](https://builds.unitime.org/UniTime4.7/Release-Notes.xml)
 
 
 ## Development Documentation
