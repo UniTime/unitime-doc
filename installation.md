@@ -272,7 +272,7 @@ create user timetable identified by ######; grant dba to timetable; exit
 
 ## Using PostgreSQL
 
-Here are some notes about using PostgreSQL, for more details, please see the [Migrating to PostgreSQL](https://docs.google.com/document/d/1FRJRWTAnhEk-tBCxFMAQd_acsF5jQTmVMKd6xMyhuxQ/edit?usp=sharing) document.
+Here are some notes about using PostgreSQL, for more details, please see the [Migrating to PostgreSQL](manuals/postgresql-migration) document.
 
 Install PostgreSQL 12.0 or later from [https://www.postgresql.org/download](https://www.postgresql.org/download) (using the default port 5432, and a custom password)
 
