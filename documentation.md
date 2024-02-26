@@ -12,13 +12,13 @@ title: UniTime 4.7 Documentation
 
 
 ## Manuals
-* [Course Timetabling Data Entry](manuals/courses-entry)
-* [Course Timetabling Solver](manuals/courses-solver) (with Banner notes [link](https://docs.google.com/document/d/1rerPODUPrKcpx019TfsSiO7jWpcJIr7_84Jc-Y5oRlE/edit?usp=sharing))
+* [Course Timetabling Data Entry](manuals/courses-entry) (with Banner notes [link](manuals/courses-entry-banner))
+* [Course Timetabling Solver](manuals/courses-solver)
 * [Event Management](manuals/events)
 * [Instructor Scheduling](manuals/instructor-scheduling)
 * [Event Manager Administrative Tasks](manuals/event-administration)
-* [Student Scheduling Assistant](manuals/scheduling-assistant) (Purdue specific [link](https://docs.google.com/document/d/1inz4UT4w_xrJi_XW_JkMV3JdDGJ7oajze-k_SRp0DEk/edit?usp=sharing))
-* [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) (Purdue specific [link](https://docs.google.com/document/d/1rJ_5JZWejruxe9ahZzKYZQwMRN5oslkEQ7cGEeO8mJ8))
+* [Student Scheduling Assistant](manuals/scheduling-assistant) (Purdue specific [link](manuals/scheduling-assistant-purdue))
+* [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) (Purdue specific [link](manuals/scheduling-dashboard-purdue))
 * [Managing Student Group Reservations](manuals/group-reservations)
 * [Administrative User Manual](manuals/administration)
 
@@ -47,14 +47,14 @@ title: UniTime 4.7 Documentation
 
 ## Administrator Documentation
 
-* Installation: [help.unitime.org/installation](installation) ([FAQ](timetabling-installation-faq), [Linux](https://docs.google.com/document/d/1Nkhlb61rjRY55MaLW44bSMm5-FBqQEPpb0K4DJOOUmM/edit?usp=sharing), [Windows](https://docs.google.com/document/d/1VCscHsSpazzmsh_DQZiicqOjAda3eX0f4S9oxlll8CY/edit?usp=sharing), [Mac](https://docs.google.com/document/d/1y3mKe1accr8qYPIbADqW40fd4HcAYNfAwJpduloGOQ0))
+* Installation: [help.unitime.org/installation](installation) ([FAQ](timetabling-installation-faq), [Linux](manuals/installation-linux), [Windows](manuals/installation-windows), [Mac](manuals/installation-mac))
 * Branding: [help.unitime.org/customizations](customizations)
 * LDAP Authentication / Lookup: [help.unitime.org/LDAP](LDAP)
 * CAS Authentication: [help.unitime.org/CAS](CAS)
 * Exam Naming Convention: [help.unitime.org/exam-naming-convention](exam-naming-convention)
 * XML Interfaces: [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php)
 * UniTime 4.7 APIs: [link](manuals/api)
-* UniTime 4.7 Exports: [link](https://docs.google.com/document/d/1y-aB6vJfXQ7x8zTJJAkKUlDr0TDkEe-6viu1oUc7qLo/edit?usp=sharing)
+* UniTime 4.7 Exports: [link](manuals/exports)
 
 
 ## Distribution
@@ -90,9 +90,9 @@ title: UniTime 4.7 Documentation
 
 ## UniTime Banner Interface
 
-* UniTime Side: [https://github.com/UniTime/unitime-addons](https://github.com/UniTime/unitime-addons) (build Instructions: [link](https://docs.google.com/document/d/1EC8FiR7JFbOADsVWban66309bT7NXhJk7YhLhsy_OHo/edit?usp=sharing))
+* UniTime Side: [https://github.com/UniTime/unitime-addons](https://github.com/UniTime/unitime-addons) (build Instructions: [link](manuals/banner-addon-instructions))
 * Banner Side: [https://ecommunities.ellucian.com/thread/75380](https://ecommunities.ellucian.com/thread/75380)
-* [UniTime Configuration for Student Scheduling](https://docs.google.com/document/d/1FtH6PBgMFmxoIazdz6wb_QHtfB8ha8aBfrqBOcN3Ryk/edit?usp=sharing)
+* [UniTime Configuration for Student Scheduling](manuals/student-scheduling-configuration)
 
 
 ## User Contributed Documentation
@@ -100,8 +100,9 @@ title: UniTime 4.7 Documentation
 * Purdue University
 	* Event Management Instructions: [PDF](https://www.purdue.edu/registrar/documents/scheduling/Instructions-Sheet.pdf)
 	* UniTime Data Entry Manual: [PDF](https://www.purdue.edu/registrar/documents/scheduling/Unitime_Data_Entry_Manual.pdf)
-	* Student Scheduling Assistant: [link](https://www.purdue.edu/registrar/faculty/scheduling/student_scheduling_assistant.html)
-	* Course Requests: [link](https://docs.google.com/document/d/1fbY1RMVz5kup7e-ulGUhd1J_X6Ql9yYn0nr9xxSKb-w)
+	* Student Scheduling Assistant: [PDF](https://www.purdue.edu/registrar/documents/scheduling/FAQs_Student_Sched_Assist.pdf)
+	* Scheduling Assistant Registration FAQ [PDF](https://www.purdue.edu/registrar/documents/scheduling/Student_Scheduling_Assistant_Registration_FAQs.pdf)
+	* Course Requests: [link](manuals/course-requests-purdue)
 
 * Masaryk University (in Czech)
 	* Nastavení vstupních dat: [link](https://docs.google.com/document/d/1Ak-p75GBOO9fA1NOzWzCdoJs8BAF1OOTw6vVY-c6PVQ/edit?usp=sharing)
