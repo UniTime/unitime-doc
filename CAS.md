@@ -25,7 +25,7 @@ Please note that the above property cannot be set in the UniTime's custom proper
 
 The following custom properties need to be set. These properties are needed during the UniTime startup, so they need to be added in Tomcat/conf/catalina.properties or in a UniTime custom properties file (setting them using the [Application Configuration](application-configuration) will not do, see [UniTime Installation: Customization](installation#customization)  for more details).
 ```
-tmtbl.login_url=selectPrimaryRole.do
+tmtbl.login_url=selectPrimaryRole.action
 tmtbl.login_method=redirect
 unitime.cas.url=https://www.university.edu/apps/account/cas
 unitime.url=https://demo.unitime.org/UniTime
