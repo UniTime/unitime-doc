@@ -41,6 +41,8 @@ unitime.authentication.oauth2.id-translate=false
 unitime.authentication.oauth2.id-trim=false
 # Login page OAuth2 authentication message
 unitime.authentication.oauth2.login-message=Log in using Google.
+# UniTime address, needed to corretly formulate the authentication redirect URL
+unitime.url=https://demo.unitime.org/UniTime
 ```
 
 The OAuth2 login will be available by clicking the ***Log in using Google.*** link on the Login page.
@@ -74,6 +76,8 @@ unitime.authentication.oauth2.id-translate=false
 unitime.authentication.oauth2.id-trim=false
 # Login page OAuth2 authentication message
 unitime.authentication.oauth2.login-message=Log in using Azure AD.
+# UniTime address, needed to corretly formulate the authentication redirect URL
+unitime.url=https://demo.unitime.org/UniTime
 ```
 
 The OAuth2 login will be available by clicking the ***Log in using Azure AD.*** link on the Login page.
