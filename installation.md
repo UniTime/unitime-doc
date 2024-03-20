@@ -107,19 +107,29 @@ To upgrade an existing UniTime installation, only the new `UniTime.war` file sho
 5. Start the tomcat
 
 If you are using remove solver servers, the appropriate JARs need to be updated as well.
-* Some HQL reports may need to be updated due to the Hibernate upgrade, e.g.,
-* table = id no longer works (e.g., Session = %SESSION% must be changed to Session.uniqueId = %SESSION%)
-* is true needs to be changed to x = true
-* function BIT_AND needs to be changed to BITAND
-* InstructionalOffering.coordinators needs to be changed to InstructionalOffering.offeringCoordinators
-* Assignment.classId needs to be changed to Assignment.clazz.uniqueId
-* CourseOffering.isControl = 1 needs to be changed to CourseOffering.isControl = true
-* mod(x, n) may need to be changed to mod(cast(x as int), n)
-* sysdate - :days (where :days is an integer) may need to be changed to sysdate - numtodsinterval(:days, ‘day’) (Oracle)
+
+Some HQL reports may need to be updated due to the Hibernate upgrade, in particular:
+* `table = id` no longer works (e.g., `Session = %SESSION%` must be changed to `Session.uniqueId = %SESSION%`)
+* `is true` needs to be changed to `x = true`
+* `= null` or `!= null` needs to be changed to `is null` or `is not null`
+* function `BIT_AND` needs to be changed to `BITAND`
+* `InstructionalOffering.coordinators` needs to be changed to `InstructionalOffering.offeringCoordinators`
+* `Assignment.classId` needs to be changed to `Assignment.clazz.uniqueId`
+* `CourseOffering.isControl = 1` needs to be changed to `CourseOffering.isControl = true`
+* `mod(x, n)` may need to be changed to `mod(cast(x as int), n)`
+* `sysdate - :days (where :days is an integer)` may need to be changed to `sysdate - numtodsinterval(:days, ‘day’)` (Oracle)
+
+Scheduling Subparts: Limit and Course Name are no longer pre-computed, in the reports
+* replace `ss.limit` with `(select sum(c.expectedCapacity) from Class_ c where c.schedulingSubpart = s)`
+* replace `ss.courseName` with `(select co.subjectAreaAbbv || ' ' || co.courseNbr from CourseOffering co where co.isControl = true and co.instructionalOffering = ss.instrOfferingConfig.instructionalOffering)`
+
+Instructional Offering: Limit and Demand are no longer pre-computed, in the reports
+* replace `io.limit` with `(select sum(ioc.limit) from InstrOfferingConfig ioc where ioc.instructionalOffering = io)`
+* replace `io.demand` with `(select sum(co.demand + (case when cox is null then 0 else cox.demand end)) from CourseOffering co left outer join co.demandOffering cox where co.instructionalOffering = io)`
 
 Some Scripts may need to be updated due to the Hibernate upgrade, e.g,
-* Query.setLong, setString, setDate, etc., needs to be changed to setParameter
-* QueueIn/QueueOut.setXml/getXML now takes a string (use setDocument/getDocument for XML access)
+* `Query.setLong`, `setString`, `setDate`, etc., needs to be changed to `setParameter`
+* `QueueIn`/`QueueOut`.`setXml`/`getXML` now takes a string (use `setDocument`/`getDocument` for XML access)
 
 See [UniTime 4.8 release notes](https://builds.unitime.org/UniTime4.8/Release-Notes.xml) for other changes.
 
