@@ -33,7 +33,7 @@ In the Solver screen, you can load input data to the solver and run the solver i
 	* Student course demands that are used during the timetabling to avoid student conflicts
 		* Last Like Student Course Demands
 			* Real student course enrollments from the last-like semester
-			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml)
+			* Source of demands: [XML import](https://www.unitime.org/interface/studentCrsDemandImport.xml) or the session roll-forward (see Import Last-Like Course Demands option on the [Roll Forward Session](roll-forward-session) page)
 		* Weighted Last Like Student Course Demands
 			* Real enrollments weighted so that the courses are filled with students
 				* Example: When there were 15 students in a course last year and this year the course has a limit of 20, the last-like students in that course are multiplied by 20/15 
