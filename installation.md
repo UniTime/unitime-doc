@@ -6,6 +6,7 @@ For simplified step by step installation notes, see
 - [Setting up UniTime on Linux](manuals/installation-linux)
 - [Setting up UniTime on Windows](manuals/installation-windows)
 - [Setting up UniTime on Mac](manuals/installation-mac)
+- [Setting up UniTime as Docker container](docker) ***-- UniTime 4.8.126 or later***
 
 ### Table of Contents
 {:.no_toc}
