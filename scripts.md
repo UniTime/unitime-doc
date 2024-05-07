@@ -6,7 +6,7 @@ title: Scripts
 
 ## Screen Description
 
-The Scripts page allows to create a run pretty much any script within UniTime. A script can have many parameters, it can read or write a file, as well as change the database. The [JSR 223: Scripting for the Java Platform](http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/) is used, so many scripting engines can be plugged in if needed. The JavaScript based [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) is available by default, [Jython](http://www.jython.org/jythonbook/en/1.0/JythonAndJavaIntegration.html) has been tested as well.
+The Scripts page allows to create a run pretty much any script within UniTime. A script can have many parameters, it can read or write a file, as well as change the database. The [JSR 223: Scripting for the Java Platform](http://docs.oracle.com/javase/6/docs/technotes/guides/scripting/) is used, so many scripting engines can be plugged in if needed. The JavaScript based [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) is available by default, [Jython](https://jython.readthedocs.io/en/latest/JythonAndJavaIntegration) has been tested as well.
 
 ![Scripts](images/scripts-1.png){:class='screenshot'}
 
@@ -92,7 +92,7 @@ If a user has a department dependent role (e.g., departmental schedule manager),
 
 ## Python
 
-To allow python scripting, the standalone jar version of Jython (e.g., [jython-standalone-2.5.3.jar](http://search.maven.org/remotecontent?filepath=org/python/jython-standalone/2.5.3/jython-standalone-2.5.3.jar), see [Jython downloads](http://www.jython.org/downloads.html)) needs to be put in Tomcat/libs folder. After Tomcat is restarted, python should appear as an available engine. Here is an example script (same as the one above) written using python:
+To allow python scripting, the standalone jar version of Jython (e.g., [jython-standalone-2.7.3.jar](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar), see [Jython downloads](https://www.jython.org/download.html)) needs to be put in Tomcat/libs folder. After Tomcat is restarted, python should appear as an available engine. Here is an example script (same as the one above) written using python:
 ```
 # Logging
 if name:
