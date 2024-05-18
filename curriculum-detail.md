@@ -65,32 +65,24 @@ Note: There is an option to Hide empty columns / Show all columns for the table 
 * **Course**
 	* Abbreviations of all the courses in the curriculum
 	* After clicking on the column header "Course", the following options appear in a menu
-
-* Show Percentages
-	* Display percentages of the Requested Enrollment number instead of numbers of students
-	* Displayed only when the table shows numbers
-
-* Show Numbers
-	* Switch back from percentages to numbers
-	* Displayed only when the table shows percentages 
-
-* Show Last-Like Enrollment
-	* Show numbers of students from above majors who took the course during the last-like semester
-
-* Show Projection by Rule
-	* Show estimated numbers of students derived from projections for majors
-
-* Show Current Enrollment
-	* Display the number of students of this curriculum who are enrolled in the course
-
-* Show Empty Courses
-	* Display courses with zero students
-
-* Hide Empty Courses
-	* Do not display courses with zero students
-
-* Sort by Course
-	* Sort the Course Projections table by the course abbreviation (alphabetic order)
+		* Show Percentages
+			* Display percentages of the Requested Enrollment number instead of numbers of students
+			* Displayed only when the table shows numbers
+		* Show Numbers
+			* Switch back from percentages to numbers
+			* Displayed only when the table shows percentages 
+		* Show Last-Like Enrollment
+			* Show numbers of students from above majors who took the course during the last-like semester
+		* Show Projection by Rule
+			* Show estimated numbers of students derived from projections for majors
+		* Show Current Enrollment
+			* Display the number of students of this curriculum who are enrolled in the course
+		* Show Empty Courses
+			* Display courses with zero students
+		* Hide Empty Courses
+			* Do not display courses with zero students
+		* Sort by Course
+			* Sort the Course Projections table by the course abbreviation (alphabetic order)
 
 * **Academic Classification**
 	* For each academic classification, the requested enrollment number is displayed for each course 

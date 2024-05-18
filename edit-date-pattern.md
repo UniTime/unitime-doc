@@ -23,6 +23,9 @@ A date pattern defines a set of dates associated with a term when a class may me
 			* On classes and scheduling subparts, date patterns are ordered based on these types (Standard date patterns first, then Alternate Weeks, etc.)
 		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this date pattern (these are not visible as options on classes and scheduling subparts that are managed by departments not listed on these date patterns)
 
+* **Number of Weeks**
+	* 
+
 * **Visible**
 	* When checked (checked by default), the date pattern will be available to users authorized to use it
 	* When not checked, the date pattern will not be available for the given academic session and will be displayed in gray letters in the list of date patterns; if the date pattern was used before it was made invisible, it will stay on a class but it will no longer be an option to pick on other classes

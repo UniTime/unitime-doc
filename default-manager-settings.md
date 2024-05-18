@@ -24,7 +24,7 @@ The Default Manager Settings screen provides a list of settings that the schedul
 	* The default value of the setting
 
 * **Allowed Values**
-	* Comma separated list of all possible values of the setting
+	* List of all possible values of the setting
 
 Click on any line to get to the [Edit Default Manager Setting](edit-default-manager-setting) screen for a given setting.
 

@@ -17,22 +17,28 @@ The Edit Default Manager Setting screen provides interface for editing an existi
 * **Reference**
 	* The name by which the application recognizes the setting
 
+* **Description**
+	* The description that is displayed in the [Manager Settings](manager-settings) screen (accessible by all schedule managers)
+
 * **Default Value**
 	* Value applicable to all schedule managers unless it is changed by them in the [Manager Settings](manager-settings) screen
 
 * **Allowed Values**
-	* Comma separated list of possible values of the setting from which the schedule managers can choose in the [Edit Manager Setting](edit-manager-setting) screen
-
-* **Description**
-	* The description that is displayed in the [Manager Settings](manager-settings) screen (accessible by all schedule managers)
+	* List of possible values of the setting from which the schedule managers can choose in the [Edit Manager Setting](edit-manager-setting) screen
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Save** (ALT+S)
 	* Save changes and go back to the [Default Manager Settings](default-manager-settings) screen
 
 * **Delete** (ALT+D)
 	* Delete this setting (= make it impossible for schedule managers to use other than the application's default value) and go back to the [Default Manager Settings](default-manager-settings) screen
+
+* **Previous** (ALT+P)
+	* Save changes and go to the previous Default Manager Setting
+
+* **Next** (ALT+N)
+	* Save changes and go to the next Default Manager Setting
 
 * **Back** (ALT+B)
 	* Go back to the [Default Manager Settings](default-manager-settings) screen without saving any changes

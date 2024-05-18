@@ -61,8 +61,7 @@ This view also allows for events to be split by meeting information, providing a
 	* Apply the filter in the search for events
 
 * **Clear** (Alt+C)
-
-* Clear the filter and start over
+	* Clear the filter and start over
 
 * **Add Event** (Alt+A)
 	* Go to the [Add Event](add-event) screen to add a new event (request locations for a new event)

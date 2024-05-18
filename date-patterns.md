@@ -7,7 +7,7 @@ title: Date Patterns
 ## Screen Description
 
 The Date Patterns screen contains a list of date patterns for a given academic session.
-
+ 
 ![Date Patterns](images/date-patterns-1.png){:class='screenshot'}
 
 A date pattern defines a set of dates associated with a term when a class may meet. The actual meeting times of a class are computed as a projection of a time pattern onto a date pattern (e.g., a class that is taught on Tuesdays and Thursdays meets on all dates from the date pattern that are on Tuesday and Thursday). Normally, a date pattern should contain all dates of particular weeks (e.g, Week 1-4 contains all dates between Monday of the first week and Sunday of the 4th week). Date patterns consist of dates rather than weeks in order to allow institutions to shift weeks around holidays.
@@ -25,7 +25,7 @@ The list of date patterns contains the following information
 			* On classes and scheduling subparts, date patterns are ordered based on these types (Standard date patterns first, then Alternate Weeks, etc.)
 		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this date pattern (these are not visible as options on classes and scheduling subparts that are managed by departments not listed on these date patterns)
 
-* **Used**
+* **Used Weeks**
 	* Checked if the date pattern is being used for some class
 		* It is not possible to delete a date pattern if it is being used
 
