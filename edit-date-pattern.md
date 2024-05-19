@@ -24,7 +24,7 @@ A date pattern defines a set of dates associated with a term when a class may me
 		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this date pattern (these are not visible as options on classes and scheduling subparts that are managed by departments not listed on these date patterns)
 
 * **Number of Weeks**
-	* 
+	* Number of weeks that the date pattern is using (e.g., for reporting). The number of weeks will be computed from the pattern when left blank.
 
 * **Visible**
 	* When checked (checked by default), the date pattern will be available to users authorized to use it
