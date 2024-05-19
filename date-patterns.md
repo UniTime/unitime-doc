@@ -25,9 +25,12 @@ The list of date patterns contains the following information
 			* On classes and scheduling subparts, date patterns are ordered based on these types (Standard date patterns first, then Alternate Weeks, etc.)
 		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this date pattern (these are not visible as options on classes and scheduling subparts that are managed by departments not listed on these date patterns)
 
-* **Used Weeks**
+* **Used**
 	* Checked if the date pattern is being used for some class
 		* It is not possible to delete a date pattern if it is being used
+
+* **Weeks**
+	* Number of weeks the Date Pattern spans
 
 * **Dates**
 	* Dates that constitute this date pattern
