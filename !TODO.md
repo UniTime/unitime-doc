@@ -122,7 +122,7 @@ title: TO DO
 
 * [personal-timetable](personal-timetable)
 
-## Waht
+## What
 
 * [curriculum-projection-rules](curriculum-projection-rules)
 * [curriculum-requested-enrollments](curriculum-requested-enrollments)
