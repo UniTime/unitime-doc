@@ -35,8 +35,8 @@ Click on any line with a distribution preference to go to the [Edit Distribution
 
 ## Operations
 
-* **Export PDF** (Alt+P)
-	* Export the screen to a PDF document (read more about the export in the description of the [Instructional Offerings](instructional-offerings) screen)
+* **Export PDF / CSV** (Alt+P)
+	* Export the screen to a PDF / CSV document (read more about the export in the description of the [Instructional Offerings](instructional-offerings) screen)
 
 * **Add Distribution Preference** (Alt+A)
 	* Go to the [Add Distribution Preference](add-distribution-preference) screen to add a new distribution preference

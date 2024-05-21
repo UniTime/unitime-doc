@@ -14,7 +14,7 @@ The course types are independent from academic sessions. The relation between co
 
 ## Details
 
-For student scheduling, it is possible to define in the student sectioning status what course types a student is allowed to take. Courses of a wrong type are not visible for the student in the [Student Scheduling Assistant](student-scheduling-assistant), unless the student is already requesting a particular course. While a student cannot request courses he/she is not allowed to (by the course type), a student advisor (a user with Student Scheduling Advisor permission) can request any course for the student in his/her behalf.
+For student scheduling, it is possible to define in the student sectioning status what course types a student is allowed to take. Courses of a wrong type are not visible for the student in the [Student Scheduling Assistant](student-scheduling-assistant), unless the student is already requesting a particular course. While a student cannot request courses they are not allowed to (by the course type), a student advisor (a user with Student Scheduling Advisor permission) can request any course for the student on their behalf.
 
 When there are some course types defined, Type drop down will appear on the [Edit Course Offering](edit-course-offering) page.
 

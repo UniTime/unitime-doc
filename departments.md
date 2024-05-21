@@ -16,11 +16,11 @@ The top line contains the session for which the list is valid. You can change th
 
 The list of departments consists of the following columns
 
-* **Number / Code**
+* **Code**
 	* The departmental number (may be the departmental ID within the university)
 	* Used in imports/exports (corresponds to the "department" element in the XML staff file)
 
-* **Abbreviation** (Abbv)
+* **Abbreviation**
 	* Abbreviation of the department
 
 * **Name**

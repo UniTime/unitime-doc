@@ -17,14 +17,14 @@ _Note: A manager setting should be implemented and recognized by the application
 * **Reference**
 	* The name by which the application recognizes the setting
 
+* **Description**
+	* The description that is displayed in the [Manager Settings](manager-settings) screen (accessible by all schedule managers)
+
 * **Default Value**
 	* Value applicable to all schedule managers unless it is changed by them in the [Manager Settings](manager-settings) screen
 
 * **Allowed Values**
-	* Comma separated list of possible values of the setting from which the schedule managers can choose in the [Edit Manager Setting](edit-manager-setting) screen
-
-* **Description**
-	* The description that is displayed in the [Manager Settings](manager-settings) screen (accessible by all schedule managers)
+	* List of possible values of the setting from which the schedule managers can choose in the [Edit Manager Setting](edit-manager-setting) screen
 
 ## Operations
 
