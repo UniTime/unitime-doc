@@ -33,10 +33,10 @@ Note: If you do not have coordinate system established, entering the same coordi
 
 ## Operations
 
-* **Add Building** (ALT+A)
+* **Add Building** (Alt+A)
 	* Add a new building in the [Add Building](add-building) screen
 
-* **Export PDF** (ALT+P)
+* **Export PDF** (Alt+P)
 	* Export the list of buildings into a PDF file
 
 

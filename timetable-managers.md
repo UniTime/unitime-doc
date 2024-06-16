@@ -45,8 +45,8 @@ Click on a line with a manager to change the values in any of the columns.
 
 ## Operations
 
-* **Add Timetable Manager** (ALT+T)
+* **Add Timetable Manager** (Alt+T)
 	* Go to the [Add Timetable Manager](add-timetable-manager) screen to add a new manager
 
-* **Export PDF** (ALT+P)
+* **Export PDF** (Alt+P)
 	* Export the list of managers to a PDF document

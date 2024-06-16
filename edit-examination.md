@@ -47,7 +47,7 @@ This section provides information about the instructional offering components (c
 
 The column names are self-explanatory.
 
-* To add more lines for additional instructional offering components, click on **Add Object** (ALT+O)
+* To add more lines for additional instructional offering components, click on **Add Object** (Alt+O)
 
 * To delete a line with an instructional offering component, click on the **Delete** button on that line
 
@@ -65,7 +65,7 @@ Select the preference level in the colored squares in the legend and then click 
 
 * You can only see room groups related to midterm/final examination rooms
 
-* To add more lines for additional room group preferences, click on **Add Room Group Preference** (ALT+G)
+* To add more lines for additional room group preferences, click on **Add Room Group Preference** (Alt+G)
 
 * To delete a line with a room group preference, click on the **Delete** button on that line
 
@@ -77,7 +77,7 @@ Select the preference level in the colored squares in the legend and then click 
 
 * You can see only those rooms that listed in the [Rooms](rooms) screen for midterm/final examinations (look at [Rooms](rooms) to see how to add new rooms to your list of examination rooms)
 
-* To add more lines for additional room preferences, click on **Add Room Preference** (ALT+R)
+* To add more lines for additional room preferences, click on **Add Room Preference** (Alt+R)
 
 * To delete a line with a room preference, click on the **Delete** button on that line
 
@@ -89,7 +89,7 @@ Select the preference level in the colored squares in the legend and then click 
 
 * You can see only those buildings that are listed in your [Rooms](rooms) screen for midterm/final examinations
 
-* To add more lines for additional building preferences, click on **Add Building Preference** (ALT+D)
+* To add more lines for additional building preferences, click on **Add Building Preference** (Alt+D)
 
 * To delete a line with a building preference, click on the **Delete** button on that line
 
@@ -103,7 +103,7 @@ Select the preference level in the colored squares in the legend and then click 
 
 * If you need to add another room feature for the examination rooms, click on "Features" in the left hand side menu and then on the "Add New Room Feature" button
 
-* To add more lines for additional room feature preferences, click on **Add Room Feature Preference** (ALT+F)
+* To add more lines for additional room feature preferences, click on **Add Room Feature Preference** (Alt+F)
 
 * To delete a line with a room feature preference, click on the **Delete** button on that line
 

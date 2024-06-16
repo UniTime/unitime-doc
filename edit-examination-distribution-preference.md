@@ -46,12 +46,12 @@ The Edit Examination Distribution Preference screen provides user interface for 
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the previous screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete the distribution preference and go back to the previous screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the previous screen without saving any changes
 

@@ -36,10 +36,10 @@ Note: If you do not have coordinate system established, entering the same coordi
 * **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Buildings](buildings) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete building (including all its rooms) and go back to the [Buildings](buildings) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Buildings](buildings) screen without saving anything
 
 

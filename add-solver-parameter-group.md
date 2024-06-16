@@ -20,8 +20,8 @@ The Add Solver Parameter Group screen provides interface for adding a new solver
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new solver parameter group and go back to the [Solver Parameter Groups](solver-parameter-groups) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Parameter Groups](solver-parameter-groups) screen without saving this new solver parameter group

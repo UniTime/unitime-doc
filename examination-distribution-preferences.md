@@ -53,6 +53,6 @@ Click on any distribution preference to get to the [Edit Examination Distributio
 * **Export**
 	* Export the list of distribution preferences into a file (PDF or CSV)
 
-* **Add Distribution Preference** (ALT+A)
+* **Add Distribution Preference** (Alt+A)
 	* Go to the [Add Examination Distribution Preference](add-examination-distribution-preference) screen to add a new distribution preference
 

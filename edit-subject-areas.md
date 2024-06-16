@@ -32,8 +32,8 @@ The top line shows the academic session for which the subject areas are listed. 
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new subject area and go back to the [Subject Areas](subject-areas) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Subject Areas](subject-areas) screen without saving any changes

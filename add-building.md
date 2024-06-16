@@ -33,10 +33,10 @@ Note: If you do not have coordinate system established, entering the same coordi
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save a new building and go back to the [Buildings](buildings) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Buildings](buildings) screen without saving anything
 
 

@@ -83,10 +83,10 @@ Add a new department in the Add Department screen.
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new department and go back to the [Departments](departments) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Departments](departments) screen without saving the department
 
 

@@ -28,8 +28,8 @@ Note: The setting should be first implemented and recognized by the application 
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new application setting and go back to the [Application Configuration](application-configuration) screen
 
-* **Cancel** (ALT+C)
+* **Cancel** (Alt+C)
 	* Go back to the [Application Configuration](application-configuration) screen without saving the new setting

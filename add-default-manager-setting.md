@@ -28,10 +28,10 @@ _Note: A manager setting should be implemented and recognized by the application
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new setting and go back to the [Default Manager Settings](default-manager-settings) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Default Manager Settings](default-manager-settings) screen without saving the new setting
 
 

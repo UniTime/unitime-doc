@@ -83,7 +83,7 @@ Edit an existing department in the Edit Department screen.
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Departments](departments) screen
 
 * **Delete** (Alt+D)
@@ -91,6 +91,6 @@ Edit an existing department in the Edit Department screen.
 	* This operation is only available when it is allowed to delete a department
 		* A department cannot be deleted if it has a solver group or if there is a course offered in one of its subject areas.
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Departments](departments) screen without saving changes
 

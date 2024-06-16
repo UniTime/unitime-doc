@@ -76,11 +76,11 @@ Note: A user needs to be associated with at least one role.
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Timetable Managers](timetable-managers) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete this manager and go back to the [Timetable Managers](timetable-managers) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Timetable Managers](timetable-managers) screen without saving changes

@@ -36,12 +36,12 @@ The Edit Subject Area screen provides administrators with interface for editing 
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Subject Areas](subject-areas) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete subject area and go back to the [Subject Areas](subject-areas) screen
 		* This option is only available if there are no courses offered for this subject area
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Subject Areas](subject-areas) screen without saving any changes

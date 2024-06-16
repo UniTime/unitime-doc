@@ -35,12 +35,12 @@ The Edit Solver Parameter screen provides interface for editing an existing solv
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Solver Parameters](solver-parameters) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete the solver parameter and go back to the [Solver Parameters](solver-parameters) screen
 	* The solver will continue to recognize this parameter, but there will be no way in the timetabling application to change its default value
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Parameters](solver-parameters) screen without saving any changes

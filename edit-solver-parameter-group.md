@@ -22,12 +22,12 @@ The Edit Solver Parameter Group screen provides interface for editing an existin
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Solver Parameter Groups](solver-parameter-groups) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete this solver parameter group and go back to the [Solver Parameter Groups](solver-parameter-groups) screen
 	* **Note:** Do not delete solver parameter groups
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Parameter Groups](solver-parameter-groups) screen without saving any changes

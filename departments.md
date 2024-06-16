@@ -69,9 +69,9 @@ The list of departments consists of the following columns
 
 ## Operations
 
-* **Add Department** (ALT+D)
+* **Add Department** (Alt+D)
 	* Add a new department to the list
 
-* **Export PDF** (ALT+P)
+* **Export PDF** (Alt+P)
 	* Export the list of departments into a PDF document
 

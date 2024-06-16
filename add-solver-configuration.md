@@ -27,8 +27,8 @@ The rest of the screen contains solver parameters grouped into solver parameter 
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new solver configuration and go back to the [Solver Configurations](solver-configurations) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Configurations](solver-configurations) screen without saving any changes

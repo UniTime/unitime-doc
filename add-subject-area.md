@@ -35,10 +35,10 @@ The Add Subject Area screen provides you with interface for adding a new subject
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new subject area and go back to the [Subject Areas](subject-areas) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Subject Areas](subject-areas) screen without saving any changes
 
 

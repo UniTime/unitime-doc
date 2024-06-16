@@ -122,6 +122,6 @@ Check all reports that should be generated and distributed. The reports currentl
 
 ## Operations
 
-* **Generate** (ALT+G)
+* **Generate** (Alt+G)
 	* Generate selected reports and deliver them as selected in the Output section of the screen
 	* Note: It may take some time to generate the requested report or reports (especially for the verification and individual schedule reports). If you are emailing the reports, you do not need to wait for this page to return.

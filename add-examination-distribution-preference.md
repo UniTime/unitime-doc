@@ -45,10 +45,10 @@ The Add Examination Distribution Preference screen provides user interface for a
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new distribution preference and go back to the previous sceen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the previous screen without saving the new preference
 
 

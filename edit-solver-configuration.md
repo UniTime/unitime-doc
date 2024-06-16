@@ -29,15 +29,15 @@ The rest of the screen contains solver parameters grouped into solver parameter 
 
 ## Operations
 
-* **Update/Save** (ALT+U/ALT+S
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Solver Configurations](solver-configurations) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete the configuration
 
-* **Export** (ALT+E)
+* **Export** (Alt+E)
 	* Export the configuration into a text file
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Configurations](solver-configurations) screen without saving any changes
 

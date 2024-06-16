@@ -28,17 +28,17 @@ The Edit Default Manager Setting screen provides interface for editing an existi
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save changes and go back to the [Default Manager Settings](default-manager-settings) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete this setting (= make it impossible for schedule managers to use other than the application's default value) and go back to the [Default Manager Settings](default-manager-settings) screen
 
-* **Previous** (ALT+P)
+* **Previous** (Alt+P)
 	* Save changes and go to the previous Default Manager Setting
 
-* **Next** (ALT+N)
+* **Next** (Alt+N)
 	* Save changes and go to the next Default Manager Setting
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Default Manager Settings](default-manager-settings) screen without saving any changes

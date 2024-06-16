@@ -34,8 +34,8 @@ The Add Solver Parameter screen provides interface for adding a new solver param
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save the new solver parameter and go back to the [Solver Parameters](solver-parameters) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Solver Parameters](solver-parameters) screen without saving this new parameter

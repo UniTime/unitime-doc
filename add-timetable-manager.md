@@ -72,10 +72,10 @@ Note: A user needs to be associated with at least one role.
 
 ## Operations
 
-* **Save** (ALT+S)
+* **Save** (Alt+S)
 	* Save this new user and go back to the [Timetable Managers](timetable-managers) screen
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Timetable Managers](timetable-managers) screen without saving this new user
 
 

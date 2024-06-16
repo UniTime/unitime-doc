@@ -30,11 +30,11 @@ The Add and Edit Application Setting screens provide interfaces for assigning pr
 * **Update/Save** (Alt+U/Alt+S)
 	* Save the changes and go back to the [Application Configuration](application-configuration) screen
 
-* **Delete** (ALT+D)
+* **Delete** (Alt+D)
 	* Delete the application setting and go back to the [Application Configuration](application-configuration) screen
 	* The setting will continue to exist in the application, but it will not be possible to change its default value
 
-* **Back** (ALT+B)
+* **Back** (Alt+B)
 	* Go back to the [Application Configuration](application-configuration) screen without saving any changes
 
 
