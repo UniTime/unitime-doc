@@ -42,7 +42,7 @@ The list of rooms assigned to a given department follows. It is divided into two
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Room Groups](room-groups) screen
 
 * **Delete** (Alt+D)

@@ -36,7 +36,7 @@ The Edit Subject Area screen provides administrators with interface for editing 
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Subject Areas](subject-areas) screen
 
 * **Delete** (ALT+D)

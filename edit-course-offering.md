@@ -80,7 +80,7 @@ Most of the information that you enter in the Edit Course Offering screen has to
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Instructional Offering Detail](instructional-offering-detail) screen.
 
 * **Back** (Alt+B)

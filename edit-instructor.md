@@ -51,7 +51,7 @@ Edit information about an instructor in this Edit Instructor screen.
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and return to the [Instructor Detail](instructor-detail) screen
 
 * **Delete** (Alt+D)

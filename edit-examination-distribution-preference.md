@@ -46,7 +46,7 @@ The Edit Examination Distribution Preference screen provides user interface for 
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the previous screen
 
 * **Delete** (ALT+D)

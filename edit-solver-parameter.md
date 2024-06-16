@@ -35,7 +35,7 @@ The Edit Solver Parameter screen provides interface for editing an existing solv
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Solver Parameters](solver-parameters) screen
 
 * **Delete** (ALT+D)

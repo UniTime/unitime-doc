@@ -83,7 +83,7 @@ Edit an existing department in the Edit Department screen.
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Departments](departments) screen
 
 * **Delete** (Alt+D)

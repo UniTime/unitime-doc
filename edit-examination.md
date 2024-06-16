@@ -111,7 +111,7 @@ Select the preference level in the colored squares in the legend and then click 
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the previous screen
 
 * **Previous** (Alt+P)

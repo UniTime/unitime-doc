@@ -25,7 +25,7 @@ Interface for editing an existing standard event note.
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes made to the standard event note and go to the [Standard Event Notes](standard-event-notes) screen
 
 * **Back** (Alt+B)

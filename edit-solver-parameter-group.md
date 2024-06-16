@@ -22,7 +22,7 @@ The Edit Solver Parameter Group screen provides interface for editing an existin
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Solver Parameter Groups](solver-parameter-groups) screen
 
 * **Delete** (ALT+D)

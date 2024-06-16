@@ -29,7 +29,7 @@ The rest of the screen contains solver parameters grouped into solver parameter 
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Solver Configurations](solver-configurations) screen
 
 * **Delete** (ALT+D)

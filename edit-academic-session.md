@@ -6,7 +6,7 @@ title: Add/Edit Academic Session
 
 ## Screen Description
 
-The Edit Academic Session screen provides interface for changing properties of an academic session.
+The Add and Edit Academic Session screens provide interfaces for assigning properties to an academic session.
 
 ![Edit Academic Session](images/edit-academic-session.png){:class='screenshot'}
 

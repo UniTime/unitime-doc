@@ -6,7 +6,7 @@ title: Add/Edit Application Setting
 
 ## Screen Description
 
-The Edit Application Setting screen provides interface for editing an existing application setting.
+The Add and Edit Application Setting screens provide interfaces for assigning properties to application setting.
 
 ![Edit Application Setting](images/edit-application-setting.png){:class='screenshot'}
 
@@ -27,7 +27,7 @@ The Edit Application Setting screen provides interface for editing an existing a
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save the changes and go back to the [Application Configuration](application-configuration) screen
 
 * **Delete** (ALT+D)

@@ -39,7 +39,7 @@ The Edit Distribution Preference screen provides interface for editing existing 
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes to the distribution preference and go back to the previous screen
 
 * **Delete** (Alt+D)

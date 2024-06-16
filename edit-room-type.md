@@ -22,7 +22,7 @@ The Edit Room Type screen provides interface for editing an existing room type.
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes to the room type and go back to the [Room Types](room-types) screen
 
 * **Delete** (Alt+D)

@@ -76,7 +76,7 @@ Note: A user needs to be associated with at least one role.
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (ALT+U/ALT+S
 	* Save changes and go back to the [Timetable Managers](timetable-managers) screen
 
 * **Delete** (ALT+D)

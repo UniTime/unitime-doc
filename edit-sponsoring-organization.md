@@ -22,7 +22,7 @@ Interface for editing an existing sponsoring organization.
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Update changes made to the sponsoring organization and go back to the [Sponsoring Organizations](sponsoring-organizations) screen
 
 * **Delete** (Alt+D)

@@ -6,7 +6,7 @@ title: Add/Edit Building
 
 ## Screen Description
 
-The Edit Buildings screen provides interface for editing an existing building.
+The Add and Edit Buildings screens provide interface for editing an existing building or creating a new building.
 
 ![Edit Building](images/edit-building.png){:class='screenshot'}
 
@@ -33,7 +33,7 @@ Note: If you do not have coordinate system established, entering the same coordi
 
 ## Operations
 
-* **Update** (ALT+U)
+* **Update/Save** (Alt+U/Alt+S)
 	* Save changes and go back to the [Buildings](buildings) screen
 
 * **Delete** (ALT+D)
