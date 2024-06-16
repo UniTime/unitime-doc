@@ -6,7 +6,7 @@ title: Add/Edit Student Group
 
 ## Screen Description
 
-The Edit Student Group screen provides interface for editing an existing student group. (It is also possible to edit all student groups at once in the [Edit Student Groups](edit-student-groups) screen, accessible from the [Student Groups](student-groups) screen.)
+The Add and Edit Student Group screens provide interfaces for adding a new student group or editing an existing student group. (It is also possible to edit all student groups at once in the [Edit Student Groups](edit-student-groups) screen, accessible from the [Student Groups](student-groups) screen.)
 
 ## Details
 

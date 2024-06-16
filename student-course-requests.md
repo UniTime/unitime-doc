@@ -14,13 +14,13 @@ Courses and PrioritiesThe student can use the screen to set up a list of priorit
 
 **Course Requests**
 
-Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as his/her first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
+Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as their first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
 
 Click on the magnifying glass to get to the [Course Finder](course-finder) screen for more information about possible courses.
 
 To move a line with a course and its alternatives one line up or one line down, click on the appropriate arrow at the end of the line.
 
-If a course (or any of its alternatives, if provided) is not available to the student for some reason, it is possible to either give an additional course (see the Alternate Course Requests table bellow) or toggle the Wait-List checkbox. If the Wait-List is marked and the student cannot be enrolled into the course, he/she will be automatically put on a wait-list for the course.
+If a course (or any of its alternatives, if provided) is not available to the student for some reason, it is possible to either give an additional course (see the Alternate Course Requests table bellow) or toggle the Wait-List checkbox. If the Wait-List is marked and the student cannot be enrolled into the course, they will be automatically put on a wait-list for the course.
 
 **Alternate Course Requests**
 

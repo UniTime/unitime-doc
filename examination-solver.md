@@ -107,9 +107,9 @@ See above
 
 ### Best Timetable Found So Far
 
-During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when he/she stops the solver or when the time-out is reached.
+During the automated timetabling (when the solver is running), the best timetable found so far is saved here. It is the timetable that is presented to the user when they stop the solver or when the time-out is reached.
 
-When the user interacts and makes changes, he/she can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
+When the user interacts and makes changes, they can save intermediate results as "Best Timetable Found So Far" and later come back to this timetable if the current one is not good.
 
 ### Current Timetable
 

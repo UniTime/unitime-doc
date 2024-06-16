@@ -6,7 +6,7 @@ title: Add/Edit Examination Period
 
 ## Screen Description
 
-The Edit Examination Period screen provides interface for making changes to an existing examination period.
+The Add and Edit Examination Period screens provide interfaces for adding a new examination period or editing an existing examination period.
 
 ![Edit Examination Period](images/edit-examination-period-1.png){:class='screenshot'}
 

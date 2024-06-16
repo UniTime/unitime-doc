@@ -10,11 +10,11 @@ The Instructor Attributes page can be used to define instructor attributes and t
 
 ![Instructor Attributes](images/instructor-attributes-1.png){:class='screenshot'}
 
-Instructor attribute types need to be defined first, see Administration > Other > [Instructor Attribute Types](instructor-attribute-types) for more details. Permission Instructor Attributes is needed to see this page. Permission Instructor Global Attribute Edit is needed to create a global instructor attribute. Permission Instructor Attribute Assign is needed to assign an instructor attribute to instructors of a department.
+Instructor attribute types need to be defined first, see Administration > Other > [Instructor Attribute Types](instructor-attribute-types) for more detail. Permission Instructor Attributes is needed to see this page. Permission Instructor Global Attribute Edit is needed to create a global instructor attribute. Permission Instructor Attribute Assign is needed to assign an instructor attribute to instructors of a department.
 
 ## Details
 
-Each attribute has an abbreviation, name, type (see [Instructor Attribute Types](instructor-attribute-types)), and it can be associated with a list of instructors. An instructor can have multiple attributes of the same type. It is also possible to define a parent of an attribute. This is useful if there is a hierarchy, e.g., an experienced instructor can teach advanced courses, but he/she can also teach beginner classes. In other words, if a particular attribute is preferred or required, instructors with the same attribute or with one of the parent attributes (attribute parent of the selected attribute, or the parent of the parent attribute, etc.) meet the preference or requirements.
+Each attribute has an abbreviation, name, type (see [Instructor Attribute Types](instructor-attribute-types)), and it can be associated with a list of instructors. An instructor can have multiple attributes of the same type. It is also possible to define a parent of an attribute. This is useful if there is a hierarchy, e.g., an experienced instructor can teach advanced courses, but they can also teach beginner classes. In other words, if a particular attribute is preferred or required, instructors with the same attribute or with one of the parent attributes (attribute parent of the selected attribute, or the parent of the parent attribute, etc.) meet the preference or requirements.
 
 ## Operations
 

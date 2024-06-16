@@ -6,7 +6,7 @@ title: Add/Edit User
 
 ## Screen Description
 
-The Edit User screen provides interface for changing user's authentication data, if the timetabling application is not connected to any external database for this purpose.
+The Add and Edit User screens provide interfaces for adding a new user or changing user's authentication data, if the timetabling application is not connected to any external database for this purpose.
 
 ![Edit User](images/edit-user-1.png){:class='screenshot'}
 

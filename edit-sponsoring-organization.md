@@ -6,7 +6,7 @@ title: Add/Edit Sponsoring Organization
 
 ## Screen Description
 
-Interface for editing an existing sponsoring organization.
+Interface for adding new sponsoring organizationso or editing an existing sponsoring organization.
 
 ![Edit Sponsoring Organization](images/edit-sponsoring-organization-1.png){:class='screenshot'}
 

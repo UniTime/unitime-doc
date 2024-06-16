@@ -6,7 +6,7 @@ title: Add/Edit Logging Level
 
 ## Screen Description
 
-The Edit Logging Level page can be used to change a logging level. This effects what messages will be printed in the log. The page requires Application Config permission. See [Logging Levels](logging-levels) for more details.
+The Add and Edit Logging Level pages can be used to add or change a logging level. This effects what messages will be printed in the log. The page requires Application Config permission. See [Logging Levels](logging-levels) for more detail.
 
 ![Edit Logging Level](images/edit-logging-level-1.png){:class='screenshot'}
 

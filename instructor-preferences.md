@@ -78,7 +78,7 @@ In the Instructor Preferences screen, you can enter instructor's preferences whi
 **Distribution Preferences**
 
 * The distribution preferences that you set up on an instructor will be applied to all the classes that the instructor is teaching, but only during the departmental timetabling
-	* Example: If the instructor teaches three classes and you put in that he/she requires his/her classes to be back-to-back, all three of these classes will have to be back-to-back; if you want to specify which two of these three classes need to be back-to-back, you will need to put the distribution preference on the classes themselves, not on the instructor (you can do that for example by clicking on "Add Distribution Preference" in the [Class Detail](class-detail) screen of one of those classes)
+	* Example: If the instructor teaches three classes and you put in that they requires their classes to be back-to-back, all three of these classes will have to be back-to-back; if you want to specify which two of these three classes need to be back-to-back, you will need to put the distribution preference on the classes themselves, not on the instructor (you can do that for example by clicking on "Add Distribution Preference" in the [Class Detail](class-detail) screen of one of those classes)
 
 * Select a distribution preference from the first drop down list and the preference level from the second drop down list
 

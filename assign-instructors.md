@@ -30,8 +30,8 @@ There is a line (or more) for each class of that configuration of the instructio
 	* The total for a class (if there are e.g. more instructors per class) should be 100
 
 * **Check conflicts**
-	* When checked (and it is checked by default), the instructor's preferences are considered during departmental timetabling; also, checks are performed for this instructor to make sure that this person does not have conflicting teaching assignments (i.e., he/she is not teaching another class at the same time)
-	* When not checked, the instructor's association with this class is ignored during timetabling, no conflicts will be discovered between this class and his/her other classes
+	* When checked (and it is checked by default), the instructor's preferences are considered during departmental timetabling; also, checks are performed for this instructor to make sure that this person does not have conflicting teaching assignments (i.e., they are not teaching another class at the same time)
+	* When not checked, the instructor's association with this class is ignored during timetabling, no conflicts will be discovered between this class and their other classes
 
 * **Display**
 	* When checked (and it is checked by default), the instructor will be displayed in the online Schedule of Classes

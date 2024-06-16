@@ -6,7 +6,7 @@ title: Instructors
 
 ## Screen Description
 
-The Instructors screen displays a list of instructors that can be used throughout the application - for example, to assign instructors to classes/examinations or to add instructors to a designator list. Clicking on any instructor will take you to his/her [Instructor Detail](instructor-detail) screen.
+The Instructors screen displays a list of instructors that can be used throughout the application - for example, to assign instructors to classes/examinations or to add instructors to a designator list. Clicking on any instructor will take you to their [Instructor Detail](instructor-detail) screen.
 
 ![Instructors](images/instructors-1.png){:class='screenshot'}
 

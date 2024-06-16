@@ -6,7 +6,7 @@ title: Course Credit Units
 
 ## Screen Description
 
-The Course Credit Units page can be used to manage credit units. See [Course Credit](course-credit) description for more details.
+The Course Credit Units page can be used to manage credit units. See [Course Credit](course-credit) description for more detail.
 
 ![Course Credit Units](images/course-credit-units.png){:class='screenshot'}
 

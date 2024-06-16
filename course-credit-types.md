@@ -6,7 +6,7 @@ title: Course Credit Types
 
 ## Screen Description
 
-The Course Credit Types page can be used to manage credit types. See [Course Credit](course-credit) description for more details.
+The Course Credit Types page can be used to manage credit types. See [Course Credit](course-credit) description for more detail.
 
 ![Course Credit Types](images/course-credit-types.png){:class='screenshot'}
 

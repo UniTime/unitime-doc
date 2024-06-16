@@ -47,7 +47,7 @@ Please note that having the Event Date Mappings permission is not the only condi
 
 If there is already a committed solution, it is not allowed to tinker with the event date mappings. This is to prevent inconsistencies in the data as the mapping is used to create meetings while a solution is being committed or when a class is reassigned using [Class Assignment](class-assignment) page.
 
-If the user cannot add a new mapping (because there is a committed solution, or because he/she does not have the edit permission) and there are no mappings defined, the menu item Event Date Mappings will not appear as there are no data to show and no operation to make.
+If the user cannot add a new mapping (because there is a committed solution, or because they does not have the edit permission) and there are no mappings defined, the menu item Event Date Mappings will not appear as there are no data to show and no operation to make.
 
 ## Operations
 

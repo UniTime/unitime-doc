@@ -6,7 +6,7 @@ title: Add/Edit Room
 
 ## Screen Description
 
-The administrative page Edit Room allows the administrator to change properties of the room or any schedule manager to change the properties of his/her Non-University/Outside Location.
+The administrative pages Add and Edit Room allow the administrator to change properties of the room or any schedule manager to change the properties of their Non-University/Outside Location.
 
 ![Edit Room](images/edit-room-1.png){:class='screenshot'}
 
@@ -91,7 +91,7 @@ The administrative page Edit Room allows the administrator to change properties 
 * **Room Groups**
 	* Room groups of this location
 
-* The list of groups is divided into **Global Groups** and **Departmental Groups** (if the schedule manager has added any groups for his/her department)
+* The list of groups is divided into **Global Groups** and **Departmental Groups** (if the schedule manager has added any groups for their department)
 
 * **Room Features**
 	* Room features of this location
@@ -146,7 +146,7 @@ The administrative page Edit Room allows the administrator to change properties 
 
 * The **Event Availability** can be used to define global unavailability of a room for the event management. 
 
-* If a particular time (e.g., Friday 7:30am - 6:30pm) is marked as unavailable, the room is not available during this time every week (e.g., every Friday between 7:30am and 6:30pm). For a less repetitive unavailabilities an unavailability event can be created. See [Add Event](add-event) page for more details.
+* If a particular time (e.g., Friday 7:30am - 6:30pm) is marked as unavailable, the room is not available during this time every week (e.g., every Friday between 7:30am and 6:30pm). For a less repetitive unavailabilities an unavailability event can be created. See [Add Event](add-event) page for more detail.
 
 * Click Available or Not Available in the legend to make a selection. When a particular time is clicked, it is changed to the selected type (either available or not available). All times (that are visible) can be changed by clicking the appropriate day of week, all (visible) days can be changed by clicking the appropriate time. Visible days and times can be changed in the drop down on the top left side. Horizontal or vertical mode can be changed by clicking the Horizontal check box on the top right side. The visible days and times and the horizontal / vertical mode are remembered in the browser cookie.
 

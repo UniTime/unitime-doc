@@ -20,7 +20,7 @@ The Examination PDF Reports screen provides interface for selecting and generati
 
 * **Subject Areas**
 	* If the "All Subject Areas (on one report)" checkbox is checked, one report will be generated with each subject area starting on a new page
-	* If the checkbox is unchecked, the user can select any subject area(s) he/she wants and a report will be generated for each of these subject areas separately
+	* If the checkbox is unchecked, the user can select any subject area(s) they wants and a report will be generated for each of these subject areas separately
 
 ### Report
 
@@ -90,7 +90,7 @@ Check all reports that should be generated and distributed. The reports currentl
 
 * **Individual Reports**
 	* Include Class Schedule
-		* If checked, the recipient receives not only his/her examination schedule, but also his/her current class schedule
+		* If checked, the recipient receives not only their examination schedule, but also their current class schedule
 	* Date
 		* Only email instructors/students that have a change in their schedule since this date, email all when empty
 
@@ -106,7 +106,7 @@ Check all reports that should be generated and distributed. The reports currentl
 			* **All Involved Department Schedule Managers**
 				* The output will be sent to the email addresses of all schedule managers whose subject are has been selected in the "Input Data" section
 			* **Send Individual Instructor Schedule Reports to All Involved Instructors**
-				* If the report "Individual Instructor Schedule" is selected in the Report section, send an email to each instructor (to the email address stored in the timetabling application in Course Timetabling → Input Data → [Instructors](instructors)) with his/her individual examination schedule
+				* If the report "Individual Instructor Schedule" is selected in the Report section, send an email to each instructor (to the email address stored in the timetabling application in Course Timetabling → Input Data → [Instructors](instructors)) with their individual examination schedule
 			* **Send Individual Student Schedule Reports to All Involved Students**
 				* The email addresses used are the email addresses imported in the XML import described in Student Information under Students in [https://www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php))
 		* **CC**

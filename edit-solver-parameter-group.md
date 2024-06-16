@@ -6,7 +6,7 @@ title: Add/Edit Solver Parameter Group
 
 ## Screen Description
 
-The Edit Solver Parameter Group screen provides interface for editing an existing solver parameter group.
+The Add and Edit Solver Parameter Group screens provide interfaces for adding a new solver parameter group or editing an existing solver parameter group.
 
 ![Edit Solver Parameter Group](images/edit-solver-parameter-group-1.png){:class='screenshot'}
 

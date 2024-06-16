@@ -6,11 +6,11 @@ title: Add/Edit Teaching Responsibility
 
 ## Screen Description
 
-The Edit Teaching Responsibility page can be used to change an existing teaching responsibility. Both instructor and coordinator assignment can have a teaching responsibility defined (optional). This allows, for instance, to distinguish between instructors, teaching assistants, course supervisors, graders, and other roles.
+The Add and Edit Teaching Responsibility pages can be used to change an existing or to add a new teaching responsibility. Both instructor and coordinator assignment can have a teaching responsibility defined (optional). This allows, for instance, to distinguish between instructors, teaching assistants, course supervisors, graders, and other roles.
 
 ![Edit Teaching Responsibility](images/edit-teaching-responsibility-1.png){:class='screenshot'}
 
-The user needs to have Teaching Responsibility Edit permission to be able to edit a teaching responsibility.. See [Teaching Responsibilities](teaching-responsibilities) for more details.
+The user needs to have Teaching Responsibility Edit permission to be able to edit a teaching responsibility.. See [Teaching Responsibilities](teaching-responsibilities) for more detail.
 
 ## Details
 

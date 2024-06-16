@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Edit Student Accommodations
+forward: edit-student-accommodation
 ---
 
 

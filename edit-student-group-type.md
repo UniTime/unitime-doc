@@ -6,7 +6,7 @@ title: Add/Edit Student Group Type
 
 ## Screen Description
 
-The Edit Student Group Type page allows to modify an existing student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
+The Add and Edit Student Group Type screens provide interfaces for adding a new student group type or editing an already existing student group type. This way, student groups can be grouped by their type. There are additional properties that can be defined for each group of a particular type.
 
 ![Edit Student Group Type](images/edit-student-group-type-1.png){:class='screenshot'}
 

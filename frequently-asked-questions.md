@@ -10,4 +10,4 @@ title: Frequently Asked Questions
 
 2. How do I look up an instructor? One of my instructors has been teaching for us already, but I have not been able to look her PUID up by name.
 
-	If you cannot find an instructor (who has already been teaching here) by last name, try his/her career account.
+	If you cannot find an instructor (who has already been teaching here) by last name, try their career account.

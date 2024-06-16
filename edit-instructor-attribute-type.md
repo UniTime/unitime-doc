@@ -6,7 +6,7 @@ title: Add/Edit Instructor Attribute Type
 
 ## Screen Description
 
-The Edit Instructor Attribute Type can be used to change an attribute type or to delete it. Instructor attribute types are used to categorize instructor attributes. The user needs to have Instructor Attribute Type Edit permission to be able to edit instructor attribute types. See [Instructor Attribute Types](instructor-attribute-types) for more details.
+The Add and Edit Instructor Attribute Type screens provide interfaces for adding, editing, or deleting instructor attribute types. Instructor attribute types are used to categorize instructor attributes. The user needs to have Instructor Attribute Type Edit permission to be able to edit instructor attribute types. See [Instructor Attribute Types](instructor-attribute-types) for more detail.
 
 ![Edit Instructor Attribute Type](images/edit-instructor-attribute-type-1.png){:class='screenshot'}
 

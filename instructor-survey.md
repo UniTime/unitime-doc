@@ -10,7 +10,7 @@ The Instructor Survey page can be used to collect requirements from instructors.
 
 ![Instructor Survey](images/instructor-survey-1.png){:class='screenshot'}
 
-While the data entry is only available during certain times (based on the status of the academic session and/or the department), an instructor can always see the surveys he/she has filled in in the past. It is also possible to copy preferences & requirements or the individual course requirements using the Copy button (only available when older surveys have been filled in).
+While the data entry is only available during certain times (based on the status of the academic session and/or the department), an instructor can always see the surveys they have filled in in the past. It is also possible to copy preferences & requirements or the individual course requirements using the Copy button (only available when older surveys have been filled in).
 
 ## Preferences & Requirements
 
@@ -22,7 +22,7 @@ Additional requirements can be entered as text in the Other Requirements section
 
 ## Individual Course Requirements
 
-The list of courses is automatically pre-populated with the courses the instructor is already teaching (which could be the last year's assignments when used shortly after the roll forward of the academic session). This way, the instructor may also indicate that he/she will not teach the course next semester.
+The list of courses is automatically pre-populated with the courses the instructor is already teaching (which could be the last year's assignments when used shortly after the roll forward of the academic session). This way, the instructor may also indicate that they will not teach the course next semester.
 
 Additional courses can be looked up. It is also possible to put multiple lines for the same course, e.g., if different requirements are needed for a lecture and a lab or if the instructor is teaching multiple lectures with different requirements.
 

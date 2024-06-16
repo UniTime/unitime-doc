@@ -6,13 +6,13 @@ title: Edit Instructor Roles
 
 ## Screen Description
 
-The Edit Instructor Roles page can be used to assign instructors (and other departmental personell) with roles using a single page. The user needs to have Instructor Role Edit permission to be able to set instructor roles. See [Instructor Roles](instructor-roles) page for more details.
+The Edit Instructor Roles page can be used to assign instructors (and other departmental personell) with roles using a single page. The user needs to have the Instructor Role Edit permission to be able to set instructor roles. See [Instructor Roles](instructor-roles) page for more detail.
 
 ![Edit Instructor Roles](images/edit-instructor-roles-1.png){:class='screenshot'}
 
 ## Details
 
-Each instructor of a department can be given a role. If a new person is looked up, an appropriate instructor is also created on the [Instructors](instructors) page. Administrative uses do only see instructors which already have a role given on this page. Users of department dependent roles (e.g., an event manager or a schedule manager) can see all instructors of their department(s). See the second screen shot.
+Each instructor of a department can be given a role. If a new person is looked up, an appropriate instructor is also created within the [Instructors](instructors) page. Administrative uses do only see instructors which already have a role given on this page. Users of department dependent roles (e.g., an event manager or a schedule manager) can see all instructors of their department(s). See the second screen shot.
 
 ![Edit Instructor Roles](images/edit-instructor-roles-2.png){:class='screenshot'}
 
@@ -24,7 +24,7 @@ A person can be looked up using the little dialog icon on the Instructor line. W
 
 Type in a name (or a part of a name) of a person. The list of matching people will appear. Select one person by clicking on the appropriate line or using keyboard Up and Down arrows and Enter to confirm the selection.
 
-Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](roles) for more details.
+Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](roles) for more detail.
 
 If the instructor already exists in the department, it will have the role assigned. An instructor record will be created for a new person.
 

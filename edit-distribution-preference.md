@@ -6,7 +6,7 @@ title: Add/Edit Distribution Preference
 
 ## Screen Description
 
-The Edit Distribution Preference screen provides interface for editing existing distribution preferences.
+The Add and Edit Distribution Preference screens provide interfaces for adding new distribution preferences or editing existing distribution preferences.
 
 ![Edit Distribution Preference](images/edit-distribution-preference-1.png){:class='screenshot'}
 

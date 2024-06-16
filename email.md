@@ -23,4 +23,4 @@ unitime.email.replyto.name=UniTime Support
 
 These properties can be set on the [Application Configuration](application-configuration) page or using the custom properties file (see [UniTime Installation](installation) for more details). The defaults are set in the [application.properties file](https://github.com/UniTime/unitime/blob/master/JavaSource/application.properties#L93-L132).
 
-There are a few more unitime.email.XXX properties that can be set, see the [Application Configuration](application-configuration) page for more details.
+There are a few more unitime.email.XXX properties that can be set, see the [Application Configuration](application-configuration) page for more detail.

@@ -6,7 +6,7 @@ title: Add/Edit Student Scheduling Status Type
 
 ## Screen Description
 
-The Edit Student Scheduling Status Type screen provides interface for editing an existing student scheduling status type. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
+The Add and Edit Student Scheduling Status Type screens provide interfaces for adding a new student scheduling status type or editing an existing student scheduling status type. Student scheduling statuses are used during student scheduling. A default student scheduling status can be set on the academic session ([Edit Academic Session](edit-academic-session) page) and overridden on a particular student ([Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page).
 
 ![Edit Student Scheduling Status Type](images/edit-student-scheduling-status-type-1.png){:class='screenshot'}
 

@@ -46,7 +46,7 @@ Instructor scheduling considers various hard and soft constraints. The hard cons
 
 * Maximal load of the instructor (each teaching assignment has a load defined, and there is a maximal load defined on each instructor)
 
-* The instructor must be available (unless allowed, there is no other overlapping teaching assignment, the assignment is not during a prohibited time and, if the instructor is also student, he/she does not have any classes at the time of the assignment)
+* The instructor must be available (unless allowed, there is no other overlapping teaching assignment, the assignment is not during a prohibited time and, if the instructor is also student, they does not have any classes at the time of the assignment)
 
 * Instructors with prohibited teaching preference cannot be used
 

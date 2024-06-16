@@ -21,11 +21,11 @@ The list of distribution preferences has preferences for the subject area(s) and
 
 * [Structure](structure-of-distribution-preferences)
 	* Structure of the preference (for example, All Classes)
-	* If the distribution preference was added through instructor's preferences, the Structure is in the form of 'Instructor' and his/her name
+	* If the distribution preference was added through instructor's preferences, the Structure is in the form of 'Instructor' and their name
 
 * **Owner**
 	* The manager during whose timetabling the preference will be applied - that depends on who timetables the classes in the distribution preference
-		* If there are classes timetabled by different managers, the manager who timetables first "will not know" about the preference, the preference will be applied during the timetabling of the last manager (last to commit his/her timetable)
+		* If there are classes timetabled by different managers, the manager who timetables first "will not know" about the preference, the preference will be applied during the timetabling of the last manager (last to commit their timetable)
 	* Note: distribution preferences which are put on instructors are taken into account during departmental timetabling only
 
 * **Class**

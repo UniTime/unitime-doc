@@ -6,7 +6,7 @@ title: Edit Roles
 
 ## Screen Description
 
-The Edit Roles page can be used to create, modify, or delete existing roles using a single page. These roles can be assigned to UniTime managers ([Timetable Managers](timetable-managers) page) or instructors ([Instructor Roles](instructor-roles) page). Permissions of a role can be defined on the [Permissions](permissions) page. See [Roles](roles) page for more details.
+The Edit Roles page can be used to create, modify, or delete existing roles using a single page. These roles can be assigned to UniTime managers ([Timetable Managers](timetable-managers) page) or instructors ([Instructor Roles](instructor-roles) page). Permissions of a role can be defined on the [Permissions](permissions) page. See [Roles](roles) page for more detail.
 
 ![Edit Roles](images/edit-roles-1.png){:class='screenshot'}
 

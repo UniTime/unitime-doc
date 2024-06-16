@@ -62,9 +62,9 @@ Report selected in the filter. The reports currently available are
 10. Individual Student Schedule
 	* For each student, there is a list of examinations that the student should take with their period/room assignments
 11. Individual Student Conflicts
-	* For each student who has a conflict, there is the student listed, the type of his/her conflict and the examinations that are in conflict
+	* For each student who has a conflict, there is the student listed, the type of their conflict and the examinations that are in conflict
 12. Individual Direct Student Conflicts
-	* For each student who has overlapping examinations, there is the student listed and his/her examinations that overlap
+	* For each student who has overlapping examinations, there is the student listed and their examinations that overlap
 13. Individual More Than 2 Exams A Day Student Conflicts
 	* List of students who have more than two examinations on a day, together with the problematic examinations
 14. Individual Back-To-Back Student Conflicts

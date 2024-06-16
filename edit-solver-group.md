@@ -6,7 +6,7 @@ title: Add/Edit Solver Group
 
 ## Screen Description
 
-The Edit Solver Group screen provides interface for editing an existing solver group.
+The Add and Edit Solver Group screens provide interfaces for adding a new solver group or editing an existing solver group.
 
 ![Edit Solver Group](images/edit-solver-group-1.png){:class='screenshot'}
 
@@ -26,7 +26,7 @@ The solver group can include only departments that are not a part of another sol
 
 * **Assigned Managers**
 	* Schedule managers who can currently create/save/commit a timetable for this solver group
-	* Uncheck the checkbox in front of a manager's name to remove him/her from the solver group
+	* Uncheck the checkbox in front of a manager's name to remove them from the solver group
 
 * **Not Assigned Departments**
 	* A list of departments that are not a part of any other solver group (only such departments can be added to a solver group)

@@ -6,7 +6,7 @@ title: Add/Edit Reservation
 
 ## Screen Description
 
-The Edit Reservation screen allows the user to edit an existing reservation.
+The Add and Edit Reservation screens allow the user to add or edit an existing reservation.
 
 ## Details
 

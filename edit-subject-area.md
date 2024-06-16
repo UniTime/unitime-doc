@@ -6,7 +6,7 @@ title: Add/Edit Subject Area
 
 ## Screen Description
 
-The Edit Subject Area screen provides administrators with interface for editing an existing subject area.
+The Add and Edit Subject Area screens provide administrators with interface for adding or editing an existing subject area.
 
 ![Edit Subject Area](images/edit-subject-area-1.png){:class='screenshot'}
 

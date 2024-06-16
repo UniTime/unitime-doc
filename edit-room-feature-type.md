@@ -6,7 +6,7 @@ title: Add/Edit Room Feature Type
 
 ## Screen Description
 
-The Edit Room Feature Type page can be used to change an existing room feature type or to delete it. Room feature types are used to categorize room features (each room feature can have a room feature type defined, e.g., seating arrangement, black board size). See [Room Feature Types](room-feature-types) for more details.
+The Add and Edit Room Feature Type pages can be used to change an existing room feature type, add it, or delete it. Room feature types are used to categorize room features (each room feature can have a room feature type defined, e.g., seating arrangement, black board size). See [Room Feature Types](room-feature-types) for more detail.
 
 ![Edit Room Feature Type](images/edit-room-feature-type-1.png){:class='screenshot'}
 

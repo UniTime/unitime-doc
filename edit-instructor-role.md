@@ -6,13 +6,13 @@ title: Add/Edit Instructor Role
 
 ## Screen Description
 
-The Edit Instructor Role page can be used to assign a role to an instructor. The user needs to have Instructor Role Edit permission to be able to set instructor roles. See [Instructor Roles](instructor-roles) page for more details.
+The Add and Edit Instructor Role pages can be used to assign a role to an instructor. The user needs to have the Instructor Role Edit permission to be able to set instructor roles. See [Instructor Roles](instructor-roles) page for more detail.
 
 ![Edit Instructor Role](images/edit-instructor-role-1.png){:class='screenshot'}
 
 ## Details
 
-Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](roles) for more details.
+Only roles with the Instructor toggle checked are listed in the Role drop down. See [Roles](roles) for more detail.
 
 ## Operations
 

@@ -20,7 +20,7 @@ unitime.authentication.ldap.group-role-attribute=exid
 unitime.authentication.ldap.group-search-filter=uid\={1}
 ```
 
-These properties are used directly to setup `<ldap-server>` and `<authentication-manager>` in the [security context](https://github.com/UniTime/unitime/blob/master/WebContent/WEB-INF/securityContext.xml#L100) (see the relevant parts below). See [LDAP Authentication](http://docs.spring.io/spring-security/site/docs/3.1.x/reference/ldap.html) for more details.
+These properties are used directly to setup `<ldap-server>` and `<authentication-manager>` in the [security context](https://github.com/UniTime/unitime/blob/master/WebContent/WEB-INF/securityContext.xml#L100) (see the relevant parts below). See [LDAP Authentication](http://docs.spring.io/spring-security/site/docs/3.1.x/reference/ldap.html) for more detail.
 ```
 <ldap-server url="${unitime.authentication.ldap.url}"/>
 <authentication-manager>

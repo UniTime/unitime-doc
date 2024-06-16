@@ -10,7 +10,7 @@ The Batch Student Solver Dashboard screen displays information about student req
 
 ## Filter
 
-The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
+The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more detail.
 
 **Note:** In addition to any search criteria entered into the Filter, the data displayed in the Scheduling Dashboard is also filtered by the access to the data granted by a user’s role.
 
@@ -164,7 +164,7 @@ The table can be sorted by any table header - just click on it, then on the "Sor
 
 * **Advised Credit**
 	* For the students that have been advised, this column displays the credit number provided by the advisor (the Total Priority Credit Hours from the Advisor Course Recommendations page), but the color indication shows how the recommendations are followed.
-	* So, the student can have a similar number of credits requested, but when he/she puts different courses in the color will go from green to orange to red based on the percentage we no longer show.
+	* So, the student can have a similar number of credits requested, but when they puts different courses in the color will go from green to orange to red based on the percentage we no longer show.
 	* More details are available on mouse-over and when the student line is clicked.
 	* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has been advised.
 

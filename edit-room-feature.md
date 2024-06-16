@@ -6,7 +6,7 @@ title: Add/Edit Room Feature
 
 ## Screen Description
 
-In the Edit Room Feature screen, you can change the feature's properties that you entered in the [Add Room Feature](add-room-feature) screen and you can indicate which rooms have this feature.
+In the Add and Edit Room Feature screens, the user can add or change the feature's properties.
 
 ![Edit Room Feature](images/edit-room-feature-1.png){:class='screenshot'}
 

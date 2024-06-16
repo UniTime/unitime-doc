@@ -6,7 +6,7 @@ title: Add/Edit Instructor
 
 ## Screen Description
 
-Edit information about an instructor in this Edit Instructor screen.
+The Add and Edit Instructor screens provide interfaces for adding or editing instructors.
 
 ![Edit Instructor](images/edit-instructor-2.png){:class='screenshot'}
 

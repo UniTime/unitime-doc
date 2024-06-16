@@ -30,4 +30,4 @@ The various parts of an inquiry are
 
 ## Contact Information
 
-Other means of contacts of the support team (may include office address, phone, email, and office hours). These can be defined in the application's custom properties file, properties ```tmtbl.contact.*```. See [Timetabling Installation](installation) for more details.
+Other means of contacts of the support team (may include office address, phone, email, and office hours). These can be defined in the application's custom properties file, properties ```tmtbl.contact.*```. See [Timetabling Installation](installation) for more detail.

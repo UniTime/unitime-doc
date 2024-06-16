@@ -12,7 +12,7 @@ The Change log for (student's name) pop-up window presents a history of changes 
 
 ## Details
 
-See the description of the Change Log table in the help screen for the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) for more details.
+See the description of the Change Log table in the help screen for the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) for more detail.
 
 Click on any change in the list to get to its [Change message](change-message-for-student) screen.
 

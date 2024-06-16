@@ -6,7 +6,7 @@ title: Add/Edit Solver Configuration
 
 ## Screen Description
 
-The Edit Solver Configuration screen provides interface for making changes to an existing configuration.
+The Add and Edit Solver Configuration screens provide interfaces for adding a new solver configuration or making changes to an existing configuration.
 
 ![Edit Solver Configuration](images/edit-solver-configuration-1.png){:class='screenshot'}
 

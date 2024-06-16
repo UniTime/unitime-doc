@@ -16,7 +16,7 @@ The Manage Solvers screen provides an overview of all running solvers and server
 
 Each line in the Manage Solvers section corresponds to one solver running. The "Owner" is in most cases the schedule manager logged on to the application. If the solver was started by an administrator in disguise - if the administrator switched to a different user using Chameleon - that different user is shown here.
 
-An administrator can click on any of the solvers and then he/she will see information in the Timetables section of the application as if he/she was the user running the solver (the administrator can then also make changes to the timetable, save, unload, etc.).
+An administrator can click on any of the solvers and then they will see information in the Timetables section of the application as if they were the user running the solver (the administrator can then also make changes to the timetable, save, unload, etc.).
 
 For each solver, the following operation is available
 

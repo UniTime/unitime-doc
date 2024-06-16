@@ -20,7 +20,7 @@ To use instructors preferences, the user must have inheritance of instructor pre
 
 Recommended usage:
 
-Put preferences on scheduling subparts and on instructors, not on individual classes. Then when an instructor is assigned to a class, the preferences get combined (the stronger wins - so, strongly preferred wins over preferred etc.; negative wins over positive). When an instructor is already assigned and his preferences are changed, so are the combined preferences on his/her classes.
+Put preferences on scheduling subparts and on instructors, not on individual classes. Then when an instructor is assigned to a class, the preferences get combined (the stronger wins - so, strongly preferred wins over preferred etc.; negative wins over positive). When an instructor is already assigned and his preferences are changed, so are the combined preferences on their classes.
 
 ## Subpart Preferences
 

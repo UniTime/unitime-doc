@@ -6,7 +6,7 @@ title: Edit Course Credit Unit
 
 ## Screen Description
 
-The Edit Course Credit Unit page can be used to modify an existing credit unit. See [Course Credit](course-credit) description for more details.
+The Edit Course Credit Unit page can be used to modify an existing credit unit. See [Course Credit](course-credit) description for more detail.
 
 ![Edit Course Credit Unit](images/edit-course-credit-unit.png){:class='screenshot'}
 

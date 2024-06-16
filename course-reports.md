@@ -37,7 +37,7 @@ When a report is being created or edited (click **Add New** button or **Edit** w
 
 A report has a name, a description, a query, and a few flags. The flags control on which page the report will be available and whether it will be available to all users that can open the page (have the appropriate HQLReports permission) or only to administrators (i.e., users with HQLReports Admin Only permission). The query is in the standard [HQL](http://docs.jboss.org/hibernate/orm/3.3/reference/en/html/queryhql.html) format with a few additions:
 
-* The query can be parametrized by the current academic session (of the user working with the page) and / or a selected room(s), building(s), subject area(s), and department(s). See the following section for more details.
+* The query can be parametrized by the current academic session (of the user working with the page) and / or a selected room(s), building(s), subject area(s), and department(s). See the following section for more detail.
 
 * In column names _ translates to a space. The first column can contain a unique id of a class, a scheduling subpart, an instructional offering, a location, an instructor, an examination or an event. This can make each line clickable and leading to the appropriate detail page.
 

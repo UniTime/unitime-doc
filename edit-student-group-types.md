@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Edit Student Group Types
+forward: edit-student-group-type
 ---
 
 

@@ -10,7 +10,7 @@ The Edit Teaching Responsibilities page can be used to create, modify, or delete
 
 ![Edit Teaching Responsibilities](images/edit-teaching-responsibilities-1.png){:class='screenshot'}
 
-The user needs to have Teaching Responsibility Edit permission to be able to edit teaching responsibilities. See [Teaching Responsibilities](teaching-responsibilities) for more details.
+The user needs to have Teaching Responsibility Edit permission to be able to edit teaching responsibilities. See [Teaching Responsibilities](teaching-responsibilities) for more detail.
 
 ## Details
 

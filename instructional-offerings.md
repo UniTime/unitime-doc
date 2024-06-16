@@ -79,7 +79,7 @@ The first part of this screen helps you define what information you want to disp
 	* Time and room assigned to a class during timetabling
 		* Normally, a committed timetable is displayed, unless there is a different timetable selected or loaded into the solver for the given class
 		* If there is a timetable loaded into the solver and a timetable selected, the loaded one is displayed
-		* See documentation for [Timetables](timetables) page for more details.
+		* See documentation for [Timetables](timetables) page for more detail.
 
 * **Catalog Information**
 	* **Title**
@@ -102,7 +102,7 @@ The first part of this screen helps you define what information you want to disp
 		* To change it, go to the [Edit Course Offering](edit-course-offering) screen
 
 * **Note to Schedule Manager**
-	* Note to the manager who assigns time and room for a given class; for example, if the class should be a part of the large lecture room manager's set of classes, the note will be for the LLR manager; if the class should be timetabled by the departmental schedule deputy, this note is to him/herself
+	* Note to the manager who assigns time and room for a given class; for example, if the class should be a part of the large lecture room manager's set of classes, the note will be for the LLR manager; if the class should be timetabled by the departmental schedule deputy, this note is to themselves
 	* The note is editable in the [Edit Class](edit-class) screen
 
 * **Examinations**

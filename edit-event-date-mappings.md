@@ -5,7 +5,7 @@ title: Edit Event Date Mappings
 
 ## Screen Description
 
-The Edit Event Date Mappings page can be used to create, modify, or delete existing date mappings using a single page. Event date mappings are used to map class dates to event dates whenever there is a need to follow a different day schedule on a particular day. See [Event Date Mappings](event-date-mappings) for more details.
+The Edit Event Date Mappings page can be used to create, modify, or delete existing date mappings using a single page. Event date mappings are used to map class dates to event dates whenever there is a need to follow a different day schedule on a particular day. See [Event Date Mappings](event-date-mappings) for more detail.
 
 ![Edit Event Date Mappings](images/edit-event-date-mappings-1.png){:class='screenshot'}
 

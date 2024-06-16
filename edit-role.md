@@ -6,11 +6,11 @@ title: Add/Edit Role
 
 ## Screen Description
 
-The Edit Role page can be used to change an existing role or to delete it. Such a role can be assigned to UniTime managers ([Timetable Managers](timetable-managers) page) or instructors ([Instructor Roles](instructor-roles) page). Permissions of a role can be defined on the [Permissions](permissions) page. See [Roles](roles) page for more details.
+The Add and Edit Role pages can be used to change an existing role or to delete it. Such a role can be assigned to UniTime managers ([Timetable Managers](timetable-managers) page) or instructors ([Instructor Roles](instructor-roles) page). Permissions of a role can be defined on the [Permissions](permissions) page. See [Roles](roles) page for more detail.
 
 ![Edit Role](images/edit-role-1.png){:class='screenshot'}
 
-The user needs to have Role Edit permission to be able to edit roles. A role can be only deleted if there is no instructor or manager using the role. The four basic roles (anonymous, no role, student, and instructor) cannot be deleted.
+The user needs to have the Role Edit permission to be able to edit roles. A role can be only deleted if there is no instructor or manager using the role. The four basic roles (anonymous, no role, student, and instructor) cannot be deleted.
 
 ## Details
 

@@ -6,7 +6,7 @@ title: Add/Edit Department
 
 ## Screen Description
 
-Edit an existing department in the Edit Department screen.
+The Add and Edit Department screens provide an interface for adding a new department or editing an existing department.
 
 ![Edit Department](images/edit-department-1.png){:class='screenshot'}
 

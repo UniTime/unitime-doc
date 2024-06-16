@@ -6,7 +6,7 @@ title: Add/Edit Standard Event Note
 
 ## Screen Description
 
-Interface for editing an existing standard event note.
+Interface for adding a new standard event note or editing an existing standard event note.
 
 ![Edit Standard Event Note](images/edit-standard-event-note-1.png){:class='screenshot'}
 

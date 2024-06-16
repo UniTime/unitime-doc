@@ -6,7 +6,7 @@ title: Add/Edit Timetable Manager
 
 ## Screen Description
 
-In the Edit Timetable Manager screen you can edit information about an existing manager.
+In the Add and Edit Timetable Manager screens the user can add a new timetible manager or edit information about an existing manager.
 
 ![Edit Timetable Manager](images/edit-timetable-manager-1.png){:class='screenshot'}
 
@@ -44,13 +44,13 @@ The upper part of the screen contains the following
 
 * **External ID**
 	* ID that can be looked up in e.g. an employee database
-	* Click on **Lookup Manager** to fill in the rest of user information (such as email address) based on his/her external ID - the name of the user will be displayed above the top line of this screen
+	* Click on **Lookup Manager** to fill in the rest of user information (such as email address) based on their external ID - the name of the user will be displayed above the top line of this screen
 
 * **Email address**
 	* User's email address
 
 * **External Manager**
-	* Indicates whether the user is associated with a department that is marked as an external manager, see [Edit Department](edit-department) for more details.
+	* Indicates whether the user is associated with a department that is marked as an external manager, see [Edit Department](edit-department) for more detail.
 
 ### Departments
 

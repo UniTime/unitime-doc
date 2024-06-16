@@ -6,7 +6,7 @@ title: Add/Edit Room Type
 
 ## Screen Description
 
-The Edit Room Type screen provides interface for editing an existing room type.
+The Add and Edit Room Type screens provide interfaces for adding a new room type or editing an existing room type.
 
 ![Edit Room Type](images/edit-room-type-1.png){:class='screenshot'}
 

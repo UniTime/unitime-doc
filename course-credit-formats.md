@@ -12,7 +12,7 @@ The Course Credit Formats page displays the existing credit formats. The four av
 
 ## Details
 
-There are four types of credit formats supported in UniTime. Arrange hours format does not have any number of units, fixed unit format has a fixed number of units, variable formats allow for a selection or a range for units. See [Course Credit](course-credit) description for more details.
+There are four types of credit formats supported in UniTime. Arrange hours format does not have any number of units, fixed unit format has a fixed number of units, variable formats allow for a selection or a range for units. See [Course Credit](course-credit) description for more detail.
 
 ## Operations
 

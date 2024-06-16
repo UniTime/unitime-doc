@@ -14,7 +14,7 @@ Teaching Assignments page shows the same data as the Assigned / Not-Assigned Tea
 
 The table shows the list of instructors that are loaded in the solver or available for teaching assignment (and are from the selected department) together with their current teaching assignments (either taken from the current solution of the solver loaded in memory, or from the database when there is no solver loaded in for the selected department).
 
-Each line contains the external id and name of an instructor, his/her teaching preference (shown as the color of the instructor external id and name), his/her assigned / maximal teaching load, attributes, course, time and distribution preferences. Time preferences also include unavailabilities that are shown in gray. Teaching assignments are shown with their course, classes, teaching load, attribute and instructor preferences. The impact on the optimization criteria (objectives) are shown in the last column.
+Each line contains the external id and name of an instructor, their teaching preference (shown as the color of the instructor external id and name), their assigned / maximal teaching load, attributes, course, time and distribution preferences. Time preferences also include unavailabilities that are shown in gray. Teaching assignments are shown with their course, classes, teaching load, attribute and instructor preferences. The impact on the optimization criteria (objectives) are shown in the last column.
 
 ## Operations
 

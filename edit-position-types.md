@@ -6,7 +6,7 @@ title: Edit Position Types
 
 ## Screen Description
 
-The Edit Position Types page can be used to create, modify, or delete existing position types using a single page. Each instructor can have a position type defined. The user needs Position Type Edit permission to be able to edit position types. See [Position Types](position-types) page for more details.
+The Edit Position Types page can be used to create, modify, or delete existing position types using a single page. Each instructor can have a position type defined. The user needs Position Type Edit permission to be able to edit position types. See [Position Types](position-types) page for more detail.
 
 ![Edit Position Types](images/edit-position-types-1.png){:class='screenshot'}
 

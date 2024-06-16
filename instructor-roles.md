@@ -6,7 +6,7 @@ title: Instructor Roles
 
 ## Screen Description
 
-Instructor Roles page can be used to assign a role (that has the Instructor toggle checked, see [Roles](roles) page) to an instructor or other department personel. That is to anyone from the [Instructors](instructors) page for a particular department. This feature may be handy if a schedule manager or event manager is allowed to dedicate some (usually lesser) roles to people within his/her department. For instance, an event manager can give other people from the department to request and/or approve event in the departmental event rooms. Or, a schedule manager can dedicate some part of the data entry to his/her assistants. To enable this functionality, appropriate roles need to be created on the [Roles](roles) page with the appropriate permissions provided on the [Permissions](permissions) page first.
+Instructor Roles page can be used to assign a role (that has the Instructor toggle checked, see [Roles](roles) page) to an instructor or other department personel. That is to anyone from the [Instructors](instructors) page for a particular department. This feature may be handy if a schedule manager or event manager is allowed to dedicate some (usually lesser) roles to people within their department. For instance, an event manager can give other people from the department to request and/or approve event in the departmental event rooms. Or, a schedule manager can dedicate some part of the data entry to their assistants. To enable this functionality, appropriate roles need to be created on the [Roles](roles) page with the appropriate permissions provided on the [Permissions](permissions) page first.
 
 ![Instructor Roles](images/instructor-roles-2.png){:class='screenshot'}
 

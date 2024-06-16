@@ -48,7 +48,7 @@ Besides a name of a room (or location in general), the room filter allows for th
 
 ## Notes
 
-* If there are a lot of room features, it is possible to split room features by type (e.g., seating type, projection equipment). It is also possible to hide some of the types that are more useful for timetabling than events from the event management. See [Room Feature Types](room-feature-types) page for more details.
+* If there are a lot of room features, it is possible to split room features by type (e.g., seating type, projection equipment). It is also possible to hide some of the types that are more useful for timetabling than events from the event management. See [Room Feature Types](room-feature-types) page for more detail.
 
 * The close by locations distance limit can be changed by application property tmtbl.events.nearByDistance (integer number in meters, defaults to 670). For the conversion between distance in meters and travel time in minutes the application property tmtbl.events.distanceSpeed is used (number of meters traveled in a minute, defaults to 67.0). The default is set so that 1 kilometer roughly translates to 15 minutes of travel, with the nearby rooms being 10 minutes from the selected building.
 

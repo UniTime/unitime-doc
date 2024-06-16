@@ -45,7 +45,7 @@ A useful feature is the ability to export the personal schedule as an iCalendar 
 
 ## Personal Timetable
 
-The page displays a personal timetable of the user. This includes all events requested by the user. For students, it also includes all classes and examinations he/she is enrolled and the related course related events. For instructors, it includes all classes and examinations they are assigned to.
+The page displays a personal timetable of the user. This includes all events requested by the user. For students, it also includes all classes and examinations they are enrolled and the related course related events. For instructors, it includes all classes and examinations they are assigned to.
 
 
 ![Event Timetable](images/event-timetable-5.png){:class='screenshot'}

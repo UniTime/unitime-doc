@@ -6,7 +6,7 @@ title: Edit Course Credit Format
 
 ## Screen Description
 
-The Edit Course Credit Format page can be used to change a name and an abbreviation of a credit format. See [Course Credit](course-credit) description for more details.
+The Edit Course Credit Format page can be used to change a name and an abbreviation of a credit format. See [Course Credit](course-credit) description for more detail.
 
 ![Edit Course Credit Format](images/edit-course-credit-format-1.png){:class='screenshot'}
 

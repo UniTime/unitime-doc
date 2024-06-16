@@ -6,7 +6,7 @@ title: Add/Edit Examination Distribution Preference
 
 ## Screen Description
 
-The Edit Examination Distribution Preference screen provides user interface for editing an existing distribution preference between midterm or final examinations.
+The Add and Edit Examination Distribution Preference screens provide user interfaces for adding a new distribution preference or editing an existing distribution preference between midterm or final examinations.
 
 ![Edit Examination Distribution Preference](images/edit-examination-distribution-preference-1.png){:class='screenshot'}
 

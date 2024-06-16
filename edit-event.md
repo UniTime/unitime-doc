@@ -6,7 +6,7 @@ title: Add/Edit Event
 
 ## Screen Description
 
-The Edit Event screen provides interface for changing an existing event. This includes changing its properties (name, sponsoring organization, contacts, etc.) as well as adding new meetings, deleting / canceling, or modifying existing meetings.
+The Add and Edit Event screens provide interfaces for adding a new event or changing an existing event. This includes assigning its properties (name, sponsoring organization, contacts, etc.) as well as adding new meetings, deleting / canceling, or modifying existing meetings.
 
 ![Edit Event](images/edit-event-1.png){:class='screenshot'}
 
@@ -16,7 +16,7 @@ Most of the page works the same as the [Add Event](add-event) page, however, it 
 
 ## Meetings
 
-One or more meetings can be added for the event by clicking the **Add Meetings** button. See the description of [Add Event](add-event) page for more details. Existing meetings can be also deleted (when allowed and if they have not been approved yet) or cancelled (if allowed). To do so, select the appropriate meeting and choose **Delete** option or **Cancel** option under the **More** button.
+One or more meetings can be added for the event by clicking the **Add Meetings** button. See the description of [Add Event](add-event) page for more detail. Existing meetings can be also deleted (when allowed and if they have not been approved yet) or cancelled (if allowed). To do so, select the appropriate meeting and choose **Delete** option or **Cancel** option under the **More** button.
 
 It is also possible to modify one or more meetings. To do so, select meetings that need to be modified (note that all the meeting in the selection have to have the same time) and click on **Modify...** option under the **More** button. One meeting can be also modified by clicking on the meeting directly. The following dialog will appear:
 

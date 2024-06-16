@@ -4,7 +4,7 @@ title: Default Academic Session
 ---
 
 
-There is no default to be set as different users can access different academic sessions. The following rules are applied in computation of the default session of a user. Only academic sessions that the user can access are considered. And if the user is a timetabling manager, only academic sessions for which he/she has a manager role are considered first. Similarly, if a No Role role is allowed, the sessions for which the user does not have any other role are only considered if there is no default among all sessions for which the user has a role.
+There is no default to be set as different users can access different academic sessions. The following rules are applied in computation of the default session of a user. Only academic sessions that the user can access are considered. And if the user is a timetabling manager, only academic sessions for which they have a manager role are considered first. Similarly, if a No Role role is allowed, the sessions for which the user does not have any other role are only considered if there is no default among all sessions for which the user has a role.
 
 **Rules**
 

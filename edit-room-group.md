@@ -6,7 +6,7 @@ title: Add/Edit Room Group
 
 ## Screen Description
 
-In the Edit Room Group screen, you can change the room group's properties that you entered in the [Add Room Group](add-room-group) screen and you can indicate which rooms belong to this group.
+In the Add and Edit Room Group screens, the user can add or change the room group's properties.
 
 ![Edit Room Group](images/edit-room-group-1.png){:class='screenshot'}
 

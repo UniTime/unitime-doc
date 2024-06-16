@@ -29,7 +29,7 @@ Download [Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
 
 Install Apache Tomcat
 * For more information about Tomcat setup, see this [Tomcat 8.5 Setup User Guide](http://tomcat.apache.org/tomcat-8.5-doc/setup.html) or [Tomcat 9.0 Setup User Guide](https://tomcat.apache.org/tomcat-9.0-doc/setup.html)
-* You might want to set up SSL (HTTPS) access to your tomcat. See [SSL Configuration HOW-TO](http://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html) for more details.
+* You might want to set up SSL (HTTPS) access to your tomcat. See [SSL Configuration HOW-TO](http://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html) for more detail.
 
 ### MySQL
 

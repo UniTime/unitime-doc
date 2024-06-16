@@ -46,7 +46,7 @@ The following fields are displayed in the upper part of the screen (below the na
 
 * **Display Instructors**
 	* When checked (and it is checked by default), the instructors for this class will be displayed in the online Schedule of Classes
-	* When not checked, the instructor will not be displayed in the online Schedule of Classes, and his/her name will have to be re-entered for reporting purposes
+	* When not checked, the instructor will not be displayed in the online Schedule of Classes, and their name will have to be re-entered for reporting purposes
 	* Editable in the [Edit Class](edit-class) screen
 
 * **Student Scheduling**
@@ -69,8 +69,8 @@ The following fields are displayed in the upper part of the screen (below the na
 		* **Share**
 			* The percentage of teaching activity for this class associated with this instructor
 		* **Check Conflicts**
-			* When checked, the instructor's preferences are considered during departmental timetabling; also, checks are performed for this instructor to make sure there is no conflict for him/her between this class and his/her other classes (such as teaching two classes at the same time)
-			* When not checked, the instructor's assignment to this class is ignored during timetabling; no conflict checking will be performed between this class and his/her other classes
+			* When checked, the instructor's preferences are considered during departmental timetabling; also, checks are performed for this instructor to make sure there is no conflict for them between this class and their other classes (such as teaching two classes at the same time)
+			* When not checked, the instructor's assignment to this class is ignored during timetabling; no conflict checking will be performed between this class and their other classes
 
 * **Last Change**
 	* Information about the last change made to the class (recorded automatically when the [Edit Class](edit-class) screen is updated)
@@ -81,7 +81,7 @@ In the **Timetable** part, you see the time, room and instructor assigned to thi
 
 * If there is a timetable loaded into the solver and a timetable selected, the loaded one is displayed
 
-* See documentation for [Timetables](timetables) page for more details.
+* See documentation for [Timetables](timetables) page for more detail.
 
 In the **Preferences**, you will see any preferences that have been set up for this class (with color coding for preference levels).
 

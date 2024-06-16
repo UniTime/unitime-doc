@@ -6,7 +6,7 @@ title: Add/Edit Examination
 
 ## Screen Description
 
-The Edit Examination screen provides interface for editing an existing midterm or final examination.
+The Add and Edit Examination screens provide interfaces for adding a new midterm or final examination or editing an existing midterm or final examination.
 
 ![Edit Examination](images/edit-examination-1.png){:class='screenshot'}
 

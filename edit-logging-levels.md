@@ -6,7 +6,7 @@ title: Edit Logging Levels
 
 ## Screen Description
 
-The Edit Logging Levels page can be used to modify logging levels. This effects what messages will be printed in the log. The page requires Application Config permission. See [Logging Levels](logging-levels) for more details.
+The Edit Logging Levels page can be used to modify logging levels. This effects what messages will be printed in the log. The page requires Application Config permission. See [Logging Levels](logging-levels) for more detail.
 
 ![Edit Logging Levels](images/edit-logging-levels-1.png){:class='screenshot'}
 

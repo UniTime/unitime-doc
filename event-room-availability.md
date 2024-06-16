@@ -6,7 +6,7 @@ title: Event Room Availability
 
 ## Screen Description
 
-The Event Room Availability screen lets the user set up dates, times, and location parameters in a similar manner as the [Add Event](add-event) screen. After clicking **Search** button, the user can see a time grid with information about availability of each of the locations matching his/her criteria. It is then possible to highlight available times and request those times for an event.
+The Event Room Availability screen lets the user set up dates, times, and location parameters in a similar manner as the [Add Event](add-event) screen. After clicking **Search** button, the user can see a time grid with information about availability of each of the locations matching their criteria. It is then possible to highlight available times and request those times for an event.
 
 ![Event Room Availability](images/event-room-availability-1.png){:class='screenshot'}
 

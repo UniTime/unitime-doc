@@ -26,18 +26,18 @@ General properties of the change
 		* Enroll
 			* Enroll a student into a class
 		* Expire Reservations
-			* A change in the student's course, not necessarily influencing his/her enrollment
+			* A change in the student's course, not necessarily influencing their enrollment
 		* Mass Cancel
 			* Mass cancellation of students' enrollments
 			* Can be done e.g. when students have not paid their tuition
 		* Reload Offering
 			* Changes due to the fact that an offering has been changed (e.g., a class has been assigned a different time/room) - when the offering is reloaded, the change can result in cancelling/adding some enrollments (new enrollment = success, cancelled enrollment = failure)
 		* Section
-			* Section a student into classes after he/she has clicked on Schedule or Re-schedule in the [Student Scheduling Assistant](student-scheduling-assistant)
+			* Section a student into classes after they have clicked on Schedule or Re-schedule in the [Student Scheduling Assistant](student-scheduling-assistant)
 		* Student Email
 			* Email sent to the student - details about the email are in the lower part of this screen
 		* Suggestions
-			* The student has entered the Alternatives screen to see suggested changes to his/her schedule
+			* The student has entered the Alternatives screen to see suggested changes to their schedule
 
 * **Result**
 	* Result of the operation

@@ -6,7 +6,7 @@ title: Add/Edit Date Pattern
 
 ## Screen Description
 
-The Edit Date Pattern screen provides an interface for editing an existing date pattern.
+The Add and Edit Date Pattern screens provide interfaces for adding a new date pattern or editing an existing date pattern.
 
 ![Edit Date Pattern](images/edit-date-pattern-1.png){:class='screenshot'}
 

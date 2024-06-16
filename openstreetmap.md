@@ -72,4 +72,4 @@ keytool -import -noprompt -trustcacerts -alias lets-encrypt-x3-cross-signed -fil
 keytool -list -v -keystore cacerts -storepass changeit -alias lets-encrypt-x3-cross-signed
 ```
 
-See [https://stackoverflow.com/questions/34110426/does-java-support-lets-encrypt-certificates](https://stackoverflow.com/questions/34110426/does-java-support-lets-encrypt-certificates) for more details.
+See [https://stackoverflow.com/questions/34110426/does-java-support-lets-encrypt-certificates](https://stackoverflow.com/questions/34110426/does-java-support-lets-encrypt-certificates) for more detail.

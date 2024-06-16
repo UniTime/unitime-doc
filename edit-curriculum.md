@@ -6,7 +6,7 @@ title: Add/Edit Curriculum
 
 ## Screen Description
 
-The Edit Curriculum screen provides interface for editing an existing curriculum.
+The Add and Edit Curriculum screens provide interfaces for editing an existing curriculum and adding a new curriculum.
 
 ![Edit Curriculum](images/edit-curriculum-1.png){:class='screenshot'}
 

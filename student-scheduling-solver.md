@@ -126,9 +126,9 @@ See above
 
 ### Best Student Schedule Found So Far
 
-During the automated scheduling (when the solver is running), the best student schedule found so far is saved here. It is the schedule that is presented to the user when he/she stops the solver or when the time-out is reached.
+During the automated scheduling (when the solver is running), the best student schedule found so far is saved here. It is the schedule that is presented to the user when they stop the solver or when the time-out is reached.
 
-When the user interacts and makes changes, he/she can save intermediate results as "Best Student Schedule Found So Far" and later come back to this schedule if the current one is not good.
+When the user interacts and makes changes, they can save intermediate results as "Best Student Schedule Found So Far" and later come back to this schedule if the current one is not good.
 
 ### Current Student Schedule
 

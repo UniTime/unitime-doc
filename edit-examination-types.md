@@ -6,7 +6,7 @@ title: Edit Examination Types
 
 ## Screen Description
 
-The Edit Examination Types page can be used to create, modify, or delete existing examination types using a single page. Examination types can be used to define multiple examination problems in an academic session. For instance, there can be multiple final examination problems defined, each timetabled separately. See [Examination Types](examination-types) page for more details. Permission Examination Type Edit is needed to make changes to examination types.
+The Edit Examination Types page can be used to create, modify, or delete existing examination types using a single page. Examination types can be used to define multiple examination problems in an academic session. For instance, there can be multiple final examination problems defined, each timetabled separately. See [Examination Types](examination-types) page for more detail. Permission Examination Type Edit is needed to make changes to examination types.
 
 ![Edit Examination Types](images/edit-examination-types-1.png){:class='screenshot'}
 

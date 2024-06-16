@@ -12,7 +12,7 @@ The People Lookup screen provides interface for looking up people by name across
 
 **Filter**
 
-Enter (a beginning of) the first or the last name of a person in the Name text field to look him/her up.
+Enter (a beginning of) the first or the last name of a person in the Name text field to look them up.
 
 **Table**
 

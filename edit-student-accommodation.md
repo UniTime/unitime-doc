@@ -6,7 +6,7 @@ title: Add/Edit Student Accommodation
 
 ## Screen Description
 
-The Edit Student Accommodation screen provides interface for editing an existing student accommodation. (It is also possible to edit all student accommodations at once in the [Edit Student Accommodations](edit-student-accommodations) screen, accessible from the [Student Accommodations](student-accommodations) screen.)
+The Add and Edit Student Accommodation screens provide interfaces for adding a new student accommodation or editing an existing student accommodation. (It is also possible to edit all student accommodations at once in the [Edit Student Accommodations](edit-student-accommodations) screen, accessible from the [Student Accommodations](student-accommodations) screen.)
 
 ![Edit Student Accommodation](images/edit-student-accommodation-1.png){:class='screenshot'}
 

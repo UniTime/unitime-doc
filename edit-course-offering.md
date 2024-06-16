@@ -19,14 +19,14 @@ Most of the information that you enter in the Edit Course Offering screen has to
 	* The title for the course
 
 * **Type**
-	* If there are course types defined, a course type can be selected from a drop down. See [Course Types](course-types) page for more details.
+	* If there are course types defined, a course type can be selected from a drop down. See [Course Types](course-types) page for more detail.
 
 * **Schedule of Classes Note**
 	* The note that will be displayed in the schedule book as a note for the whole course
 
 * **Consent**
 	* The type of consent that is required
-	* Options: None (leave the "Select..." there), Consent of Department, Consent of Instructor. See [Offering Consent Types](offering-consent-types) page for more details.
+	* Options: None (leave the "Select..." there), Consent of Department, Consent of Instructor. See [Offering Consent Types](offering-consent-types) page for more detail.
 
 * **Credit**
 	* Options: Arrange Hours, Fixed Unit, Variable Min/Max, Variable Range
@@ -42,7 +42,7 @@ Most of the information that you enter in the Edit Course Offering screen has to
 	* **Fractional Increments Allowed**
 		* Any course that has variable credit can be taken for fractional credit, e.g., if credit range is 1-5, an individual could make arrangements to earn 2.5 credits
 		* Editable only by administrators
-	* See [Course Credit](course-credit) for more details.
+	* See [Course Credit](course-credit) for more detail.
 
 * **Take Course Demands from Offering**
 	* For a new course (a course that has not been offered last-like semester), you can optionally select an existing course offering from the drop down menu to indicate the new course is expected to enroll the same or similar set of students as the selected course. This information is used in the timetabling to reflect potential student conflicts.
@@ -76,7 +76,7 @@ Most of the information that you enter in the Edit Course Offering screen has to
 	* Set whether wait-listing for the instructional offering follows the default wait-listing value set via the `unitime.offering.waitListDefault` application property or is Enabled or Disabled.
 
 * **Prohibited Overrides**
-	* If there are override types defined, it is possible to mark which of the override types students are prohibited from requesting for the course offering. See [Override Types](override-types) page for more details.
+	* If there are override types defined, it is possible to mark which of the override types students are prohibited from requesting for the course offering. See [Override Types](override-types) page for more detail.
 
 ## Operations
 

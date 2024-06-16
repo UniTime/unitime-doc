@@ -23,7 +23,7 @@ The Users (Database Authentication) screen provides an overview of users' authen
 * **Manager**
 	* User's name as entered in the [Add Timetable Manager](add-timetable-manager) screen
 
-Click on any user in the list to edit his/her authentication data.
+Click on any user in the list to edit their authentication data.
 
 ## Operations
 

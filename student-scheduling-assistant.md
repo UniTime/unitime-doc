@@ -29,7 +29,7 @@ The Student Scheduling Assistant helps students build a workable class schedule.
 
 Once the assistant has suggested a schedule a student can make changes to the schedule until she finds a combination of time for the classes that meets her needs.
 
-In the Student Scheduling Assistant screen, a student may enter a prioritized list of courses he/she would like to take in a given term. It is also possible to enter course alternatives and free time requests. Then a personal schedule is offered to the student and he/she can enroll in the classes as offered.
+In the Student Scheduling Assistant screen, a student may enter a prioritized list of courses they would like to take in a given term. It is also possible to enter course alternatives and free time requests. Then a personal schedule is offered to the student and they can enroll in the classes as offered.
 
 ![Student Scheduling Assistant](images/student-scheduling-assistant-1.png){:class='screenshot'}
 
@@ -40,7 +40,7 @@ The student begins with the screen in this mode to set up a list of prioritized 
 
 ### Course Requests
 
-Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as his/her first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
+Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as their first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
 
 Click on the magnifying glass to get to the [Course Finder](course-finder) screen for more information about possible courses.
 
@@ -135,7 +135,7 @@ Student's schedule displayed as a time grid (as opposed to a list of classes).Cl
 
 ### Student Availability
 
-A student may not be available during a particular time because he/she is teaching some other class. Both batch and online solvers now consider this student/instructor availability. A student can now see his/her teaching assignments in the Scheduling Assistant as well.
+A student may not be available during a particular time because they are teaching some other class. Both batch and online solvers now consider this student/instructor availability. A student can now see their teaching assignments in the Scheduling Assistant as well.
 
 ![Student Scheduling Assistant](images/student-scheduling-assistant-3.png){:class='screenshot'}
 

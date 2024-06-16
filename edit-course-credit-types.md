@@ -6,7 +6,7 @@ title: Edit Course Credit Types
 
 ## Screen Description
 
-The Edit Course Credit Types page can be used to create, modify, or delete existing credit types using a single page. See [Course Credit](course-credit) description for more details.
+The Edit Course Credit Types page can be used to create, modify, or delete existing credit types using a single page. See [Course Credit](course-credit) description for more detail.
 
 ![Edit Course Credit Types](images/edit-course-credit-types.png){:class='screenshot'}
 

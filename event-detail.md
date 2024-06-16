@@ -37,7 +37,7 @@ A selected subset of the event's meetings or all meetings (when no meeting is se
 
 ![Event Detail](images/event-detail-4.png){:class='screenshot'}
 
-Usually, a pending event can be either approved, rejected, or cancelled. Once approved, a meeting can be only cancelled. An event manager can only approve, reject, or cancel meetings of the rooms that are managed by one of his/her department. It is possible that an event may required multiple approvals (of different event managers) if it is requesting meetings in rooms of different departments (e.g., a centrally managed classroom and a departmental conference room).
+Usually, a pending event can be either approved, rejected, or cancelled. Once approved, a meeting can be only cancelled. An event manager can only approve, reject, or cancel meetings of the rooms that are managed by one of their department. It is possible that an event may required multiple approvals (of different event managers) if it is requesting meetings in rooms of different departments (e.g., a centrally managed classroom and a departmental conference room).
 
 ## Operations
 

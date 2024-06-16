@@ -6,7 +6,7 @@ title: Add/Edit Solver Parameter
 
 ## Screen Description
 
-The Edit Solver Parameter screen provides interface for editing an existing solver parameter. Note, however, that changes of certain kind should be implemented and recognized by the solver before they are made here.
+The Add and Edit Solver Parameter screens provide interfaces for adding a new solver parameter or editing an existing solver parameter. Note, however, that changes of certain kind should be implemented and recognized by the solver before they are made here.
 
 ![Edit Solver Parameter](images/edit-solver-parameter-1.png){:class='screenshot'}
 

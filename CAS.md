@@ -56,7 +56,7 @@ The first property enabled id translation (it can be used with or without the id
 
 ## Logout URL
 
-When the user clicks the Logout menu item, by default he/she is only logged out of UniTime, with the option to log out of CAS on the second click.
+When the user clicks the Logout menu item, by default they are only logged out of UniTime, with the option to log out of CAS on the second click.
 
 You have been successfully logged out of UniTime, click __here__ to log out of all other applications as well.
 
@@ -65,7 +65,7 @@ If it is desired to log the user out of CAS right away, the following property n
 unitime.cas.logout=/logout
 ```
 
-When the above property is set as such, the user is logged out of CAS server once he/she clicks the Logut item in UniTime.
+When the above property is set as such, the user is logged out of CAS server once they clicks the Logut item in UniTime.
 
 ## More details
 

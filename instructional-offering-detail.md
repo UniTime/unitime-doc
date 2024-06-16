@@ -294,7 +294,7 @@ The Examinations section lists all examinations created for the classes and/or c
 	* Instructional offering components (classes, instructional offering configurations, course offerings, and instructional offerings) whose students need to take the given examination
 
 * **Type**
-	* Type of the examination. See [Examination Types](examination-types) for more details.
+	* Type of the examination. See [Examination Types](examination-types) for more detail.
 
 * **Length**
 	* Length of the examination in minutes

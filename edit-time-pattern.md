@@ -6,7 +6,7 @@ title: Add/Edit Time Pattern
 
 ## Screen Description
 
-The Edit Time Pattern screen provides an interface for editing an existing time pattern.
+The Add and Edit Time Pattern screens provide interface for adding a new time pattern or editing an existing time pattern.
 
 ## Details
 

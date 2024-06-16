@@ -11,7 +11,7 @@ title: Eclipse
 
 2) Create UniTime project
 
-If you plan to make changes, you should consider forking the [UniTime](https://github.com/UniTime/unitime) project first. See [Fork A Repo](https://help.github.com/articles/fork-a-repo/) for more details.
+If you plan to make changes, you should consider forking the [UniTime](https://github.com/UniTime/unitime) project first. See [Fork A Repo](https://help.github.com/articles/fork-a-repo/) for more detail.
 
 * File > Import, select Git > Project from Git, Next
 
