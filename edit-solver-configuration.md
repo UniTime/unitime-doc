@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Solver Configuration
+title: Add/Edit Solver Configuration
 ---
 
 

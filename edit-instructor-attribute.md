@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Instructor Attribute
+title: Add/Edit Instructor Attribute
 ---
 
 

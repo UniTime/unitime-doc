@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Instructor Role
+title: Add/Edit Instructor Role
 ---
 
 

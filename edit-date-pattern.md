@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Date Pattern
+title: Add/Edit Date Pattern
 ---
 
 

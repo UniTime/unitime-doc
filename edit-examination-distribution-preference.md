@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Examination Distribution Preference
+title: Add/Edit Examination Distribution Preference
 ---
 
 

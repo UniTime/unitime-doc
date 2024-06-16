@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Student Group Type
+title: Add/Edit Student Group Type
 ---
 
 

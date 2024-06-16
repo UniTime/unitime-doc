@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Distribution Preference
+title: Add/Edit Distribution Preference
 ---
 
 

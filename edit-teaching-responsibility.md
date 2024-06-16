@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Teaching Responsibility
+title: Add/Edit Teaching Responsibility
 ---
 
 

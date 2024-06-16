@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Room Type
+title: Add/Edit Room Type
 ---
 
 

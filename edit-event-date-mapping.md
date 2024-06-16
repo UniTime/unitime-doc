@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Event Date Mapping
+title: Add/Edit Event Date Mapping
 ---
 
 ## Screen Description

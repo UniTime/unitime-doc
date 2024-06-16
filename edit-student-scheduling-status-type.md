@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Student Scheduling Status Type
+title: Add/Edit Student Scheduling Status Type
 ---
 
 

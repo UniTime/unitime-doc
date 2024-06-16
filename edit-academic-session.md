@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Academic Session
+title: Add/Edit Academic Session
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Status Type
+title: Add/Edit Status Type
 ---
 
 

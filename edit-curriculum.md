@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Curriculum
+title: Add/Edit Curriculum
 ---
 
 

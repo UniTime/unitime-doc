@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Time Pattern
+title: Add/Edit Time Pattern
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Logging Level
+title: Add/Edit Logging Level
 ---
 
 

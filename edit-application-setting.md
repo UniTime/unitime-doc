@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Application Setting
+title: Add/Edit Application Setting
 ---
 
 

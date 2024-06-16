@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Reservation
+title: Add/Edit Reservation
 ---
 
 

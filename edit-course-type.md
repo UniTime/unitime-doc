@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Course Type
+title: Add/Edit Course Type
 ---
 
 

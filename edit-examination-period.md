@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Examination Period
+title: Add/Edit Examination Period
 ---
 
 

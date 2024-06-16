@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Department
+title: Add/Edit Department
 ---
 
 

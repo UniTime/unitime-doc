@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit User
+title: Add/Edit User
 ---
 
 

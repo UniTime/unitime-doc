@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Course Offering
+title: Add/Edit Course Offering
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Instructional Type
+title: Add/Edit Instructional Type
 ---
 
 

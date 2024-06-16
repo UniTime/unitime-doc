@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Standard Event Note
+title: Add/Edit Standard Event Note
 ---
 
 

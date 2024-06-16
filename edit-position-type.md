@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Position Type
+title: Add/Edit Position Type
 ---
 
 

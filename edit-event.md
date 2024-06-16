@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Event
+title: Add/Edit Event
 ---
 
 

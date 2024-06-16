@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Sponsoring Organization
+title: Add/Edit Sponsoring Organization
 ---
 
 

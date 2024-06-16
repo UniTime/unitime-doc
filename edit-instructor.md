@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Instructor
+title: Add/Edit Instructor
 ---
 
 

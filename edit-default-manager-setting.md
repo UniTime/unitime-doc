@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Default Manager Setting
+title: Add/Edit Default Manager Setting
 ---
 
 

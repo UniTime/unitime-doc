@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Edit Student Scheduling Rule
+title: Add/Edit Student Scheduling Rule
 forward: student-scheduling-rules
 ---

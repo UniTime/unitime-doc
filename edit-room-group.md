@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Room Group
+title: Add/Edit Room Group
 ---
 
 

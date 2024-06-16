@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Student Accommodation
+title: Add/Edit Student Accommodation
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Building
+title: Add/Edit Building
 ---
 
 

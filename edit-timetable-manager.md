@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Timetable Manager
+title: Add/Edit Timetable Manager
 ---
 
 

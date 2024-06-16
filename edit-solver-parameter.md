@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Solver Parameter
+title: Add/Edit Solver Parameter
 ---
 
 

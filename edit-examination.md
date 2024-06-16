@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Edit Examination
+title: Add/Edit Examination
 ---
 
 

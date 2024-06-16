@@ -118,20 +118,24 @@ title: TO DO
 * **Timetables**
     * [room-timetable](room-timetable) - maybe delete personal timetable description?
 
+* **Date Mapping**
+    
+
 ## Work in Progress / Currently Working on
 
 * [personal-timetable](personal-timetable)
 
-## Waht
+* [edit-event-date-mapping](edit-event-date-mapping)
+* [edit-event-date-mappings](edit-event-date-mappings)
+* [add-event-date-mapping](add-event-date-mapping)
+* [event-date-mappings](event-date-mappings)
+
+## Issues
 
 * [curriculum-projection-rules](curriculum-projection-rules)
 * [curriculum-requested-enrollments](curriculum-requested-enrollments)
 
 ## TO DO
-* [edit-event-date-mapping](edit-event-date-mapping)
-* [edit-event-date-mappings](edit-event-date-mappings)
-* [add-event-date-mapping](add-event-date-mapping)
-* [event-date-mappings](event-date-mappings)
 * [add-examination-period](add-examination-period)
 * [add-examination-type](add-examination-type)
 * [add-examination](add-examination)
