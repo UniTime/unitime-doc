@@ -22,7 +22,7 @@ The Edit Course Types screen allows the user to edit multiple course types at on
 
 ## Operations
 
-Click **Save** to update the modified type. Button **Back** will get you back to [Course Types](course-types) page without making any changes. Click **Delete** to delete the type.
+Click **Save** to update the modified type or save a new type. Button **Back** will get you back to [Course Types](course-types) page without making any changes. Click **Delete** to delete the type (only available in Edit Course Type).
 
-The buttons **Previous** and **Next** can be used to save the current course type and get to the Edit Course Type page for the previous / next type.
+The buttons **Previous** and **Next** can be used to save the current course type and get to the Edit Course Type page for the previous / next type (only available in Edit Course Type).
 

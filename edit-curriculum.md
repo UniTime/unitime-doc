@@ -24,7 +24,12 @@ The Add and Edit Curriculum screens provide interfaces for editing an existing c
 	* Academic area for which the curriculum is set up (each curriculum can only have one academic area)
 
 * **Major(s)**
-	* The major (or more majors) within the selected academic area for which the curriculum is set up 
+	* In Add Curriculum:
+		* Allows for defining curricula with multiple majors
+			* In this case, curricula from each major are inhereted and can be overridden on a multiple major level (when multiple majors are selected)
+			* Common courses can be similarly defined on a curriculum with no major
+	* In Edit Curriculum:
+		* The major (or more majors) within the selected academic area for which the curriculum is or will be set up 
 
 * **Department**
 	* The department whose curriculum managers should be able to edit the curriculum
@@ -187,10 +192,11 @@ The curriculum classifications show numbers of students in particular semesters 
 
 * **Save** (Alt+S)
 	* Save changes made to this curriculum and go back to the [Curriculum Detail](curriculum-detail) screen
-	* **Previous** (Alt+P)
-		* Save changes and go to the Edit Curriculum screen for the previous curriculum
-	* **Next** (Alt+N)
-		* Save changes and go to the Edit Curriculum screen for the next curriculum
+	* In Edit Curriculum only:
+		* **Previous** (Alt+P)
+			* Save changes and go to the Edit Curriculum screen for the previous curriculum
+		* **Next** (Alt+N)
+			* Save changes and go to the Edit Curriculum screen for the next curriculum
 
 * **Back** (Alt+B)
 	* Go back to the [Curriculum Detail](curriculum-detail) screen without saving any changes
@@ -221,5 +227,5 @@ The curriculum classifications show numbers of students in particular semesters 
 
 **Exiting pop-up windows**
 
-To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc
+To exit a pop-up window (such as "Edit group"), just click on any place in the previous screen or press Esc.
 
