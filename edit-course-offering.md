@@ -6,11 +6,14 @@ title: Add/Edit Course Offering
 
 ## Screen Description
 
-Most of the information that you enter in the Edit Course Offering screen has to match the course catalog.
+The Add Course Offering page can be used to create a new course offering. Together with a course offering, instructional offering is also created and the new course offering is marked as controlling (see [Instructional Offering Cross Lists](instructional-offering-cross-lists)). Most of the information that you enter in the Edit Course Offering screen has to match the course catalog.
 
 ![Edit Course Offering](images/edit-course-offering.png){:class='screenshot'}
 
 ## Details
+
+* **Subject** (Only in Add Course Offering)
+	* The subject area for the new course offering
 
 * **Course Number**
 	* Course number editable by those whose role has the appropriate permissions
@@ -88,7 +91,7 @@ Most of the information that you enter in the Edit Course Offering screen has to
 
 ## Notes
 
-Course number format is controlled by the regular expression in the tmtbl.courseNumber.pattern application property. If the validation fails, the message from tmtbl.courseNumber.patternInfo property is displayed. It is possible to allow for non unique course numbers by setting the application property tmtbl.courseNumber.unique to false. When application property tmtbl.courseNumber.upperCase is set to true, course numbers are automatically upper cased. These properties can be changed using the [Application Configuration](application-configuration) page, the default settings is as follows:
+Course number format is controlled by the regular expression in the `tmtbl.courseNumber.pattern` application property. If the validation fails, the message from `tmtbl.courseNumber.patternInfo` property is displayed. It is possible to allow for non unique course numbers by setting the application property `tmtbl.courseNumber.unique` to false. When application property `tmtbl.courseNumber.upperCase` is set to true, course numbers are automatically upper cased. These properties can be changed using the [Application Configuration](application-configuration) page, the default settings is as follows:
 ```
 tmtbl.courseNumber.pattern=^[0-9][0-9][0-9]([A-Za-z]){0,1}$
 tmtbl.courseNumber.patternInfo=Course Number must have 3 numbers followed by an optional letter (e.g. 214, 342X)

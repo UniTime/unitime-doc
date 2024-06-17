@@ -81,7 +81,7 @@ The Add and Edit Academic Session screens provide interfaces for assigning prope
 
 ## Operations
 
-* **Update**
+* **Update/Save**
 	* Save changes and go back to the [Academic Sessions](academic-sessions) screen
 
 * **Delete**
@@ -90,7 +90,7 @@ The Add and Edit Academic Session screens provide interfaces for assigning prope
 	* Please note that you need to change the status of the academic session to Session Finished first as active sessions cannot be deleted.
 
 * **Back**
-	* Go back to the [Academic Sessions](academic-sessions) screen without saving anything
+	* Go back to the [Academic Sessions](academic-sessions) screen without saving
 
 
 

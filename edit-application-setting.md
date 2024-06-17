@@ -14,7 +14,7 @@ The Add and Edit Application Setting screens provide interfaces for assigning pr
 
 * **Name**
 	* Name of the setting recognized by the application
-	* Cannot be changed
+	* Cannot be changed via the edit screen
 
 * **Applies To**
 	* Which sessions the setting will affect
