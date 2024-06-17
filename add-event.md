@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add event
+title: Add Event
 forward: edit-event
 ---

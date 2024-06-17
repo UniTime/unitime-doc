@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add reservation
+title: Add Reservation
 forward: edit-reservation
 ---

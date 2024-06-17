@@ -23,14 +23,14 @@ The Add and Edit Curriculum screens provide interfaces for editing an existing c
 * **Academic Area**
 	* Academic area for which the curriculum is set up (each curriculum can only have one academic area)
 
+* **Multiple Majors**
+	* Allows for defining curricula with multiple majors
+		* In this case, curricula from each major are inhereted and can be overridden on a multiple major level (when multiple majors are selected)
+		* Common courses can be similarly defined on a curriculum with no major
+		
 * **Major(s)**
-	* In Add Curriculum:
-		* Allows for defining curricula with multiple majors
-			* In this case, curricula from each major are inhereted and can be overridden on a multiple major level (when multiple majors are selected)
-			* Common courses can be similarly defined on a curriculum with no major
-	* In Edit Curriculum:
-		* The major (or more majors) within the selected academic area for which the curriculum is or will be set up 
-
+	* The major (or more majors) within the selected academic area for which the curriculum is or will be set up
+	
 * **Department**
 	* The department whose curriculum managers should be able to edit the curriculum
 

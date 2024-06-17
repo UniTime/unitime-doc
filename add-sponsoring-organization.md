@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add sponsoring organization
+title: Add Sponsoring Organization
 forward: edit-sponsoring-organization
 ---

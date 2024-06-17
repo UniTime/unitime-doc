@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add status type
+title: Add Status Type
 forward: edit-status-type
 ---

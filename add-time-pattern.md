@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add time pattern
+title: Add Time Pattern
 forward: edit-time-pattern
 ---

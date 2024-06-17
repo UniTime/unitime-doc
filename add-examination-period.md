@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add examination period
+title: Add examination Period
 forward: edit-examination-period
 ---

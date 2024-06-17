@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add instructor role
+title: Add Instructor Role
 forward: edit-instructor-role
 ---

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add position type
+title: Add Position Type
 forward: edit-position-type
 ---

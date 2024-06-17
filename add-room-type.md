@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add room type
+title: Add Room Type
 forward: edit-room-type
 ---

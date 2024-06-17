@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add event date mapping
+title: Add Event Date Mapping
 forward: edit-event-date-mapping
 ---

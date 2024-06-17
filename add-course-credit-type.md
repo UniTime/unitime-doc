@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add course credit type
+title: Add Course Credit Type
 forward: edit-course-credit-type
 ---

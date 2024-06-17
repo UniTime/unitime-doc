@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add date pattern
+title: Add Date Pattern
 forward: edit-date-pattern
 ---

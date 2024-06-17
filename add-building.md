@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add building
+title: Add Building
 forward: edit-building
 ---

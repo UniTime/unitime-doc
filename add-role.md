@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add role
+title: Add Role
 forward: edit-role
 ---

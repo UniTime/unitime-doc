@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add solver group
+title: Add Solver Group
 forward: edit-solver-group
 ---

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add solver parameter
+title: Add Solver Parameter
 forward: edit-solver-parameter
 ---

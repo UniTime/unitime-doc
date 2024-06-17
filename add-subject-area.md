@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add subject area
+title: Add Subject Area
 forward: edit-subject-area
 ---

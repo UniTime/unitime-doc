@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add room group
+title: Add Room Group
 forward: edit-room-group
 ---

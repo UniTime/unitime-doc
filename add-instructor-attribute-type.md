@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add instructor attribute type
+title: Add Instrictur Attribute Type
 forward: edit-instructor-attribute-type
 ---

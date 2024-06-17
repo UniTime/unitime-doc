@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add course type
+title: Add Course Type
 forward: edit-course-type
 ---

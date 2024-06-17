@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add instructional type
+title: Add Instructional Type
 forward: edit-instructional-type
 ---

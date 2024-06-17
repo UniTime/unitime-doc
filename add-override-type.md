@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add override type
+title: Add Override Type
 forward: edit-override-type
 ---

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add academic session
+title: Add Academic Session
 forward: edit-academic-session
 ---

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add standard event note
+title: Add Standard Event Note
 forward: edit-standard-event-note
 ---

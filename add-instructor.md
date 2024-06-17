@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add instructor
+title: Add Instructor
 forward: edit-instructor
 ---

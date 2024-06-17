@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add course credit unit
+title: Add Course Credit Unit
 forward: edit-course-credit-unit
 ---

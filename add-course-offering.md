@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add course offering
+title: Add Course Offering
 forward: edit-course-offering
 ---

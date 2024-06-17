@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add distribution preference
+title: Add Distribution Preference
 forward: edit-distribution-preference
 ---

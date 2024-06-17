@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add examination
+title: Add Examination
 forward: edit-examination
 ---

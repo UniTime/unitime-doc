@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add solver parameter group
+title: Add Solver Parameter Group
 forward: edit-solver-parameter-group
 ---

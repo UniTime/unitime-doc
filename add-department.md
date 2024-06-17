@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add department
+title: Add Department
 forward: edit-department
 ---

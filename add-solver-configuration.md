@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add solver configuration
+title: Add Solver Configuration
 forward: edit-solver-configuration
 ---

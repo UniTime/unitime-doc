@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add user
+title: Add User
 forward: edit-user
 ---

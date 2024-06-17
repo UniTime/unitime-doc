@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add student accommodation
+title: Add Student accomodation
 forward: edit-student-accommodation
 ---

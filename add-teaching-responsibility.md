@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add teaching responsibility
+title: Add Teaching Responsibility
 forward: edit-teaching-responsibility
 ---

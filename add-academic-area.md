@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add academic area
+title: Add Academic Area
 forward: edit-academic-area
 ---

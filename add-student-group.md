@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add student group
+title: Add Student Group
 forward: edit-student-group
 ---

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add student scheduling status type
+title: Add Student Scheduling Status Type
 forward: edit-student-scheduling-status-type
 ---

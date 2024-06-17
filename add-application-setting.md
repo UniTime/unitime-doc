@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add application setting
+title: Add Application Setting
 forward: edit-application-setting
 ---

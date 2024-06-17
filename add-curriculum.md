@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add curriculum
+title: Add Curriculum
 forward: edit-curriculum
 ---

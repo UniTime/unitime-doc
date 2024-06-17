@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add student group type
+title: Add Student Group Type
 forward: edit-student-group-type
 ---

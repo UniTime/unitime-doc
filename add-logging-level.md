@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add logging level
+title: Add Logging Level
 forward: edit-logging-level
 ---

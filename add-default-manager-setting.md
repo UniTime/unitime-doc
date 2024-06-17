@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add default manager setting
+title: Add Default Manager Setting
 forward: edit-default-manager-setting
 ---

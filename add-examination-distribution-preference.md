@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add examination distribution preference
+title: Add Examination Distribution Preference
 forward: edit-examination-distribution-preference
 ---

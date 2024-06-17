@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add minor
+title: Add Minor
 forward: edit-minor
 ---

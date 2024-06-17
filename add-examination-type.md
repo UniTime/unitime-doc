@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add examination type
+title: Add Examination Type
 forward: edit-examination-type
 ---

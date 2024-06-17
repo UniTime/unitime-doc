@@ -1,5 +1,5 @@
 ---
 layout: default
-title: add timetable manager
+title: Add Timetable Manager
 forward: edit-timetable-manager
 ---
