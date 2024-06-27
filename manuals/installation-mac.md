@@ -10,7 +10,7 @@ version: 4.8
 {:toc}
 
 
-# 1. Install Oracle Java 11 or later
+# 1. Install Java 11 or later
 
 
 Download Java JDK from [https://www.oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads/#jdk21-mac) (a file named like `jdk-22_macos-aarch64_bin.dmg`), start it up and follow the installation instructions
