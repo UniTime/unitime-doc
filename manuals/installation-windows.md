@@ -10,7 +10,7 @@ version: 4.8
 {:toc}
 
 
-# 1. Install Oracle Java 21
+# 1. Install Java 21
 
 
 Download JDK 21 from [hhttps://www.oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads/#jdk21-windows) (a file named like jdk-21_windows-x64_bin.exe), start it up and follow the installation instructions.
