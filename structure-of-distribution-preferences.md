@@ -24,3 +24,6 @@ title: Structure of Distribution Preferences
 
 * **Pairwise**
 	* The distribution constraint is created between every pair of classes in the selected distribution set. Therefore, if n classes are in the set, n(n-1)/2 constraints will be posted among the classes. This structure should not be used with "required" or "prohibited" preferences on sets containing more than a few classes.
+
+* **One Of Each**
+	* The distribution constraint is created for each combination of classes such that one class is taken from each line representing a class or a scheduling subpart. For instance, if the constraint is put between three scheduling subparts, a constraint will be posted between each combination of three classes, each from one of the three subparts. If a constraint is put between a class and a scheduling subpart, there will be a binary constraint posted between the class and each of the classes of the scheduling subpart.

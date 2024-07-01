@@ -66,24 +66,75 @@ title: TO DO
     * [edit-course-offering](edit-course-offering)
     * [add-course-offering](add-course-offering)
 
-* [add-course-type](add-course-type)
-* [add-curriculum](add-curriculum)
-* [add-date-pattern](add-date-pattern)
+* **Course Types**
+    * [add-course-type](add-course-type)
+    * [course-types](course-types)
+    * [edit-course-type](edit-course-type)
+    * [edit-course-types](edit-course-types)
+
+* **Curriculum**
+    * [add-curriculum](add-curriculum)
+    * [curriculum-detail](curriculum-detail) - course registrations missing from description
+    * [curricula](curricula)
+    * [edit-curriculum](edit-curriculum)
+
+* **Date Patterns**
+    * [add-date-pattern](add-date-pattern)
+    * [date-patterns](date-patterns)
+    * [edit-date-pattern](edit-date-pattern) - departments, number of weeks
+
+* **Manager Settings**
+    * [manager-settings](manager-settings)
+    * [edit-manager-setting](edit-manager-setting)
+    * [add-default-manager-setting](add-default-manager-setting)
+    * [default-manager-settings](default-manager-settings)
+    * [edit-default-manager-setting](edit-default-manager-setting)
+
+* **Departments**
+    * [add-department](add-department)
+    * [departments](departments)
+    * [edit-department](edit-department)
+
+* **Distribution Preferences**
+    * [distribution-preferences](distribution-preferences) - add screenshot
+    * [add-distribution-preference](add-distribution-preference)
+    * [edit-distribution-preference](edit-distribution-preference)
+    * [add-examination-distribution-preference](add-examination-distribution-preference)
+    * [edit-examination-distribution-preference](edit-examination-distribution-preference)
+    * [examination-distribution-preferences](examination-distribution-preferences)
+    * [structure-of-distribution-preferences](structure-of-distribution-preferences)
+
+* **Events**
+    * [add-event](add-event)
+    * [edit-event](edit-event)
+    * [events](events)
+    * [event-detail](event-detail)
+
+* **Instructional Types**
+    * [add-instructional-type](add-instructional-type)
+    * [edit-instructional-type](edit-instructional-type)
+    * [instructional-types](instructional-types)
+
+* **Timetables**
+    * [room-timetable](room-timetable) - maybe delete personal timetable description?
 
 ## Work in Progress / Currently Working on
 
+* [personal-timetable](personal-timetable)
+
+## What
+
+* [curriculum-projection-rules](curriculum-projection-rules)
+* [curriculum-requested-enrollments](curriculum-requested-enrollments)
 
 ## TO DO
-* [add-default-manager-setting](add-default-manager-setting)
-* [add-department](add-department)
-* [add-distribution-preference](add-distribution-preference)
+* [edit-event-date-mapping](edit-event-date-mapping)
+* [edit-event-date-mappings](edit-event-date-mappings)
 * [add-event-date-mapping](add-event-date-mapping)
-* [add-event](add-event)
-* [add-examination-distribution-preference](add-examination-distribution-preference)
+* [event-date-mappings](event-date-mappings)
 * [add-examination-period](add-examination-period)
 * [add-examination-type](add-examination-type)
 * [add-examination](add-examination)
-* [add-instructional-type](add-instructional-type)
 * [add-instructor-attribute-type](add-instructor-attribute-type)
 * [add-instructor-attribute](add-instructor-attribute)
 * [add-instructor-role](add-instructor-role)
@@ -143,41 +194,20 @@ title: TO DO
 * [contact-us](contact-us)
 * [course-finder](course-finder)
 * [course-reports](course-reports)
-* [course-types](course-types)
 * [current-user](current-user)
-* [curricula](curricula)
-* [curriculum-detail](curriculum-detail)
-* [curriculum-projection-rules](curriculum-projection-rules)
-* [curriculum-requested-enrollments](curriculum-requested-enrollments)
 * [custom-room-availability](custom-room-availability)
 * [customizations](customizations)
 * [data-exchange](data-exchange)
-* [date-patterns](date-patterns)
-* [default-manager-settings](default-manager-settings)
-* [departments](departments)
-* [distribution-preferences](distribution-preferences)
 * [distribution-types](distribution-types)
 * [eclipse](eclipse)
 * [edit-class](edit-class)
-* [edit-course-type](edit-course-type)
-* [edit-course-types](edit-course-types)
-* [edit-curriculum](edit-curriculum)
-* [edit-date-pattern](edit-date-pattern)
-* [edit-default-manager-setting](edit-default-manager-setting)
-* [edit-department](edit-department)
-* [edit-distribution-preference](edit-distribution-preference)
 * [edit-distribution-type](edit-distribution-type)
-* [edit-event-date-mapping](edit-event-date-mapping)
-* [edit-event-date-mappings](edit-event-date-mappings)
 * [edit-event-status](edit-event-status)
 * [edit-event-statuses](edit-event-statuses)
-* [edit-event](edit-event)
-* [edit-examination-distribution-preference](edit-examination-distribution-preference)
 * [edit-examination-period](edit-examination-period)
 * [edit-examination-type](edit-examination-type)
 * [edit-examination-types](edit-examination-types)
 * [edit-examination](edit-examination)
-* [edit-instructional-type](edit-instructional-type)
 * [edit-instructor-attribute-type](edit-instructor-attribute-type)
 * [edit-instructor-attribute-types](edit-instructor-attribute-types)
 * [edit-instructor-attribute](edit-instructor-attribute)
@@ -186,7 +216,6 @@ title: TO DO
 * [edit-instructor](edit-instructor)
 * [edit-logging-level](edit-logging-level)
 * [edit-logging-levels](edit-logging-levels)
-* [edit-manager-setting](edit-manager-setting)
 * [edit-override-type](edit-override-type)
 * [edit-override-types](edit-override-types)
 * [edit-permission](edit-permission)
@@ -230,22 +259,18 @@ title: TO DO
 * [edit-user](edit-user)
 * [enrollment-audit-pdf-reports](enrollment-audit-pdf-reports)
 * [enrollments-of-class-or-course](enrollments-of-class-or-course)
-* [event-date-mappings](event-date-mappings)
-* [event-detail](event-detail)
 * [event-room-availability](event-room-availability)
 * [event-service-providers](event-service-providers)
 * [event-statuses](event-statuses)
 * [event-timetable](event-timetable)
 * [events-event-filter](events-event-filter)
 * [events-room-filter](events-room-filter)
-* [events](events)
 * [exact-time-pattern](exact-time-pattern)
 * [exam-timetable](exam-timetable)
 * [examination-assignment-changes](examination-assignment-changes)
 * [examination-assignment](examination-assignment)
 * [examination-conflict-based-statistics](examination-conflict-based-statistics)
 * [examination-detail](examination-detail)
-* [examination-distribution-preferences](examination-distribution-preferences)
 * [examination-pdf-reports](examination-pdf-reports)
 * [examination-periods](examination-periods)
 * [examination-reports](examination-reports)
@@ -261,7 +286,6 @@ title: TO DO
 * [instructional-offering-cross-lists](instructional-offering-cross-lists)
 * [instructional-offering-detail](instructional-offering-detail)
 * [instructional-offerings](instructional-offerings)
-* [instructional-types](instructional-types)
 * [instructor-assignment-preferences](instructor-assignment-preferences)
 * [instructor-attribute-types](instructor-attribute-types)
 * [instructor-attributes](instructor-attributes)
@@ -279,7 +303,6 @@ title: TO DO
 * [majors](majors)
 * [manage-instructor-list](manage-instructor-list)
 * [manage-solvers](manage-solvers)
-* [manager-settings](manager-settings)
 * [mass-cancel](mass-cancel)
 * [minors](minors)
 * [multiple-class-setup](multiple-class-setup)
@@ -294,7 +317,6 @@ title: TO DO
 * [page-statistics](page-statistics)
 * [people-lookup](people-lookup)
 * [permissions](permissions)
-* [personal-timetable](personal-timetable)
 * [point-in-time-data-reports](point-in-time-data-reports)
 * [point-in-time-data-snapshots](point-in-time-data-snapshots)
 * [position-types](position-types)
@@ -307,7 +329,6 @@ title: TO DO
 * [room-feature-types](room-feature-types)
 * [room-features](room-features)
 * [room-groups](room-groups)
-* [room-timetable](room-timetable)
 * [room-types](room-types)
 * [rooms](rooms)
 * [scheduling-dashboard-filter](scheduling-dashboard-filter)
@@ -330,7 +351,6 @@ title: TO DO
 * [sponsoring-organizations](sponsoring-organizations)
 * [standard-event-notes](standard-event-notes)
 * [status-types](status-types)
-* [structure-of-distribution-preferences](structure-of-distribution-preferences)
 * [student-accommodations](student-accommodations)
 * [student-advisors](student-advisors)
 * [student-conflicts](student-conflicts)

@@ -118,7 +118,9 @@ Some HQL reports may need to be updated due to the Hibernate upgrade, in particu
 * `Assignment.classId` needs to be changed to `Assignment.clazz.uniqueId`
 * `CourseOffering.isControl = 1` needs to be changed to `CourseOffering.isControl = true`
 * `mod(x, n)` may need to be changed to `mod(cast(x as int), n)`
-* `sysdate - :days (where :days is an integer)` may need to be changed to `sysdate - numtodsinterval(:days, ‘day’)` (Oracle)
+* to get a difference in minutes between two dates or timestamps, use `(x - y) by minute`
+* `sysdate - :days` (where `:days` is an integer) may need to be changed to `adddate(sysdate, - :days)` (Oracle)
+* `decode(...)` returning an integer may need to be changed to `cast(decode(...) as int)` (Oracle)
 
 Scheduling Subparts: Limit and Course Name are no longer pre-computed, in the reports
 * replace `ss.limit` with `(select sum(c.expectedCapacity) from Class_ c where c.schedulingSubpart = s)`

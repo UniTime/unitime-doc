@@ -79,7 +79,7 @@ Edit an existing department in the Edit Department screen.
 
 * **External Funding Department**
 	* Check if this department can be used as an external funding department for classes
-		* This field is not visible by default.  To enable this field the unitime.courses.funding_departments_enabled application property must be set to true.
+		* This field is not visible by default. To enable this field the `unitime.courses.funding_departments_enabled` application property must be set to `true`.
 
 ## Operations
 
