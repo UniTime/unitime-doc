@@ -17,10 +17,11 @@ Users with Scripts permission can open the Scripts page, however, each script ma
 **Note:** If you are using Java 15 or later, the ECMAScript engine may not be available by default. In this case, you need to install a JSR233 compatible JavaScript engine manually. The easiest is to use the standalone version of [Nashorn](https://github.com/openjdk/nashorn) (which used to be included in Java till version 14). To do so, download the following JARs and put them in Tomcat/lib folder. You will need to restart the Tomcat afterward.
 
 * [nashorn-core-15.4.jar](https://repo1.maven.org/maven2/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar)
-* [asm-7.3.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar)
-* [asm-commons-7.3.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar)
-* [asm-tree-7.3.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar)
-* [asm-util-7.3.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar)
+* [asm-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar)
+* [asm-commons-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar)
+* [asm-tree-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar)
+* [asm-util-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar)
+* [asm-analysis-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar)
 
 ## Details
 
