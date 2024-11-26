@@ -69,7 +69,7 @@ if (subjects != null) {
   }
 }
 if (type != null) {
-  var t = hibSession.createQuery('from RoomType where reference = :reference').setString('reference', type).uniqueResult();
+  var t = hibSession.createQuery('from RoomType where reference = :reference').setParameter('reference', type).uniqueResult();
   log.info('Room type: ' + t.getLabel() + ' (' + t.countRooms(session.getUniqueId()) + ' rooms in ' + session.getLabel() + ')');
 }
 // Progress
@@ -118,9 +118,9 @@ if dept:
   print 'Selected department: %s - %s' % (dept.getDeptCode(), dept.getLabel())
 if subjects:
   for subject in subjects:
-    print '&nbsp;&nbsp;&nbsp;%s - %s' % (subject.getSubjectAreaAbbreviation(), subject.getTitle())
+    print '   %s - %s' % (subject.getSubjectAreaAbbreviation(), subject.getTitle())
 if type:
-  t = hibSession.createQuery('from RoomType where reference = :reference').setString('reference', type).uniqueResult()
+  t = hibSession.createQuery('from RoomType where reference = :reference').setParameter('reference', type).uniqueResult()
   print 'Room type: %s (%d rooms in %s)' % (t.getLabel(), t.countRooms(session.getUniqueId()), session.getLabel())
 # Progress
 log.setStatus('Counting to ten. Slowly.', 10)
