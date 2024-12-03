@@ -20,6 +20,8 @@ For simplified step by step installation notes, see
 If you do not have Java SE (Standard Edition) Development Kit 11 or later already installed, you will need to download and install it from Java SE Downloads first.
 * OpenJDK 11 and 17 are used in development and/or testing.
 * Note: Starting with UniTime 4.8, Java 8 is no longer supported.
+* Note: Java 23 or later requires the jvm parameter ```-Djava.security.manager=allow``` to be set.
+	* This is due to the [ISPN-14375](https://issues.redhat.com/browse/ISPN-14375) issue which is only fixed in a newer version of Infinispan (that requires Java 17 or later).
 
 ### Apache Tomcat
 
@@ -85,12 +87,12 @@ Start tomcat
 * If not, please check the tomcat log for any potential problems -- it is located at `Tomcat/logs/catalina.out`
 	* Please refer to for a solution [Installation FAQ](timetabling-installation-faq) and/or write us an email to [support@unitime.org](support@unitime.org)
 
-**Tip:** If you have installed Tomcat on a Linux-based machine from a package (e.g., by running apt-get install tomcat8), you will need to make sure that there is a data folder available within the tomcat directory and that Tomcat has enough permissions to write files in there. This can be accomplished with something like:
+**Tip:** If you have installed Tomcat on a Linux-based machine from a package (e.g., by running apt-get install tomcat9), you will need to make sure that there is a data folder available within the tomcat directory and that Tomcat has enough permissions to write files in there. This can be accomplished with something like:
 ```
-mkdir /var/lib/tomcat8/data
-chown tomcat8 /var/lib/tomcat8/data
+mkdir /var/lib/tomcat9/data
+chown tomcat9 /var/lib/tomcat9/data
 ```
-* Tomcat configuration (including the  JAVA_OPTS variable) is located in the `/etc/default/tomcat8` file in this case.
+* Tomcat configuration (including the  JAVA_OPTS variable) is located in the `/etc/default/tomcat9` file in this case.
 
 **Tip:** If you are using Tomcat 9 on Ubuntu/Debian, you may need to create a file `/etc/systemd/system/tomcat9.service.d/override.conf` containing the following lines:
 ```
