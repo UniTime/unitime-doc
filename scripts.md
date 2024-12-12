@@ -23,6 +23,8 @@ Users with Scripts permission can open the Scripts page, however, each script ma
 * [asm-util-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar)
 * [asm-analysis-9.7.1.jar](https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar)
 
+**Note:** Starting with UniTime 4.8.168, the above libraries are included in the UniTime distribution. If you are using this or a later version, there is no need to install Nashord separately.
+
 ## Details
 
 To add a new script click on the **Add New** button. To edit an existing script, select the script in the drop down and click on **Edit** button. A script can be deleted from the Edit Script dialog, by clicking on the **Delete** button.
@@ -93,7 +95,7 @@ If a user has a department dependent role (e.g., departmental schedule manager),
 
 ## Python
 
-To allow python scripting, the standalone jar version of Jython (e.g., [jython-standalone-2.7.3.jar](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.3/jython-standalone-2.7.3.jar), see [Jython downloads](https://www.jython.org/download.html)) needs to be put in Tomcat/libs folder. After Tomcat is restarted, python should appear as an available engine. Here is an example script (same as the one above) written using python:
+To allow python scripting, the standalone jar version of Jython (e.g., [jython-standalone-2.7.4.jar](https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.4/jython-standalone-2.7.4.jar), see [Jython downloads](https://www.jython.org/download.html)) needs to be put in Tomcat/libs folder. After Tomcat is restarted, python should appear as an available engine. Here is an example script (same as the one above) written using python:
 ```
 # Logging
 if name:
