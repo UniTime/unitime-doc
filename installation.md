@@ -17,10 +17,11 @@ For simplified step by step installation notes, see
 
 ### Java Development Kit
 
-If you do not have Java SE (Standard Edition) Development Kit 11 or later already installed, you will need to download and install it from Java SE Downloads first.
-* OpenJDK 11 and 17 are used in development and/or testing.
-* Note: Starting with UniTime 4.8, Java 8 is no longer supported.
-* Note: Java 23 or later requires the jvm parameter ```-Djava.security.manager=allow``` to be set.
+If you do not have **Java SE (Standard Edition) Development Kit 17 or later** already installed, you will need to download and install it from Java SE Downloads first.
+* OpenJDK 17 and 21 are used in development and/or testing.
+* **Note:** Starting with UniTime 4.8, Java 8 is no longer supported.
+* **Note:** Starting with UniTime 4.8 build 203, Java 11 is no loger supported.
+* **Note:** If you are using and earlier build of UniTime 4.8 than 203, Java 23 or later requires the jvm parameter ```-Djava.security.manager=allow``` to be set.
 	* This is due to the [ISPN-14375](https://issues.redhat.com/browse/ISPN-14375) issue which is only fixed in a newer version of Infinispan (that requires Java 17 or later).
 
 ### Apache Tomcat
