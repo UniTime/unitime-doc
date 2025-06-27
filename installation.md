@@ -38,6 +38,7 @@ For instance, you can use [Oracle's Java SE Development Kit 21](https://www.orac
 **UniTime 4.9 or later:** Download [Apache Tomcat 10](https://tomcat.apache.org/download-10.cgi) or later
 * Apache Tomcat 10.1 is used for development and/or testing.
 * <span>Apache Tomcat 9.0 or earlier is not supported</span>{:style='color:red;'} in UniTime 4.9 or later due to the change from Java EE to Jakarta EE.
+* *UniTime 4.9 is still being developed. For production installations, please use UniTime 4.8 for now.*
 
 Install Apache Tomcat
 * For more information about Tomcat setup, see this [Tomcat 9.0 Setup User Guide](https://tomcat.apache.org/tomcat-9.0-doc/setup.html)
@@ -119,8 +120,8 @@ chown tomcat9 /var/lib/tomcat9/data
 ```
 * This is due to the new sandboxing feature. More details are available at [https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian](https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian)
 
-## Upgrade
-Please note that UniTime 4.8 requires Java 11 or later. Java 8 is no longer supported.
+## Upgrade to UniTime 4.8
+Please note that UniTime 4.8 requires Java 17 or later. Java 8 and 11 are no longer supported.
 To upgrade an existing UniTime installation, only the new `UniTime.war` file should be placed in the `Tomcat/webapps` folder instead of the existing one. All the necessary changes to the database are done automatically during the first deployment. The safest way to do so is as follows:
 1. Stop Tomcat
 2. Backup the existing database (e.g., using mysqldump on MySQL or exp on Oracle)
@@ -156,6 +157,22 @@ Some Scripts may need to be updated due to the Hibernate upgrade, e.g,
 * `QueueIn`/`QueueOut`.`setXml`/`getXML` now takes a string (use `setDocument`/`getDocument` for XML access)
 
 See [UniTime 4.8 release notes](https://builds.unitime.org/UniTime4.8/Release-Notes.xml) for other changes.
+
+## Upgrade to UniTime 4.9
+*UniTime 4.9 is still being developed. For production installations, please use UniTime 4.8 for now.*
+
+Please note that UniTime 4.9 requires Java 17 or later. Apache Tomcat 10.1 or later is also needed (earlier installations are typically running Tomcat 8 or 9).
+
+To upgrade an existing UniTime installation, only the new `UniTime.war` file should be placed in the `Tomcat/webapps` folder instead of the existing one. All the necessary changes to the database are done automatically during the first deployment. The safest way to do so is as follows:
+1. Stop Tomcat
+2. Backup the existing database (e.g., using mysqldump on MySQL or exp on Oracle)
+3. In `Tomcat/webapps`, remove `UniTime` folder and replace the existing `UniTime.war` with the new one
+4. Delete the content of `Tomcat/work` folder.
+5. Start the Tomcat
+
+If you are using remove solver servers, the appropriate JARs need to be updated as well.
+
+See [UniTime 4.9 release notes](https://builds.unitime.org/UniTime4.9/Release-Notes.xml) for other changes.
 
 ## Customization
 
