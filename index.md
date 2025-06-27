@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UniTime 4.8 Documentation
+title: UniTime Documentation
 ---
 
 ## University Timetabling

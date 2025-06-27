@@ -2,7 +2,7 @@
 layout: default
 title: UniTime Installation
 ---
-For simplified step by step installation notes, see
+For simplified step-by-step installation notes, see
 - [Setting up UniTime on Linux](manuals/installation-linux)
 - [Setting up UniTime on Windows](manuals/installation-windows)
 - [Setting up UniTime on Mac](manuals/installation-mac)
@@ -18,36 +18,54 @@ For simplified step by step installation notes, see
 ### Java Development Kit
 
 If you do not have **Java SE (Standard Edition) Development Kit 17 or later** already installed, you will need to download and install it from Java SE Downloads first.
+For instance, you can use [Oracle's Java SE Development Kit 21](https://www.oracle.com/cz/java/technologies/downloads/#java21) or [Adoptium Temurin JDK 21](https://adoptium.net/temurin/releases/?version=21&os=any&arch=any). Java 21 is suggested, rather than the latest version, due to its long-term support (LTS).
+
+* <span>Minimal Java version for both UniTime 4.8 and 4.9 is now Java 17.</span>{:style='color:blue;'}
 * OpenJDK 17 and 21 are used in development and/or testing.
-* **Note:** Starting with UniTime 4.8, Java 8 is no longer supported.
-* **Note:** Starting with UniTime 4.8 build 203, Java 11 is no loger supported.
-* **Note:** If you are using and earlier build of UniTime 4.8 than 203, Java 23 or later requires the jvm parameter ```-Djava.security.manager=allow``` to be set.
-	* This is due to the [ISPN-14375](https://issues.redhat.com/browse/ISPN-14375) issue which is only fixed in a newer version of Infinispan (that requires Java 17 or later).
+* **Notes:**
+    * Starting with UniTime 4.8, Java 8 is no longer supported.
+    * Starting with UniTime 4.8 build 203, Java 11 is not longer supported.
+    * If you are using an earlier build of UniTime 4.8 than 203, Java 23 or later requires the JVM parameter ```-Djava.security.manager=allow``` to be set.
+        * This is due to the [ISPN-14375](https://issues.redhat.com/browse/ISPN-14375) issue, which is only fixed in a newer version of Infinispan (that requires Java 17 or later).
 
 ### Apache Tomcat
 
-Download [Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
-* **Versions 8.5 and 9.0 are used for development and/or testing.**
-* Apache Tomcat 10.0 is not supported in UniTime 4.5 or older due to the change from Java EE to Jakarta EE. A special Tomcat 10 compatible build of UniTime is needed.
-* Apache Tomcat 7.0 or earlier is not supported in UniTime 4.6 or later (Servlet 3.1 or later is needed)
+**UniTime 4.8 or earlier:** Download [Apache Tomcat 9](https://tomcat.apache.org/download-90.cgi)
+* Apache Tomcat 9.0 is used for development and/or testing.
+* <span>Apache Tomcat 10.0 is not supported</span>{:style='color:red;'} in UniTime 4.8 or older due to the change from Java EE to Jakarta EE.
+    * For UniTime 4.8, a special Tomcat 10 compatible build of UniTime is available (see `web-tomcat10/UniTime.war` in the distribution).
+
+**UniTime 4.9 or later:** Download [Apache Tomcat 10](https://tomcat.apache.org/download-10.cgi) or later
+* Apache Tomcat 10.1 is used for development and/or testing.
+* <span>Apache Tomcat 9.0 or earlier is not supported</span>{:style='color:red;'} in UniTime 4.9 or later due to the change from Java EE to Jakarta EE.
 
 Install Apache Tomcat
-* For more information about Tomcat setup, see this [Tomcat 8.5 Setup User Guide](http://tomcat.apache.org/tomcat-8.5-doc/setup.html) or [Tomcat 9.0 Setup User Guide](https://tomcat.apache.org/tomcat-9.0-doc/setup.html)
-* You might want to set up SSL (HTTPS) access to your tomcat. See [SSL Configuration HOW-TO](http://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html) for more details.
+* For more information about Tomcat setup, see this [Tomcat 9.0 Setup User Guide](https://tomcat.apache.org/tomcat-9.0-doc/setup.html)
+* You might want to set up SSL (HTTPS) access to your Tomcat. See [SSL Configuration HOW-TO](http://tomcat.apache.org/tomcat-9.0-doc/ssl-howto.html) for more details.
 
 ### MySQL
 
 Download MySQL from [MySQL Downloads](https://dev.mysql.com/downloads/mysql)
 * MySQL version 8.0 and Oracle version 19c are currently being used in development and testing.
-* You may need to add serverTimezone parameter in the connection string (see [MySQL Time Zone Support](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) for more details).
-* **MariaDB is currently not supported.**
+* You may need to add `serverTimezone` parameter in the connection string (see [MySQL Time Zone Support](https://dev.mysql.com/doc/refman/8.0/en/time-zone-support.html) for more details).
 
 Install MySQL
 * See [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/) for more details about installation
 
 Install MySQL JDBC driver
-* The driver can be downloaded from the [Download Connector/J](http://dev.mysql.com/downloads/connector/j/) page. Please make sure you use the same version as your MySQL database.
+* The driver can be downloaded from the [Download MySQL Connector/J](http://dev.mysql.com/downloads/connector/j/) page. Please make sure you use the same version as your MySQL database.
 * Unzip the downloaded driver if needed and place the mysql-connector-java-8.0.x.jar under the Tomcat/lib folder.
+
+#### MariaDB
+
+MariaDB works, but it is currently not supported. If you are using MariaDB, please note that:
+* [MariaDB Connector/J driver](https://mariadb.com/docs/connectors/mariadb-connector-j/about-mariadb-connector-j) needs to be used (instead of the MySQL Connector/J)
+* The following properties need to be set in the [custom properties file](installation#custom-properties)
+	```
+	connection.driver_class=org.mariadb.jdbc.Driver
+	dialect=org.hibernate.dialect.MariaDBDialect
+	connection.url=jdbc:mariadb://localhost:3306/timetable?useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;allowPublicKeyRetrieval=true
+	```
 
 ## Installation
 Download the latest UniTime 4.8 distribution from [UniTime Downloads](https://sourceforge.net/projects/unitime/files/UniTime%204.8/)
@@ -62,11 +80,11 @@ tar -xvzf unitime-4.8_bld100.tar.gz
 Install `timetable` database
 * MySQL installation scripts are located in `doc/mysql` folder of the distribution
 * File `schema.sql` contains the database schema, file `woebegon-data.sql` contains test data (Woebegon College Test Suite, see [Online Demo](https://demo.unitime.org/) for more details).
-	* If you want to change the default user name/password, edit the file schema.sql first. The user is created at the very beginning of the script.
+    * If you want to change the default user name/password, edit the file schema.sql first. The user is created at the very beginning of the script.
 * Timetable database can be created and populated using the `mysql` command-line tool
-	* After running `schema.sql`, you need to populate the database either using `woebegon-data.sql` or `blank-data.sql` file
-	* When `woebegon-data` are used, you will be able to login into the application using the same credentials as described on our online demo page
-	* When `blank-data` are used, there is only administrator account created. Both username and password are admin.
+    * After running `schema.sql`, you need to populate the database either using `woebegon-data.sql` or `blank-data.sql` file
+    * When `woebegon-data` are used, you will be able to login into the application using the same credentials as described on our online demo page
+    * When `blank-data` are used, there is only administrator account created. Both username and password are admin.
 ```
 mysql -uroot -p -f <schema.sql
 mysql -uroot -p <woebegon-data.sql
@@ -74,19 +92,19 @@ mysql -uroot -p <woebegon-data.sql
 
 Deploy UniTime application
 * Copy `web/UniTime.war` to `Tomcat/webapps`, where `Tomcat` is the folder where Tomcat is installed.
-	* On unix-based systems (including Mac OS X), java virtual machine that is running tomcat needs to be switched to (headless mode)[https://www.oracle.com/technical-resources/articles/javase/headless.html]. You can do that using JAVA_OPTS environment variable prior to starting tomcat:
+    * On unix-based systems (including Mac OS X), Java virtual machine that is running Tomcat needs to be switched to (headless mode)[https://www.oracle.com/technical-resources/articles/javase/headless.html]. You can do that using JAVA_OPTS environment variable prior to starting Tomcat:
 ```
 export JAVA_OPTS="${JAVA_OPTS} -Djava.awt.headless=true"
 ```
-	* Also, you might need to give Tomcat more memory to work with by changing the upper limit on the memory that it can allocate (especially if you are planning not to run any remote solver servers -- see below; default is 64MB). You can do that using JAVA_OPTS environment variable as well:
+ * Also, you might need to give Tomcat more memory to work with by changing the upper limit on the memory that it can allocate (especially if you are planning not to run any remote solver servers -- see below; default is 64MB). You can do that using JAVA_OPTS environment variable as well:
 ```
 export JAVA_OPTS="${JAVA_OPTS} -Xmx2048m"
 ```
 
-Start tomcat
+Start Tomcat
 * If everything goes well, you should be able to see UniTime application at [http://localhost:8080/UniTime](http://localhost:8080/UniTime) or [https://localhost:8443/UniTime](https://localhost:8443/UniTime) when SSL connector is enabled.
-* If not, please check the tomcat log for any potential problems -- it is located at `Tomcat/logs/catalina.out`
-	* Please refer to for a solution [Installation FAQ](timetabling-installation-faq) and/or write us an email to [support@unitime.org](support@unitime.org)
+* If not, please check the Tomcat log for any potential problems -- it is located at `Tomcat/logs/catalina.out`
+    * Please refer to for a solution [Installation FAQ](timetabling-installation-faq) and/or write us an email to [support@unitime.org](support@unitime.org)
 
 **Tip:** If you have installed Tomcat on a Linux-based machine from a package (e.g., by running apt-get install tomcat9), you will need to make sure that there is a data folder available within the tomcat directory and that Tomcat has enough permissions to write files in there. This can be accomplished with something like:
 ```
@@ -104,11 +122,11 @@ chown tomcat9 /var/lib/tomcat9/data
 ## Upgrade
 Please note that UniTime 4.8 requires Java 11 or later. Java 8 is no longer supported.
 To upgrade an existing UniTime installation, only the new `UniTime.war` file should be placed in the `Tomcat/webapps` folder instead of the existing one. All the necessary changes to the database are done automatically during the first deployment. The safest way to do so is as follows:
-1. Stop tomcat
+1. Stop Tomcat
 2. Backup the existing database (e.g., using mysqldump on MySQL or exp on Oracle)
 3. In `Tomcat/webapps`, remove `UniTime` folder and replace the existing `UniTime.war` with the new one
 4. Delete the content of `Tomcat/work` folder.
-5. Start the tomcat
+5. Start the Tomcat
 
 If you are using remove solver servers, the appropriate JARs need to be updated as well.
 
@@ -142,12 +160,12 @@ See [UniTime 4.8 release notes](https://builds.unitime.org/UniTime4.8/Release-No
 ## Customization
 
 #### Custom Properties
-There are a lot of properties that are defined in file [application.properties](https://github.com/UniTime/unitime/blob/master/JavaSource/application.properties) that is located in `timetable.jar` which is located in `UniTime.war` at `WEB-INF/lib`. These properties can be changed in one of the following ways:
+There are a lot of properties that are defined in file [application.properties](https://github.com/UniTime/unitime/blob/master/JavaSource/application.properties) that is located in `timetable.jar`, which is located in `UniTime.war` at `WEB-INF/lib`. These properties can be changed in one of the following ways:
 1. By providing a custom property file, this file should be named `custom.properties` and located in `UniTime.war` at `WEB-INF/classes`.
 2. Alternatively, the custom property file can be located somewhere else, with system property `tmtbl.custom.properties` pointing to it.
 3. By adding and/or changing the appropriate properties directly in the UniTime application -- see Administration / Defaults / Configuration menu item when logged in as administrator.
 4. By adding these properties in `Tomcat/conf/catalina.properties`
-5. By providing JVM that is running tomcat with the appropriate system properties, for instance:
+5. By providing JVM that is running Tomcat with the appropriate system properties, for instance:
 ```
 export JAVA_OPTS="${JAVA_OPTS} -Dtmtbl.title=Timetabling Demo"
 export JAVA_OPTS="${JAVA_OPTS} -Dtmtbl.custom.properties=/etc/default/unitime.properties
@@ -183,7 +201,7 @@ default_schema=timetable
 
 ## Remote Solver Server(s)
 
-By default, all timetabling problems are solved within the application (using the same Java Virtual Machine), however, especially for bigger institutions, it might be desired to solve the timetabling problems by one or more separate solver servers.
+By default, all timetabling problems are solved within the application (using the same Java Virtual Machine); however, especially for bigger institutions, it might be desired to solve the timetabling problems by one or more separate solver servers.
 
 All the necessary libraries are in the solver folder of the distribution except the JDBC driver. For MySQL 8.x download [mysql-connector-java-8.0.33.jar](https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar),  or for Oracle download [ojdbc8.jar](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html). If a different version of the driver is downloaded, rename it to mysql-connector-java.jar or ojdbc8.jar.
 
@@ -197,7 +215,7 @@ To run a remote solver, do:
 java -Xmx2g -Dtmtbl.custom.properties=custom.properties -jar solver/timetable.jar
 ```
 
-File `custom.properties` should contain all the custom parameters needed for the starting up the server (e.g., database connection properties, if different from the defaults). It is usually the same as the one used on the Tomcat, except the jgroups.tcp.address property (see below). The load is automatically and seamlessly balanced between the remote solvers. The remote solver server also automatically reconnects itself when the web server is restarted. When the remote solver is shut down, all active timetabling instances are backed up and restored when the solver server is started again. The following properties need to be set in the `custom.properties` file. Please note that all these properties need to be set on the Tomcat side as well.
+File `custom.properties` should contain all the custom parameters needed for starting up the server (e.g., database connection properties, if different from the defaults). It is usually the same as the one used on the Tomcat, except the jgroups.tcp.address property (see below). The load is automatically and seamlessly balanced between the remote solvers. The remote solver server also automatically reconnects itself when the web server is restarted. When the remote solver is shut down, all active timetabling instances are backed up and restored when the solver server is started again. The following properties need to be set in the `custom.properties` file. Please note that all these properties need to be set on the Tomcat side as well.
 ```
 jgroups.tcp.address=127.0.0.1
 ```

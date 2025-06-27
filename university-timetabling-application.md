@@ -93,7 +93,7 @@ title: UniTime Online Help
 * [Course Reports](course-reports)
 * [Point In Time Data Reports](point-in-time-data-reports)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-2.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-2.png){:class='screenshot'}
 
 ## Students
 * [Student Scheduling Solver](student-scheduling-solver) 
@@ -117,7 +117,7 @@ title: UniTime Online Help
 * [Student Scheduling Reports](student-scheduling-reports) 
 
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-3.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-3.png){:class='screenshot'}
 
 ## Examinations
 
@@ -149,7 +149,7 @@ title: UniTime Online Help
 * [Reports](examination-reports)
 * [PDF Reports](examination-pdf-reports)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-4.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-4.png){:class='screenshot'}
 
 ## Events
 * [Events](events) ([Room Filter](events-room-filter), [Event Filter](events-event-filter))
@@ -159,7 +159,7 @@ title: UniTime Online Help
 * [Room Availability](event-room-availability)
 * [Timetable](event-timetable)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-5.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-5.png){:class='screenshot'}
 
 ## Preferences
 * [Change Role](select-academic-session)
@@ -167,7 +167,7 @@ title: UniTime Online Help
 * [Settings](manager-settings)
 	* [Edit Manager Setting](edit-manager-setting)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-6.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-6.png){:class='screenshot'}
 
 ## Administration
 
@@ -308,7 +308,7 @@ title: UniTime Online Help
 	* [Test HQL](test-hql)
 * [Scripts](scripts)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-7.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-7.png){:class='screenshot'}
 
 ## Help
 * [Contact Us](contact-us)
@@ -317,7 +317,7 @@ title: UniTime Online Help
 * Release Notes
 * [Contact Us](contact-us)
 
-![UniTime 4.8 Online Help](images/university-timetabling-application-8.png){:class='screenshot'}
+![UniTime Online Help](images/university-timetabling-application-8.png){:class='screenshot'}
 
 ## Other
 * [Examination Timetabling](examination-timetabling)

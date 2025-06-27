@@ -21,9 +21,9 @@ version: 4.8
     sudo apt install mysql-server
     ```
 
-2. Install Java 11 or later
+2. Install Java 17 or later
 ```
-sudo apt install openjdk-11-jdk
+sudo apt install openjdk-17-jdk
 ```
 
 3. Install Tomcat 9
