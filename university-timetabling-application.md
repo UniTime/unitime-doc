@@ -39,7 +39,7 @@ title: UniTime Online Help
 	* [Instructor Detail](instructor-detail)
 		* [Edit Instructor](edit-instructor)
 			* [People Lookup](people-lookup)
-			* [Instructor Preferences](instructor-preferences)
+		* [Instructor Preferences](instructor-preferences)
 		* [Instructor Assignment Preferences](instructor-assignment-preferences)
 	* [Manage Instructor List](manage-instructor-list)
 	* [Add Instructor](add-instructor)
