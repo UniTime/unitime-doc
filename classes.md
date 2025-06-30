@@ -47,7 +47,6 @@ In the **Filter**, you can select what kind of classes you want to see and what 
 
 * **Cross Lists**
     * If "Show cross-listed classes" is checked, the classes of courses that are cross-listed but are not the controlling courses will also be displayed (within their subject areas)
-        * The classes that are cross-listed, but are not a part of the controlling course in the cross-list, will not be in bold letters (as opposed to classes of the controlling courses and the courses that are not cross-listed)
     * If "Show cross-listed classes" is not checked, the courses that are cross-listed but not controlling will not be displayed at all in the list of classes
 
 * **Cancelled Classes**
