@@ -14,7 +14,17 @@ In the Instructor Detail screen, you can see information about a given instructo
 
 The header of this section is the instructor's name.
 
-To see a detailed description of each of the fields in this section (External Id, Account Name, ...), go to the description of the [Edit Instructor](edit-instructor) screen.
+To see a detailed description of each of the fields in this section (External Id, Account Name, ...), go to the description of the [Edit Instructor](edit-instructor) screen. Or [Instructor Assignment Preferences](instructor-assignment-preferences) for properties related to the [Instructor Scheduling](instructor-scheduling).
+
+If the instructor exists in multiple departments (meaning that there is a record with the same External Id), the instructor's **Department** may appear as a drop-down for quick navigation between instructor's departments
+
+## Instructor Survey
+
+If the instructor has filled in the [Instructor Survey](instructor-survey), the departmental schedule manager will see the filled in information in this section. The section also automatically indicates the discrepancies between the survey and the instructor's preferences.
+
+If the survey has been already submitted, the **Unsubmit** button allows to un-submit the survey and let the instructor make additional changes.
+
+The **Copy Preferences** can be used to reset the instructor preferences to match the survey information exactly.
 
 ## Class Assignments
 
@@ -32,6 +42,9 @@ For each class, you can see the following properties:
 * **Share**
 	* Indicates the percentage of teaching activity for this class associated with this instructor
 
+* **Responsibility**
+	* Teaching responsibility, when selected on the class assignment
+
 * **Limit**
 	* Class limit for that class
 
@@ -41,12 +54,12 @@ For each class, you can see the following properties:
 * If a timetable has been created that includes this class, you will also see
 	* **Time**
 		* Time assigned to this class during timetabling
+	* **Date**
+		* Date pattern of the class
+	* **Room**
+		* Room assigned to this class during timetabling
 
-* **Date**
-	* Date pattern of the class
-
-* **Room**
-	* Room assigned to this class during timetabling
+A conflicting assignment is indicated by a light red background and the warning ![Warning](images/icon-error.png) icon. Click the icon to learn more details.
 
 ## Examinations
 
@@ -88,15 +101,24 @@ Information about examinations associated with the instructor.
 
 Clicking on an examination takes you to its [Examination Detail](examination-detail) screen which contains more detailed information.
 
+## Instructor Unavailability
+
+When instructor event unavailability is enabled (`unitime.events.instructorUnavailability` is set to `true` in the [Application Configuration](application-configuration)), list all committed events that the instructor has listed as the main or additional contact. These will be used as additional unavailabilites for the instructor by the course timetabling solver.
+
 ## Preferences
 
 Preferences for the given instructor. You can hide or unhide this part of the Instructor Detail screen by clicking on the small square in front of the Preferences section heading. If you want to change these preferences, click on the Edit Instructor Preferences button in this detail screen. That will take you to the [Instructor Preferences](instructor-preferences) screen. There are more details about instructor preferences in the description of the [Instructor Preferences](instructor-preferences) screen.
 
-## Instructor Scheduling
+Preferences related to the [Instructor Scheduling](instructor-scheduling) can be edited on the [Instructor Assignment Preferences](instructor-assignment-preferences) page by clicking the Edit Assignment Preferences button. These include Time, Distribution, and Course preferences.
+
+
+## Enrollments
+
+If the instructor is also a student (there is a student with matching external Id in the current academic session), the [Enrollments](enrollments-of-class-or-course) table is displayed, showing all enrollments if the student.
+
+## Teaching Assignments
 
 If the [Instructor Scheduling](instructor-scheduling) is enabled, the Instructor Detail page shows instructor assignment information about the instructor. Besides of the new teaching preference, maximal teaching load, assigned instructor attributes, and course preferences, the Instructor Detail page contains a new table with [Teaching Assignments](teaching-assignments) that are assigned to the instructor. More details are shown when an assignment is clicked showing the [Teaching Assignment Detail](teaching-assignment-detail) dialog.
-
-Also, if the instructor is also a student (there is a student with matching external id in the current academic session), the [Enrollments](enrollments-of-class-or-course) table is displayed, showing all enrollments if the student. These include instructor assignments (dark blue color) as well as student class enrollments.
 
 ## Operations
 

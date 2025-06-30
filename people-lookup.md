@@ -8,6 +8,8 @@ title: People Lookup
 
 The People Lookup screen provides interface for looking up people by name across UniTime tables (not only the imported staff data).
 
+![People Lookup](images/people-lookup.png){:class='screenshot'}
+
 ## Details
 
 **Filter**
