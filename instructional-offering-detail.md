@@ -116,8 +116,8 @@ Note: **Previous** and **Next** are used to step through the list displayed on t
     * To change the limit, click on Edit Configuration - which takes you to the [Instructional Offering Configuration](instructional-offering-configuration) screen
 
 * **Snapshot Limit**
-    * The total limit for the instructional offering at the time the Limit a Projection Snapshot was taken.
-    * * The snapshot limit can be updated by taking a new snapshot using the Limit and Projection Snapshot Page.
+    * The total limit for the instructional offering at the time the [Limit and Projection Snapshot](limit-and-projection-snapshot) was taken.
+    * The snapshot limit can be updated by taking a new snapshot using the [Limit and Projection Snapshot](limit-and-projection-snapshot) Page.
 
 * **By Reservation Only**
     * A green checkmark is displayed when all students need a reservation in order to get into the instructional offering
