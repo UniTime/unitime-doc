@@ -8,9 +8,13 @@ title: UniTime Online Help
 * table
 {:toc}
 
-![UniTime Online Help](images/university-timetabling-application-1.png){:class='screenshot'}
+This page contains links to the page documentation of all the UniTime pages, organized in the same way is they are in the UniTime menu.
 
 ## Courses
+
+Course timetabling module, see [Course Timetabling &amp; Management](https://www.unitime.org/uct_courses.php) for a brief description.
+
+The course timetabling menu is split into two sections: input data entry and the solver.
 
 ### Input Data
 * [Instructional Offerings](instructional-offerings)
@@ -68,6 +72,7 @@ title: UniTime Online Help
 * [Class Assignments](class-assignments)
 
 ### Course Timetabling
+
 * [Saved Timetables](timetables)
 * [Solver](solver)
 * [Timetable Grid](timetable)
@@ -82,21 +87,26 @@ title: UniTime Online Help
 
 ### Instructor Scheduling
 
-* [Instructor Scheduling](instructor-scheduling)
-	* [Instructor Scheduling Solver](instructor-scheduling-solver)
-	* [Instructor Scheduling Solver Log](instructor-scheduling-solver-log)
-	* [Assigned Teaching Requests](assigned-teaching-requests)
-		* [Teaching Request Detail](teaching-request-detail)
-	* [Not-Assigned Teaching Requests](not-assigned-teaching-requests)
-	* [Teaching Assignments](teaching-assignments)
-		* [Teaching Assignment Detail](teaching-assignment-detail)
-	* [Teaching Assignment Changes](teaching-assignment-changes)
+Instructor scheduling module, see [Instructor Scheduling](instructor-scheduling) for more details.
+
+* [Instructor Scheduling Solver](instructor-scheduling-solver)
+* [Instructor Scheduling Solver Log](instructor-scheduling-solver-log)
+* [Assigned Teaching Requests](assigned-teaching-requests)
+	* [Teaching Request Detail](teaching-request-detail)
+* [Not-Assigned Teaching Requests](not-assigned-teaching-requests)
+* [Teaching Assignments](teaching-assignments)
+	* [Teaching Assignment Detail](teaching-assignment-detail)
+* [Teaching Assignment Changes](teaching-assignment-changes)
+
+### Other Courses
+
 * [Course Reports](course-reports)
 * [Point In Time Data Reports](point-in-time-data-reports)
 
-![UniTime Online Help](images/university-timetabling-application-2.png){:class='screenshot'}
-
 ## Students
+
+Student scheduling module. See [Student Scheduling](https://www.unitime.org/uct_students.php) for a brief description.
+
 * [Student Scheduling Solver](student-scheduling-solver) 
 * [Student Scheduling Solver Log](student-scheduling-solver-log)
 * [Batch Student Solver Dashboard](batch-student-solver-dashboard)
@@ -118,9 +128,11 @@ title: UniTime Online Help
 * [Student Scheduling Reports](student-scheduling-reports) 
 
 
-![UniTime Online Help](images/university-timetabling-application-3.png){:class='screenshot'}
-
 ## Examinations
+
+[Examination Timetabling](examination-timetabling) module is only available when there is at least one [Examination Period](examination-periods) defined.
+
+The examination timetabling menu is split into two sections: input data entry and the solver.
 
 ### Input Data
 
@@ -150,9 +162,10 @@ title: UniTime Online Help
 * [Reports](examination-reports)
 * [PDF Reports](examination-pdf-reports)
 
-![UniTime Online Help](images/university-timetabling-application-4.png){:class='screenshot'}
-
 ## Events
+
+[Event management](https://www.unitime.org/uct_events.php) module.
+
 * [Events](events) ([Room Filter](events-room-filter), [Event Filter](events-event-filter))
 	* [Event Detail](event-detail)
 		* [Edit Event](edit-event)
@@ -160,17 +173,24 @@ title: UniTime Online Help
 * [Room Availability](event-room-availability)
 * [Timetable](event-timetable)
 
-![UniTime Online Help](images/university-timetabling-application-5.png){:class='screenshot'}
-
 ## Preferences
+
+User preferences, available to all authenticated users.
+
 * [Change Role](select-academic-session)
 * [Switch User](chameleon) (admin)
 * [Settings](manager-settings)
 	* [Edit Manager Setting](edit-manager-setting)
 
-![UniTime Online Help](images/university-timetabling-application-6.png){:class='screenshot'}
-
 ## Administration
+
+UniTime administration, available to admins and some manager roles.
+The menu is split into five sections:
+1. [Academic Sessions](#academic-sessions) academic session related items (may change term to term, or campus to campus)
+2. [Solver](#solver) solver related items
+3. [Other](#other) other items, typically session independent
+4. [Defaults](#defaults) aplication defaults and configurations
+5. [Utilities](#utilities) utilities
 
 ### Academic Sessions
 * [Academic Sessions](academic-sessions)
@@ -214,9 +234,9 @@ title: UniTime Online Help
 	* [Edit Examination Period](edit-examination-period)
 	* [Setup Examination Periods](setup-examination-periods)
 * [Event Date Mappings](event-date-mappings)
-* [Event Statuses](event-statuses) (admin, event manager)
-	* [Edit Event Status](edit-event-status) (admin, event manager)
-	* [Edit Event Statuses](edit-event-statuses) (admin, event manager)
+* [Event Statuses](event-statuses)
+	* [Edit Event Status](edit-event-status)
+	* [Edit Event Statuses](edit-event-statuses)
 * [Instructor Roles](instructor-roles)
 * [Data Exchange](data-exchange)
 * [Roll Forward Session](roll-forward-session)
@@ -309,8 +329,6 @@ title: UniTime Online Help
 	* [Test HQL](test-hql)
 * [Scripts](scripts)
 
-![UniTime Online Help](images/university-timetabling-application-7.png){:class='screenshot'}
-
 ## Help
 * [Contact Us](contact-us)
 * [Tips and Tricks](tips-and-tricks)
@@ -318,10 +336,7 @@ title: UniTime Online Help
 * Release Notes
 * [Contact Us](contact-us)
 
-![UniTime Online Help](images/university-timetabling-application-8.png){:class='screenshot'}
-
-## Other
-* [Examination Timetabling](examination-timetabling)
+## Other Documents &amp; Pages
 * Timetables
 	* [Examinations](exam-timetable)
 	* [Classes](class-timetable)
