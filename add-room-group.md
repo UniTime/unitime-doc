@@ -5,7 +5,7 @@ title: Add Room Group
 
 
 ## Screen Description
-In the Add Room Group screen, you can add a room group for the rooms of your department. To indicate which rooms should be in this new group, you will need to click on that group in the [Room Groups](room-groups) screen after you have added it to your list by clicking on the Add New button in the current screen.
+In the Add Room Group screen, you can add a room group for the rooms of your department. To indicate which rooms should be in this new group, you will need to click on that group in the [Room Groups](room-groups) screen after you have added it to your list by clicking on the Create Room Group button in the current screen.
 
 ![Add Room Group](images/add-room-group-1.png){:class='screenshot'}
 
@@ -26,10 +26,14 @@ In the Add Room Group screen, you can add a room group for the rooms of your dep
 * **Description**
 	* The description should help you remember your intentions with this group; you can enter anything that is helpful to you
 
+* **Rooms**
+	* The list of rooms (following the **Filter** from the [Room Groups](room-groups) screen page)
+	* Check the rooms that have are to be in this group
+
 ## Operations
 
-* **Add New** (Alt+A)
+* **Create Room Group**
 	* Add this new room group to your list of room groups and go back to the [Room Groups](room-groups) screen
 
-* **Back** (Alt+B)
+* **Back**
 	* Go back to the [Room Groups](room-groups) screen without adding any new room group

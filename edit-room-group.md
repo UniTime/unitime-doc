@@ -20,6 +20,11 @@ The first part of the screen is the same as the [Add Room Group](add-room-group)
 * **Abbreviation**
 	* Abbreviation that will be displayed in the [Rooms](rooms) screen
 
+* **Default** (admin)
+	* The administrator can decide whether this room group is default or not
+	* Only global rooms can be default
+	* A default room group is automatically required for all newly created scheduling subparts (e.g., Required Classroom)
+
 * **Global** (admin)
 	* The administrator can decide whether this room group is global or not
 
@@ -30,23 +35,18 @@ The first part of the screen is the same as the [Add Room Group](add-room-group)
 	* Indicates which department should be able to work with this room group
 	* Displayed only for departmental room groups
 
-The list of rooms assigned to a given department follows. It is divided into two parts:
-
-* **Currently Assigned Rooms**
-	* The rooms that belong to this room group
-	* Uncheck the checkbox for a given room to indicate the room does not belong to this group
-
-* **Currently Not Assigned Rooms**
-	* Rooms that do not belong to this room group
-	* Check the checkbox for a given room to indicate that the room should be a part of this group
+* **Rooms**
+	* The list of rooms (following the **Filter** from the [Room Groups](room-groups) screen page)
+	* Check the rooms that belong into this room group
+		* Checking a room will add it to the group, unchecking will remove the room from the group
 
 ## Operations
 
-* **Update** (Alt+U)
+* **Update Room Group**
 	* Save changes and go back to the [Room Groups](room-groups) screen
 
-* **Delete** (Alt+D)
+* **Delete Room Group**
 	* Delete this room group and go back to the [Room Groups](room-groups) screen
 
-* **Back** (Alt+B)
+* **Back**
 	* Go back to the [Room Groups](room-groups) screen without saving any changes

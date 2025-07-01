@@ -35,5 +35,5 @@ The list of features is divided into two parts:
     * Additional filtering and sorting capabilities
     * Also includes the export to PDF and CSV formats
 
-* **Add New** (Alt+F)
+* **Add New**
     * Go to the [Add Room Feature](add-room-feature) screen to add a new room feature applicable only to the rooms of the department selected in the Room Features screen
