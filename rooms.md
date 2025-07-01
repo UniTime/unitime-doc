@@ -8,7 +8,7 @@ title: Rooms
 
 The Rooms screen provides an overview of rooms that can be used for classes, examinations or events together with the properties of these rooms, such as room features or room availability. The screen also has the capability of filtering rooms by a variety of criteria. The same Rooms screen can be accessed from different parts of the application (Courses, Examinations, Events), however, the default settings of the page (filter and visible columns) are based on this.
 
-![Rooms](images/rooms-2.png){:class='screenshot'}
+![Rooms](images/rooms-1.png){:class='screenshot'}
 
 When the screens is opened from the event management, the Filter also contains a section of the academic session for which the rooms are to be selected. Changes made to the display of the rooms table and the content of the filter are remembered in the browser's cookie and are also dependent on the menu item that was used to access the page. This means that the Rooms page will remember different settings when used from course timetabling than if used form examination timetabling or events.
 
@@ -27,17 +27,16 @@ The [Room Filter](events-room-filter) can be used to filter the available rooms 
 
 * **More**
 	* The table of rooms can be customized in here, by selecting which columns should be visible, how the table is to be sorted, and the department and room availability / sharing is to be displayed.
-	* Export to PDF and CSV is also available under the More button.
+	* Export to PDF, CSV, and XLS is also available under the More button.
 
-* **Add Room**
+![Rooms](images/rooms-2.png){:class='screenshot small'}
+
+* **Add New**
 
 * Go to the [Add Room](add-room) screen to add a new room or non-university location.
 
 * **Edit Room Sharing**
 	* Go to the [Edit Room Departments](edit-room-departments) page. This operation is only available when a department or an examination type is selected in the filter.
-
-
-![Rooms](images/rooms-1.png){:class='screenshot'}
 
 ## List of Rooms
 
@@ -45,6 +44,9 @@ The resulting list of rooms is displayed in the table. The following columns can
 
 * **Name**
 	* Room name including the display name if set
+
+* **Partition of**
+	* If the room is a partition of a bigger room, show the parent room.
 
 * **Type**
 
@@ -54,7 +56,7 @@ The resulting list of rooms is displayed in the table. The following columns can
 	* Seating capacity of the room (the maximum number of students who can have a class there at the same time)
 	* For rooms on campus (not non-university locations), it has to match the room inventory; for some rooms (e.g., not Classrooms), you can request a change in capacity in the [Contact Us](contact-us) screen (the category "Request any other administrative change" is best suitable)
 
-* **Examination Capacity**
+* **Exam Capacity**
 
 * Examination seating capacity of the room (it can be different from the "regular" capacity if there e.g. need to be free seats between students for exams)
 
@@ -70,13 +72,13 @@ The resulting list of rooms is displayed in the table. The following columns can
 
 * Room coordinates
 
-* **Distances** (formerly known as Ignore Distances)
+* **Distances**
 	* Distance check
 	* When enabled, distance conflicts are checked for the room
 		* By default checked, which means that the distance is checked between classes in this location and other classes (to see if students can manage to get from one class to another)
 		* When unchecked, there is no time conflict between following classes (e.g. one at this location, the other one e.g. on campus) and the classes can be taught by the same instructor
 
-* **Room Check** (formerly known as Ignore Checks)
+* **Room Check**
 	* When enabled, room conflicts are not allowed in the room
 		* By default checked, which means that the location is considered to be an equivalent of a room - meaning e.g. that there cannot be two classes at the same time
 		* When unchecked, there can be two or more classes taught at the same time at this location (this makes sense e.g. if the location is a hospital, where there can be different classes throughout the hospital at the same time)
