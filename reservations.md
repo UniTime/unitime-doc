@@ -8,12 +8,20 @@ title: Reservations
 
 The Reservations screen provides an overview of all reservations in a given academic session. It is possible to filter the list by different criteria, sort the table by different columns and click on any of the reservations to get to its [Edit Reservation](edit-reservation) screen.
 
+![Reservations](images/reservations-1.png){:class='screenshot'}
+
 ## Details
 
 ### Filter
 
 * Enter the search criteria into the text box next to **Filter**:
-	* When you hold your mouse over the text field for two seconds, a yellow help window will be displayed with a list of parameters by which you can filter and the description of how to use them
+	* Click the ![Open Filter](images/icon-filter-open.png) icon to open the filter
+		* It is possible to filter expired / not-expired reservations
+		* It is possible to filter by reservation type
+		* It is possible to filter by department(s)
+		* It is possible to filter by subject area(s) or course(s)
+		* It is possible to filter by date (reservations not expired at given date)
+	* Different search criteria can be also typed in, providing suggestions as you type
 	* When the text field is left blank, you will see all the reservations
 
 * Click **Search** to apply the search criteria
@@ -49,6 +57,10 @@ The list of reservations resulting from the search has the following columns
 
 * **Current Enrollment**
 	* Number of currently enrolled students that match the reservation
+
+* **Stat Date**
+	* Date upon which the reservation will become active (optional)
+	*  If there is no start date, the reservation is active until it expires
 
 * **Expiration Date**
 	* Date upon which the reservation expires, i.e., the reserved spaces are made available for other students
