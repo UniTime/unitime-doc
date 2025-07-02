@@ -12,7 +12,9 @@ The Distribution Preferences screen provides a list of existing distribution pre
 
 ## Details
 
-If you have more than one subject area, you can either display distribution preferences for all subject areas (select "All" in the drop down list) or select a **Subject Area** in the drop down list in the top part of the screen. You can also filter by the **Course Number**. Click **Search** if you have changed any of these.
+If you have more than one subject area, you can either display distribution preferences for all subject areas or select a **Subject** in the drop-down list in the top part of the screen. You can also filter by the **Course Number**. Click **Search** if you have changed any of these.
+
+**Filter**: Distribution preferences can be filtered by preference, distribution type, or structure. To do so, open the **Filter** by clicking the ![Open Filter](images/icon-filter-open.gif) icon.
 
 The list of distribution preferences has preferences for the subject area(s) and course number (if any). It can be sorted by any column - just click on the appropriate column heading in green letters. The columns are
 
@@ -25,8 +27,8 @@ The list of distribution preferences has preferences for the subject area(s) and
 
 * **Owner**
 	* The manager during whose timetabling the preference will be applied - that depends on who timetables the classes in the distribution preference
-		* If there are classes timetabled by different managers, the manager who timetables first "will not know" about the preference, the preference will be applied during the timetabling of the last manager (last to commit his/her timetable)
-	* Note: distribution preferences which are put on instructors are taken into account during departmental timetabling only
+		* If there are classes timetabled by different managers, the manager who timetables first "will not know" about the preference, the preference will be applied during the timetabling of the last manager (last to commit their timetable)
+	* **Note:** Distribution preferences which are put on instructors are taken into account during departmental timetabling only
 
 * **Class**
 	* Classes in the distribution preference (if there is no number after the name of the scheduling subpart, the preference is put on the subpart level - so for example Lec 1 means the preference is on the first lecture while Lec means that the preference is for all lectures)
@@ -35,8 +37,8 @@ Click on any line with a distribution preference to go to the [Edit Distribution
 
 ## Operations
 
-* **Export PDF / CSV** (Alt+P)
-	* Export the screen to a PDF / CSV document (read more about the export in the description of the [Instructional Offerings](instructional-offerings) screen)
+* **Export PDF / XLS / CSV**
+	* Export the screen to a PDF, an XLS, or a CSV format (read more about the export in the description of the [Instructional Offerings](instructional-offerings) screen)
 
 * **Add Distribution Preference** (Alt+A)
 	* Go to the [Add Distribution Preference](add-distribution-preference) screen to add a new distribution preference

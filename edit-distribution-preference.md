@@ -33,9 +33,8 @@ The Edit Distribution Preference screen provides interface for editing existing 
 			* Scheduling Subpart
 			* Class Number (or All, if the preference should be applied to the whole scheduling subpart)
 
-* The **up** and **down** arrows can be used to change the order of classes if order is important (for example, when the Distribution Type "Precedence" is used).
-
-* You can delete any of the lines with classes by clicking on the **Delete** button at the end of the line.
+* The up ![Up](images/icon-up.png) and down ![Down](images/icon-down.png) arrows can be used to change the order of classes if order is important (for example, when the Distribution Type "Precedence" is used)
+* You can delete any of the lines with classes by clicking on the ![Delete](images/icon-delete.png) icon at the end of the line
 
 ## Operations
 

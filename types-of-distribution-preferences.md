@@ -136,3 +136,5 @@ title: Types of Distribution Preferences
 	* The second class has to be placed two days after the first class (Monday → Wednesday, Tuesday → Thurday, Wednesday → Friday, Thursday → Monday, Friday → Tuesday).
 	* When prohibited or (strongly) discouraged: The second class has to be placed two days before the first class (Monday → Thursday, Tuesday → Friday, Wednesday → Monday, Thursday → Tuesday, Friday → Wednesday).
 	* Note: This constraint works only between pairs of classes.
+
+There are [Additional Distribution Constraints](additional-distribution-constraints) that can be registered (they do not exist in UniTime out of the box as many of them have additional parameters).
