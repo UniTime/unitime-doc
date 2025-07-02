@@ -8,7 +8,7 @@ title: Add Curriculum
 
 In the Add Curriculum screen, a new curriculum can be added for a selected academic area and one or more majors within the academic area.
 
-![Add Curriculum](images/add-curriculum.png){:class='screenshot'}
+![Add Curriculum](images/add-curriculum-1.png){:class='screenshot'}
 
 ## Details
 
@@ -25,8 +25,9 @@ In the Add Curriculum screen, a new curriculum can be added for a selected acade
 
 * **Multiple Majors**
 	* Allows for defining curricula with multiple majors
-		* In this case, curricula from each major are inhereted and can be overridden on a multiple major level (when multiple majors are selected)
+		* In this case, curricula from each major are inherited and can be overridden on a multiple major level (when multiple majors are selected)
 		* Common courses can be similarly defined on a curriculum with no major
+	* When checked, the student has to have all majors listed on the curriculum (useful for dual major programs)
 
 * **Major(s)**
 	* The major (or more majors) within the selected academic area for which the curriculum will be set up 
@@ -58,8 +59,13 @@ The curriculum classifications show numbers of students in particular semesters 
 * **Current Enrollment**
 	* Number of students of this curriculum (i.e., who have the majors from this curriculum) currently enrolled in the courses of this curriculum
 
+* **Course Registrations**
+	* Number of students that are currently requesting the course (using student course requests, e.g., via the [Student Course Requests](student-course-requests) page)
+
+**Note:** There is an option to Hide empty columns / Show all columns for the table (when applicable - i.e., when there are classifications with no last-like or requested enrollments) - see the bottom right end of the table, the shaded text. Click on the text to perform the task the text describes.
 
 ### Course Projections
+
 
 * **Group**
 	* The user can define groups of courses that have students in common (such as "1st semester mandatory courses", etc.) or that do not have students in common (such as optional courses for 2nd semester students, out of which each student selects only one course)
@@ -72,24 +78,20 @@ The curriculum classifications show numbers of students in particular semesters 
 			* "Conflict (same students)" - for courses that have students in common and therefore should not overlap in time
 		5. Click on the **Assign** button to assign the group to the courses
 	* To add a course to an existing group
-
 		1. Click on the course (possibly in the Group column, not on the name of another group) - the course will become highlighted in blue
 		2. Click on the column header ("Group")
 		3. In the menu that opens, click on the name of the group you need; now the course should become a part of the group
 
 	* To remove a course from a group
-
 		1. Click on the course that should not be included in the group (not on the group icon); the course will become highlighted in blue
 		2. Click on the column header ("Group")
 		3. In the menu that opens, click on the group that should not include the course any more; the group will be removed from the course
 
 	* To delete a group
-
 		1. Click on the group icon in front of any of the courses in the group
 		2. In the small screen that opens, click on the **Delete** button
 
 	* To sort by group
-
 		1. Click on the "Group" column header
 		2. In the menu that opens, click on "Sort by Group"
 
@@ -121,6 +123,12 @@ The curriculum classifications show numbers of students in particular semesters 
 			* Show estimated numbers of students derived from projections for majors
 		* Show Current Enrollment
 			* Display the number of students of this curriculum who are enrolled in the course
+		* Show Course Registrations
+			* Display the number of students of this curriculum who are requesting the course
+		* Show Snapshot Requested Enrollments
+			* Display the requested enrollment number at the time the [Snapshot](limit-and-projection-snapshot) was taken
+		* Show Snapshot Projected by Rule
+			* Display the projected enrollment number at the time the [Snapshot](limit-and-projection-snapshot) was taken
 		* Show Empty Courses
 			* Display courses with zero students
 		* Hide Empty Courses
@@ -137,6 +145,9 @@ The curriculum classifications show numbers of students in particular semesters 
 		* Copy Current → Requested (All Classifications)
 			* Use the numbers of currently enrolled students for requested enrollment
 			* Displayed only if Current Enrollment column is shown
+		* Copy Registered → Requested (All Classifications)
+			* Use the numbers of currently registered students for requested enrollment
+			* Displayed only if the Course Registrations column is shown
 		* Sort by Course
 			* Sort the Course Projections table by the course abbreviation (alphabetic order)
 
@@ -158,6 +169,9 @@ The curriculum classifications show numbers of students in particular semesters 
 		* Copy Current → Requested
 			* Use the numbers of currently enrolled students for requested enrollment
 			* Displayed only if Current Enrollment column is shown
+		* Copy Registered → Requested
+			* Use the numbers of currently registered students for requested enrollment
+			* Displayed only if the Course Registrations column is shown
 		* Sort by ...
 			* Sort the table by this column, numbers decreasing 
 

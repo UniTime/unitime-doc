@@ -26,6 +26,8 @@ The screen is accessible e.g. from the Curricula screen - select two or more cur
 				* Show/hide the number of students of this curriculum who are enrolled in the course
 			* Show/Hide Last-Like Enrollment
 				* Show/hide numbers of students from above majors who took the course during the last-like semester
+			* Show/Hide Course Registrations
+				* Show/hide numbers of students from above majors who have filled in their pre-registration ([Student Course Requests](student-course-requests))
 			* Show All Classifications
 				* Show all classifications, including the empty ones
 			* Hide Empty Classifications

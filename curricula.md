@@ -15,17 +15,15 @@ The Curricula screen provides an overview of all curricula for a given semester.
 ### Filter
 
 * Enter search criteria in the editable field and click on **Search** (Alt+S) to search for corresponding curricula 
-
 * When the filter field is left empty and Search is clicked, all curricula for the given semester will be displayed
-
 * When the mouse is placed over the filter field and is not moved for several seconds, a help text appears with suggested ways of entering search parameters
 
 ### Curricula table
 
 The table displays a list of curricula meeting the search parameters entered in the filter field. The column headers are clickable and provide further options for working with the table:
 
-*  Crossed ring
-	* The crossed ring is a header for checkboxes, displayed only for administrators
+*  Crossed ring (also available under the **More** button)
+	* The crossed ring ⨂ is a header for checkboxes, displayed only for administrators
 	* The corresponding menu has options as follows
 		* Select All
 			* Select all curricula in the table
@@ -116,6 +114,11 @@ The table displays a list of curricula meeting the search parameters entered in 
 * Current Enrollment
 	* Number of students of a curriculum's major(s) currently enrolled in the curriculum's courses
 	* The menu has only the option to Sort by Current Enrollment
+		* Sort the table by this column increasingly
+
+* Course Registrations
+	* Number of students that are currently requesting the course (using student course requests, e.g., via the [Student Course Requests](student-course-requests) page)
+	* The menu has only the option to Sort by Course Registrations
 		* Sort the table by this column increasingly
 
 When the mouse rolls over a line, the Curriculum Classification table from the [Curriculum Detail](curriculum-detail) screen is displayed in a text field for that curriculum.

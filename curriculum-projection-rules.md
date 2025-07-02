@@ -18,13 +18,9 @@ This section describes the editable version of the table, after the Edit button 
 
 * The table displays the projected demands per Academic Area and Major(s) for each academic classification (the academic areas and majors are on the left, academic classifications on top)
 	* Note: Click "Expand All" in the menu that opens when clicking on the table header to see the major(s); otherwise by default just the academic areas are displayed
-
 * The numbers for an academic area serve as default values for the majors - when a number is changed in the line of an academic area, it is projected to those of the majors that still keep their default values
-
 * The default projected demands for a major can be overwritten on the line with this major.
-
 * The **Total** line at the bottom of the table is calculated from the numbers on the lines with majors, not academic areas
-
 * When the mouse is rolled over a field, a text is displayed that shows which Academic Area, Major, and Academic Classification intersect on that field
 
 * When the user clicks anywhere in the header line of the table, a menu with the following options appears

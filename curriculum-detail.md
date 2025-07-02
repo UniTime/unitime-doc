@@ -23,6 +23,12 @@ The Curriculum Detail screen provides information about an existing curriculum.
 * **Academic Area**
 	* Academic area for which the curriculum is set up (each curriculum can only have one academic area)
 
+* **Multiple Majors**
+	* Allows for defining curricula with multiple majors
+		* In this case, curricula from each major are inherited and can be overridden on a multiple major level (when multiple majors are selected)
+		* Common courses can be similarly defined on a curriculum with no major
+	* When checked, the student has to have all majors listed on the curriculum (useful for dual major programs)
+
 * **Major(s)**
 	* The major (or more majors) within the selected academic area for which the curriculum is set up 
 
@@ -51,7 +57,10 @@ The curriculum classifications show numbers of students in particular semesters 
 * **Current Enrollment**
 	* Number of students of this curriculum (i.e., who have the majors from this curriculum) currently enrolled in the courses of this curriculum
 
-Note: There is an option to Hide empty columns / Show all columns for the table (when applicable - i.e., when there are classifications with no last-like or requested enrollments) - see the bottom right end of the table, the shaded text. Click on the text to perform the task the text describes.
+* **Course Registrations**
+	* Number of students that are currently requesting the course (using student course requests, e.g., via the [Student Course Requests](student-course-requests) page)
+
+**Note:** There is an option to Hide empty columns / Show all columns for the table (when applicable - i.e., when there are classifications with no last-like or requested enrollments) - see the bottom right end of the table, the shaded text. Click on the text to perform the task the text describes.
 
 
 ### Course Projections
@@ -73,10 +82,17 @@ Note: There is an option to Hide empty columns / Show all columns for the table 
 			* Displayed only when the table shows percentages 
 		* Show Last-Like Enrollment
 			* Show numbers of students from above majors who took the course during the last-like semester
-		* Show Projection by Rule
+		* Show Projected by Rule
 			* Show estimated numbers of students derived from projections for majors
+			* Using the last-like enrollments and [Curriculum Projection Rules](curriculum-projection-rules)
 		* Show Current Enrollment
 			* Display the number of students of this curriculum who are enrolled in the course
+		* Show Course Registrations
+			* Display the number of students of this curriculum who are requesting the course
+		* Show Snapshot Requested Enrollments
+			* Display the requested enrollment number at the time the [Snapshot](limit-and-projection-snapshot) was taken
+		* Show Snapshot Projected by Rule
+			* Display the projected enrollment number at the time the [Snapshot](limit-and-projection-snapshot) was taken
 		* Show Empty Courses
 			* Display courses with zero students
 		* Hide Empty Courses
