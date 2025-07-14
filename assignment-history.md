@@ -14,7 +14,6 @@ The Assignment History screen provides a list of all changes in the class assign
 
 ### Filter
 
-
 The only item in this section is
 
 * **Simplified mode**
@@ -26,12 +25,14 @@ A list of changes in time/room assignment that includes a time stamp for each of
 
 ## Operations
 
-* **Apply**
-	* Apply changes made to the filter
+* **Search**
+    * Apply the changes made to the filter, and refresh the list of changes
+
+* **Print**
+    * Print the list of changes
+
+* **Export CSV**
+    * Export the list of changes to a CSV document
 
 * **Export PDF**
-	* Export the list of changes to a PDF document
-
-* **Refresh**
-	* Refresh the screen
-
+    * Export the list of changes to a PDF document
