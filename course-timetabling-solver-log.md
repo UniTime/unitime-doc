@@ -34,8 +34,5 @@ The amount of information displayed depends on the **Debug Level** chosen from t
 
 ## Operations
 
-* **Change**
-	* Change the debug level to the level chosen from the drop-down list
-
 * **Refresh**
-	* Refresh this screen
+	* Change the debug level to the level chosen from the drop-down list, and refresh the log

@@ -46,10 +46,7 @@ The structure for each mode is as follows
 
 ## Operations
 
-* **Change**
-	* Apply changes in the filter
-
-* **Refresh**
-	* Refresh the screen
+* **Search**
+	* Apply changes in the filter and refresh the displayed data
 
 
