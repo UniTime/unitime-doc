@@ -50,8 +50,11 @@ A list of changes and related penalties (when looking for a timetable as close t
 
 ## Operations
 
+* **Print**
+	* Print the reports
+
+* **Export CSV**
+	* Export Reports to a CSV document
+
 * **Export PDF**
 	* Export Reports to a PDF document
-
-* **Refresh**
-	* Refresh the screen
