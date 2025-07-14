@@ -40,13 +40,18 @@ title: Solution Properties
 * **Back-to-back instructor preferences** (Instr)
 	* Percentage of back to back classes taught by the same instructor which are in rooms close enough for the instructor to walk from one to the other
 
-* **Too big rooms** (TooBig)
-	* "Too big room" is a room that has at least 25% more seats than is necessary for the class that has been timetabled there. There are two limits for Too big rooms - 25% and 50% more seats than necessary. Rooms exceeding the number of necessary seats by less than 25% are not penalized (penalty "0"), rooms exceeding the necessary seats by 25% to 50% are penalized by "1", rooms with more than 50% more seats than necessary have penalty "4". The number in parenthesis is the total penalty over all classes. The percentage can be interpreted as "0% - all classes are in rooms that do not have more than 125% of necessary seats, 100% - all classes are in rooms that have more than 150% of necessary seats".
+* **Too big rooms**
+	* *Too big room* is a room that has at least 25% more seats than is necessary for the class that has been timetabled there.
+	* There are two limits for Too big rooms - 25% and 50% more seats than necessary.
+	* Rooms exceeding the number of necessary seats by less than 25% are not penalized (penalty "0"), rooms exceeding the necessary seats by 25% to 50% are penalized by "1", rooms with more than 50% more seats than necessary have penalty "4".
+	* The number in parenthesis is the total penalty over all classes.
+	* The percentage can be interpreted as: 
+		* 0% - all classes are in rooms that do not have more than 125% of necessary seats, 100% - all classes are in rooms that have more than 150% of necessary seats
 
-* **Useless half-hours** (Useless)
+* **Useless half-hours**
 	* Percentage of unused time slots (five minutes intervals) in all rooms that are hard to use for regular classes for one of the following reasons (each reason is represented by a number next to the percentage)
-		* The time slot is in a block between classes that is half an hour or shorter (with a class on either side)
-		* The time slot is in a part of a broken time pattern, i.e., it is on Tuesday at 9:05 while on Thursday 9-10:30am there is already a class - so a standard time pattern TR 9am-10:30am cannot be used
+		1. The time slot is in a block between classes that is half an hour or shorter (with a class on either side)
+		2. The time slot is in a part of a broken time pattern, i.e., it is on Tuesday at 9:05 while on Thursday 9-10:30am there is already a class - so a standard time pattern TR 9am-10:30am cannot be used
 
 * **Perturbations: Total penalty** (Pert)
 	* Only in the MPP configuration
@@ -99,14 +104,17 @@ See properties of a loaded solution for the remaining properties
 	* Percentage of back to back classes taught by the same instructor which are in rooms close enough for the instructor to walk from one to the other. The number next to the percentage is the weighted number of back to back classes of the same instructor (the weights depend on the distance between the rooms)
 
 * **Too big rooms**
-
-* "Too big room" is a room that has at least 25% more seats than is necessary for the class that has been timetabled there. There are two limits for Too big rooms - 25% and 50% more seats than necessary. Rooms exceeding the number of necessary seats by less than 25% are not penalized (penalty "0"), rooms exceeding the necessary seats by 25% to 50% are penalized by "1", rooms with more than 50% more seats than necessary have penalty "4". The number in parenthesis is the total penalty over all classes. The percentage can be interpreted as "0% - all classes are in rooms that do not have more than 125% of necessary seats, 100% - all classes are in rooms that have more than 150% of necessary seats".
+	* *Too big room* is a room that has at least 25% more seats than is necessary for the class that has been timetabled there.
+	* There are two limits for Too big rooms - 25% and 50% more seats than necessary.
+	* Rooms exceeding the number of necessary seats by less than 25% are not penalized (penalty "0"), rooms exceeding the necessary seats by 25% to 50% are penalized by "1", rooms with more than 50% more seats than necessary have penalty "4".
+	* The number in parenthesis is the total penalty over all classes.
+	* The percentage can be interpreted as: 
+		* 0% - all classes are in rooms that do not have more than 125% of necessary seats, 100% - all classes are in rooms that have more than 150% of necessary seats
 
 * **Useless half-hours**
 	* Percentage of unused time slots (five minutes intervals) in all rooms that are hard to use for regular classes for one of the following reasons (each reason is represented by a number next to the percentage)
-
-	1. The time slot is in a block between classes that is half an hour or shorter (with a class on either side)
-	2. The time slot is in a part of a broken time pattern, i.e., it is on Tuesday at 9:05 while on Thursday 9-10:30am there is already a class - so a standard time pattern TR 9am-10:30am cannot be used
+		1. The time slot is in a block between classes that is half an hour or shorter (with a class on either side)
+		2. The time slot is in a part of a broken time pattern, i.e., it is on Tuesday at 9:05 while on Thursday 9-10:30am there is already a class - so a standard time pattern TR 9am-10:30am cannot be used
 
 * **Same subpart balancing penalty**
 	* Penalty if the classes of a subpart are not distributed evenly over different parts of a day
@@ -130,9 +138,7 @@ See properties of a loaded solution for the remaining properties
 	* Number of iterations performed to create this timetable
 
 * **Memory usage**
-
-* Memory allocated on the solver server where the instance is loaded
+	* Memory allocated on the solver server where the instance is loaded
 
 * **Speed**
-
-* Number of iterations per second
+	* Number of iterations per second
