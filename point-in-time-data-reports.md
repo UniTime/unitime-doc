@@ -10,6 +10,8 @@ The Point In Time Data Reports page contains a set of standard reports that are 
 
 ![Point In Time Data Reports](images/point-in-time-data-reports-1.png){:class='screenshot'}
 
+The page is only available when there is at least one [Point In Time Data Snapshot](point-in-time-data-snapshots) created.
+
 ## Details
 
 The following reports can be run from the Point In Time Data Reports Page:
@@ -50,11 +52,8 @@ The following reports can be run from the Point In Time Data Reports Page:
 * **Organized Weekly Student Class Hours by Subject Area by Day Of Week and Hour of Day** - This report lists organized student class hours by subject area for each hour in the day collectively for all classes that fall between the session start date and the session class end date.
 
 In addition to any report specific parameters listed above, all reports support the following parameters:
-
 * Point In Time Data - The Point In Time Data snapshot to use for report.
-
 * Minutes in Reporting Hour - The number of minutes an institution considers to be a standard reporting hour.
-
 * Weeks in Reporting Term - The number of weeks an institution considers to be a standard reporting term.
 
 ## Operations
@@ -69,8 +68,8 @@ In addition to any report specific parameters listed above, all reports support 
 
 Related Configuration Properties:
 
-* **unitime.pointInTimeData.standardMinutesInReportingHour** - defines the default number of minutes displayed in the Minutes in Reporting Hour parameter.  The default value is 50.
+* `unitime.pointInTimeData.standardMinutesInReportingHour` - defines the default number of minutes displayed in the Minutes in Reporting Hour parameter.  The default value is 50.
 
-* **unitime.pointInTimeData.standardWeeksInReportingTerm** - defines the default number of weeks displayed in the Weeks in Reporting Term parameter.  The default value is 15.
+* `unitime.pointInTimeData.standardWeeksInReportingTerm` - defines the default number of weeks displayed in the Weeks in Reporting Term parameter.  The default value is 15.
 
-* **unitime.pointInTimeData.hourlyReportsStartOnTheHalfHour** - defines whether the hourly reports start on the half hour or at the top of the hour.  The default value is true which means the reports start on the half hour.
+* `unitime.pointInTimeData.hourlyReportsStartOnTheHalfHour` - defines whether the hourly reports start on the half hour or at the top of the hour.  The default value is true which means the reports start on the half hour.
