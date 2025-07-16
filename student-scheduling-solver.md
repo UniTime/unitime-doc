@@ -8,6 +8,8 @@ title: Student Scheduling Solver
 
 In the Student Scheduling Solver screen, the user can run the sectioning solver to assign classes to students whose course requests have been entered into the system. The assignment is based on the timetable, the student requests and, if needed, on the last-like or curriculum course demands (in case only a part of current student course requests are available).
 
+![Student Scheduling Solver](images/student-scheduling-solver-1.png){:class='screenshot'}
+
 ## Solver not started
 
 ### Solver
@@ -44,7 +46,7 @@ In the Student Scheduling Solver screen, the user can run the sectioning solver 
 		* Curricula Course Demands
 		* Curricula Last Like Course Demands
 		* Student Course Requests
-	* Enrolled Student Course Demands
+		* Enrolled Student Course Demands
 
 * **Host** (admin)
 	* Select server you want to run the solver on (setting "auto" means that the least occupied solver will be used; this is the default behavior for non-administrator users)
@@ -77,9 +79,13 @@ The Current Student Schedule is empty during the loading phase.
 
 ### Operations
 
+* **Stop**
+    * Stop the loading of the solver.
+    * This will interrupt the loading process, and it will stop with an error. The solver will need to be unloaded afterward, as it will remain in a state where only some of the data has been loaded.
+
 * **Refresh**
 	* Refresh this screen
-		* When loading is done, new buttons will appear
+	* When loading is done, new buttons will appear
 
 ## Awaiting commands
 
@@ -94,7 +100,7 @@ The Current Student Schedule has been loaded into the solver together with the i
 
 * **Reload Input Data**
 	* Reload input data while keeping the current student schedule
-		* The assignments that are no longer valid due to the change in the input data will be unassigned
+	* The assignments that are no longer valid due to the change in the input data will be unassigned
 
 * **Save**
 	* Save the Best Student Schedule Found So Far
@@ -169,34 +175,25 @@ The list of warnings appears if any problem occurred during the data load. If th
 
 ## Notes
 
-Description of the student weights as written in UniTime 3.3 Release Notes
+Description of the student weights:
 
-P**riority student weighting model**
+**Priority student weighting model**
 
 * First priority request has better weight than all the rest
-
 * Total weight for a student should be between zero and one, one for a fully satisfied student
-
 * Request weight: 1st priority 0.501, 2nd priority 0.250, 3rd priority 0.1248, 4th priority 0.0623, ... (1/2 for alternatives, e.g., 0.2505 for the first alternative of a course)
-
 * 1/2 and 1/4 for the alternatives; but the difference will be distributed down-wards (student has more weight to get the n+1, n+2, ... priority courses)
-
 * Weights are rounded to four digits
-
 * The rest to 1 -- put to the last request or split evenly between all of them.
 
 **Alternative (equal) weighting model**
 
 * All course (non alternative) requests have equal weight (priority is ignored)
-
 * First alternatives have lower weight than first choices, but equal among themselves
-
 * Second alternatives have lower weight than first alternatives, alternative course requests than second alternatives
 
 **There are three ways to use student sectioning**
 
 * When all students are preregistered, the projected demand is none
-
 * If only some students are preregistered, loading and solving preregistered and projected demands together allows students use of online scheduling
-
 * Projection mode is used to recalcule the projected demands

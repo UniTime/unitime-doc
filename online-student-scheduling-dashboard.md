@@ -8,6 +8,8 @@ title: Online Student Scheduling Dashboard
 
 The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status (admin only).
 
+See [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) for additional documentation about the dashboard.
+
 ![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-1.png){:class='screenshot'}
 
 ## Filter
@@ -274,4 +276,7 @@ Click on any change in the change log to get to its [Change message](change-mess
 		* Change student note
 	* **Sort By**
 		* Select column that will be used to sort the table
+	* **Column**
+		* Select which columns to show or hide
+	
 

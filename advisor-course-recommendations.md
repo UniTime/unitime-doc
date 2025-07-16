@@ -70,3 +70,14 @@ It is also possible to open the Advisor Course Recommendations page for the stud
 ## Notes
 
 The page requires the **Advisor Course Requests** permission. A user (typically an advisor) can look up and see advisor recommendations for all students, he/she may be only allowed to edit no students, only his/her students, or all students (depending on the Student Scheduling Advisor Can Modify All Students or Student Scheduling Advisor Can Modify My Students permissions).
+
+The following additional flags can be provided by the advisor (for each course request) when enabled:
+
+* Course Priority: **Critical**, **Important**, or **Vital**
+	* Courses of elevated priority take precedence before other courses in the solver
+	* See the `unitime.acrf.setCriticalCourses` configuration setting on the [Application Configuration](application-configuration) screen
+
+* Wait-Listing: **No-Sub** or **Wait-List**
+	* *No-Sub* indicates that a course cannot be replaced by a substitute course
+	* *Wait-List* indicates that the course cannot be replaced by a substitute course and will be wait-listed when the student cannot get in during the batch
+	* See the `unitime.acr.waitlist` configuration setting on the [Application Configuration](application-configuration) screen

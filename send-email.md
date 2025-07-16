@@ -6,7 +6,9 @@ title: Send email...
 
 ## Screen Description
 
-The Send email... screen (or pop-up window) provides interface for sending an email to one or more students during online student scheduling.
+The Send email... dialog provides interface for sending an email to one or more students during student scheduling.
+
+![Classes for Student](images/send-email-1.png){:class='screenshot'}
 
 ## Details
 
@@ -20,6 +22,9 @@ Note: The names of the students addressed by this email (selected in the previou
 
 * **Message**
 	* Text of the email
+
+* **Include**
+	* Include [advisor course recommendations](advisor-course-recommendations), [student course requests](student-course-requests), and/or the [student class schedule](student-scheduling-assistant) in the email
 
 ## Operations
 

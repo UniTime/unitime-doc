@@ -8,6 +8,8 @@ title: Batch Student Solver Dashboard
 
 The Batch Student Solver Dashboard screen displays information about student requests/enrollments that have been loaded into the batch sectioning solver. There are numerous filtering capabilities on this page.
 
+![Batch Student Solver Dashboard](images/batch-student-solver-dashboard-1.png){:class='screenshot'}
+
 ## Filter
 
 The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
@@ -190,3 +192,7 @@ The table ends with a line of totals for the number of students, student enrollm
 
 * **Export**
 	* Export table in CSV format
+
+* **More**
+	* Adjust which columns are visible on the page
+	* Sort the table by a given column

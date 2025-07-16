@@ -77,7 +77,7 @@ Report lines can be made clickable, leading to the appropriate detail page. To d
 * [Instructor Detail](instructor-detail) page: first column returns DepartmentalInstructor.uniqueId and is named **__Instructor**
 * [Examination Detail](examination-detail) page: first column returns Exam.uniqueId and is named **__Exam**
 * [Event Detail](event-detail) page: first column returns Event.uniqueId and is named **__Event**
-* Student detail dialog: first column returns Student.uniqueId and is named **__Student**
+* [Student](classes-for-student) detail dialog: first column returns Student.uniqueId and is named **__Student**
 
 ## Exports
 
