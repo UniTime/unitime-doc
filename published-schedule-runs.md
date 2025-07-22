@@ -33,4 +33,5 @@ The Published Schedule Runs shows all runs that have been published so far. The 
 * The Student Sectioning Solver Publish permission is needed for a user to be able to publish a scheduled run or to use the Published Schedule Runs page (Publish button will appear on the Student Scheduling Solver page).
 
 * It is possible to extend the when finished solver parameter (StudentSctBasic.WhenFinished) to allow for Publish or Publish and Unload.
-	* The currently published run also shows on the Manager Solvers page with the Solver Published status.
+
+* The currently published run also shows on the Manager Solvers page with the Solver Published status.

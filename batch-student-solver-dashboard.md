@@ -162,7 +162,7 @@ The table can be sorted by any table header - just click on it, then on the "Sor
 
 * **Advisor**
 	* This column displays the advisor or advisors that the student has assigned.
-		* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has an advisor.
+	* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has an advisor.
 
 * **Advised Credit**
 	* For the students that have been advised, this column displays the credit number provided by the advisor (the Total Priority Credit Hours from the Advisor Course Recommendations page), but the color indication shows how the recommendations are followed.

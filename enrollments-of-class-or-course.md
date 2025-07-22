@@ -31,8 +31,7 @@ The table of enrolled students has the following columns
 
 * **Degr**
 	* Student degree
-
-* Displayed only if applicable
+	* Displayed only if applicable
 
 * **Clasf**
 	* Academic classification

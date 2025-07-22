@@ -14,11 +14,17 @@ The student can use the screen to set up a list of prioritized courses with alte
 
 **Course Requests**
 
-Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as his/her first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
+Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have one or more alternatives that have the same priority for the student as his/her first choice on a given line. The second or later choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
 
-Click on the magnifying glass to get to the [Course Finder](student-course-finder) screen for more information about possible courses.
+Click on the magnifying glass ![Course Finder](images/icon-finder.png) icon to get to the [Course Finder](student-course-finder) screen for more information about possible courses.
 
-To move a line with a course and its alternatives one line up or one line down, click on the appropriate arrow at the end of the line.
+If at least one alternative course is provided, click the swap ![Course Swap](images/icon-swap.png) icon to swap the course with its alternative.
+
+Click the plus ![Add](images/icon-filter-add.png) icon to add an additional alternative.
+
+Click the times ![Clear](images/icon-filter-clear.png) icon to clear the course.
+
+To move a line with a course and its alternatives one line up or one line down, click on the appropriate arrow ![Up](images/icon-button-up.png) ![Down](images/icon-button-down.png) at the end of the line. To remove the whole line, click the trash bin ![Delete](images/icon-button-delete.png) icon.
 
 If a course (or any of its alternatives, if provided) is not available to the student for some reason, it is possible to either give a substitute course (see the Substitute Course Requests table bellow) or toggle the Wait-List checkbox. If the Wait-List is marked and the student cannot be enrolled into the course, he/she will be automatically put on a wait-list for the course.
 

@@ -10,7 +10,7 @@ The Online Student Scheduling Dashboard screen provides a tool for displaying a 
 
 See [Student Scheduling Dashboard Manual](manuals/scheduling-dashboard) for additional documentation about the dashboard.
 
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-1.png){:class='screenshot'}
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-4.png){:class='screenshot'}
 
 ## Filter
 
@@ -24,7 +24,7 @@ The page shows up to three tabs - **Enrollments** with detailed information abou
 
 ## Enrollments
 
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-2.png){:class='screenshot'}
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-1.png){:class='screenshot'}
 
 * A column with clickable plus signs that enable unfolding of a course into lines with individual classes
 
@@ -100,9 +100,9 @@ Click on any class or course to get to its [Enrollments](enrollments-of-class-or
 			* These options are for changing the student's status; the status types can be defined through the [Student Scheduling Status Types](student-scheduling-status-types) screen
 			* **Change status to System Default (All Enabled)**
 				* This is the only status type that is always present
-		* Set student status...
+		* **Set student status...**
 			* Change student status using the **Set student status...** dialog which provides additional information about the selected status.
-		* Set student note...
+		* **Set student note...**
 			* Change student note
 
 * **External Id** (optional column)
@@ -183,7 +183,7 @@ Click on any class or course to get to its [Enrollments](enrollments-of-class-or
 
 * **Advisor**
 	* This column displays the advisor or advisors that the student has assigned.
-		* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has an advisor.
+	* This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has an advisor.
 
 * **Advised Credit**
 	* For the students that have been advised, this column displays the credit number provided by the advisor (the Total Priority Credit Hours from the Advisor Course Recommendations page), but the color indication shows how the recommendations are followed.
@@ -212,7 +212,7 @@ Click on any student to get to the screen with [Classes](classes-for-student) fo
 
 ## Change Log
 
-![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-4.png){:class='screenshot'}
+![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-2.png){:class='screenshot'}
 
 
 For the Change Log, the Filter can be used with further parameters
@@ -270,9 +270,9 @@ Click on any change in the change log to get to its [Change message](change-mess
 		* These options are for changing the student's status; the status types can be defined through the [Student Scheduling Status Types](student-scheduling-status-types) screen
 		* **Change status to System Default (All Enabled)**
 			* This is the only status type that is always present
-	* Set student status...
+	* **Set student status...**
 		* Change student status using the **Set student status...** dialog which provides additional information about the selected status.
-	* Set student note...
+	* **Set student note...**
 		* Change student note
 	* **Sort By**
 		* Select column that will be used to sort the table

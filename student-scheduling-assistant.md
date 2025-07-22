@@ -16,12 +16,12 @@ The Student Scheduling Assistant helps students build a workable class schedule.
 * the distance between back-to-back classes (if distance between two classes is greater than a normal person can cover during the break time a roadrunner icon is displayed)
 * whether an overlap is allowed between two classes
 * keep existing schedule as much as possible
-* substitite courses are only used if a selected course is not available
+* substitute courses are only used if a selected course is not available
 * a section choice that prevents the fewest future students from also getting the course
 
 Once the assistant has suggested a schedule a student can make changes to the schedule until she finds a combination of time for the classes that meets her needs.
 
-Additional information is availble in the [Student Scheduling Assistant Manual](manuals/scheduling-assistant).
+Additional information is available in the [Student Scheduling Assistant Manual](manuals/scheduling-assistant).
 
 In the Student Scheduling Assistant screen, a student may enter a prioritized list of courses he/she would like to take in a given term. It is also possible to enter course alternatives and free time requests. Then a personal schedule is offered to the student and he/she can enroll in the classes as offered.
 
@@ -34,11 +34,20 @@ The student begins with the screen in this mode to set up a list of prioritized 
 
 ### Course Requests
 
-Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have up to two alternatives that have the same priority for the student as his/her first choice on a given line. The second or third choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
+Table of courses ordered by student's priority (courses on the first line have the highest priority). Each course can have one or more alternatives that have the same priority for the student as his/her first choice on a given line. The second or later choice are only used if the first choice is unavailable or does not fit with higher priority courses in the list.
 
-Click on the magnifying glass to get to the [Course Finder](student-course-finder) screen for more information about possible courses.
+Click on the magnifying glass ![Course Finder](images/icon-finder.png) icon to get to the [Course Finder](student-course-finder) screen for more information about possible courses.
 
-To move a line with a course and its substitites one line up or one line down, click on the appropriate arrow at the end of the line.
+If at least one alternative course is provided, click the swap ![Course Swap](images/icon-swap.png) icon to swap the course with its alternative.
+
+Click the plus ![Add](images/icon-filter-add.png) icon to add an additional alternative.
+
+Click the times ![Clear](images/icon-filter-clear.png) icon to clear the course.
+
+If the wait-listing is available, and the selected course can be wait-listed, the Wait-List checkbox will appear. If the student cannot be enrolled in a course with the Wait-List toggle checked, they will be automatically put on a wait-list for the course.
+
+To move a line with a course and its alternatives one line up or one line down, click on the appropriate arrow ![Up](images/icon-button-up.png) ![Down](images/icon-button-down.png) at the end of the line. To remove the whole line, click the trash bin ![Delete](images/icon-button-delete.png) icon.
+
 
 ### Substitute Course Requests
 
@@ -119,8 +128,8 @@ The Personal Schedule mode of the Student Scheduling Assistant screen presents a
 
 * **Note**
 	* Consent, if a departmental or instructor consent is required.
-		* Course schedule of classes note, if present
-		* Class schedule note, if present
+	* Course schedule of classes note, if present
+	* Class schedule note, if present
 
 * **Credit**
 	* Number of credits
