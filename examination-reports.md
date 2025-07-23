@@ -45,45 +45,47 @@ Report selected in the filter. The reports currently available are
 	* Name of an examination (or classes/courses for which the examination is held) and time/room assignment together with details such as room capacity and seating type
 2. Room Assignment Report
 	* For each room that has at least one examination in it, there is a list of dates, times and examination names for examinations that take place there
-3. Period Usage
+3. Statistics
+	* Basic statistics about the examination problem and the solution
+4. Period Usage
 	* For each examination period, there is a number of classes/courses whose students take an examination during that period and the total size of these classes/courses
-4. Number of Exams A Day
+5. Number of Exams A Day
 	* For each examination date, there is a number of students taking 0, 1, 2, 3 or more examinations that day
-5. Room Splits
+6. Room Splits
 	* A list of examinations that will have more than one room together with the rooms into which they are split
-6. Violated Distribution Constraints
+7. Violated Distribution Constraints
 	* Distribution Constraints that haven't been met in this examination timetable
-7. Direct Student Conflicts
+8. Direct Student Conflicts
 	* A list of classes/courses that have students in common but their examinations overlap in time
-8. More Than 2 Exams A Day Student Conflicts
+9. More Than 2 Exams A Day Student Conflicts
 	* Each line contains three or more examinations held on the same day that all have at least one student in common (the student then has more than two examinations on the same day)
-9. Back-To-Back Student Conflicts
+10. Back-To-Back Student Conflicts
 	* Pairs of examinations that are held back to back and have students in common
-10. Individual Student Schedule
+11. Individual Student Schedule
 	* For each student, there is a list of examinations that the student should take with their period/room assignments
-11. Individual Student Conflicts
+12. Individual Student Conflicts
 	* For each student who has a conflict, there is the student listed, the type of his/her conflict and the examinations that are in conflict
-12. Individual Direct Student Conflicts
+13. Individual Direct Student Conflicts
 	* For each student who has overlapping examinations, there is the student listed and his/her examinations that overlap
-13. Individual More Than 2 Exams A Day Student Conflicts
+14. Individual More Than 2 Exams A Day Student Conflicts
 	* List of students who have more than two examinations on a day, together with the problematic examinations
-14. Individual Back-To-Back Student Conflicts
+15. Individual Back-To-Back Student Conflicts
 	* List of students who have back to back examinations, together with the examinations (and their period/room assignments)
-15. Direct Instructor Conflicts
+16. Direct Instructor Conflicts
 	* Same as for students
-16. More Than 2 Exams A Day Instructor Conflicts
+17. More Than 2 Exams A Day Instructor Conflicts
 	* Same as for students
-17. Back-To-Back Instructor Conflicts
+18. Back-To-Back Instructor Conflicts
 	* Same as for students
-18. Individual Instructor Schedule
+19. Individual Instructor Schedule
 	* Same as for students
-19. Individual Instructor Conflicts
+20. Individual Instructor Conflicts
 	* Same as for students
-20. Individual Direct Instructor Conflicts
+21. Individual Direct Instructor Conflicts
 	* Same as for students
-21. Individual Back-To-Back Instructor Conflicts
+22. Individual Back-To-Back Instructor Conflicts
 	* Same as for students
-22. Individual More Than 2 Exams A Day Instructor Conflicts
+23. Individual More Than 2 Exams A Day Instructor Conflicts
 	* Same as for students
 
 ## Operations

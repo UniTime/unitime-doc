@@ -27,13 +27,16 @@ The Not-Assigned Examinations screen provides a list of examinations that have n
 
 A list of examinations that do not have assigned periods and rooms
 
-* **Classes/Courses**
+* **Class / Course**
 	* Classes/Courses whose students should take this examination
 	* Displayed if the "Show classes/courses" checkbox is checked in the Filter part
 
 * **Examination**
 	* Name of the examination
 	* Displayed if the "Show classes/courses" checkbox is unchecked in the Filter part
+
+* **Length**
+    * Length of the examination in minutes
 
 * **Seating Type**
 	* Requested seating type (Normal or Exam - this influences the number of seats available)
@@ -58,8 +61,8 @@ A list of examinations that do not have assigned periods and rooms
 * **Apply**
 	* Apply changes made in the Filter section
 
-* **Export PDF**
-	* Export the list of unassigned examinations into a PDF file
+* **Export PDF/CSV**
+	* Export the list of unassigned examinations into a PDF or a CSV file
 
 * **Refresh**
 	* Refresh the list of unassigned examinations

@@ -43,8 +43,8 @@ A list of changes in period/room assignments. Click on any change to go to the [
 * **Apply**
 	* Apply changes made to the filter
 
-* **Export PDF**
-	* Export the list of changes to a PDF document
+* **Export PDF/CSV**
+	* Export the list of changes to a PDF or a CSV document
 
 * **Refresh**
 	* Refresh the screen

@@ -27,8 +27,8 @@ The Assigned Examinations screen provides a list of examinations that have been 
 
 A list of examinations with assigned periods and rooms
 
-* **Classes/Courses**
-	* Classes/Courses whose students should take this examination
+* **Class / Course**
+	* Classes/courses whose students should take this examination
 	* Displayed if the "Show classes/courses" checkbox is checked in the Filter part
 
 * **Examination**
@@ -70,8 +70,8 @@ A list of examinations with assigned periods and rooms
 * **Apply**
 	* Apply changes made in the Filter section
 
-* **Export PDF**
-	* Export the list of assigned examinations into a PDF file
+* **Export PDF/CSV**
+	* Export the list of changes to a PDF or a CSV document
 
 * **Refresh**
 	* Refresh the list of assigned examinations

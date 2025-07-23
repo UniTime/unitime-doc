@@ -8,12 +8,15 @@ title: Examination Timetable
 
 The Examination Timetable screen displays a time grid for the midterm or final examination timetable.
 
-![Examination Timetable](images/examination-timetable-2.png){:class='screenshot'}
+![Examination Timetable](images/examination-timetable-1.png){:class='screenshot'}
 
 ## Filter
 
-![Examination Timetable](images/examination-timetable-1.png){:class='screenshot'}
+![Examination Timetable](images/examination-timetable-2.png){:class='screenshot'}
 
+* **Show classes/courses**
+	* When checked, classes/courses of the examination are listed instead of the examination name
+	
 * **Examination Problem**
 	* Select whether midterm or final examinations should be displayed
 

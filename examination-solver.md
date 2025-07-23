@@ -10,8 +10,6 @@ The Examination Solver screen provides interface for running the solver to sched
 
 ![Examination Solver](images/examination-solver-1.png){:class='screenshot'}
 
-Note: There can only be at most one examination solver running at any time in the application. That is different from the course timetabling solver where several users can have their solvers running at the same time.
-
 ## Solver Not Started
 
 ### Solver

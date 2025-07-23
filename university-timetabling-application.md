@@ -157,8 +157,8 @@ The examination timetabling menu is split into two sections: input data entry an
 * [Assigned Exams](assigned-examinations)
 * [Not-assigned Exams](not-assigned-examinations)
 * [Changes](examination-assignment-changes)
-* [Conflict Statistics](examination-conflict-based-statistics) Under construction
-* [Solver Log](examination-solver-log) Under construction
+* [Conflict Statistics](examination-conflict-based-statistics)
+* [Solver Log](examination-solver-log)
 * [Reports](examination-reports)
 * [PDF Reports](examination-pdf-reports)
 
