@@ -359,5 +359,6 @@ The menu is split into five sections:
 * [Localization](localization)
 * [LDAP Authentication / Lookup](LDAP)
 * [CAS Authentication](CAS)
+* [OAuth2 Authentication](OAuth2)
 * [Exam Naming Convention](exam-naming-convention)
 * [Custom Room Availability](custom-room-availability)
