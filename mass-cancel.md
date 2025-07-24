@@ -8,6 +8,8 @@ title: Mass cancel...
 
 The Mass cancel... screen provides interface for canceling requests and enrollments of students selected in the previous screen and changing the scheduling status of these students so that they cannot re-create their requests and enrollments.
 
+![Mass cancel...](images/mass-cancel-1.png){:class='screenshot'}
+
 ## Details
 
 Note: the names of the students whose requests and enrollments should be cancelled are not listed in this screen.

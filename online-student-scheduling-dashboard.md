@@ -271,7 +271,7 @@ Click on any change in the change log to get to its [Change message](change-mess
 		* **Change status to System Default (All Enabled)**
 			* This is the only status type that is always present
 	* **Set student status...**
-		* Change student status using the **Set student status...** dialog which provides additional information about the selected status.
+		* Change student status using the [Set student status...](set-status-for-student) dialog which provides additional information about the selected status.
 	* **Set student note...**
 		* Change student note
 	* **Sort By**

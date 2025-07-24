@@ -121,6 +121,7 @@ Student scheduling module. See [Student Scheduling](https://www.unitime.org/uct_
 	* [Change Log](change-log-for-student)
 	* [Send Email](send-email)
 	* [Mass Cancel](mass-cancel)
+	* [Set Student Status](set-status-for-student)
 	* [Change Message](change-message-for-student)
 * [Online Student Scheduling Reports](online-student-scheduling-reports)
 * [Enrollment Audit](enrollment-audit-pdf-reports)

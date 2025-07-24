@@ -8,6 +8,8 @@ title: Change Message for Student
 
 The Change message for (student's name) screen provides history of changes in enrollments of a given student into particular class(es). Even changes that did not result in enrollments (such as looking for alternatives, rescheduling, etc.) are listed here for the purpose of understanding how the student has worked with the scheduling assistant.
 
+![Change Message for Student](images/change-message-for-student-1.png){:class='screenshot'}
+
 ## Details
 
 The screen is divided into several sections. The first and the last one are always the same, the middle sections depend on the operation of the change.
