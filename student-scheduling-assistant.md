@@ -162,6 +162,22 @@ A student may not be available during a particular time because he/she is teachi
 
 Teaching assignments are on top of the list, in dark blue with the teacher icon ![](images/icon-teacher.png). The teacher icon is not present when the student must be available during the class, but is not assigned as an instructor to it -- see [Instructor Scheduling](instructor-scheduling) component, common classes.
 
+### Wait-Listing
+
+If a course and the student status allow for wait-listing, it can be wait-listed on the **Course Requests** table using the **Wait-List** checkbox. Suppose the course is not available for the student, e.g., because it is full. In that case, it can also be wait-listed on the **List of Classes** (using the **Wait-List** checkbox on the line with the course) or on the [Alternatives](alternatives-for-class) dialog when the course/class is clicked (using the **Wait-List** button).
+
+![Student Scheduling Assistant](images/student-scheduling-assistant-6.png){:class='screenshot'}
+
+Additional properties can be entered on the [Wait-List Preferences](wait-list-preferences-for-a-course) dialog when the wait-listed course is clicked from the **List of Classes** table.
+
+Do not forget to click the **Submit Schedule** to persist your changes, including wait-listing the selected course(s) and/or updating your wait-listing preferences. Once submitted, the wait-listed courses will also appear in a separate table below the **Class Schedule**. Clicking on a wait-listed course in this table will also open the [Wait-List Preferences](wait-list-preferences-for-a-course) for the course.
+
+![Student Scheduling Assistant](images/student-scheduling-assistant-7.png){:class='screenshot'}
+
+It is possible to wait-list for a course swap or a different section of the same course. In this case, the enrolled course that is to be replaced with the wait-listed course is selected on the [Wait-List Preferences](wait-list-preferences-for-a-course) dialog. The original course is then also listed in the **Wait-Listed Courses** table (**Replaces** column).
+
+If the wait-listed course has alternatives provided on the **Course Requests**, these courses are also being wait-listed if they allow for wait-listing. That is, if space becomes available for the student in the alternative course before there is space available in the first-choice course, UniTime will enroll the student in the alternative course instead. The alternative courses are also listed in the **Wait-Listed Courses** table and in the [Wait-List Preferences](wait-list-preferences-for-a-course) dialog.
+
 ## Operations
 
 * **Add/Drop Courses** 
@@ -186,7 +202,8 @@ Teaching assignments are on top of the list, in dark blue with the teacher icon 
 * **![](images/icon-add.png) New Course** (in the bottom right corner of the List of Classes tab)
 	* Quickly add a new course to the current schedule without going back to the Course Requests table. When clicked a [Course Finder](student-course-finder) dialog appears. When a course is selected:
 		* If the course is already present in the Course Requests table, the user if given the choice to drop the course (remove it from the schedule).
-			* If a new course is selected, [Alternatives](alternatives-for-class) dialog shows up with possible choices (if there are any). The course is only added to the schedule when a choice is selected.
+		* If a new course is selected, [Alternatives](alternatives-for-class) dialog shows up with possible choices (if there are any). The course is only added to the schedule when a choice is selected.
+		* If the selected course is not available for the student (e.g., because it is full) but can be wait-listed, the student is asked whether to wait-list the course.
 
 ## Notes
 
