@@ -23,7 +23,7 @@ The Edit Academic Session screen provides interface for changing properties of a
 
 * **Default Date Pattern**
 	* Select which date pattern should be the default one out of all the date patterns available for a given session (you can see the available date patterns in the [Date Patterns](date-patterns) screen when you are in the given academic session)
-	* After you create an academic session, you need to create or roll forward date patterns in order to have any date patterns available. To roll forward date patterns, use [Session Roll Forward](https://sites.google.com/a/unitime.org/help/index_php?title=Session_Roll_Forward&action=edit) page.
+	* After you create an academic session, you need to create or roll forward date patterns in order to have any date patterns available. To roll forward date patterns, use [Roll Forward Session](roll-forward-session) page.
 
 * **Session Start Date**
 	* The date when the session begins
@@ -45,6 +45,13 @@ The Edit Academic Session screen provides interface for changing properties of a
 
 * **Session Status**
 	* The statuses are defined in the [Status Types](status-types) screen
+	* The default academic session statuses are
+		* **Initial Data Load**: Used during data import or session roll-forward. Departmental managers do not have access.
+		* **Input Data Entry**: Used during input data entry for the courses and examinations. The departmental schedule managers can edit input data and run the solver, but they cannot commit a timetable.
+		* **Timetable**: Used during course timetabling. The departmental managers can edit data, create and commit timetables.
+		* **Examination Timetabling**: Used during examination timetabling. Examination managers can make changes to the examinations and run the solver.
+		* **Timetable Published**: Only admins can make schedule changes. Other users can see the course and examination timetables in the Events.
+		* **Session Finished**: Academic session is no longer being used. Most users do not have access.
 
 * **Default Class Duration**
 	* Set the default class duration type for this academic session
@@ -77,7 +84,7 @@ The Edit Academic Session screen provides interface for changing properties of a
 	* Student scheduling statuses are defined in the [Student Scheduling Status Types](student-scheduling-status-types) screen
 
 * **Email Notifications**
-	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
+	* Optional start and/or end dates for student schedule change email notifications sent to instructors and students
 
 ## Operations
 

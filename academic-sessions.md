@@ -41,8 +41,8 @@ The Academic Sessions screen provides a list of existing academic sessions.
 	* Current status of the session (such as Initial Data Load, Timetabling, ...)
 	* The statuses are defined in the [Status Types](status-types) screen
 
-* **Subject Areas**
-	* The number of subject areas in the academic session
+* **Class Duration**
+	* Defaults class duration model, see [Class Duration Types](class-duration-types) screen
 
 * **Events Begin**
 	* First date for which events can be entered for this academic session
@@ -69,7 +69,8 @@ The Academic Sessions screen provides a list of existing academic sessions.
 	* Instructional methods are defined in the [Instructional Methods](instructional-methods) screen
 
 * **Email Notifications**
-	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
+	* Optional start and/or end dates for student schedule change email notifications sent to instructors and students
+	
 Click on any line to change the session's properties in the [Edit Academic Session](edit-academic-session) screen.
 
 ## Operations

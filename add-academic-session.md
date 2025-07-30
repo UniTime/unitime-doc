@@ -42,11 +42,14 @@ In the Add Academic Session screen, you can define a new academic session, inclu
 * **Session Status**
 	* The session status indicates what users can do within a session
 	* The options are set up in the [Status Types](status-types)
-	* The current basic statuses are
-		* Initial Data Load: Populating data from other resources or from the previous like-term before the schedule managers are allowed to start working in this session
-		* Input Data Entry: Schedule managers can edit input data and run the solver, but they cannot commit a timetable
-		* Timetabling: The schedule managers can edit data, create and commit timetables
-		* Timetabling Published: No schedule manager can edit input data or change timetables
+	* The default academic session statuses are
+		* **Initial Data Load**: Used during data import or session roll-forward. Departmental managers do not have access.
+		* **Input Data Entry**: Used during input data entry for the courses and examinations. The departmental schedule managers can edit input data and run the solver, but they cannot commit a timetable.
+		* **Timetable**: Used during course timetabling. The departmental managers can edit data, create and commit timetables.
+		* **Examination Timetabling**: Used during examination timetabling. Examination managers can make changes to the examinations and run the solver.
+		* **Timetable Published**: Only admins can make schedule changes. Other users can see the course and examination timetables in the Events.
+		* **Session Finished**: Academic session is no longer being used. Most users do not have access.
+
 
 * **Default Class Duration**
 	* Set the default class duration type for this academic session
@@ -81,7 +84,7 @@ In the Add Academic Session screen, you can define a new academic session, inclu
 	* Student scheduling statuses are defined in the [Student Scheduling Status Types](student-scheduling-status-types) screen
 
 * **Email Notifications**
-	* Optional stard and/or end dates for student schedule change email notifications sent to instructors and students
+	* Optional start and/or end dates for student schedule change email notifications sent to instructors and students
 
 ## Operations
 
