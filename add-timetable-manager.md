@@ -12,10 +12,6 @@ In the Add Timetable Manager screen you can add a new user and indicate which de
 
 ## Details
 
-There are two different layouts of the upper part of the screen, in one case all users are entered through the timetabling application (users are authenticated by the application), in the other case the application is connected to an employee database (users are authenticated through an external interface).
-
-### Using Internal Authentication
-
 The upper part of the screen contains the following
 
 * **Academic Session**
@@ -23,52 +19,58 @@ The upper part of the screen contains the following
 	* Can be changed from the [Academic Sessions](academic-sessions) screen
 
 * **First Name**
-
 * **Middle Name**
-
 * **Last Name**
+* **Academic Title**
+	* Manager's name and academic title
 
 * **External ID**
-	* Assign an ID number to the user (the ID must be the same as the External ID in the [Users (Database Authentication)](https://sites.google.com/a/unitime.org/help/Users_%28Database_Authentication%29) screen)
+	* The External ID can be changed only to a number that is not currently used for another manager.
+	* It must be the same as the External ID in the [Users](users-database-authentication) screen or the external ID of an authenticated user using other means such as [LDAP](LDAP), [CAS](CAS), or [OAuth2](OAuth2) authentication
+	* Can be an arbitrary string of at most 40 characters
 
 * **Email Address**
 	* Enter contact email address
 
-### Using External Authentication
-
-The upper part of the screen contains the following
-
-* **Academic Session**
-	* Session to which the new user should have access
-	* Can be changed from the [Academic Sessions](academic-sessions) screen
-
-* **External ID**
-	* ID that can be looked up in e.g. an employee database
-	* Click on **Lookup Manager** to fill in the rest of user information (such as email address) based on his/her external ID - the name of the user will be displayed above the top line of this screen
-
-* **Email address**
-	* New user's email address
-
-* **External Manager**
-	* Indicates whether the user is associated with a department that is marked as an external manager, see [Edit Department](edit-department) for more details.
-
 ### Departments
 
-Select a department in the drop down list and click **Add Department** to make the user a manager for a department. Add as many departments as needed.
+Select a [department](departments) in the drop-down list and click **Add Department** to make the user a manager for a department. Add as many departments as needed.
 
-Note: A user that has "Departmental Schedule Manager" role has to be associated with at least one department.
+**Note:** A user that has *Departmental Schedule Manager* role has to be associated with at least one department.
 
 ### Solver Groups
 
-Select a solver group for which the user should be able to create a timetable and click **Add Solver Group**. Do it for all solver groups to which the user should have access.
+Select a [solver group](solver-groups) for which the user should be able to create a timetable and click **Add Solver Group**. Do it for all solver groups to which the user should have access.
+
+**Note:** Solver groups are only needed for the *Departmental Schedule Manager* and similar roles that have non-admin access to the course timetabling solver.
 
 ### Roles
 
-Select a role for the user from the drop down list and click **Add Role**. Add as many roles as needed and then select which one of them should be the primary role (the one applied whenever the user logs on to the application).
+Select a [role](roles) for the user from the drop-down list and click **Add Role**. Add as many roles as needed and then select which one of them should be the primary role (the one applied whenever the user logs on to the application).
 
-Note: Only the "Departmental Schedule Manager" role reflects the choice of departments and solver groups in this screen. "View All" and "Administrator" have access to all data (a user in the "View All" role cannot make any changes and can only see committed timetables).
+The default manager roles are:
+* **System Administrator** - user who has access to all screens and can do anything
+* **Session Administrator** - user who has access everything related to the academic session(s) they are associated with (through their department)
+* **Departmental Schedule Manager** - user who has access to and can change the input course timetabling and examination data of certain department(s)
+* **Curriculum Manager** - user who has access to and can change the curricula for their department
+* **Examination Timetabling Manager** - user who has access to and can change and timetable examinations for the academic session of their department
+* **Event Manager** - user who can approve or reject events for rooms in their department
+* **View All User** - user who has access to the (timetabling) data of all departmental schedule managers but cannot make any changes
 
-Note: A user needs to be associated with at least one role.
+Additional roles can be defined on the [Roles](roles) page and their permissions on the [Permissions](permissions) page
+
+
+Additional notes about roles:
+* A user needs to be associated with at least one role.
+* For the department-dependent roles such as the *Departmental Schedule Manager* role or *Event Manager* role, the department (or departments) is required, and it will restrict the users to only data of their departments.
+* For the session-dependent roles such as the *Examination Manager* or *Session Administrator*, the department is used to associate the user with the academic session(s) they have access to
+* For the session-independent roles such as the *System Administrator*, no department is needed.
+
+## Update Academic Sessions
+
+Please note that all information except of the solver groups and departments are session-independent (there is one record for each timetabling manager shared between all the academic session). This means that a user cannot have a different role for different academic sessions or departments, but they may be associated with different departments or solver groups in each academic session.
+
+The **Update Academic Sessions** section allows to indicate any future academic sessions of the same academic initiative that will have the departments and solver groups updated with the matching information. By default, all academic sessions of the same academic initiative are pre-selected.
 
 ## Operations
 

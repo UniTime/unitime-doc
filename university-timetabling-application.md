@@ -306,12 +306,7 @@ The menu is split into five sections:
 * [Student Scheduling Rules](student-scheduling-rules)
 * [Examination Types](examination-types)
 * [Roles](roles)
-	* [Add Role](add-role)
-	* [Edit Role](edit-role)
-	* [Edit Roles](edit-roles)
 * [Permissions](permissions)
-	* [Edit Permission](edit-permission)
-	* [Edit Permissions](edit-permissions)
 
 ### Defaults
 
