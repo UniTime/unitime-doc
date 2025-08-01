@@ -208,8 +208,6 @@ The menu is split into five sections:
 	* [Edit Solver Group](edit-solver-group)
 * [Subject Areas](subject-areas)
 * [Buildings](buildings)
-	* [Add Building](add-building)
-	* [Edit Building](edit-building)
 * [Date Patterns](date-patterns)
 	* [Add Date Pattern](add-date-pattern)
 	* [Edit Date Pattern](edit-date-pattern)

@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Edit Role
-forward: roles
+forward: roles#edit-role
 ---

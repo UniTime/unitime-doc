@@ -10,7 +10,7 @@ The Roles page can be used to manage roles in UniTime. A role is a collection of
 
 ![Roles](images/roles-1.png){:class='screenshot'}
 
-## Details
+## Properties
 
 A role has a reference and a name. It can be enabled or disabled. A disabled role cannot be assigned to any authenticated user.
 
@@ -37,8 +37,32 @@ The reference of the roles **Anonymous**, **No Role**, **Student**, and **Instru
 
 ## Operations
 
-To edit or delete a role, click on the appropriate line. All the roles can be edited at once when the **Edit** button us used.
-
+### Add Role
 A new role can be added by clicking the **Add** button.
+
+![Roles](images/roles-2.png){:class='screenshot'}
+
+* Click **Save** to create a new rule
+* Click **Back** to return to the list without making any changes
+
+### Edit Role
+To edit or delete a role, click on the appropriate line.
+
+![Roles](images/roles-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next role respectively
+* Click **Delete** to delete a role. Roles that are being used cannot be deleted.
+
+### Edit Roles
+All the roles can be edited at once when the **Edit** button us used.
+
+![Roles](images/roles-4.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Roles that are being used cannot be deleted.
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Other
 
 The table can be ordered by any of the columns. To do so, click on the column header and select **Sort by ...** option. Use **Export CSV** or **Export PDF** to export the table in the appropriate format.

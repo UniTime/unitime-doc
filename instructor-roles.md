@@ -20,8 +20,33 @@ Each instructor of a department can be given a role. If a new person is looked u
 
 ## Operations
 
-To change or remove a role from an instructor, click on the appropriate line. All instructor roles can be edited at once with the **Edit** button.
+The table can be ordered by any of the columns. To do so, click on the column header and select **Sort by ...** option.
 
+The user needs to have Instructor Role Edit permission to be able to make changes.
+
+### Add Instructor Role
 A role can be assigned to a new instructor by clicking the **Add** button. This page also allow for adding a new person into the department.
 
-The table can be ordered by any of the columns. To do so, click on the column header and select **Sort by ...** option.
+![Instructor Roles](images/instructor-roles-2.png){:class='screenshot'}
+
+* Click ![Lookup](images/icon-lookup-person.png) to lookup a person. This will open the [People Lookup](people-lookup) dialog.
+* Click **Save** to create a new instructor role
+* Click **Back** to return to the list without making any changes
+
+### Edit Instructor Role
+To change or remove a role from an instructor, click on the appropriate line.
+
+![Instructor Roles](images/instructor-roles-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next instructor role respectively
+* Click **Delete** to delete an instructor role.
+
+### Edit Instructor Roles
+All instructor roles can be edited at once with the **Edit** button.
+
+![Instructor Roles](images/instructor-roles-4.png){:class='screenshot'}
+
+* Click ![Lookup](images/icon-lookup-person.png) to lookup a person. This will open the [People Lookup](people-lookup) dialog.
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes

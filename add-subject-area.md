@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Add Subject Area
-forward: subject-areas
+forward: subject-areas#add-subject-area
 ---

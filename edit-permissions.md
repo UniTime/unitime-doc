@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Edit Permissions
-forward: permissions
+forward: permissions#edit-permissions
 ---

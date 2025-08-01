@@ -47,6 +47,19 @@ The table with permissions has roles on top and permissions on the left. Roles c
 
 The table can be sorted by any of the column headers - click on the column header and then on **Sort by ...**
 
-Click on any line edit a particular permission (check to which of the existing roles it applies), or click on the **Edit** button to edit all the combinations of roles and their permissions at once.
-
 Permissions page can be accessed by users with Permissions permission, but only users with Permission Edit permission can make changes.
+
+### Edit Permission
+Click on any line edit a particular permission (check to which of the existing roles it applies).
+
+![Permissions](images/permissions-2.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next permission respectively
+
+### Edit Permissions
+Click on the **Edit** button to edit all the combinations of roles and their permissions at once.
+
+![Permissions](images/permissions-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes

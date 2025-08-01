@@ -46,18 +46,31 @@ Click on any subject area to edit it in the [Edit Subject Area](edit-subject-are
 
 ## Operations
 
-* **Add**: Add a new subject area
+### Add Subject Area
+Click **Add** to add a new subject area
 
 ![Subject Areas](images/subject-areas-2.png){:class='screenshot'}
 
-* Click a particular department to make changes or to delete a department
-	* Subject areas with a committed timetable cannot be deleted
+* Click **Save** to create a new subject area
+* Click **Back** to return to the list without making any changes
+
+### Edit Subject Area
+Click a particular subject area to make changes or to delete the subject area
 
 ![Subject Areas](images/subject-areas-3.png){:class='screenshot'}
 
-* **Edit**: Edit all subject areas
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next subject area respectively
+* Click **Delete** to delete a subject area. Subject areas with a committed timetable cannot be deleted.
+
+### Edit Subject Areas
+Click **Edit** to edit all subject areas
 
 ![Subject Areas](images/subject-areas-4.png){:class='screenshot'}
 
-* **Export CSV/PDF**
-	* Export the list of subject areas to a CSV/PDF document
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Subject areas with a committed timetable cannot be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of subject areas to a CSV or PDF document respectively
