@@ -10,7 +10,7 @@ The Solver Groups screen provides a list of solver groups for the current academ
 
 ![Solver Groups](images/solver-groups-1.png){:class='screenshot'}
 
-A solver group is a group of departments and managers where each of the managers can create (and commit) a timetable for all the given departments together. A department can only be in one solver group, but a manager can be a part of more than one solver group.
+A solver group is a group of [departments](departments) and [managers](timetable-managers) where each of the managers can create (and commit) a timetable for all the given departments together. A department can only be in one solver group, but a manager can be a part of more than one solver group.
 
 ## Details
 
@@ -38,11 +38,12 @@ Click on any solver group to edit it in the [Edit Solver Group](edit-solver-grou
 
 * **Delete All**
 	* Delete all existing solver groups for this academic session
+	* Only solver groups that do not have a [saved timetable](saved-timetables) will be deleted.
 
 * **Auto Setup**
 	* Automatically set up solver groups based on the list of managers (in the [Timetable Managers](timetable-managers) screen)
-		* Most of the departments form unique solver groups (a solver group is created for each of them)
-		* If there are a few departments with exactly the same managers, those departments will be placed in one solver group (with their managers)
+	* Most of the departments form unique solver groups (a solver group is created for each of them)
+	* If there are a few departments with exactly the same managers, those departments will be placed in one solver group (with their managers)
 
-* **Export PDF**
-	* Export the list of solver groups into a PDF document
+* **Export PDF/CSV**
+	* Export the list of solver groups into a PDF/CSV document
