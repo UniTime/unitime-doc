@@ -18,8 +18,11 @@ A time pattern defines how many times a week a class meets for how many minutes 
 	* Name of the time pattern (e.g., 1 x 50)
 
 * **Type**
-	* The format is "Number of meetings per week" x "Number of minutes per one meeting"; then select the range of times of day from the drop down menu; the range is for users' information only, since times of day are specified below
-		* If the type is Extended, only explicitly indicated departments (and administrators) have access to this time pattern (this time pattern is not visible as an option on classes and scheduling subparts that are managed by departments not listed on this time pattern)
+	* Type of the time pattern (**Standard**, **Evening**, **Saturday**, **Morning**, **Extended**, **Exact Time**)
+	* These types may be helpful for organizing the list of time patterns.
+		* On classes and scheduling subparts, time patterns are ordered based on these types (Standard time patterns first, then Evening, etc.)
+	* If the type is **Extended**, only explicitly indicated departments (and administrators) have access to this time pattern (this time pattern is not visible as an option on classes and scheduling subparts that are managed by departments not listed on this time pattern)
+	* The **Exact Time** type is special. There only needs to be one time pattern of this type created. When set on a class, the days of the week and the start time is selected directly on the class.
 
 * **Visible**
 	* When checked (checked by default), the time pattern will be available to users authorized to use it
@@ -27,10 +30,10 @@ A time pattern defines how many times a week a class meets for how many minutes 
 
 * **Number of slots per meeting**
 	* Number of five minute blocks necessary for the meeting
-		* The number should include break time after the actual meeting time; for example, if a class meeting lasts 50 minutes and then there should be a 10 minute break, the number of slots is 12
+	* The number should include break time after the actual meeting time; for example, if a class meeting lasts 50 minutes and then there should be a 10-minute break, the number of slots is 12
 
-* **Break time [minutes]**
-	* Indicate how many minutes from the end of the time allocated to the meeting (number of slots x 5) should be reserved for a break (in the example with a 50 minute slot, the break time would be 10 minutes - meaning that the last two slots out of 12 are actually a break time)
+* **Break time \[minutes\]**
+	* Indicate how many minutes from the end of the time allocated to the meeting (number of slots x 5) should be reserved for a break (in the example with a 50-minute slot, the break time would be 10 minutes - meaning that the last two slots out of 12 are actually a break time)
 
 * **Days**
 	* List days of week (or combinations of days of week) which should be available for the time pattern
