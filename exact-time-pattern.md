@@ -16,9 +16,9 @@ For example, if a 200 minute long class has an exact starting time set to MW 8:0
 
 So, if there are 24 slots for 100 minute long meeting (2 whole hours to be allocated) and 10 minutes break time, the printed end time will be 9:50 am.
 
-Note: Exact time should only be used in rare cases when the need for a non-standard times is so low that it does not justify establishing an ordinary time pattern.
+**Note:** Exact time should only be used in rare cases when the need for a non-standard times is so low that it does not justify establishing an ordinary time pattern.
 
-Exact times can only be used if there is a time pattern of type Exact Time created on the [Time Patterns](time-patterns) screen and it is visible (other attributes like type, number of slots per meeting, break time, days and start times are irrelevant for Exact Time pattern). Also, only departments that are associated with this Exact Time time pattern can use it (as for Extended time patterns).
+Exact times can only be used if there is a time pattern of type **Exact Time** created on the [Time Patterns](time-patterns) screen and it is visible (other attributes like type, number of slots per meeting, break time, days and start times are irrelevant for **Exact Time** pattern). Also, only departments that are associated with this **Exact Time** time pattern can use it (as for **Extended** time patterns).
 
 ## Details
 
@@ -32,15 +32,13 @@ Exact times can only be used if there is a time pattern of type Exact Time creat
 * **Break time**
 	* Indicates how many minutes out of the ending time slots should be allocated to a break after a meeting
 
-Example:
+### Example
 
-Number of minutes per meeting: 40
+* Number of minutes per meeting: 40
+* Number of slots per meeting: 10
+* Break time: 10
 
-Number of slots per meeting: 10
-
-Break time: 10
-
-Interpretation of these numbers: For a class that meets for 40 minutes, the total number of 50 minutes (= 10 time slots x 5 minutes) should be blocked on students' schedules, 40 for instructions and 10 for a break so that students can e.g. change locations to get to another class.
+*Interpretation of these numbers:* For a class that meets for 40 minutes, the total number of 50 minutes (= 10 time slots x 5 minutes) should be blocked on students' schedules, 40 for instructions and 10 for a break so that students can e.g. change locations to get to another class.
 
 ## Operations
 
