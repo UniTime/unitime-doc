@@ -160,7 +160,7 @@ Additional student **Schedule Quality** criteria that consider individual studen
 
 Additional criteria concerning student accommodations can be created. These can be registered using the [Create Student Accommodations Solver Configuration Parameters.xml](https://raw.githubusercontent.com/UniTime/unitime/refs/heads/master/Documentation/Scripts/Create%20Student%20Accommodations%20Solver%20Configuration%20Parameters.xml) script: Import the XML page using the [Data Exchange](data-exchange) page and then run the Student Scheduling: Student Accommodations Solver Configuration Parameters script using the [Scripts](scripts) page. There are the following criteria:
 * **Short Distances**: there is a short distance conflict for all students of the SD accommodation when two consecutive classes with non-zero travel time
-* **Bree Time**: higher penalization for time conflict between a class and a free time request for students with FT accommodation
+* **Free Time**: higher penalization for time conflict between a class and a free time request for students with FT accommodation
 * **Back-to-Back**: a back-to-back conflict (for students with BTB accommodation) occurs every time a student has two consecutive classes that are more than 30 minutes apart
 * **Break Between Classes**: a no-break-between-classes conflict (for students with BBC accommodation) occurs every time a student has two consecutive classes that are less than 30 minutes apart
 
