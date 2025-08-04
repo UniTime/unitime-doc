@@ -86,3 +86,5 @@ An event date mapping has a class date, an event date and a note. If multiple ma
 * Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
 * Click **Save** to make changes, **Back** to return to the list without making any changes
 
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of event date mappings to a CSV or PDF document respectively

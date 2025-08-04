@@ -26,3 +26,21 @@ It is also possible to attach examination managers to each examination type (for
 ## Notes
 
 The Examination Statuses permission is needed to access the page. Permission Examination Status Edit is needed to be able to make changes.
+
+### Edit Examination Status
+Click a particular examination type to make changes
+
+![Examination Statuses](images/examination-statuses-2.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next examination status respectively
+
+### Edit Examination Statuses
+Click **Edit** to edit all examination statuses
+
+![Examination Statuses](images/examination-statuses-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of examination statuses to a CSV or PDF document respectively
