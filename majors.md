@@ -6,18 +6,36 @@ title: Majors
 
 ## Screen Description
 
-The Majors screen provides an overview of majors for a given session. Its editable version (accessible by the Edit button) serves for setting up and editing the table.
+The Majors screen displays and allows editing of the list of available majors for the current academic session.
 
 ![Majors](images/majors-1.png){:class='screenshot'}
 
-## Details
+Majors are one of the student curricular properties, typically used to express a specialization. Each major belongs to a particular academic area. Student curriculum may contain the following items:
 
-**Table**
+* [Academic Area](academic-areas) (e.g., college or program of study)
+* [Academic Classification](academic-classifications) (e.g., year or semester of study)
+* [Major](majors) (e.g., specialization)
+* [Concentration](concentrations) (optional, e.g., program/specialization variant)
+* [Campus](campuses) (optional)
+* [Degree](degrees) (optional, e.g., Master, Bachelor or Certification)
+* [Program](programs) (optional)
 
-The table contains a major per line. The table can be sorted by any of its columns, just by clicking on the column header and then on the sorting option that opens.
+or
+
+* [Academic Area](academic-areas) (e.g., college or program of study)
+* [Academic Classification](academic-classifications) (e.g., year or semester of study)
+* [Minor](minors)
+
+A student may contain multiple tuples of (academic area, classification, major, concentration, campus, degree, program) and/or (academic area, classification, minor).
+
+## Properties
+
+Each major contains the following properties:
 
 * External Id
-	* External id of the major
+	* External ID of the major
+	* External IDs are only editable via the [XML import](https://www.unitime.org/uct_interfaces.php)
+	* Majors with an external ID cannot be deleted. The presence of the External ID indicates that the major has been imported from an external system.
 
 * Code
 	* Abbreviation/Code of the major
@@ -28,19 +46,37 @@ The table contains a major per line. The table can be sorted by any of its colum
 * Academic Area
 	* Academic area to which the major belongs
 
-* **+ icon** (in the editable version)
-	* Add a new line for a new major
-
-* **- icon** (in the editable version)
-	* Remove the major on this line
+A major may contain one or more concentrations (variants), there are editable on the [Concentrations](concentrations) screen.
 
 ## Operations
 
-* **Edit**
-	* Switch to the editable version of the screen to edit the table of majors
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-* **Save**
-	* Save changes made to the majors and go to the overview version of the screen
+### Add Major
+Click **Add** to add a new major
 
-* **Back**
-	* Go back to the overview version of the screen without saving any changes
+![Majors](images/majors-2.png){:class='screenshot'}
+
+* Click **Save** to create a new major
+* Click **Back** to return to the list without making any changes
+
+### Edit Major
+Click a particular major to make changes or to delete the major
+
+![Majors](images/majors-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next major respectively
+* Click **Delete** to delete a major. Majors with an external ID (i.e., that has been imported from an external system) cannot be deleted.
+
+### Edit Majors
+Click **Edit** to edit all majors
+
+![Majors](images/majors-4.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Majors with an external ID (i.e., that has been imported from an external system) cannot be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of majors to a CSV or PDF document respectively

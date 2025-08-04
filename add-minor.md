@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Add Minor
-forward: minors
+forward: minors#add-minor
 ---

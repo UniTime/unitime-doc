@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Edit Academic Classification
-forward: academic-classifications
+forward: academic-classifications#edit-academic-classification
 ---

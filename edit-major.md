@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Edit Major
-forward: majors
+forward: majors#edit-major
 ---
