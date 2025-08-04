@@ -26,12 +26,13 @@ The table of event statuses contains those pairs of "department, room type" for 
 * **Room Note**
 	* Event room note that is the default message for rooms of this type and this department when a new event (or meeting) is being created
 
+* **Event Email**
+	* When filled in, this email is automatically CC'ed on all the event approval emails related to this room or department + room type
+
 * **Break Time**
 	* Time for which the room needs to be blocked after the official end of an event for this type of room and this department (similar to a break time after a class)
 
-Clicking on the table header provides a menu for sorting and for indicating which columns should be visible in the table. It is also possible to collapse or expand all departments/types by clicking on the lightbulb sign in the upper left hand side corner of the table, then on Collapse All or on Expand All.
-
-Click on any line to get to the [Edit Event Status](edit-event-status) screen for the corresponding combination of a department and room type or room.
+Clicking on the table header provides a menu for sorting and for indicating which columns should be visible in the table. It is also possible to collapse or expand all departments/types by clicking on the lightbulb sign in the upper left-hand side corner of the table, then on Collapse All or on Expand All.
 
 If a room has no event status, room note, or break time defined, the fields default to the values that are set on the room type & department pair based on the type and event department of the room.
 
@@ -63,16 +64,13 @@ The event status can be set to one of the following:
 	* Only event managers are allowed to request an event, event managers are not allowed to approve an event.
 
 * Authenticated Users Can Request Events Automatically Approved
-
-* Any authenticated user can request an event, the event is automatically approved.
+	* Any authenticated user can request an event, the event is automatically approved.
 
 * Departmental Users Can Request Events Automatically Approved
-
-* Any instructor or timetable manager can request an event in a room of her/his department(s), the event is automatically approved.
+	* Any instructor or timetable manager can request an event in a room of her/his department(s), the event is automatically approved.
 
 * Event Managers Can Request Events Automatically Approved
-
-* Only event managers are allowed to request and event, the event is automatically approved.
+	* Only event managers are allowed to request and event, the event is automatically approved.
 
 There is a minimal set of permissions an authenticated user must have to be able to request an event (see the default event permissions for a No Role user). For departmental users, besides of timetabling managers, instructors of the appropriate department are also included (if the instructor role is allowed to request an event). For the event status check, event managers are all users with the Event Meeting Approve permission (which by default are users with the event manager role). Administrative users with Event Any Location permission override this status (they can request any location at any time).
 
@@ -106,7 +104,22 @@ If a room (or all rooms of a particular type and department, e.g., all centrally
 
 ## Operations
 
-* **Edit**
-	* Go to the [Edit Event Statuses](edit-event-statuses) screen to edit all event room type departmental statuses in one screen
+### Edit Event Status
 
-Click on any line to get to the [Edit Event Status](edit-event-status) screen for that event room type departmental status.
+Click on any line to get to edit the corresponding combination of a department and room type or room.
+
+![Event Statuses](images/event-statuses-7.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next department and room or room type respectively
+
+### Edit Event Statuses
+
+Click **Edit** to edit all event room type departmental statuses in one screen
+
+![Event Statuses](images/event-statuses-8.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively

@@ -230,8 +230,6 @@ The menu is split into five sections:
 * [Examination Periods](examination-periods)
 * [Event Date Mappings](event-date-mappings)
 * [Event Statuses](event-statuses)
-	* [Edit Event Status](edit-event-status)
-	* [Edit Event Statuses](edit-event-statuses)
 * [Instructor Roles](instructor-roles)
 * [Data Exchange](data-exchange)
 * [Roll Forward Session](roll-forward-session)
