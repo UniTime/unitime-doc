@@ -10,25 +10,32 @@ The Data Exchange page can be used to import and export XML files.
 
 ![Data Exchange](images/data-exchange-1.png){:class='screenshot'}
 
+
 ## Details
 
-### Export
+The various XML interfaces are described at [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php). It is also possible to call the Data Exchange programmatically using the [Data Exchange API](manuals/api#9data-exchange).
 
-Select type of data for export, check/uncheck the distribution options and click **Export**.
+If multiple exports or imports are initiated at once, they will all show in the **Data exchange in progress** table and will be executed one by one. Select the appropriate export/import to see the log. Click the **Refresh** button to refresh the log.
 
-The Data Import screen provides interface for importing data from XML files.
+### Data Import
 
-Note: In most cases, the existing data (for the selected academic session) are replaced by the content of the given XML file.
+Choose an XML file and click **Import**.
 
-### Import
+See the [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php) for the supported XML formats.
 
-Type in the location of a file or click on **Browse** and select a file where the data is stored, then click on **Import**.
+* In most cases, the existing data (for the selected academic session) is replaced by the content of the given XML file.
+    * A lot of XML imports can also be run in the incremental mode (only listed elements are updated). To enable this feature, the `incremental` attribute must be set to `true` in the supporting XML file (typically on the root element of the XML document).
+* Buildings and rooms are imported as external buildings and rooms; you need to use the Update Data operation on the [Buildings](buildings#update-data) page (menu Administration > Academic Sessions > Buildings) for the buildings and rooms to show up in the application.
+* Staff is imported into the staff table. To pull in the instructors, use the [Manage Instructor List](manage-instructor-list) operation on the [Instructors](instructors) page (menu Courses > Input Data > Instructors).
+* It is also possible to import a GZipped file, the extension must be `.xml.gz` in this case (or `.dat.gz` for the academic session import).
+* It is also possible to import multiple files at once, if the import file is a ZIP file (with the `.zip` extension) containing one or more XML files. The files are imported in the order they are listed in the ZIP file. There must be only files that can be imported in the ZIP file.
 
-The needed format is described at [https://www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php).
+### Data Export
 
+Select the type of data for export and click **Export**.
 
-### Notes
+Most of the available export types are the same XML formats that can be imported (see [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php) for more details). The **Academic Session** is the exception, which creates a binary file that can be used to copy the whole academic session (except for special events and not-committed course timetabling solutions) from one UniTime instance to another, or to duplicate an existing academic session by reimporting the exported session file.
 
-* Buildings and rooms are imported as external buildings and rooms, you need to use Update Data operation on [Buildings](buildings) page (menu Administration > Academic Sessions > Buildings) for the buildings and rooms to show up in the application. Global room features need to be crated before this update, and their abbreviation must match the roomFeature.feature attribute.
+### Options
 
-* Staff is imported into the staff table, to pull in the instructors use Manage Instructor List operation on the [Instructors](instructors) page (menu Courses > Input Data > Instructors).
+When the **Email** option is checked, the data exchange log and the exported file (in the case of the export) will be emailed at the provided email address once done.
