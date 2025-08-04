@@ -239,8 +239,6 @@ The menu is split into five sections:
 	* [Task Details](task-details)
 * [Reports](administration-reports)
 * [Point In Time Data Snapshots](point-in-time-data-snapshots)
-	* [Edit Point In Time Data Snapshot](edit-point-in-time-data-snapshot)
-	* [Edit Point In Time Data Snapshots](edit-point-in-time-data-snapshots)
 * [Limit and Projection Snapshot](limit-and-projection-snapshot)
 
 ### Solver

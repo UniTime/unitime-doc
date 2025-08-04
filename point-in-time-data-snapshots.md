@@ -14,9 +14,45 @@ The **Point In Time Data Snapshots** page allows the user to manage the Point In
 
 Since UniTime 4.2 the ability to export and import Point In Time Data snapshots to be used for reporting has existed.  The purpose of this page is to allow the user to manage these snapshots.
 
+The table has the following fields:
+
+* **Name**
+    * The name of the Point In Time Data Snapshot that is displayed in drop down menus.  UniTime creates a default name for each snapshot in the XML when it is exported.  It is expected this page will be used to update the name to something more meaningful.
+
+* **Note**
+    * A note providing more information about the Point In Time Data Snapshot.  UniTime creates a default note for each snapshot in the XML when it is exported.  It is expected this page will be used to update the note to be more descriptive.
+
+* **Snapshot Timestamp**
+    * The date and time the snapshot was taken.  UniTime sets this date in the xml file when the snapshot is exported.  The snapshot timestamp is not editable.
+
+* **Saved Successfully** 
+    * Indicates whether or not the XML import of the Point In Time Data Snapshot completed successfully.  If an import of a Point In Time Data Snapshot is not successful, the data is corrupt and the snapshot should be deleted.
+
 ## Operations
 
-Information about a particular Point In Time Data snapshot can be changed by clicking the appropriate line. Data about all Point In Time Data snapshots can be edited at once by clicking the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
+
+### Edit Point In Time Data Snapshot
+Click a particular snapshot to make changes or to delete the snapshot
+
+![Edit Point In Time Data Snapshot](images/edit-point-in-time-data-snapshot-1.png){:class='screenshot'}
+
+Once the import of a Point In Time Data Snapshot has completed if the snapshot has not been "Saved Successfully" it should be deleted.  The data is corrupt and will not produce accurate reports.
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next snapshot respectively
+* Click **Delete** to delete the snapshot
+
+### Edit Point In Time Data Snapshots
+Click **Edit** to edit all snapshots
+
+![Edit Point In Time Data Snapshots](images/edit-point-in-time-data-snapshots-1.png){:class='screenshot'}
+
+* Use the ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
 
 ## Notes
 
