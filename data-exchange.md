@@ -28,7 +28,7 @@ See the [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfa
 * Buildings and rooms are imported as external buildings and rooms; you need to use the Update Data operation on the [Buildings](buildings#update-data) page (menu Administration > Academic Sessions > Buildings) for the buildings and rooms to show up in the application.
 * Staff is imported into the staff table. To pull in the instructors, use the [Manage Instructor List](manage-instructor-list) operation on the [Instructors](instructors) page (menu Courses > Input Data > Instructors).
 * It is also possible to import a GZipped file, the extension must be `.xml.gz` in this case (or `.dat.gz` for the academic session import).
-* It is also possible to import multiple files at once, if the import file is a ZIP file (with the `.zip` extension) containing one or more XML files. The files are imported in the order they are listed in the ZIP file. There must be only files that can be imported in the ZIP file.
+* It is also possible to import multiple files at once, if the import file is a ZIP file (with the `.zip` extension) containing one or more XML files. The files are imported in the order they are listed in the ZIP file. There must be only files that can be imported in the ZIP file and no.
 
 ### Data Export
 
