@@ -231,6 +231,7 @@ The menu is split into five sections:
 * [Event Date Mappings](event-date-mappings)
 * [Event Statuses](event-statuses)
 * [Instructor Roles](instructor-roles)
+* [Learning Management Systems](learning-management-systems)
 * [Data Exchange](data-exchange)
 * [Roll Forward Session](roll-forward-session)
 * [Change Log](last-changes)
