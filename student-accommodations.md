@@ -73,7 +73,7 @@ Click **Edit** to edit all student accommodations
 * Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
 * Click the ![Edit](images/icon-lookup-person.png) icon to edit the list of students for the accommodation
 
-	![Student Accommodations](images/student-accommodations-7.png){:style='max-width:600px;'}
+	![Student Accommodations](images/student-accommodations-7.png){:style='max-width:50%;'}
 
 * Accommodations with an external ID (i.e., that has been imported from an external system) cannot be deleted
 * Click **Save** to make changes, **Back** to return to the list without making any changes
