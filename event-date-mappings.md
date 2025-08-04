@@ -51,8 +51,38 @@ If the user cannot add a new mapping (because there is a committed solution, or 
 
 ## Operations
 
-To edit or delete an event date mapping, click on the appropriate line, [Edit Event Date Mapping](edit-event-date-mapping) page will appear. All date mappings can be edited on the [Edit Event Date Mappings](edit-event-date-mappings) page. To do so, click on the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new mapping can be added on the [Edit Event Date Mappings](edit-event-date-mappings) page (button **Edit**) or using [Add Event Date Mapping](add-event-date-mapping) page (button **Add**).
+### Add Event Date Mapping
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
+Click **Add** to add a new event date mapping
+
+![Add Event Date Mapping](images/add-event-date-mapping-1.png){:class='screenshot'}
+
+An event date mapping has a class date, an event date and a note. If multiple mappings are defined, both class and event dates need to be unique (there cannot be two event date mappings with the same class date or the same event date). Both dates need to be within the given academic session and the class date should be different from the event date. The note is optional.
+
+* Click **Save** to create the new event date mapping. The button **Back** will get you back without creating any new mapping
+
+### Edit Event Date Mapping
+
+To edit or delete an event date mapping, click on the appropriate line.
+
+![Edit Event Date Mapping](images/edit-event-date-mapping-1.png){:class='screenshot'}
+
+An event date mapping has a class date, an event date and a note. If multiple mappings are defined, both class and event dates need to be unique (there cannot be two event date mappings with the same class date or the same event date). Both dates need to be within the given academic session and the class date should be different from the event date. The note is optional.
+
+* Click **Save** to update the modified event date mapping
+* Button **Back** will get you back without creating any new mapping
+* Click **Delete** to delete the event date mapping
+* If there are multiple event date mappings, the buttons **Previous** and **Next** can be used to save the current mapping and get to the Edit Event Date Mapping page for the previous / next mapping
+
+### Edit Event Date Mappings
+Click **Edit** to edit all event date mappings
+
+![Edit Event Date Mappings](images/edit-event-date-mappings-1.png){:class='screenshot'}
+
+An event date mapping has a class date, an event date and a note. If multiple mappings are defined, both class and event dates need to be unique (there cannot be two event date mappings with the same class date or the same event date). Both dates need to be within the given academic session and the class date should be different from the event date. The note is optional.
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+

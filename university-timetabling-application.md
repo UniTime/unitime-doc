@@ -226,6 +226,7 @@ The menu is split into five sections:
 * [Student Groups](student-groups)
 * [Student Accommodations](student-accommodations)
 * [Student Advisors](student-advisors)
+* [Examination Statuses](examination-statuses)
 * [Examination Periods](examination-periods)
 * [Event Date Mappings](event-date-mappings)
 * [Event Statuses](event-statuses)
