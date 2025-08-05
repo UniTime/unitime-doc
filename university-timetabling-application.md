@@ -244,11 +244,7 @@ The menu is split into five sections:
 ### Solver
 * [Manage Solvers](manage-solvers)
 * [Parameter Groups](solver-parameter-groups)
-	* [Add Solver Parameter Group](add-solver-parameter-group)
-	* [Edit Solver Parameter Group](edit-solver-parameter-group)
 * [Parameters](solver-parameters)
-	* [Add Solver Parameter](add-solver-parameter)
-	* [Edit Solver Parameter](edit-solver-parameter)
 * [Configurations](solver-configurations)
 	* [Add Solver Configuration](add-solver-configuration)
 	* [Edit Solver Configuration](edit-solver-configuration)

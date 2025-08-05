@@ -10,31 +10,60 @@ The Solver Parameters screen provides a list of parameters together with their p
 
 ![Solver Parameters](images/solver-parameters-1.png){:class='screenshot'}
 
-The values of the parameters in the Basic Settings can be changed by any user just before running the solver in the [Solver](solver) screen. The values of other parameters can be changed by administrator only e.g. in [Solver Configurations](solver-configurations).
+The values of the parameters in the Basic Settings can be changed by any user just before running the solver in the [Solver](solver) screen. The values of other parameters can be changed by administrator in [Solver Configurations](solver-configurations).
 
 **Note:** Changes to solver parameters can dramatically change the behavior of the solver, therefore it is not recommended to make changes unless you know very well what you are doing.
 
 ## Details
 
-* **Order**
-	* Click the **up** and **down** arrows to change the order of parameters as they are displayed in the [Add Solver Configuration](add-solver-configuration) or [Edit Solver Configuration](edit-solver-configuration) screen
+Each solver parameter group has the following properties:
 
-* **Name**
-	* Unique name of the parameter (the first part consists of the solver parameter group the parameter belongs to)
+* **Reference**
+	* Parameter reference
+	* This is the name needed by the solver, **do not change**
 
 * **Description**
-	* Description of the parameter as displayed e.g. in the [Add Solver Configuration](add-solver-configuration) screen
+	* Description of the parameter as displayed in the [Solver Configuration](solver-configurations)
 
 * **Type**
-	* Type of the parameter
+	* Type of the parameter (text, boolean, double, integer, or enum)
+	* The type is used on the [Solver Configurations](solver-configurations) to display a text field, a checkbox, or a drop-down.
 
 * **Default**
 	* Default value of the parameter
 
-Click on any solver parameter to go to its [Edit Solver Parameter](edit-solver-parameter) screen.
+* **Visible**
+	* Whether the solver parameter is visible in the [Solver Configuration](solver-configurations)
 
 ## Operations
 
-* **Add Solver Parameter**
-	* Add a new solver parameter for a given group in the [Add Solver Parameter](add-solver-parameter) screen
-		* Note: any parameter should be implemented and recognized by the solver before it is added here
+The page can be filtered by the solver parameter group. Click **Search** to populate the page based on the selected parameter group.
+
+### Add Solver Parameter
+Click **Add** to add a new solver parameter
+
+![Solver Parameters](images/solver-parameters-2.png){:class='screenshot'}
+
+* Click **Save** to create a new solver parameter
+* Click **Back** to return to the list without making any changes
+
+### Edit Solver Parameter
+Click a particular solver parameter to make changes or to delete the solver parameter
+
+![Solver Parameters](images/solver-parameters-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next solver parameter respectively
+* Click **Delete** to delete the solver parameter
+
+### Edit Solver Parameters
+Click **Edit** to edit all solver parameters or change their order which is used on the [Solver Configurations](solver-configurations) page.
+
+![Solver Parameters](images/solver-parameters-4.png){:class='screenshot'}
+
+* Use the ![Up](images/icon-up.png) and ![Down](images/icon-down.png) arrows to move a line up and down
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
