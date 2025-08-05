@@ -3,6 +3,16 @@ layout: default
 title: Examination Timetabling
 ---
 
+UniTime builds a complete exam schedule each term that minimizes the number of conflicting exam placements for all students. It can also minimize the number of occurrences of back-to-back exams or students with more than a given number of exams in a day. This is particularly useful for colleges and universities that frequently update class offerings or have a large number of multi-section courses that do not fit well into mapped exam timetables.
+
+UniTime can be used to create schedules for mid-term exams as well as for final exams.
+
+Please see the [system demonstration](https://demo.unitime.org) or [contact us](mailto:support@unitime.org) for more information.
+
+Additional resources:
+* [UniTime System Highlights](https://www.unitime.org/unitime_intro.php) [[pdf](https://www.unitime.org/present/unitime-highlights.pdf)]
+* [Real-life Examination Timetabling](https://www.unitime.org/papers/mista13.pdf)
+* [Benchmark Data Sets](https://www.unitime.org/exam_datasets.php)
 
 ## Examination Problem
 

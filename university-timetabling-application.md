@@ -105,7 +105,7 @@ Instructor scheduling module, see [Instructor Scheduling](instructor-scheduling)
 
 ## Students
 
-Student scheduling module. See [Student Scheduling](https://www.unitime.org/uct_students.php) for a brief description.
+Student scheduling module. See [Student Scheduling]((student-scheduling)) for a brief description.
 
 * [Student Scheduling Solver](student-scheduling-solver) 
 * [Student Scheduling Solver Log](student-scheduling-solver-log)

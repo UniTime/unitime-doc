@@ -11,10 +11,10 @@ UniTime is a comprehensive educational scheduling system that supports developin
 The system was originally developed as a collaborative effort by faculty, students, and staff at universities in North America and Europe. The software is distributed free under an open source license in hopes that other colleges and universities can benefit their students through better scheduling or wish to contribute to ongoing research in this area. The UniTime project has become a sponsored project of the [Apereo Foundation](https://www.apereo.org/) in March 2015.
 
 ### Components
-- [Course Timetabling & Management](https://www.unitime.org/uct_courses.php)
+- [Course Timetabling & Management](course-timetabling)
 - [Examination Timetabling](examination-timetabling)
-- [Event Management](https://www.unitime.org/uct_events.php)
-- [Student Scheduling](https://www.unitime.org/uct_students.php)
+- [Event Management](event-management)
+- [Student Scheduling](student-scheduling)
 - [Instructor Scheduling](instructor-scheduling)
 
 ### Documentation
