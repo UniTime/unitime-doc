@@ -247,7 +247,6 @@ The menu is split into five sections:
 * [Parameters](solver-parameters)
 * [Configurations](solver-configurations)
 * [Distribution Types](distribution-types)
-	* [Edit Distribution Type](edit-distribution-type)
 
 ### Other
 * [Instructional Types](instructional-types)
