@@ -246,8 +246,6 @@ The menu is split into five sections:
 * [Parameter Groups](solver-parameter-groups)
 * [Parameters](solver-parameters)
 * [Configurations](solver-configurations)
-	* [Add Solver Configuration](add-solver-configuration)
-	* [Edit Solver Configuration](edit-solver-configuration)
 * [Distribution Types](distribution-types)
 	* [Edit Distribution Type](edit-distribution-type)
 
