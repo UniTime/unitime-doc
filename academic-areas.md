@@ -62,7 +62,7 @@ Click a particular academic area to make changes or to delete the academic area
 
 * Click **Save** to make changes, **Back** to return to the list without making any changes
 * Click **Previous** or **Next** to save the changes and go to the previous or next academic area respectively
-* Click **Delete** to delete an academic area. Academic areas with an external ID (i.e., that has been imported from an external system) cannot be deleted.
+* Click **Delete** to delete the academic area. Academic areas with an external ID (i.e., that has been imported from an external system) cannot be deleted.
 
 ### Edit Academic Areas
 Click **Edit** to edit all academic areas

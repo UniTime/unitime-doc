@@ -22,8 +22,32 @@ Click on any line with an override type to get to its [Edit Override Type](edit-
 
 ## Operations
 
-* **Add**
-	* Go to the [Add Override Type](add-override-type) screen to add a new override type
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-* **Edit**
-	* Go to the [Edit Override Types](edit-override-types) screen to edit all the override types at once
+### Add Override Type
+Click **Add** to add a new override type
+
+![Add Override Type](images/add-override-type-1.png){:class='screenshot'}
+
+* Click **Save** to create a new override type
+* Click **Back** to return to the list without making any changes
+
+### Edit Override Type
+Click a particular override type to make changes or to delete the override type
+
+![Edit Override Type](images/edit-override-type-1.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next override type respectively
+* Click **Delete** to delete the override type.
+
+### Edit Override Types
+Click **Edit** to edit all override types
+
+![Edit Override Types](images/edit-override-types-1.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
