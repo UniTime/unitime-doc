@@ -24,8 +24,33 @@ If the Skill attribute type is not marked as required attribute, instructors wit
 
 ## Operations
 
-To edit or delete an attribute type, click on the appropriate line, [Edit Instructor Attribute Type](edit-instructor-attribute-type) page will appear. All the attribute types can be edited on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page. To do so, click on the **Edit** button. Only attribute types that are not being used can be deleted.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new attribute type can be added on the [Edit Instructor Attribute Types](edit-instructor-attribute-types) page (button **Edit**) or using [Add Instructor Attribute Type](add-instructor-attribute-type) page (button **Add**).
+### Add Instructor Attribute Type
+Click **Add** to add a new instructor attribute type
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
+![Add Instructor Attribute Type](images/add-instructor-attribute-type-1.png){:class='screenshot'}
+
+* Click **Save** to create a new instructor attribute type
+* Click **Back** to return to the list without making any changes
+
+### Edit Instructor Attribute Type
+Click a particular instructor attribute type to make changes or to delete the instructor attribute type
+
+![Edit Instructor Attribute Type](images/edit-instructor-attribute-type-1.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next instructor attribute type respectively
+* Click **Delete** to delete the instructor attribute type. Attribute types that are being used cannot be deleted.
+
+### Edit Instructor Attribute Types
+Click **Edit** to edit all instructor attribute types
+
+![Edit Instructor Attribute Types](images/edit-instructor-attribute-types-1.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Attribute types that are being used cannot be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
