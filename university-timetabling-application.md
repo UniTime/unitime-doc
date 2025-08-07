@@ -253,8 +253,6 @@ The menu is split into five sections:
 * [Class Duration Types](class-duration-types)
 * [Status Types](status-types)
 * [Room Types](room-types)
-	* [Add Room Type](add-room-type)
-	* [Edit Room Type](edit-room-type)
 * [Room Feature Types](room-feature-types)
 * [Course Types](course-types)
 * [Users](users-database-authentication)
