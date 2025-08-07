@@ -6,7 +6,9 @@ title: Room Feature Types
 
 ## Screen Description
 
-The Room Feature Types page can be used to categorize room features. Each room feature can have a room type (or no room type at all). Each room feature type has an abbreviation and a name. If the Event Management toggle is switched off, the room feature type and all its room features are not visible in the event management. This is useful for room features that are only important for course and examination timetabling.
+The Room Feature Types page can be used to categorize room features. Each room feature type has an abbreviation and a name. If the **Event Management** toggle is switched off, the room feature type and all its room features are not visible in the [event management](events). This is useful for room features that are only important for course and examination timetabling.
+
+Similarly, only room features of types with the **Instructor Survey** toggle switched on are available on the [Instructor Survey](instructor-survey) page that can be used to collect instructor preferences from individual instructors.
 
 ![Room Feature Types](images/room-feature-types-1.png){:class='screenshot'}
 
@@ -21,10 +23,7 @@ Once there are some room feature types defined, a room feature can have a type s
 
 ![Room Feature Types](images/room-feature-types-2.png){:class='screenshot'}
 
-Room features are also grouped together by their type on various page. Here is an example from the [Rooms](rooms) page, the same grouping will appear on the [Class Assignment](class-assignment) and [Examination Assignment](examination-assignment) page. Note that the room features with no type will remain in the Room Features category.
-
-
-![Room Feature Types](images/room-feature-types-3.png){:class='screenshot'}
+Room features are also grouped together by their type on various pages, such as [Edit Room](edit-rooom). Note that the room features with no type will remain in the Room Features category.
 
 The [Room Filter](events-room-filter) component (e.g., on the [Events](events)  pages) does group the room features by their type as well. Note that room feature types that have the event management unchecked do not show in the filter. Also, the room features with no type (if any) will remain in the FEATURE category.
 
@@ -43,8 +42,33 @@ And the room feature type does show in the brackets next to the feature name in 
 
 ## Operations
 
-To edit or delete an room feature type, click on the appropriate line, [Edit Room Feature Type](edit-room-feature-type) page will appear. All room feature types can be edited on the [Edit Room Feature Types](edit-room-feature-types) page. To do so, click on the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new room feature type can be added on the [Edit Room Feature Types](edit-room-feature-types) page (button **Edit**) or using [Add Room Feature Type](add-room-feature-type) page (button **Add**).
+### Add Room Feature Type
+Click **Add** to add a new room feature type
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
+![Room Feature Types](images/room-feature-types-7.png){:class='screenshot'}
+
+* Click **Save** to create a new room feature type
+* Click **Back** to return to the list without making any changes
+
+### Edit Room Feature Type
+Click a particular room feature type to make changes or to delete the room feature type
+
+![Room Feature Types](images/room-feature-types-8.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next room feature type respectively
+* Click **Delete** to delete the room feature type. Only room feature type that are not being used (do not have any room features) can be deleted.
+
+### Edit Room Feature Types
+Click **Edit** to edit all room feature types
+
+![Room Feature Types](images/room-feature-types-9.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Only room feature type that are not being used (do not have any room features) can be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
