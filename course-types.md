@@ -6,7 +6,7 @@ title: Course Types
 
 ## Screen Description
 
-The Course Types page allows to define types of courses and categorize courses based on these types. Each course offering can have no or one type associated with it. This allows for instance to distinguish between graduate and under graduate courses, to separate continuing education courses, etc.
+The Course Types page allows to define types of courses and categorize courses based on these types. Each course offering can have no or one type associated with it. This allows for instance to distinguish between graduate and undergraduate courses, to separate continuing education courses, etc.
 
 ![Course Types](images/course-types-1.png){:class='screenshot'}
 
@@ -23,8 +23,35 @@ When there are some course types defined, Type drop down will appear on the [Edi
 
 ## Operations
 
-To edit or delete a course type, click on the appropriate line, [Edit Course Type](edit-course-type) page will appear. All the course types can be edited on the [Edit Course Types](edit-course-types) page. To do so, click on the **Edit** button. Only course types that are not being used can be deleted.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new course type can be added on the [Edit Course Types](edit-course-types) page (button **Edit**) or using [Add Course Type](add-course-type) page (button **Add**).
+### Add Course Type
+Click **Add** to add a new course type
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by &lt;column name&gt; option.
+![Add Course Type](images/add-course-type.png){:class='screenshot'}
+
+A course type has an abbreviation and a name defined. Both abbreviations and names have to be unique.
+
+* Click **Save** to create a new course type
+* Click **Back** to return to the list without making any changes
+
+### Edit Course Type
+Click a particular course type to make changes or to delete the course type
+
+![Edit Course Type](images/edit-course-type-1.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next course type respectively
+* Click **Delete** to delete the course type. Only course types that are not being used (there is no course of that type) can be deleted.
+
+### Edit Course Types
+Click **Edit** to edit all course types
+
+![Edit Course Types](images/edit-course-types-1.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Only course types that are not being used (there is no course of that type) can be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of course types to a CSV or PDF document respectively
