@@ -70,3 +70,25 @@ If the number of meetings based on the date pattern exceeds the desired number o
 
 __Example:__ A class meeting for 28 semester hours needs to meet for 2 hours each week in a semester with 14 weeks (using a date pattern with 14 weeks). If the class meets once a week for 2 hours, due to the bounds, it is possible to pick a day of week with only 13 meetings (13 > 14 × 0.95), but not a day with 12 meetings (12 < 14 × 0.95). A date pattern with 15 weeks can be selected (15 < 14 × 1.10), but in this case, there will be only 13 meetings created in the appropriate class event (it will only meet on the 13th week if there is a week with no meeting before). Similarly, if a class meets twice for an hour each week, it needs to have at minimum of 26 meetings. So, for instance, if there are two public holidays on Monday, a 2 x 45 minutes class can use Monday (it would only miss 2 hours), while 1 x 90 can not (it would miss 4 hours).
 
+## Operations
+
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
+
+### Edit Class Duration Type
+
+Click a particular class duration type to make changes to the class duration type
+
+![Class Duration Types](images/class-duration-types-2.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next class duration type respectively
+
+### Edit Class Duration Types
+Click **Edit** to edit all class duration types
+
+![Class Duration Types](images/class-duration-types-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list to a CSV or PDF document respectively
