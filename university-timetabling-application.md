@@ -250,8 +250,6 @@ The menu is split into five sections:
 
 ### Other
 * [Instructional Types](instructional-types)
-	* [Add Instructional Type](add-instructional-type)
-	* [Edit Instructional Type](edit-instructional-type)
 * [Class Duration Types](class-duration-types)
 * [Status Types](status-types)
 	* [Add Status Type](add-status-type)
