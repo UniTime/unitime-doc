@@ -14,7 +14,7 @@ updated: April, 2019
 # Authentication
 
 
-API calls can use HTTP-simple authentication with a user created using the UniTime’s [Users](https://www.google.com/url?q=http://help.unitime.org/Users_Database_Authentication&sa=D&source=editors&ust=1707246816695707&usg=AOvVaw2hcSwCHfB3cTKSCyB2Z87C) page, or if enabled (by setting the application property unitime.api.canUseToken to true) it can authenticated via an API token. The API token can be passed as an additional attribute (named `token`) on any API call. The user must have a default role with the appropriate API permission. The API token is available on the Users page (when enabled), it is computed using the username and hashed password (changing password will also change the API token for a user).
+API calls can use HTTP-simple authentication with a user created using the UniTime’s [Users](../users-database-authentication) page, or if enabled (by setting the application property unitime.api.canUseToken to true) it can authenticated via an API token. The API token can be passed as an additional attribute (named `token`) on any API call. The user must have a default role with the appropriate API permission. The API token is available on the Users page (when enabled), it is computed using the username and hashed password (changing password will also change the API token for a user).
 
 
 

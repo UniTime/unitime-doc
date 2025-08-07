@@ -256,8 +256,6 @@ The menu is split into five sections:
 * [Room Feature Types](room-feature-types)
 * [Course Types](course-types)
 * [Users](users-database-authentication)
-	* [Add User](add-user)
-	* [Edit User](edit-user)
 * [Instructional Methods](instructional-methods)
 * [Override Types](override-types)
 * [Instructor Attribute Types](instructor-attribute-types)
