@@ -44,6 +44,10 @@ title: UniTime Documentation
 * UniTime Best Practices: [link](https://www.unitime.org/present/apereo17-workshop.pdf)
 * For other presentations see [https://www.unitime.org/presentations.php](https://www.unitime.org/presentations.php)
 
+## Frequently Asked Questions
+
+* [Splitting a Class](faq/splitting-a-class)
+* [Timetabling Student Cohorts](faq/timetabling-student-cohorts)
 
 ## Administrator Documentation
 
