@@ -18,4 +18,23 @@ A consent type has a reference (which cannot be changed), a name and an abbrevia
 
 ## Operations
 
-A particular consent type can be changed by clicking the appropriate line. All consents can be edited at once by clicking the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
+
+### Edit Offering Consent Type
+Click a particular offering consent type to make changes.
+
+![Offering Consent Types](images/offering-consent-types-2.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next offering consent type, respectively
+
+### Edit Offering Consent Types
+Click **Edit** to edit all offering consent types
+
+![Offering Consent Types](images/offering-consent-types-3.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of offering consent types to a CSV or PDF document, respectively.
+
