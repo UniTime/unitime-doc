@@ -263,6 +263,7 @@ The menu is split into five sections:
 * [Standard Notes](standard-event-notes)
 * [Event Service Providers](event-service-providers)
 * [Attachment Types](attachment-types)
+* [Preference Levels](preference-levels)
 * [Consent Types](offering-consent-types)
 * [Course Credit](course-credit)
 * [Course Credit Formats](course-credit-formats)
