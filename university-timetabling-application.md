@@ -261,8 +261,6 @@ The menu is split into five sections:
 * [Instructor Attribute Types](instructor-attribute-types)
 * [Sponsoring Organizations](sponsoring-organizations)
 * [Standard Notes](standard-event-notes)
-	* [Add Standard Event Note](add-standard-event-note)
-	* [Edit Standard Event Note](edit-standard-event-note)
 * [Event Service Providers](event-service-providers)
 * [Attachment Types](attachment-types)
 * [Consent Types](offering-consent-types)

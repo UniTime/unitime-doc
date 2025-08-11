@@ -27,9 +27,34 @@ Standard notes can be global (available to all event managers across all the aca
 	* Session: Event note is available to all event managers and administrators in the particular academic session
 	* Department: Event note is available to event managers and administrators when approving events from the selected department
 
-Click on any standard event note to get to its [Edit Standard Event Note](edit-standard-event-note) screen.
-
 ## Operations
 
-* **Add Standard Note** (Alt+A)
-	* Go to the [Add Standard Event Note](add-standard-event-note) screen to add a new standard event note
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
+
+### Add Standard Event Note
+Click **Add** to add a new standard event note
+
+![Standard Event Notes](images/standard-event-notes-2.png){:class='screenshot'}
+
+* Click **Save** to create a new standard event note
+* Click **Back** to return to the list without making any changes
+
+### Edit Standard Event Note
+Click a particular standard event note to make changes or to delete the standard event note
+
+![Standard Event Notes](images/standard-event-notes-2.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next standard event note respectively
+* Click **Delete** to delete the standard event note.
+
+### Edit Standard Event Notes
+Click **Edit** to edit all standard event notes
+
+![Standard Event Notes](images/standard-event-notes-3.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of standard event notes to a CSV or PDF document respectively
