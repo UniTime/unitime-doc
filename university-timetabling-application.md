@@ -260,8 +260,6 @@ The menu is split into five sections:
 * [Override Types](override-types)
 * [Instructor Attribute Types](instructor-attribute-types)
 * [Sponsoring Organizations](sponsoring-organizations)
-	* [Add Sponsoring Organization](add-sponsoring-organization)
-	* [Edit Sponsoring Organization](edit-sponsoring-organization)
 * [Standard Notes](standard-event-notes)
 	* [Add Standard Event Note](add-standard-event-note)
 	* [Edit Standard Event Note](edit-standard-event-note)
