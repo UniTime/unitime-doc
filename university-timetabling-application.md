@@ -255,7 +255,6 @@ The menu is split into five sections:
 * [Room Types](room-types)
 * [Room Feature Types](room-feature-types)
 * [Course Types](course-types)
-* [Users](users-database-authentication)
 * [Instructional Methods](instructional-methods)
 * [Override Types](override-types)
 * [Instructor Attribute Types](instructor-attribute-types)
@@ -271,12 +270,15 @@ The menu is split into five sections:
 * [Course Credit Units](course-credit-units)
 * [Position Types](position-types)
 * [Teaching Responsibilities](teaching-responsibilities)
+* [Instructor Survey Note Types](instructor-survey-note-types)
 * [Student Status Types](student-scheduling-status-types)
 * [Student Group Types](student-group-types)
 * [Student Scheduling Rules](student-scheduling-rules)
 * [Examination Types](examination-types)
+* [Contact Categories](contact-categories)
 * [Roles](roles)
 * [Permissions](permissions)
+* [Users](users-database-authentication)
 
 ### Defaults
 
@@ -300,7 +302,6 @@ The menu is split into five sections:
 * [Tips and Tricks](tips-and-tricks)
 * [FAQ](frequently-asked-questions)
 * Release Notes
-* [Contact Us](contact-us)
 
 ## Other Documents &amp; Pages
 * Timetables
