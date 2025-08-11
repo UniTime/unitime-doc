@@ -16,8 +16,22 @@ There are four types of credit formats supported in UniTime. Arrange hours forma
 
 ## Operations
 
-A particular course credit format can be changed by clicking the appropriate line. All formats can be edited at once by clicking the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-Use the **Export** buttons to export this page's content.
+### Edit Course Credit Format
+Click a particular course credit format to make changes.
 
+![Course Credit Formats](images/edit-course-credit-format-1.png){:class='screenshot'}
 
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next course credit format, respectively
+
+### Edit Course Credit Formats
+Click **Edit** to edit all course credit formats
+
+![Course Credit Formats](images/edit-course-credit-formats-1.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of course credit formats to a CSV or PDF document, respectively.

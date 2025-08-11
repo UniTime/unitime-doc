@@ -16,12 +16,33 @@ Each course credit type has a reference, a name, and an abbreviation. References
 
 ## Operations
 
-To edit or delete a credit type, click on the appropriate line, [Edit Course Credit Type](edit-course-credit-type) page will appear. All the credit types can be edited on the [Edit Course Credit Types](edit-course-credit-types) page. To do so, click on the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new credit type can be added on the [Edit Course Credit Types](edit-course-credit-types) page (button **Edit**) or using [Add Course Credit Type](add-course-credit-type) page (button **Add**).
+### Add Course Credit Type
+Click **Add** to add a new course credit type
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
+![Course Credit Types](images/add-course-credit-type.png){:class='screenshot'}
 
-Use the **Export** buttons to export this page's content.
+* Click **Save** to create a new course credit type
+* Click **Back** to return to the list without making any changes
 
+### Edit Course Credit Type
+Click a particular course credit type to make changes or to delete the course credit type
 
+![Course Credit Types](images/edit-course-credit-type.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next course credit type respectively
+* Click **Delete** to delete the course credit type. Course credit types that are being used cannot be deleted.
+
+### Edit Course Credit Types
+Click **Edit** to edit all course credit types
+
+![Course Credit Types](images/edit-course-credit-types.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Course credit types that are being used cannot be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of course credit types to a CSV or PDF document respectively

@@ -16,13 +16,35 @@ Each course credit unit has a reference, a name, and an abbreviation. References
 
 ## Operations
 
-To edit or delete a credit unit, click on the appropriate line, [Edit Course Credit Unit](edit-course-credit-unit) page will appear. All the credit units can be edited on the [Edit Course Credit Units](edit-course-credit-units) page. To do so, click on the **Edit** button.
+The table can be sorted by any of its columns, just by clicking on the column header and the sorting option that opens.
 
-A new credit unit can be added on the [Edit Course Credit Units](edit-course-credit-units) page (button **Edit**) or using [Add Course Credit Unit](add-course-credit-unit) page (button **Add**).
+### Add Course Credit Unit
+Click **Add** to add a new course credit unit
 
-The table can be ordered by any of the columns. To do so, click on the column header and select Sort by <column name> option.
+![Course Credit Units](images/add-course-credit-unit.png){:class='screenshot'}
 
-Use the **Export** buttons to export this page's content.
+* Click **Save** to create a new course credit unit
+* Click **Back** to return to the list without making any changes
 
+### Edit Course Credit Unit
+Click a particular course credit unit to make changes or to delete the course credit unit
+
+![Course Credit Units](images/edit-course-credit-unit.png){:class='screenshot'}
+
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+* Click **Previous** or **Next** to save the changes and go to the previous or next course credit unit respectively
+* Click **Delete** to delete the course credit unit. Course credit units that are being used cannot be deleted.
+
+### Edit Course Credit Units
+Click **Edit** to edit all course credit units
+
+![Course Credit Units](images/edit-course-credit-units.png){:class='screenshot'}
+
+* Use the ![Add](images/icon-add.png) icon to add a new line and ![Delete](images/icon-delete.png) to delete a line
+* Course credit units that are being used cannot be deleted
+* Click **Save** to make changes, **Back** to return to the list without making any changes
+
+### Export CSV/PDF
+Click the **Export CSV** or **Export PDF** to export the list of course credit units to a CSV or PDF document respectively
 
 
