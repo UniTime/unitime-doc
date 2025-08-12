@@ -26,7 +26,7 @@ The following settings are available
 
 * **Inherit instructor preferences on a class**
 	* Ask - Ask about inheritance when an instructor is added in the [Edit Class](edit-class) screen
-	* Always - Always apply instructor's preferences only for departmental???
+	* Always - Always apply instructor's preferences
 	* Never (default) - Never apply instructor preferences
 
 * **Display confirmation dialogs**
@@ -38,12 +38,13 @@ The following settings are available
 	* No (default) - Keep sorting classes in the detail screens by name
 
 * **Instructor name display format**
-	* Last-first
-	* First-last
-	* Initial-last
-	* Last-initial (default) - "Wachteunberg, V L"
-	* First-middle-last
-	* Short
+	* Last-first (Doe, Joe)
+	* First-last (Joe Doe)
+	* Initial-last (J M Doe)
+	* Last-initial (default; Doe, J M)
+	* First-middle-last (Joe Mark Doe)
+	* Short (J M Doe)
+	* Other options are available when registered on the [Default Manager Settings](default-manager-settings) page, see the [NameFormat](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/util/NameFormat.java) enum for the available options
 
 * **Display room features in one column**
 	* Yes (default) - All room features are listed in the Features column in the [Rooms](rooms) screen
@@ -65,6 +66,28 @@ The following settings are available
 	* All Week x Evening
 	* All Week x All Times
 
-Click on any setting to change its value in the [Edit Manager Setting](edit-manager-setting) screen.
+* **Display an icon or shortened text when ...**
+	* In the table, show an **icon**, a **shortened text**, or the **full text** of the note
 
-Settings can be added/removed by administrator in the [Default Manager Settings](default-manager-settings) screen which is placed in the Default section of the Administration part of the left hand side menu.
+* **Menu style**
+	* Dynamic On Top – Horizontal menu on the top of the page that moves with the window as the page is scrolled down.
+	* Static On Top - Same menu as Dynamic On Top, but it is included in the page (it does not scroll with the page).
+	* Tree On Side - Tree menu on the left side of the page, the closest to the menu in UniTime 3.1. It is fully collapsable and scrolls down with the page.
+	* Stack On Side - Similar to the tree menu, but only one top section of the menu (Courses, Students, Examinations, ...) can be opened at a time. It is fully collapsable and scrolls down with the page.
+
+## Operations
+
+Click the column header to sort the table by that column. The second click on the same header will reverse the order.
+
+### Edit Manager Setting
+
+Click on any setting to change its value
+
+![Edit Manager Setting](images/edit-manager-setting-1.png){:class='screenshot'}
+
+* The name of the setting appears on the first line. Click the radio box in front of the value of your choice and click **Update** to change the setting value for your profile.
+* Click **Back** to go back to the list of settings without making any changes.
+
+## Notes
+
+Settings can be added/removed by administrator in the [Default Manager Settings](default-manager-settings) screen which is placed in the Default section of the Administration menu.

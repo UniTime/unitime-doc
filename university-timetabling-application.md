@@ -181,7 +181,6 @@ User preferences, available to all authenticated users.
 * [Change Role](select-academic-session)
 * [Switch User](chameleon) (admin)
 * [Settings](manager-settings)
-	* [Edit Manager Setting](edit-manager-setting)
 
 ## Administration
 
@@ -284,8 +283,6 @@ The menu is split into five sections:
 
 * [Configuration](application-configuration)
 * [User Settings](default-manager-settings)
-	* [Add Default Manager Setting](add-default-manager-setting)
-	* [Edit Default Manager Setting](edit-default-manager-setting)
 * [Logging](logging-levels)
 
 ### Utilities
