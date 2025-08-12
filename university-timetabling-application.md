@@ -283,8 +283,6 @@ The menu is split into five sections:
 ### Defaults
 
 * [Configuration](application-configuration)
-	* [Add Application Setting](add-application-setting)
-	* [Edit Application Setting](edit-application-setting)
 * [User Settings](default-manager-settings)
 	* [Add Default Manager Setting](add-default-manager-setting)
 	* [Edit Default Manager Setting](edit-default-manager-setting)
