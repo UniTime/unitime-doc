@@ -24,7 +24,7 @@ The Default Manager Settings screen provides a list of settings that the schedul
 	* The default value of the setting
 
 * **Allowed Values**
-	* List of all possible values of the setting
+	* List of all possible values of the setting, one per line
 	* Can be localized by providing ```value:label``` on each line
 
 ## Operations
