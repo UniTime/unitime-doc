@@ -287,9 +287,10 @@ The menu is split into five sections:
 
 ### Utilities
 
+* [Access Statistics](access-statistics)
 * [Page Statistics](page-statistics)
-	* [Hibernate Statistics](hibernate-statistics)
-	* [Test HQL](test-hql)
+* [Hibernate Statistics](hibernate-statistics)
+* [Test HQL](test-hql)
 * [Scripts](scripts)
 
 ## Help
