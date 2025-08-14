@@ -6,7 +6,7 @@ title: Lookup Classes
 
 ## Screen Description
 
-Classes page is a variant of the [Events](events) page that allows to see all classes of a particular subject area or a course. The subject area or course can be entered in the Subject field.
+Classes page is a variant of the [Event Timetable](event-timetable) page that allows to see all classes of a particular subject area or a course. The subject area or course can be entered in the Subject field.
 
 
 ![Lookup Classes](images/lookup-classes-1.png){:class='screenshot'}

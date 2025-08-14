@@ -301,12 +301,12 @@ The menu is split into five sections:
 
 ## Other Documents &amp; Pages
 * Timetables
-	* [Examinations](exam-timetable)
-	* [Classes](class-timetable)
-	* [Personal Timetable](personal-timetable)
+	* [Lookup Classes](lookup-classes)
+	* [Lookup Examinations](lookup-examinations)
+	* [Personal Schedule](personal-schedule)
 * [Types of Distribution Preferences](types-of-distribution-preferences)
 * [Structure of Distribution Preferences](structure-of-distribution-preferences)
-* Current User
+* [Current User](current-user)
 * Solver
 	* [Solution Properties](solution-properties)
 	* [Class Assignment Properties](class-assignment-properties)

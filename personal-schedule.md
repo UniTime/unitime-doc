@@ -6,7 +6,7 @@ title: Personal Schedule
 
 ## Screen Description
 
-Personal Schedule page is a variant of the [Events](events) page that allows to see a schedule of a person.
+Personal Schedule page is a variant of the [Event Timetable](event-timetable#personal-timetable) page that allows to see a schedule of a person.
 
 ![Personal Schedule](images/personal-schedule-1.png){:class='screenshot'}
 

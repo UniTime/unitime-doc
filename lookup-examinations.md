@@ -6,7 +6,7 @@ title: Lookup Examinations
 
 ## Screen Description
 
-Examinations page is a variant of the [Events](events) page that allows to see all final and midterm examinations of a particular subject area or a course. The subject area or course can be entered in the Subject field.
+Examinations page is a variant of the [Event Timetable](event-timetable) page that allows to see all final and midterm examinations of a particular subject area or a course. The subject area or course can be entered in the Subject field.
 
 ![Lookup Examinations](images/lookup-examinations-1.png){:class='screenshot'}
 
