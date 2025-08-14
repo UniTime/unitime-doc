@@ -6,9 +6,13 @@ title: Test HQL
 
 ## Screen Description
 
-The Test HQL screen is a place to enter an [HQL](http://www.hibernate.org/hib_docs/reference/en/html/queryhql.html) query which uses the timetabling database and see the results of such query.
+The Test HQL screen is a place to enter an [HQL](https://docs.jboss.org/hibernate/orm/6.6/querylanguage/html_single/Hibernate_Query_Language.html) query which uses the timetabling database and see the results of such query.
 
 ![Test HQL](images/test-hql-1.png){:class='screenshot'}
+
+This page offers a place where HQL queries can be tested before they are turned into custom [HQL Reports](hql-reports).
+
+**Note:** If `%SESSION%` is used in the query, it will get automatically replaced by the unique ID of the current academic session. There are no other parameters available.
 
 ## Details
 
@@ -22,6 +26,12 @@ The Test HQL screen is a place to enter an [HQL](http://www.hibernate.org/hib_do
 
 * **Submit**
 	* Submit the query
+
+* **Clear Cache**
+	* Clear Hibernate L2 cache
+
+* **Export CSV**
+	* Export the resulting data in a CSV format
 
 ## Examples
 ```
@@ -39,6 +49,6 @@ select c from Class_ c inner join c.schedulingSubpart.instrOfferingConfig.instru
 
 ## Notes
 
-* You can find HQL documentation at [http://www.hibernate.org/hib_docs/v3/reference/en/html/queryhql.html](http://www.hibernate.org/hib_docs/v3/reference/en/html/queryhql.html)
+* You can find HQL documentation at [https://hibernate.org/orm/documentation/6.6](https://docs.jboss.org/hibernate/orm/6.6/querylanguage/html_single/Hibernate_Query_Language.html)
 
 * Timetabling hibernate model XML files can be found at [https://github.com/UniTime/unitime/tree/master/JavaSource](https://github.com/UniTime/unitime/tree/master/JavaSource)
