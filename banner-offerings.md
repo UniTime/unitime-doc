@@ -16,14 +16,12 @@ The Banner Offering form provides the functionality to resend classes that did n
 
 It also provides the user the opportunity to modify section ids, change the gradable subpart and change consent at the section level.
 
-Note: These types of changes do NOT require the user to click the resend button.
+**Note:** These types of changes do NOT require the user to click the resend button.
 
 ## Operations
 
 To make a change:
 
 * You can enter a particular subject and course, or just a particular subject. Hit **Search** button.
-
-* Click on the blue row containing the subject and course number on which you wish to work.
-
+* Click on the blue row containing the subject and course number on which you wish to work. This will open the [Banner Offering Detail](banner-offering-detail) page for the offering.
 * Click **Edit** button.

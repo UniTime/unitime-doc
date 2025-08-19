@@ -12,6 +12,6 @@ The Banner Message Responses screen allows you to search for instructional offer
 
 ## Details
 
-You may use the filter to search by subject area, course number, CRN, Action Type, Message, Cross-List ID, Start Date, Stop Date, Manager, or Department to retrieve up to 1,000 messages. The results may be viewed in either in PDF or CSV formats. All errors must be corrected within UniTime or Banner and the offering must be pushed to Banner again.
+You may use the filter to search by subject area, course number, CRN, Action Type, Message, Cross-List ID, Start Date, Stop Date, Manager, or Department to retrieve up to 1,000 messages. The results may be exported in either in PDF or CSV formats. All errors must be corrected within UniTime or Banner and the offering must be pushed to Banner again.
 
 In order to push these instructional changes to Banner, you must use the [Banner Offerings](banner-offerings) screen. Select the instructional offering you wish to resend. You will be redirected to the [Banner Offering Detail](banner-offering-detail) screen. From this screen, you will need to click the **Resend to Banner** button.

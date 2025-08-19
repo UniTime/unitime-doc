@@ -299,6 +299,25 @@ The menu is split into five sections:
 * [FAQ](frequently-asked-questions)
 * Release Notes
 
+## UniTime Banner Add-On
+
+These menu items are only available if UniTime has been built together with the [BannerAddOn](https://github.com/UniTime/unitime-addons). See [these instructions](manuals/banner-addon-instructions.md) for more details.
+
+### Banner Courses
+Menu: Courses > Banner
+* [Message Responses](banner-message-responses)
+* [Banner Offerings](banner-offerings)
+	* [Banner Offering Detail](banner-offering-detail)
+	* [Banner Offering Edit](banner-offering-edit)
+
+### Banner Administration
+Menu: Administration > Banner
+* [Manage Banner Sessions](banner-academic-sessions)
+* [Banner Term CRN Properties](banner-term-crn-properties)
+* [Banner Campus Overrides](banner-campus-overrides)
+* [Roll Forward Banner Session](roll-forward-banner-session)
+* [Instr Method Restrictions](banner-instructional-method-cohort-restrictions)
+
 ## Other Documents &amp; Pages
 * Timetables
 	* [Lookup Classes](lookup-classes)

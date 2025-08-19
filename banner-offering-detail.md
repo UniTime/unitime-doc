@@ -14,8 +14,8 @@ The Banner Offering Detail page provided Banner-related information about the se
 
 * Click the **Resend to Banner** button to send all the information about this offering to Banner again. Check the [Banner Message Responses](banner-message-responses) for any errors.
 
-* Click the **Edit** button to change some of the Banner-related data.
+* Click the **Edit** button to change some of the Banner-related data. This will open the [Banner Offering Edit](banner-offering-edit) page.
 
 ## Notes
 
-Note: If you do NOT see the Edit button, scroll to the right or use your control button and your mouse wheel to make the screen smaller. You may also need to  **Lock** the offering first when the online student scheduling is enabled.
+**Note:** If you do NOT see the Edit button, scroll to the right or use your control button and your mouse wheel to make the screen smaller. You may also need to  **Lock** the offering first when the online student scheduling is enabled.
