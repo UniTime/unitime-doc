@@ -65,8 +65,8 @@ Use this to update buildings and rooms when they have been imported using the [X
 The buildings and rooms XML import does not update the buildings and rooms directly, but the results are stored in external buildings and rooms tables.
 To update the rooms, you need to click on the **Update Data** button on the [Buildings](buildings) page.
 
-* By default, only new rooms are created, but there are additional properties (to be set on the [Application Configuration](application-configuration) page) that can change that, namely:
-		* `unitime.external.room.update.existing` ... also update existing rooms (when set to true, defaults to false)
-		* `unitime.external.room.update.existing.features` ... when updating existing rooms, also reset global room features
-		* `unitime.external.room.update.existing.departments` ... when updating existing rooms, also reset room departments
+By default, only new rooms are created. There are additional properties (to be set on the [Application Configuration](application-configuration) page) that can change that, namely:
+* `unitime.external.room.update.existing` ... also update existing rooms (when set to true, defaults to false)
+* `unitime.external.room.update.existing.features` ... when updating existing rooms, also reset global room features
+* `unitime.external.room.update.existing.departments` ... when updating existing rooms, also reset room departments
 
