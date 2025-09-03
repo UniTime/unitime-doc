@@ -21,11 +21,11 @@ Please note the nesting between the two lecture subparts (the second lecture is 
 Moreover, you can also create a [date pattern](../date-patterns) of the **Alternative Pattern Set** type, which can contain a selection of two or more date patterns. For example, you can have Week 1, Week 2, Week 3, ... date patterns, and create a One Week date pattern that contains Week 1, Week 2, ..., etc. In this case, the solver can choose which week the class will take place. Similarly, an Alternative Weeks date pattern can consist of Even Weeks and Odd Weeks date patterns. Or some more exotic combination.
 
 
-* So, for example, create a date pattern of the Alternative Pattern Set first, then edit each of the single-week date patterns and add them to this date pattern. It would look like this on the Date Patterns page:*
+* So, for example, create a date pattern of the Alternative Pattern Set first, then edit each of the single-week date patterns and add them to this date pattern. It would look like this on the Date Patterns page:
 
 ![Splitting a Class](images/splitting-a-class-2.png){:class='screenshot'}
 
-* This way, when the classes use this One Week date pattern (set the One Week as the date pattern on the Lecture subpart), the solver can choose which of the single-week date patterns to select for each class.*
+* This way, when the classes use this One Week date pattern (set the One Week as the date pattern on the Lecture subpart), the solver can choose which of the single-week date patterns to select for each class.
 
 To model a class following multiple date patterns (or to have multiple weekly meetings that do not start at the same time), you can split the subpart into multiple subparts. For example, instead of having Lec 1 that meets every week, there can be Lec 1 for the first meeting, Lec 1a for the second meeting, etc. These are usually modeled by scheduling subparts of the same instructional type and the number of classes that are nested under each other.
 
