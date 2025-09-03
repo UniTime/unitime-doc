@@ -62,7 +62,7 @@ Individual course requirements are listed on each course (on the [Instructional 
 
 * When a survey is submitted, the instructor cannot change it. A timetabling manager (typically a Schedule Deputy for the appropriate department can re-open the survey for the instructor and/or copy the information over to the instructor's preferences). Instructor Survey Admin permission is needed for that.
 
-* Additional columns for the Individual Course Requirements table can be configured using the Administration > Other > Instructor Survey Note Types page.
+* Additional columns for the Individual Course Requirements table can be configured using the Administration > Other > [Instructor Survey Note Types](instructor-survey-note-types) page.
 
 * For the Preferences & Requirements, it is possible to enable/disable which preference types the instructor will be able to see (e.g., Rooms can be disabled) or whether Required/Prohibited preferences are allowed, using the Administration > Defaults > [Configuration](application-configuration) page. See properties starting with unitime.instructorSurvey.
 	* This can also be configured individually for each department, adding department code in the property. E.g., to disable room preferences for department 101, set `unitime.instructorSurvey.roomPrefs.101` to false.
@@ -72,7 +72,6 @@ Individual course requirements are listed on each course (on the [Instructional 
 	* Parameter **session** can be used to select a particular academic session (e.g., session=Fal2010woebegon), or session=auto will automatically select the most recent academic session where the instructor survey is available for the instructor to fill in.
 	* `UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto` (explicitly going through authentication) 
 	* `UniTime/gwt.jsp?page=instructorSurvey&session=auto` (direct link)
-
 
 ### Instructor Survey section on the Instructor Detail page
 
