@@ -37,3 +37,11 @@ To delete all overrides on classes and keep only the subpart preferences, click 
 Preferences entered in the [Edit Class](edit-class) screen override preferences entered in the [Edit Scheduling Subpart](edit-scheduling-subpart) or [Instructor Preferences](instructor-preferences) screen.
 
 What you see in the [Class Detail](class-detail) screen are the preferences that will be used by the solver during timetabling (these preferences are displayed in many other screens that contain this class, such as [Instructional Offerings](instructional-offerings)). You will either see preferences entered directly on a class or subpart preferences or class/subpart preferences combined with instructor's preferences.
+
+### Highlight Class Preferences
+It is possible to let UniTime highlight preferences that are set directly on classes (as they override what is set on the upper levels). This can be done by setting `unitime.preferences.highlightClassPrefs` to `true` on the [Application Configuration](application-configuration) page.
+
+![Application Of Preferences](images/application-of-preferences-1.png){:class='screenshot'}
+
+### Hierarchical Subpart Preferences
+Also, suppose there are two or more scheduling subparts in a parent-child relation with the same instructional type (e.g., Lec - Lec a - Lec b stacked underneath). In that case, it is also possible to automatically inherit preferences and the date patterns from the parent subpart whenever possible by setting `unitime.preferences.hierarchicalInheritance` to `true` on the [Application Configuration](application-configuration) page (you would only need to set them up on the top-most level). See [Splitting a Class](faq/splitting-a-class) for more details.
