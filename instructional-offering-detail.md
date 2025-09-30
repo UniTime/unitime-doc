@@ -85,6 +85,9 @@ Note: **Previous** and **Next** are used to step through the list displayed on t
             * The course note that will be displayed in the online Schedule of Classes
         * **Demands From**
             * When the course demands are taken from another course, list the demand course
+        * **Associated Course**
+            * If both this course and the associated course are requested by a student, the student scheduling student solver cannot assign the student this course when the associated course is not assigned.
+            * Only used in student scheduling and when enabled. See the [Edit Course Offering](edit-course-offering) screen for more details.
         * **Consent**
             * The type of consent (if any is required) for the course
             * Consent types can be defined at the [Offering Consent Types](offering-consent-types) page in the Administration

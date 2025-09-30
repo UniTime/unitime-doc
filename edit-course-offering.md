@@ -85,6 +85,13 @@ Most of the information that you enter in the Edit Course Offering screen has to
 * **Prohibited Overrides**
     * If there are override types defined, it is possible to mark which of the override types students are prohibited from requesting for the course offering. See [Override Types](override-types) page for more details.
 
+* **Associated Course**
+    * If both this course and the associated course are requested by a student, the student scheduling student solver cannot assign the student this course when the associated course is not assigned.
+    * Only used in student scheduling, both batch ([Student Scheduling Solver](student-scheduling-solver)) and online ([Student Scheduling Assistant](student-scheduling-assistant)).
+    * Only available when the application property `unitime.sectioning.parentCourse` is set to true in the [Application Configuration](application-configuration)
+    * Only editable for users with the Edit Course Offering Associated Course permission (see [Permissions](permissions))
+    * Introduced in UniTime 4.9.82
+
 ## Operations
 
 * **Update** (Alt+U)
