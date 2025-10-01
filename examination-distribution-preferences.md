@@ -48,7 +48,7 @@ The list of distribution preferences has the following columns.
         * **Same Day** (optional)
             * Exams are to be placed on the same day.
             * When prohibited or (strongly) discouraged: exams are to be placed on different days.
-            * Not available by default, needs to be registered with the [Examination Same Day Constraint.xml](https://github.com/UniTime/unitime/commits/master/Documentation/Scripts/Examination%20Same%20Day%20Constraint.xml) script. To register, download the XML file and import it on the [Data Exchange](data-exchange) page, then run the Distribution Types: Same Day (Examination) script on the [Scripts](scripts) page.
+            * Not available by default, needs to be registered with the [Examination Same Day Constraint.xml](https://github.com/UniTime/unitime/blob/master/Documentation/Scripts/Examination%20Same%20Day%20Constraint.xml) script. To register, download the XML file and import it on the [Data Exchange](data-exchange) page, then run the Distribution Types: Same Day (Examination) script on the [Scripts](scripts) page.
 
 * **Examination**
     * The name of the examination (it is automatically generated from the classes/courses names unless overridden by the user in the [Edit Examination](edit-examination) screen)

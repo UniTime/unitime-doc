@@ -14,6 +14,7 @@ title: UniTime Documentation
 ## Manuals
 * [Course Timetabling Data Entry](manuals/courses-entry) (with Banner notes [link](manuals/courses-entry-banner))
 * [Course Timetabling Solver](manuals/courses-solver)
+* [Examination Timetabling](manuals/examination-timetabling)
 * [Event Management](manuals/events)
 * [Instructor Scheduling](manuals/instructor-scheduling)
 * [Event Manager Administrative Tasks](manuals/event-administration)

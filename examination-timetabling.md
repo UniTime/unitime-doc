@@ -10,6 +10,7 @@ UniTime can be used to create schedules for mid-term exams as well as for final 
 Please see the [system demonstration](https://demo.unitime.org) or [contact us](mailto:support@unitime.org) for more information.
 
 Additional resources:
+* [Examination Timetabling Manual](manuals/examination-timetabling)
 * [UniTime System Highlights](https://www.unitime.org/unitime_intro.php) [[pdf](https://www.unitime.org/present/unitime-highlights.pdf)]
 * [Real-life Examination Timetabling](https://www.unitime.org/papers/mista13.pdf)
 * [Benchmark Data Sets](https://www.unitime.org/exam_datasets.php)
