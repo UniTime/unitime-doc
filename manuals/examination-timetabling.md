@@ -79,6 +79,14 @@ Any global [room features](../room-features) and [room groups](../room-groups) c
 ### Room Availability
 The Examinations > Input Data > [Room Availability](../room-availability) page provides a list of events that overlap with the examination periods of the selected examination problem. This screen is useful when an institution does not use the Event Management section of UniTime and imports information about room availability from external resources (see more about that [here](../custom-room-availability)).
 
+## Student Class Enrollments
+
+To minimize student conflicts, the examination solver requires **student class enrollment** data to exist in UniTime. Students attending an exam are computed from the examination's association with one or more classes or courses.
+
+The student class enrollment data are produced by the [Student Scheduling](../student-scheduling) component of UniTime.
+
+Alternatively, student class enrollment data can be imported from an external system using the Administration > Academic Sessions > [Data Exchange](../data-exchange) page, using the [Student Class Enrollment XML](https://www.unitime.org/interface/studentEnrollmentImport.xml) data format (see the [XML Interfaces](https://www.unitime.org/uct_interfaces.php) for more details). The Student Course Requests XML format can also be used, provided it includes class enrollment data.
+
 ## Examination Statuses
 
 The Administration > Academic Session > [Examination Statuses](../examination-statuses) page can be used to change the examination status individually for each examination type. This examination status, if set, overrides the academic session status (for all users).
