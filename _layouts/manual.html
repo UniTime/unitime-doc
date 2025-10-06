@@ -35,11 +35,12 @@
     </div>
     <div class='container' style='text-align: justify; border-top: 2px solid #749ad1; padding: 10px;'>
         <table border='0' style="width:100%; vertical-align: middle; text-align: center; border: 1px solid black;">
-            <tr><td rowspan='3' style="border: none; border-right: 1px solid black; vertical-align: middle;"><img class='logo' src='../images/unitime-logo.png' height="80px"/></td>
+            <tr><td rowspan='4' style="border: none; border-right: 1px solid black; vertical-align: middle;"><img class='logo' src='../images/unitime-logo.png' height="80px"/></td>
             <td style="font-family: miriam-bold; font-size: 40px; border: none;">{{page.title}}</td>
             </tr>
             <tr><td style="border: none; padding-top: 10px;">{% if page.version %}UniTime Version: {{page.version}}{% endif %}</td></tr>
             <tr><td style="border: none;">{% if page.updated %}Last Updated: {{page.updated}}{% endif %}</td></tr>
+            <tr><td style="border: none; color:red;">{% if page.warn %}{{page.warn}}{% endif %}</td></tr>
         </table>
         {% if page.forward %}
         See <a href='{{ page.forward }}'>{{ page.forward }}</a> for more details.<br><br>

@@ -15,5 +15,6 @@ Please see the [system demonstration](https://demo.unitime.org) or [contact us](
 
 Additional resources:
 * [UniTime System Highlights](https://www.unitime.org/unitime_intro.php) [[pdf](https://www.unitime.org/present/unitime-highlights.pdf)]
+* [Student Scheduling Manual](manuals/student-scheduling)
 * [Comprehensive Approach to Student Sectioning](https://www.unitime.org/papers/patat08.pdf)
 * [Benchmark Data Sets](https://www.unitime.org/sct_datasets.php)

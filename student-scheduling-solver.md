@@ -50,6 +50,12 @@ The main input data for the solver, besides the course timetable, are the studen
         * Student Course Requests
         * Enrolled Student Course Demands
 
+* **Student Filter**
+    * The student filter can be used to restrict the population of students that are to be loaded into the solver.
+    * Other students who are already enrolled will still count toward the class, configuration, course, and reservation limits.
+    * This allows for scheduling the students in phases or waves, or separately for each department.
+    * The format of the Filter has the same format as the [Filter](scheduling-dashboard-filter) on the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) page, e.g., `area:A` or `major:M1 or major:M2` or `group:"My Students" and not major:M3`
+
 * **Host** (admin)
     * Select the server you want to run the solver on (setting "auto" means that the least occupied solver will be used; this is the default behavior for non-administrator users)
 

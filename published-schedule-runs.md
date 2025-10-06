@@ -32,6 +32,8 @@ The Published Schedule Runs shows all runs that have been published so far. The 
 
 * The Student Sectioning Solver Publish permission is needed for a user to be able to publish a scheduled run or to use the Published Schedule Runs page (Publish button will appear on the Student Scheduling Solver page).
 
-* It is possible to extend the when finished solver parameter (StudentSctBasic.WhenFinished) to allow for Publish or Publish and Unload.
+* It is possible to extend the **When finished** solver parameter (`StudentSctBasic.WhenFinished`) to allow for `Publish` or `Publish and Unload` in the [Solver Configurations](solver-configurations).
 
 * The currently published run also shows on the Manager Solvers page with the Solver Published status.
+
+* To Administration > Academic Sessions > [Task Scheduler](task-scheduler) page can be used to schedule the periodic test runs using the [Student Scheduling: Start Test Run](https://github.com/UniTime/unitime/blob/master/Documentation/Scripts/Student%20Scheduling%20Start%20Test%20Run.xml) script. To register the script, download the linked XML and import it using the [Data Exchange](data-exchange) page.
