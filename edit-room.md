@@ -154,8 +154,12 @@ The administrative page Edit Room allows the administrator to change properties 
 
 ## Operations
 
-* **Update**(Alt+U)
+* **Update Room** (Alt+U)
 	* Save changes and go back to the [Room Detail](room-detail) screen
+
+* **Delete Room** (Alt+D)
+    * Delete the room and go back to the [Rooms](rooms) screen
+    * Only room that has no partitions and that is not being used (there is no pending or approved event in the room) can be deleted
 
 * **Back** (Alt+B)
 	* Go back to the [Room Detail](room-detail) screen without saving any changes
