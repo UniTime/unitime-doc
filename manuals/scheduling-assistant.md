@@ -316,9 +316,7 @@ To navigate to the Course Requests grid and modify your course request, select t
 
 
 
-The Course Requests grid will list all courses you are currently registered for with a grey background and dark grey checkmark (
-
-![Student Scheduling Assistant](images/scheduling-assistant-18.png){:class='screenshot'}) next to them.
+The Course Requests grid will list all courses you are currently registered for with a grey background and dark grey checkmark (![Student Scheduling Assistant](images/scheduling-assistant-18.png)) next to them.
 
 
 

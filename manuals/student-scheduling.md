@@ -224,10 +224,99 @@ It is possible to extend the **When finished** solver parameter to allow for `Pu
 
 To Administration > Academic Sessions > [Task Scheduler](../task-scheduler) page can be used to schedule the periodic test runs using the [Student Scheduling: Start Test Run](https://github.com/UniTime/unitime/blob/master/Documentation/Scripts/Student%20Scheduling%20Start%20Test%20Run.xml) script. To register the script, download the linked XML and import it using the [Data Exchange](../data-exchange) page.
 
+## Solver Dashboard
+
+The Students > [Solver Dashboard](../batch-student-solver-dashboard) page can be used to check the solver results.
+
+![Batch Student Solver Dashboard](../images/batch-student-solver-dashboard-1.png){:class='screenshot'}
+
+When a solver run has been published, all personnel with the *Student Sectioning Solver Dashboard* [permission](../permissions) can use the page to see the results of the solver run that has been just published. This is particularly useful for the Schedule Managers to check which courses do not have enough space offered (zero *Available* space with students in the *Not-Enrolled* column), create time conflicts or have some reservations that are preventing students from getting in (there is still some space *Available* in the course, but still there are *Not-Enrolled* students). Similarly, the Advisors can use the page to check if their students are able to get the courses they need.
+
+For the user that has the solver loaded in memory (just below the page name, the solver status says *Awaiting commands ...* instead of *Solver Published*), the [Batch Student Solver Dashboard](../batch-student-solver-dashboard) page can be used to make manual schedule adjustments to individual students. To do so, on the **Students** tab, click on the student and then click the **Scheduling Assistant** button. While it is not possible to make changes to a published solution, an administrative user can load a published solution into the solver (on the [Published Schedule Runs](../published-schedule-runs) page click on the **Load** button) and publish it again once done (on the [Student Scheduling Solver](../student-scheduling-solver) page click on the **Publish** button).
+
+The Students > [Online Scheduling Dashboard](../online-student-scheduling-dashboard) can be used to monitor student pre-registrations (before a student scheduling solver has been saved) or the resulting student schedules (once a student scheduling solution has been saved). It is important to note the difference between these two dashboards, while they look similar (some features are only available in one or the other), they are populated by different data (loaded in the solver or saved in the database).
+
+For more details about the dashboard, please see the [Student Scheduling Dashboard Manual](scheduling-dashboard).
+
+## Solver Reports
+
+There is a set of solver-computed reports available on the Students > [Solver Reports](../batch-student-solver-reports) page. The page can be used to compute reports from the current student scheduling solver solution that is loaded in the solver, or from the published solution. The *Student Sectioning Solver Reports* [permission](../permissions) is needed to access this page.
+
+![Batch Student Solver Reports](../images/batch-student-solver-reports-1.png){:class='screenshot'}
+
+There are many reports, concentrating on various aspects of the student scheduling optimization and results, like time conflicts, availability conflicts, distance conflicts, section balancing, or unused reservations.
+
 # Online Student Scheduling
 
-*Work in progress...*
+During the online student scheduling, the students use the [Student Scheduling Assistant](../student-scheduling-assistant) to build their class schedule or make schedule changes. The [Online Student Scheduling Dashboard](../online-student-scheduling-dashboard) can be used to monitor student progress. Advising and the [Advisor Course Recommendations](../advisor-course-recommendations) page can still be used, though it has been primarily designed for pre-registration.
+
+To enable the online student scheduling, the [academic session](../academic-sessions) needs to be in a status that allows for *Online Scheduling* (in the *Student Scheduling* section, see Administration > Other > [Status Types](../status-types) for more details). Once the academic session status is change, all the necessary data will be loaded into the *Online Scheduling Server*, allowing for prompt responses even when the [Student Scheduling Assistant](../student-scheduling-assistant) page is used by hundreds of students at the same time. The admin can monitor the online scheduling servers on the Administration > Solver > [Manage Solvers](../manage-solvers) page.
+
+[Page access statistics and control](../access-statistics) is available for the [Student Scheduling Assistant](../student-scheduling-assistant) page. It can be configured using the following properties:
+* `unitime.accessControl.sectioning.activeLimitInMinutes`
+    * Number of minutes of inactivity for the user to get the Inactive Warning.
+    * Defaults to 15 minutes.
+* `unitime.accessControl.sectioning.maxActiveUsers`
+    * Maximal number of users using the page at the same time (not set or zero for disabled).
+    * Not set by default.
 
 ## Student Scheduling Assistant
 
-## Re-Scheduling & Wait-Listing
+The [Student Scheduling Assistant](../student-scheduling-assistant) helps students build a workable class schedule.  It takes a list of courses a student is interested in and determines the class sections the student needs to take in order to get as many of the courses being requested as possible.
+
+![Student Scheduling Assistant](../images/student-scheduling-assistant-4.png){:class='screenshot'}
+
+The Student Scheduling Assistant tries to calculate a schedule for the student based on the following criteria:
+
+* the student’s priority for the course
+* the student’s free time requests
+* the student must be able to attend all parts of the course
+* provide as many of the selected courses as possible
+* the distance between back-to-back classes
+* whether an overlap is allowed between two classes
+* keep existing schedule as much as possible
+* substitute courses are only used if a selected course is not available
+* a section choice that prevents the fewest future students from also getting the course
+
+Once the assistant has suggested a schedule a student can make changes to the schedule until she finds a combination of time for the classes that meets her needs.
+
+Additional information is available in the [Student Scheduling Assistant Manual](scheduling-assistant).
+
+
+### Wait-Listing
+
+If a course and the student status allow for wait-listing, it can be wait-listed on the **Course Requests** table using the **Wait-List** checkbox. Suppose the course is not available for the student, e.g., because it is full. In that case, it can also be wait-listed on the **List of Classes** (using the **Wait-List** checkbox on the line with the course) or on the [Alternatives](../alternatives-for-class) dialog when the course/class is clicked (using the **Wait-List** button).
+
+![Student Scheduling Assistant](../images/student-scheduling-assistant-6.png){:class='screenshot'}
+
+Additional properties can be entered on the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog when the wait-listed course is clicked from the **List of Classes** table.
+
+It is possible to wait-list for a course swap or a different section of the same course. In this case, the enrolled course that is to be replaced with the wait-listed course is selected on the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog. The original course is then also listed in the **Wait-Listed Courses** table (**Replaces** column).
+
+If the wait-listed course has alternatives provided on the **Course Requests**, these courses are also being wait-listed if they allow for wait-listing. That is, if space becomes available for the student in the alternative course before there is space available in the first-choice course, UniTime will enroll the student in the alternative course instead. The alternative courses are also listed in the **Wait-Listed Courses** table and in the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog.
+
+### Scheduling Assistant Settings
+
+A lot of the settings for the [Student Course Requests](#course-requests-settings) apply to the Scheduling Assistant page, too. 
+
+In order for students to have access to the [Student Scheduling Assistant](../student-scheduling-assistant), the *Student* role needs to have *Student Scheduling Can Register* [permission](../permissions). The *Student Scheduling Can Require Preferences* permission is needed to be able to mark class and instructional method preferences as required.
+
+If student statuses are being used (see Administration > Other > [Student Status Types](../student-scheduling-status-types)), the student's status must allow for **Assistant** for the page to be available and **Student Enroll** to make changes. The default student status is set on the Administration > Academic Sessions > [Academic Sessions](../academic-sessions) page; individual student statuses can be set on the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) or by advisors using the [Advisor Course Recommendations](../advisor-course-recommendations) page.
+
+A number of custom interfaces can be implemented to allow for, for example:
+
+* Integration with the Student Information System for student eligibility checking and enrollment changes ([StudentEnrollmentProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/StudentEnrollmentProvider.java))
+* Integration with an approval workflow for various registration errors ([SpecialRegistrationProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/SpecialRegistrationProvider.java) and [WaitListValidationProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/WaitListValidationProvider.java))
+* The full list is available in the [Customizations](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/Customization.java) enum.
+
+For example, please see the Purdue-specific [Student Scheduling Assistant Manual](scheduling-assistant-purdue).
+
+## Online Student Scheduling Dashboard
+
+The Students > [Online Scheduling Dashboard](../online-student-scheduling-dashboard) can be used to monitor student registration & enrollments, change student status, etc. 
+
+![Online Student Scheduling Dashboard](../images/online-student-scheduling-dashboard-4.png){:class='screenshot'}
+
+The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status.
+
+See [Student Scheduling Dashboard Manual](scheduling-dashboard) for additional documentation about the dashboard.
