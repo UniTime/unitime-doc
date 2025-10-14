@@ -250,15 +250,7 @@ There are many reports, concentrating on various aspects of the student scheduli
 
 During the online student scheduling, the students use the [Student Scheduling Assistant](../student-scheduling-assistant) to build their class schedule or make schedule changes. The [Online Student Scheduling Dashboard](../online-student-scheduling-dashboard) can be used to monitor student progress. Advising and the [Advisor Course Recommendations](../advisor-course-recommendations) page can still be used, though it has been primarily designed for pre-registration.
 
-To enable the online student scheduling, the [academic session](../academic-sessions) needs to be in a status that allows for *Online Scheduling* (in the *Student Scheduling* section, see Administration > Other > [Status Types](../status-types) for more details). Once the academic session status is change, all the necessary data will be loaded into the *Online Scheduling Server*, allowing for prompt responses even when the [Student Scheduling Assistant](../student-scheduling-assistant) page is used by hundreds of students at the same time. The admin can monitor the online scheduling servers on the Administration > Solver > [Manage Solvers](../manage-solvers) page.
-
-[Page access statistics and control](../access-statistics) is available for the [Student Scheduling Assistant](../student-scheduling-assistant) page. It can be configured using the following properties:
-* `unitime.accessControl.sectioning.activeLimitInMinutes`
-    * Number of minutes of inactivity for the user to get the Inactive Warning.
-    * Defaults to 15 minutes.
-* `unitime.accessControl.sectioning.maxActiveUsers`
-    * Maximal number of users using the page at the same time (not set or zero for disabled).
-    * Not set by default.
+To enable the online student scheduling, the [academic session](../academic-sessions) needs to be in a status that allows for *Online Scheduling* (in the *Student Scheduling* section, see Administration > Other > [Status Types](../status-types) for more details). Once the academic session status is changed, all the necessary data will be loaded into the *Online Scheduling Server*, allowing for prompt responses even when the [Student Scheduling Assistant](../student-scheduling-assistant) page is used by hundreds of students at the same time. The admin can monitor the online scheduling servers on the Administration > Solver > [Manage Solvers](../manage-solvers) page.
 
 ## Student Scheduling Assistant
 
@@ -274,11 +266,11 @@ The Student Scheduling Assistant tries to calculate a schedule for the student b
 * provide as many of the selected courses as possible
 * the distance between back-to-back classes
 * whether an overlap is allowed between two classes
-* keep existing schedule as much as possible
+* keep the existing schedule as much as possible
 * substitute courses are only used if a selected course is not available
 * a section choice that prevents the fewest future students from also getting the course
 
-Once the assistant has suggested a schedule a student can make changes to the schedule until she finds a combination of time for the classes that meets her needs.
+Once the assistant has suggested a schedule, a student can make changes to the schedule until she finds a combination of times for the classes that meets her needs.
 
 Additional information is available in the [Student Scheduling Assistant Manual](scheduling-assistant).
 
@@ -291,9 +283,30 @@ If a course and the student status allow for wait-listing, it can be wait-listed
 
 Additional properties can be entered on the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog when the wait-listed course is clicked from the **List of Classes** table.
 
+![Alternatives for Class](../images/wait-list-preferences-for-a-course.png){:class='screenshot'}
+
 It is possible to wait-list for a course swap or a different section of the same course. In this case, the enrolled course that is to be replaced with the wait-listed course is selected on the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog. The original course is then also listed in the **Wait-Listed Courses** table (**Replaces** column).
 
 If the wait-listed course has alternatives provided on the **Course Requests**, these courses are also being wait-listed if they allow for wait-listing. That is, if space becomes available for the student in the alternative course before there is space available in the first-choice course, UniTime will enroll the student in the alternative course instead. The alternative courses are also listed in the **Wait-Listed Courses** table and in the [Wait-List Preferences](../wait-list-preferences-for-a-course) dialog.
+
+
+### Re-Scheduling
+
+When re-scheduling is enabled, students can be automatically moved around the course when there is a course change. This happens when an instructional offering is being unlocked (the **Unlock** button is clicked on the [Instructional Offering Detail](../instructional-offering-detail) page, *reload-offering* action) or when the online scheduling server is being reloaded (*check-offering* action). Changes are only made to the course that is being updated (the rest of the student's schedule is left untouched), allowing students to be moved when
+
+- a student is enrolled in a class that has been cancelled, *(e.g., a class has been cancelled)*
+- a student has a time conflict that is not allowed, i.e., *(e.g., a class has been moved to a different time)*
+  - they do not have an individual [reservation](../edit-reservation) or a reservation override that has the *Allow Time Conflict* checked,
+  - the [scheduling subpart](../edit-scheduling-subpart) does not allow for *Student Overlaps*,
+  - and there is no matching *Ignore Student Conflicts* distribution preference,
+- a student has an incomplete or an invalid enrollment *(e.g., a course configuration has been changed and a new scheduling subpart added)*
+  - a student needs one class of each scheduling subpart of one course configuration, following the parent-child relations when defined.
+
+Students will **not be moved** when a class, configuration, reservation, or offering limit is decreased (when the enrollment gets over the limit), or when student scheduling is disabled for a class.
+
+Students are processed in the order of the course priority (position of the course on the [Course Requests](../student-course-requests) table), each student with a problem (one of the three listed above) is either moved to some other enrollment (UniTime will try to keep as much of the existing registration or their original timetable as possible) or dropped from the course when no possible enrollment is available for the student. If wait-listing is enabled, the dropped student is wait-listed for the course with the wait-listing timestamp set to the original enrollment date (to retain the enrollment order).
+
+If wait-listing is enabled, the students wait-listed for the course are processed just after the re-scheduling is done. So, for example, when a new class is added or a class limit is increased, the wait-listed students will get automatically enrolled if the new enrollment does not conflict with the rest of their schedule. However, students that do not have a problem, or are not being wait-listed, are kept where they are even if moving them would allow for some other student to get in.
 
 ### Scheduling Assistant Settings
 
@@ -303,11 +316,77 @@ In order for students to have access to the [Student Scheduling Assistant](../st
 
 If student statuses are being used (see Administration > Other > [Student Status Types](../student-scheduling-status-types)), the student's status must allow for **Assistant** for the page to be available and **Student Enroll** to make changes. The default student status is set on the Administration > Academic Sessions > [Academic Sessions](../academic-sessions) page; individual student statuses can be set on the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) or by advisors using the [Advisor Course Recommendations](../advisor-course-recommendations) page.
 
+Courses of a particular [Course Type](../course-types) can be made unavailable for students to select on the [Student Scheduling Assistant](../student-scheduling-assistant) page, when the appropriate course type is not allowed on the [student scheduling status](../student-scheduling-status-types). Such a course does not show up in the [Course Finder](../course-finder) dialog. Courses controlled by a [department](../departments) that does not have **Student Scheduling** enabled will also not be available for the students to find and select. This can be further adjusted using the [Student Scheduling Rules](../student-scheduling-rules).
+
+[Page access statistics and control](../access-statistics) is available for the [Student Scheduling Assistant](../student-scheduling-assistant) page. It can be configured using the following properties:
+* `unitime.accessControl.sectioning.activeLimitInMinutes`
+    * Number of minutes of inactivity for the user to get the Inactive Warning.
+    * Defaults to 15 minutes.
+* `unitime.accessControl.sectioning.maxActiveUsers`
+    * Maximal number of users using the page at the same time (not set or zero for disabled).
+    * Not set by default.
+
+#### Notifications
+
+Students can be automatically emailed about a change in their schedule using the various notifications. These are configured with the [student statuses](../student-scheduling-status-types), with the following **Notifications** options:
+
+* **Student Request Change** Student made a change on the [Student Course Requests](student-course-requests) page
+* **Student Enrollment Change** Student made a schedule change on the [Student Scheduling Assistant](student-scheduling-assistant) page
+* **Admin Request Change** Admin or advisor made a change on the [Student Course Requests](student-course-requests) page
+* **Admin Enrollment Change** Admin or advisor made a schedule change on the [Student Scheduling Assistant](student-scheduling-assistant) page
+* **Enrollment Approval** Consent has been approved or denied
+* **Course Schedule Change** A class that the student has enrolled in has been moved to a different time and/or room
+* **Course Enrollment Change** There has been a change in the student schedule due to wait-listing or re-scheduling (e.g., student was moved from a cancelled class)
+* **Course Failed Enrollment Change** An automatic enrollment change has failed (when an external enrollment provider is used)
+* **External Enrollment Change** Student schedule has been changed externally (outside the UniTime user interface)
+
+The student notifications can also be adjusted by setting `unitime.enrollment.email.` properties in the [Application Configuration](../application-configuration).
+
+Instructors can also be notified about a schedule change of a class they are assigned to. These can be configured by the following [Application Configuration](../application-configuration) settings:
+
+* Set `unitime.notifications.instructorChanges.enabled` to true to enable instructor notifications (defaults to false).
+* Set `unitime.notifications.instructorChanges.checkNotificationDates` to true to automatically email instructors about their schedule changes only during the notification dates set on the [academic session](../academic-sessions).
+* Set `unitime.notifications.instructorChanges.checkAssignment` to true to notify instructors about class assignment changes (class assigned/removed to/from an instructor).
+* Set `unitime.notifications.instructorChanges.checkCancellations` to true to notify instructors about class cancellation changes (assigned class cancelled or reopened).
+* Set `unitime.notifications.instructorChanges.includeLink` to true to include the link to UniTime in the instructor email notification ([Personal Schedule](../personal-schedule); UniTime URL needs to be configured using `unitime.url`)
+* Set `unitime.notifications.instructorChanges.includeSchedule` to true to include the list of all currently assigned classes that the instructor has in the email notification.
+* Set `unitime.notifications.instructorChanges.checkTime` to true to notify instructors about class time changes (class assigned to an instructor has a different time).
+* Set `unitime.notifications.instructorChanges.checkRoom` to true to notify instructors about class room changes (class assigned to an instructor has a different room)
+* Set `unitime.notifications.instructorChanges.checkShare` to true to notify instructors about check/display instructor's percent share, responsibility, and check for conflict changes (defaults to false).
+
+#### Wait-Listing & Re-Scheduling
+
+The wait-listing (or re-scheduling) of each course can be turned on or off on the [Edit Course Offering](../edit-course-offering) page for the controlling course, using the Wait-Listing dropdown. It has the following options:
+
+* **Wait-Listing Enabled** Wait-listing is enabled for the instructional offering.
+* **Re-Scheduling Enabled**: Wait-listing is not enabled; however, students can be automatically re-scheduled for the instructional offering.
+* **Wait-Listing Disabled** Wait-listing and re-scheduling are not enabled for the instructional offering.
+
+There are a few [Application Configuration](../application-configuration) parameters related to wait-listing and re-scheduling, namely:
+
+* `unitime.offering.waitListDefault` default setting for the Wait-Listing of a course (defaults to Disabled, can also be set to Wait-Listing or Re-Scheduling)
+* `unitime.enrollment.waitList.showWaitListPosition` allows students to see their position on the wait-list (defaults to true)
+* `unitime.offering.waitListFilter` enable Wait-List filter on the [Instructional Offerings](../instructional-offerings) page (defaults to false)
+
+Only students who have the **Wait-Listing** enabled in their [student status](../student-scheduling-status-types) can wait-list for a course, and only students who have the **Re-Scheduling** enabled in their [student status](../student-scheduling-status-types) may be automatically re-scheduled when there is a change in a course that allows for wait-listing or re-scheduling. The setup may also allow for wait-listing and/or re-scheduling to only happen during a certain time window, by setting the start/end dates on the status and with a fallback to a status that does not allow for wait-listing and/or re-scheduling.
+
+By default, wait-listed students are ordered by:
+
+- Course request priority (e.g., requests marked as [Vital by the advisor](#recommendation-settings) go first)
+- Student request priority (Priority students first, then Senior, then Junior, then Sophomore, then Freshmen, then students not in a [priority group](#student-priority))
+- First choice courses before alternatives (when a course with alternatives is wait-listed)
+- Wait-listed timestamp (when the student wait-listed the course)
+
+This can be changed by setting `unitime.custom.WaitListComparatorProvider` with a class implementing the [WaitListComparatorProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/WaitListComparatorProvider.java) class.
+* **Tip:** Set it to [org.unitime.timetable.onlinesectioning.custom.purdue.TimeStampOnlyWaitListComparatorProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/purdue/TimeStampOnlyWaitListComparatorProvider.java) to only consider time stamps.
+
+#### Scheduling Integrations
+
 A number of custom interfaces can be implemented to allow for, for example:
 
 * Integration with the Student Information System for student eligibility checking and enrollment changes ([StudentEnrollmentProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/StudentEnrollmentProvider.java))
 * Integration with an approval workflow for various registration errors ([SpecialRegistrationProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/SpecialRegistrationProvider.java) and [WaitListValidationProvider](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/WaitListValidationProvider.java))
-* The full list is available in the [Customizations](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/Customization.java) enum.
+* The full list of customizations is available in the [Customizations](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/onlinesectioning/custom/Customization.java) enum.
 
 For example, please see the Purdue-specific [Student Scheduling Assistant Manual](scheduling-assistant-purdue).
 
@@ -317,6 +396,6 @@ The Students > [Online Scheduling Dashboard](../online-student-scheduling-dashbo
 
 ![Online Student Scheduling Dashboard](../images/online-student-scheduling-dashboard-4.png){:class='screenshot'}
 
-The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status.
+The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of the instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status.
 
 See [Student Scheduling Dashboard Manual](scheduling-dashboard) for additional documentation about the dashboard.
