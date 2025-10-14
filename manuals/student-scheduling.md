@@ -2,7 +2,6 @@
 layout: manual
 title: Student Scheduling Manual
 updated: October 2025
-warn: Work in progress!
 ---
 
 ### Table of Contents
