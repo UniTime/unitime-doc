@@ -398,3 +398,10 @@ The Students > [Online Scheduling Dashboard](../online-student-scheduling-dashbo
 The Online Student Scheduling Dashboard screen provides a tool for displaying a given set of course requests/student enrollments or students. The page also displays information from the sectioning log (either for a particular student or by a given filter). The page is available for administrators, scheduling deputies (can approve consent), student advisors (can change student enrollment), and course coordinators (can approve consent of the instructor). Course coordinators can only see courses that are assigned to them. The page has extensive filtering capabilities (by the student, group, curriculum, course, subject, consent, ...). It is possible to email students and/or change their scheduling status.
 
 See [Student Scheduling Dashboard Manual](scheduling-dashboard) for additional documentation about the dashboard.
+
+# Additional Documentation
+
+There are also the following manuals:
+* Student Course Requests Manual (Purdue specific [link](course-requests-purdue))
+* [Student Scheduling Assistant Manual](scheduling-assistant) (Purdue specific [link](scheduling-assistant-purdue))
+* [Student Scheduling Dashboard Manual](scheduling-dashboard) (Purdue specific [link](scheduling-dashboard-purdue))
