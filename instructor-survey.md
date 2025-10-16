@@ -68,10 +68,14 @@ Individual course requirements are listed on each course (on the [Instructional 
 	* This can also be configured individually for each department, adding department code in the property. E.g., to disable room preferences for department 101, set `unitime.instructorSurvey.roomPrefs.101` to false.
 	* The days and times of the time preferences can be configured using the `unitime.instructorSurvey.timePrefs` property. The format is `first day|last day|first slot|last slot|increment`, e.g., `0|4|90|246|12` means Monday - Friday, starting at 7:30 am, ending at 8:30 pm, in one-hour increments
 
-* It is possible to create a URL that opens the Instructor Survey page after an instructor has logged into UniTime by using the following URL (for example, see [here](https://demo.unitime.org/UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto))
+* It is possible to create a URL that opens the Instructor Survey page after an instructor has logged into UniTime by using the following URL (for example, see [here](https://demo.unitime.org/UniTime/login.action?target=instructorSurvey%3Fsession%3Dauto))
 	* Parameter **session** can be used to select a particular academic session (e.g., session=Fal2010woebegon), or session=auto will automatically select the most recent academic session where the instructor survey is available for the instructor to fill in.
-	* `UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto` (explicitly going through authentication) 
-	* `UniTime/gwt.jsp?page=instructorSurvey&session=auto` (direct link)
+	* When using UniTime 4.9 or later:
+		* `UniTime/login.action?target=instructorSurvey%3Fsession%3Dauto` (explicitly going through authentication) 
+		* `UniTime/instructorSurvey?session=auto` (direct link)
+	* When using UniTime 4.8 or earlier:
+		* `UniTime/login.action?target=gwt.jsp%3Fpage%3DinstructorSurvey%26session%3Dauto` (explicitly going through authentication) 
+		* `UniTime/gwt.jsp?page=instructorSurvey&session=auto` (direct link)
 
 ### Instructor Survey section on the Instructor Detail page
 
