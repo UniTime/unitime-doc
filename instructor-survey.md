@@ -54,9 +54,9 @@ Individual course requirements are listed on each course (on the [Instructional 
 
 ## Administration
 
-* Only users with a role that has the Instructor Survey permission can fill in the survey.
+* Only users with a role that has the Instructor Survey permission can fill in the survey (see Administration > Other > [Permissions](permissions)).
 
-* The survey is only available when the academic session (or the department) is in a status that allows for Instructor Survey (see [Status Types](status-types)).
+* The survey is only available when the academic session (or the department) is in a status that allows for Instructor Survey (see Administration > Other > [Status Types](status-types)).
 
 * The survey is linked to the external id of the instructor. So, only instructors with an external id can fill in the survey, and there is only one survey for all the departments that the instructor is teaching.
 
