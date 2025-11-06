@@ -179,6 +179,10 @@ table th {
   padding: 2px;
 }
 
+.checklist ul {
+  list-style-type: '▢ ';
+}
+
 @media all and (max-width: 1200px) {
   .results-left {
     max-width: 480px;
