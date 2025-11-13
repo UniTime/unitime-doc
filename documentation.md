@@ -51,6 +51,7 @@ title: UniTime Documentation
 * [Application of Preferences](application-of-preferences)
 * [Splitting a Class](faq/splitting-a-class)
 * [Timetabling Student Cohorts](faq/timetabling-student-cohorts)
+* [First Day of a Week](faq/first-week-day)
 
 ## Administrator Documentation
 
