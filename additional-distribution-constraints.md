@@ -161,3 +161,13 @@ The Daybreak constraint checks for cases when there is an evening class and a mo
 There should be at least the given number of hours between an evening class followed by a morning class the next day.
 
 The constraint can also be parameterized by the distance between the two classes: The constraint only triggers when the distance between the two classes is over the provided distance.
+
+### Max (Work) Day Range (new in 4.9.95)
+
+Script: [Create Max Days Range Constraint.xml](https://raw.githubusercontent.com/UniTime/unitime/refs/heads/master/Documentation/Scripts/Create%20Max%20Days%20Range%20Constraint.xml)
+
+Given classes must be taught within the number of consecutive days or work days. This means that between the first and last meeting of all classes in the constraint, there cannot be more than the given number of consecutive days or work days, including the first and last day.
+
+When work days are used: Weekends, holidays, and breaks are ignored. Holidays and breaks are taken from the settings on the [academic session](edit-academic-session). Weekend are the last two days of the week, with the week starting on Monday by default (can be changed using the `General.FirstWorkDay` solver parameter).
+
+The constraint can also be parameterized by the number of consecutive days, and whether only work days or all days are considered.
