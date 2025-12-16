@@ -181,6 +181,7 @@ User preferences, available to all authenticated users.
 * [Change Role](select-academic-session)
 * [Switch User](chameleon) (admin)
 * [Settings](manager-settings)
+* [Event Defaults](event-defaults)
 
 ## Administration
 
