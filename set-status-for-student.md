@@ -27,7 +27,7 @@ After a **Status** is selected, the rest of the dialog shows the properties of t
 	* Typically, either Course Wait-List or Allow No-Subs are used, but not both at the same time
 * **Emain Notification**
 	* Email notifications are enabled
-* **Emain Notifications**
+* **Enabled Notifications**
 	* Lists the notification types enabled
 * **Course Request Validation**
 	* Enables the course request validation, when the custom course request validation is configured (i.e., the ability to check for registration errors and request overrides during pre-registration)
@@ -41,6 +41,10 @@ After a **Status** is selected, the rest of the dialog shows the properties of t
 	* The re-scheduling is enabled
 	* That is for courses that allow for re-scheduling or wait-listing, automatically re-schedule students with a problem after a course change (while it is unlocked)
 	* For example, if a class is cancelled the students in the cancelled class will automatically moved to an alternative class (of the same course) or dropped when there is no alternative class that fits their schedule. If wait-listing is enabled, the student is automatically put on a wait-list for the course in this case.
+* **Effective Period**
+    * Effective period for this status, when set
+* **Fallback Status**
+    * Student status that the selected status will fall back to outside the Effective Period
 * **Message**
 	* A message to be shown to the student when the open the [Student Course Requests](student-course-requests) or the [Student Scheduling Assistant](student-scheduling-assistant) page
 

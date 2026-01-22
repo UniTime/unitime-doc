@@ -86,7 +86,9 @@ Click on any class or course to get to its [Enrollments](enrollments-of-class-or
 
 ![Online Student Scheduling Dashboard](images/online-student-scheduling-dashboard-3.png){:class='screenshot'}
 
-* Note: some columns need not be displayed in the table if they are not applicable to the current situation⊗ (an optional column for the student selection checkboxes)
+**Note:** Some columns need not be displayed in the table if they are not applicable to the current situation.
+
+* **⊗** (an optional column for the student selection checkboxes)
 	* Click on this column header to open a menu with possible actions (most actions are available only when at least one checkbox in this column is checked for some student)
 		* **Select All**
 			* Select all students in the list (check all the checkboxes)
