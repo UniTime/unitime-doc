@@ -396,7 +396,7 @@ The **Students** tab was designed to display a large amount of data in a compact
 
 Depending on the permissions granted to a user by their user role, a user may be able to drill down deeper into the course data for a student.  The user may be able to click on an individual student listed on the **Students** tab and drill down to see the student’s course requests and/or schedule.
 
-![Student Scheduling Dashboard Manual](images/scheduling-dashboard-purdue-26.png){:class='screenshot'}
+![Student Scheduling Dashboard Manual](images/scheduling-dashboard-purdue-27.png){:class='screenshot'}
 
 This is the same **Student Detail** pop-up that can be reached from [Drilling Down into the Student Data in the Enrollments Tab](#drilling-down-into-the-student-data-in-the-enrollments-tab).
 
