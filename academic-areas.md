@@ -32,7 +32,7 @@ Each academic area contains the following properties:
 
 * External Id
 	* External ID of the academic area
-	* External IDs are only editable via the [XML import](https://www.unitime.org/uct_interfaces.php)
+	* External IDs are only editable via the [XML import](xml)
 	* Academic areas with an external ID cannot be deleted. The presence of the External ID indicates that the academic area has been imported from an external system.
 
 * Abbreviation

@@ -61,7 +61,7 @@ title: UniTime Documentation
 * CAS Authentication: [help.unitime.org/CAS](CAS)
 * OAuth2 Authentication [help.unitime.org/OAuth2](OAuth2)
 * Exam Naming Convention: [help.unitime.org/exam-naming-convention](exam-naming-convention)
-* XML Interfaces: [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php)
+* XML Interfaces: [help.unitime.org/xml](xml)
 * UniTime APIs: [help.unitime.org/manuals/api](manuals/api)
 * UniTime Exports: [help.unitime.org/manuals/exports](manuals/exports)
 

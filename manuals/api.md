@@ -1985,7 +1985,7 @@ The above list of operation is not exhaustive. For the full list of available op
 # 9 Data Exchange
 
 
-The api/exchange connector has the same capability as the [Data Exchange](../data-exchange) page. This means that it can be used to export or to import any XML file that are listed on the [XML Interfaces](https://www.unitime.org/uct_interfaces.php) web page. Permission Api Data Exchange Connector is required.
+The api/exchange connector has the same capability as the [Data Exchange](../data-exchange) page. This means that it can be used to export or to import any XML file that are listed on the [XML Interfaces](../xml) web page. Permission Api Data Exchange Connector is required.
 
 
 

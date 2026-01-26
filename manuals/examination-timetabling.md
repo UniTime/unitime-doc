@@ -85,7 +85,7 @@ To minimize student conflicts, the examination solver requires **student class e
 
 The student class enrollment data are produced by the [Student Scheduling](../student-scheduling) component of UniTime.
 
-Alternatively, student class enrollment data can be imported from an external system using the Administration > Academic Sessions > [Data Exchange](../data-exchange) page, using the [Student Class Enrollment XML](https://www.unitime.org/interface/studentEnrollmentImport.xml) data format (see the [XML Interfaces](https://www.unitime.org/uct_interfaces.php) for more details). The Student Course Requests XML format can also be used, provided it includes class enrollment data.
+Alternatively, student class enrollment data can be imported from an external system using the Administration > Academic Sessions > [Data Exchange](../data-exchange) page, using the [Student Class Enrollment XML](https://www.unitime.org/interface/studentEnrollmentImport.xml) data format (see the [XML Interfaces](../xml) for more details). The Student Course Requests XML format can also be used, provided it includes class enrollment data.
 
 ## Examination Statuses
 

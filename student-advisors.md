@@ -18,7 +18,7 @@ This table is used for authentication (to grant a user the student advisor role)
 * **Student Scheduling Advisor Can Modify All Students**
 	* Student advisor can make changes on behalf of any student
 
-Student advisors can be also loaded in using the [Student Advisor XML](https://www.unitime.org/uct_interfaces.php) format.
+Student advisors can be also loaded in using the [Student Advisor XML](xml) format.
 
 ## Properties
 

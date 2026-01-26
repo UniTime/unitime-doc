@@ -61,7 +61,7 @@ Click on any building in the list to edit its details or to delete a building.
 Click **Export PDF** to export the list of buildings into a PDF file
 
 ### Update Data
-Use this to update buildings and rooms when they have been imported using the [XML Interface](https://www.unitime.org/uct_interfaces.php) on the [Data Exchange](data-exchange) page.
+Use this to update buildings and rooms when they have been imported using the [XML Interface](xml) on the [Data Exchange](data-exchange) page.
 The buildings and rooms XML import does not update the buildings and rooms directly, but the results are stored in external buildings and rooms tables.
 To update the rooms, you need to click on the **Update Data** button on the [Buildings](buildings) page.
 

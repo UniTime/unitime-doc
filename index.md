@@ -55,7 +55,7 @@ The system was originally developed as a collaborative effort by faculty, studen
 - [Online Demo](https://demo.unitime.org)
 - [Downloads](https://sourceforge.net/projects/unitime/files)
 - [Nightly Builds](https://builds.unitime.org)
-- [XML Interfaces](https://www.unitime.org/uct_interfaces.php)
+- [XML Interfaces](xml)
 - [Publications](https://www.unitime.org/publications.php)
 - [Benchmarks](timetabling-benchmarks)
 - [GitHub Project Page](https://github.com/UniTime/unitime)

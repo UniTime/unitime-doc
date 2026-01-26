@@ -235,8 +235,9 @@ When the user clicks on a course or class that is listed on the page, an **Enrol
 
 The **Enrollments** pop-up lists the following basic information about the students enrolled in the course or class that meet the search criteria in the [Filter](../scheduling-dashboard-filter).
 
-* **External Id** - the student's PUID (when allowed)
+* **External Id** - the student's external ID (when allowed)
 * **Student** - the name of the student
+* **Course** (only when the course is cross-listed) - course for which the enrollments/requests are listed
 * **Priority** - the priority the student listed the course in their course request.
 * **Alternative** - if the course was provided as an alternative to some other course, this column lists the first-choice course for the student.
 * **Campus** - the campus of the student
@@ -344,7 +345,7 @@ The **Students** tab was designed to display a large amount of data in a compact
             * Change student status using the **Set student status...** dialog, which provides additional information about the selected Status.
         * **Set student note...**
             * Change student note
-* **External Id** - The PUID of the student (when allowed)
+* **External Id** - The external ID of the student (when allowed)
 * **Student** - The name of the student
 * **Campus** - The campus of the student
 * **Area** - The college of the student
@@ -523,7 +524,7 @@ The **Change Log** table was designed to display a large amount of data in a com
 
 ![Student Scheduling Dashboard Manual](images/scheduling-dashboard-45.png){:class='screenshot'}
 
-* **External Id** - the student's PUID (when allowed)
+* **External Id** - the student's external ID (when allowed)
 * **Student** - The name of the student associated with the change.
 * **Operation** - The operation used to make the change.
 * **Date** - The date and time the change was made.

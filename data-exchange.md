@@ -13,7 +13,7 @@ The Data Exchange page can be used to import and export XML files.
 
 ## Details
 
-The various XML interfaces are described at [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php). It is also possible to call the Data Exchange programmatically using the [Data Exchange API](manuals/api#9data-exchange).
+The various XML interfaces are described at [XML Interfaces](xml). It is also possible to call the Data Exchange programmatically using the [Data Exchange API](manuals/api#9data-exchange).
 
 If multiple exports or imports are initiated at once, they will all show in the **Data exchange in progress** table and will be executed one by one. Select the appropriate export/import to see the log. Click the **Refresh** button to refresh the log.
 
@@ -21,7 +21,7 @@ If multiple exports or imports are initiated at once, they will all show in the 
 
 Choose an XML file and click **Import**.
 
-See the [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php) for the supported XML formats.
+See the [XML Interfaces](xml) for the supported XML formats.
 
 * In most cases, the existing data (for the selected academic session) is replaced by the content of the given XML file.
     * A lot of XML imports can also be run in the incremental mode (only listed elements are updated). To enable this feature, the `incremental` attribute must be set to `true` in the supporting XML file (typically on the root element of the XML document).
@@ -34,7 +34,7 @@ See the [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfa
 
 Select the type of data for export and click **Export**.
 
-Most of the available export types are the same XML formats that can be imported (see [www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php) for more details). The **Academic Session** is the exception, which creates a binary file that can be used to copy the whole academic session (except for special events and not-committed course timetabling solutions) from one UniTime instance to another, or to duplicate an existing academic session by reimporting the exported session file.
+Most of the available export types are the same XML formats that can be imported (see [XML Interfaces](xml) for more details). The **Academic Session** is the exception, which creates a binary file that can be used to copy the whole academic session (except for special events and not-committed course timetabling solutions) from one UniTime instance to another, or to duplicate an existing academic session by reimporting the exported session file.
 
 ### Options
 

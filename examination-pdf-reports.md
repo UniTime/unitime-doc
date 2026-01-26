@@ -122,7 +122,7 @@ Check all reports that should be generated and distributed. The reports currentl
             * **Send Individual Instructor Schedule Reports to All Involved Instructors**
                 * If the report "Individual Instructor Schedule" is selected in the Report section, send an email to each instructor (to the email address stored in the timetabling application in Course Timetabling → Input Data → [Instructors](instructors)) with his/her individual examination schedule
             * **Send Individual Student Schedule Reports to All Involved Students**
-                * The email addresses used are the email addresses imported in the XML import described in Student Information under Students in [https://www.unitime.org/uct_interfaces.php](https://www.unitime.org/uct_interfaces.php))
+                * The email addresses used are the email addresses imported in the XML import described in Student Information under Students in [XML Interfaces](xml#xml-formats-for-student-data-import-and-export)
         * **CC**
             * Enter email addresses that should receive a copy of the report
         * **BCC**
