@@ -13,62 +13,31 @@ The pop-up screen Enrollments of ... (class or course) lists students enrolled i
 
 The table of enrolled students has the following columns
 
-* **External Id** (optional column)
-	* External id of the student
+* **External Id** - the student's external ID (when allowed)
+* **Student** - the name of the student
+* **Course** (only when the course is cross-listed) - course for which the enrollments/requests are listed
+* **Priority** - the priority the student listed the course in their course request.
+* **Alternative** - if the course was provided as an alternative to some other course, this column lists the first-choice course for the student.
+* **Campus** - the campus of the student
+* **Area** - the college of the student
+* **Clasf** - the classification of the student
+* **Degr** - the degree of the student
+* **Program** - the program of the student
+* **Major** - the major of the student
+* **Conc** - the major concentration of the student
+* **Minor** - the minor of the student
+* **Accommodation** - the accommodation(s) of the student
+* **Groups** - student groups that the student is affiliated with (a column for each [student group type](../student-group-types) that contains any students from the table).
+* **Lec, Lab, Rec, Dist, etc.** - the instructional type of the section is the column label for the section the student is enrolled in.  The data is the section number or the External ID of the section the student is enrolled in.
+	* Click the column name to change between section numbers and external IDs.
+* **Priority** - course request priority, such as LC, Vital, Critical, etc.
+* **Requested** - the date the student added the course to their course request.
+* **Enrolled** - the date the student was enrolled in the course or class.
+* **Advisor** - the advisor(s) of the student 
 
-* **Student(s)**
-	* Name(s) of student(s) enrolled in the course or class
+The data in this pop-up can be sorted by clicking on any column label displayed. 
 
-* **Course** (when the course is cross-listed)
-	* Course for which the enrollments are listed
-
-* **Priority**
-	* Priority of the course in the student's prioritized list of course requests
-
-* **Area**
-	* Academic area
-	* Displayed only if applicable
-
-* **Degr**
-	* Student degree
-	* Displayed only if applicable
-
-* **Clasf**
-	* Academic classification
-	* Displayed only if applicable
-
-* **Major**
-	* Student's major
-	* Displayed only if applicable
-
-* **Minor**
-	* Student's minor
-	* Displayed only if applicable
-
-* **Group**
-	* Student's group(s)
-	* Displayed only if applicable
-
-* **Accommodation**
-	* Student's accommodation(s)
-	* Displayed only if applicable
-
-* **Instructional Type** (Lab / Lec / Ind / ...)
-	* External Id or section number of the lab, lecture, etc.
-	* Click on the column header to switch between external id and section number
-
-* **Requested**
-	* Date of the student's request
-
-* **Enrolled**
-	* Date when the student was enrolled into the course or class
-	* Displayed only when coming from the [Online Student Scheduling Dashboard](online-student-scheduling-dashboard)
-
-* **Advisor**
-	* Student's advisor(s)
-	* Displayed only if applicable
-
-You can sort by any column of this table.
+Columns that do not have relevant data may be omitted.
 
 Click on any line with a student to get to the pop-up window with [Classes](classes-for-student) for that student.
 

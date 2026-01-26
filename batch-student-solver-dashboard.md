@@ -10,6 +10,14 @@ The Batch Student Solver Dashboard screen displays information about student req
 
 ![Batch Student Solver Dashboard](images/batch-student-solver-dashboard-1.png){:class='screenshot'}
 
+### Difference with Online Student Scheduling Dashboard
+
+The [Online Student Scheduling Dashboard](online-student-scheduling-dashboard) offers similar functionality, however, the online dashboard shows the current from the online student scheduling and/or pre-registration in real time, as they currently are in the UniTime database.
+
+The data displayed on the batch dashboard are related to the [Student Scheduling Solver](student-scheduling-solver). For users that do not directly interact with the solver, the [Batch Student Solver Dashboard](batch-student-solver-dashboard) shows the data from the last [published solver run](published-schedule-runs). During pre-registration, these are typically the results of the previous night's simulation. After the batch is complete, the page displays the final run of the batch student scheduling solver.
+
+The batch dashboard also shows the courses, including their limits, reservations, and timetable, as they were loaded in the solver. This means that the limits (and the remaining available space in the courses/classes) are based on the amount of space that was available to the students included in the solver run. The batch dashboard also only shows students who were included in the solver run, and only course requests for courses that they were allowed to take. This means that students who did not pre-register or did not match the solver settings (e.g., did not match the Student Filter on the [Student Scheduling Solver](student-scheduling-solver) page) at the time of the solver run will not appear. The order of the courses listed for a student will also reflect any adjustments made by the solver, e.g., *Critical* course requests are typically moved above all other course requests. Students' curricula and other information (such as student priority) will also reflect the data as it was loaded into the solver.
+
 ## Filter
 
 The filter at the top of the Online Student Scheduling Dashboard page controls the search criteria used to display data on the page. When the user accesses the Online Student Scheduling Dashboard page for the first time the filter will be blank. Once the user has entered search criteria in the filter and performed a search the page will remember the last search performed by the user and automatically populate the filter with that search criteria the next time the user accesses the page.  See [Scheduling Dashboard Filter](scheduling-dashboard-filter) for more details.
@@ -20,6 +28,12 @@ The filter at the top of the Online Student Scheduling Dashboard page controls t
 
 The page shows up to two tabs - Enrollments with detailed information about courses and classes, Students with enrollment information ordered by students. Keep in mind that the table reflects the restrictions entered in the Filter. See the description for each of them below.
 
+### Sorting
+Each of the tables can be sorted by various columns. To do so, click the **More** button and explore the **Sort By** option. To reverse the order of the table, click on the same **Sort By** option for the second time.
+
+### Show/Hide Columns
+It is possible to hide/show certain columns. To do so, click the **More** button and explore the **Columns** option. Columns that are available, but not visible are prefixed by ☐ icon, columns that are visible are prefixed by ☑ icon. Selecting a column will change the status from shown to hidden and back.
+
 ### Enrollments
 
 * A column with clickable plus signs that enable unfolding of a course into lines with individual classes
@@ -28,9 +42,9 @@ The page shows up to two tabs - Enrollments with detailed information about cour
 	* Subject area on the line with a course
 	* Instructional Type on the line with a class
 
-* **Course / External Id**
+* **Course / Class**
 	* Course number on the line with a course
-	* External Id or section number on the line with a class
+	* External ID or section number on the line with a class
 
 * **Title / Time**
 	* Course title on the line with a course
@@ -99,8 +113,14 @@ The table can be sorted by any table header - just click on it, then on the "Sor
 * **Degr**
 	* Student's degree
 
+* **Program**
+	* Student's program
+
 * **Major**
 	* Student's major
+
+* **Conc**
+	* Student's major concentration
 
 * **Minor**
 	* Student's minor
@@ -129,9 +149,6 @@ The table can be sorted by any table header - just click on it, then on the "Sor
 
 * **Consent**
 	* The number of courses the student is enrolled in that required some form of consent for the student to enroll into the course.  This column is only visible if there is at least one student in the data returned by the search criteria in the filter that required consent.
-
-* **Pending Overrides**
-	* The number of pending override requests that the student has. This column is only visible if there is at least one student in the data returned by the search criteria in the filter that has a pending override.
 
 * **Enrollment Credit**
 	* This column displays the total number of credits in which a student is enrolled.  If the student is enrolled into a configuration of a course that is online (DO) or hybrid (B/H) then the total credit of courses labeled online or hybrid will be broken out inside of parentheses.  This column is only visible if there is at least one student in the data returned by the search criteria in the filter that is enrolled into a course.

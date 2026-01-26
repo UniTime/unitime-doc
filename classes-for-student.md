@@ -131,6 +131,29 @@ This tab displays the student’s course schedule in time grid format as the stu
 
 ![Classes for Student](images/classes-for-student-4.png){:class='screenshot'}
 
+## Wait-Listed Courses
+
+This tab displays the student's wait-listed courses. It is only visible when the student is wait-listed in at least one course.
+
+![Classes for Student](images/classes-for-student-7.png){:class='screenshot'}
+
+* **Wait-Listed**
+	* When the course was wait-listed.
+* **Course**
+	* Wait-listed course name
+* **Title** 
+	* Title of the wait-listed course
+* **Credit**
+	* Credit of the wait-listed course
+* **Replaces**
+	* When student requests a swap (within the course, or with some other course), this column shows what course is being replaced
+* **Position**
+	* Student's position on the wait-list
+* **Requirements**
+	* Student requirements, i.e., classes and/or instructional methods that the student requires, if any
+* **Registration Errors**
+	* Registration errors, if any, that are preventing the student from getting in
+
 ## Notes tab
 
 This tab displays history of the notes set on the student (if there are any)
