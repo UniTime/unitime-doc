@@ -98,7 +98,7 @@ An example of using localization tags in a JSP file:
   <%-- additional message bundle -->
   <loc:bundle name="ConstantsMessages" id="CONST">
     <loc:messsage name="monday" id="CONST"/>
-    <%=MSG.sunday()%>
+    <%=CONST.sunday()%>
   </loc:bundle>
 </loc:bundle>
 ```
@@ -126,10 +126,17 @@ iRequests = new Button(MESSAGES.buttonRequests());
 
 // Localized message with multiple arguments
 // backToBackDistance=Distance to travel from {0} is approx. {1} minutes. 
-MESSAGES.backToBackDistance(clazz.getBackToBackRoom(), clazz.getBackToBackDistance()
+MESSAGES.backToBackDistance(clazz.getBackToBackRoom(), clazz.getBackToBackDistance());
 ```
 [Here](https://github.com/UniTime/unitime/commit/ffb47dd70f2df752f45f7c2170da6b0f3b7633c2) is an example of a change localizing a particular page. The default messages are in English, the language-dependent messages are in a property file with the same name (plus identification of the language using two character iso language code), e.g., see [Czech translation](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/localization/messages/CourseMessages_cs.properties) of [CourseMessages](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/localization/messages/CourseMessages.java).
 
 Struts localization files are available in [org.unitime.localization.messages](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/localization/messages) package, GWT localization files in [org.unitime.timetable.gwt.resources](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/#unitime%2Ftimetable%2Fgwt%2Fresources) package.
 
 Note that the language has to be added in the [UniTime.gwt.xml](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/gwt/UniTime.gwt.xml#L31) (as a supported language, extending locale property) for the GWT compiler to create the appropriate language mutation.
+
+## Dates and Times
+
+Some of the localization messages are used to provide date and time formatting using the Java's [SimpleDateFormat](https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html) patterns. In particular, please take a look at the `en_UK` localization, which does not translate any messages but changes the times to the 24h format and the dates to the `day. month.` format than `month/day` format used in the default localization `en`.
+
+* Student scheduling: [StudentSectioningConstants_en_UK.properties](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/gwt/resources/StudentSectioningConstants_en_UK.properties)
+* Everything else: [GwtConstants_en_UK.properties](https://github.com/UniTime/unitime/blob/master/JavaSource/org/unitime/timetable/gwt/resources/GwtConstants_en_UK.properties)
