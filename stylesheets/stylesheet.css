@@ -183,6 +183,14 @@ table th {
   list-style-type: '▢ ';
 }
 
+.gsc-control-cse table {
+  margin-bottom: inherit;
+}
+
+.gsc-control-cse td {
+  border: inherit;
+}
+
 @media all and (max-width: 1200px) {
   .results-left {
     max-width: 480px;
