@@ -114,11 +114,14 @@ chown tomcat9 /var/lib/tomcat9/data
 ```
 * Tomcat configuration (including the  JAVA_OPTS variable) is located in the `/etc/default/tomcat9` file in this case.
 
-**Tip:** If you are using Tomcat 9 on Ubuntu/Debian, you may need to create a file `/etc/systemd/system/tomcat9.service.d/override.conf` containing the following lines:
+**Tip:** If you are using Tomcat 10 on Ubuntu/Debian, you may need to create a file `/etc/systemd/system/tomcat10.service.d/override.conf` containing the following lines:
 ```
-[Service] ReadWritePaths=/var/lib/tomcat9/data
+[Service]
+ReadWritePaths=/var/lib/tomcat10/data
 ```
-* This is due to the new sandboxing feature. More details are available at [https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian](https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian)
+* This is due to the Tomcat sandboxing. More details are available at [https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian](https://salsa.debian.org/java-team/tomcat10/blob/master/debian/README.Debian)
+* Alternative location is `/usr/lib/systemd/system/tomcat10.service.d/override.conf`, depending on the location of the `tomcat10.service` file.
+
 
 ## Upgrade to UniTime 4.8
 Please note that UniTime 4.8 requires Java 17 or later. Java 8 and 11 are no longer supported.
