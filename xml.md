@@ -70,7 +70,7 @@ The following APIs are still working, but are marked as **deprecated** (to be re
 
 **Course offerings:** Use `incremental="true"` on the root element to enable incremental mode. In this mode, only the offerings present in the file are created or updated.
 
-**Preferences:** Use `incremental="true"` on the root element to enable incremental mode. In this mode, only the departments, instructors, subparts, and/or classes present in the file have their preferences updated.
+**Preferences:** The preferences import will only update departments, instructors, subparts, and/or classes that are present in the file, resetting their preferences to what is listed in the file (including the option to clear their preferences when no preferences are listed).
 
 **Reservations:** Use `incremental="true"` on the root element to enable incremental mode. In this mode, only the offerings which do have reservations present in the file are updated (have their reservations reset to what is present in the XML file).
 
