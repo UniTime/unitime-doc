@@ -12,7 +12,7 @@ This page contains links to the page documentation of all the UniTime pages, org
 
 ## Courses
 
-Course timetabling module, see [Course Timetabling &amp; Management](https://www.unitime.org/uct_courses.php) for a brief description.
+Course timetabling module, see [Course Timetabling &amp; Management](course-timetabling) for a brief description.
 
 The course timetabling menu is split into two sections: input data entry and the solver.
 
@@ -165,7 +165,7 @@ The examination timetabling menu is split into two sections: input data entry an
 
 ## Events
 
-[Event management](https://www.unitime.org/uct_events.php) module.
+[Event management](event-management) module.
 
 * [Events](events) ([Room Filter](events-room-filter), [Event Filter](events-event-filter))
 	* [Event Detail](event-detail)
