@@ -24,6 +24,11 @@ In the Multiple Class Setup screen, it is possible to set properties on the clas
 * **Configuration Limit**
     * Number of students you want to allow to register for the instructional offering in this configuration (in most cases, same as the instructional offering limit, which is in most cases the same as the course limit - except cross-listed courses)
 
+* **Student Scheduling Disclaimer**
+    * An optional field, only available for users with the Instr Offering Config Edit Disclaimer permission.
+    * When an instructional offering configuration has a disclaimer, it will show to the students when they request the course on [Student Course Requests](student-course-requests) or try to enroll in the configuration using the [Student Scheduling Assistant](student-scheduling-assistant) page. The student must acknowledge the disclaimer in order to proceed.
+    * A list of standard scheduling disclaimers can be defined, see [Standard Scheduling Disclaimers](standard-scheduling-disclaimers) for more details.
+
 * **Scheduling Subpart Limits**
     * The totals of class limits for each scheduling subpart (class limits can be changed on this screen)
         * The individual subpart limits should match or be greater than the offering limit

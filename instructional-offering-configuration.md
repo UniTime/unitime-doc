@@ -34,6 +34,11 @@ In the Instructional Offering Configuration screen, you can set up or edit the g
     * An optional instructional method for the configuration (such as Traditional, Online, or Hybrid)
     * Instructional methods are defined on [Instructional Methods](instructional-methods) page in the Administration
 
+* **Student Scheduling Disclaimer**
+    * An optional field, only available for users with the Instr Offering Config Edit Disclaimer permission.
+    * When an instructional offering configuration has a disclaimer, it will show to the students when they request the course on [Student Course Requests](student-course-requests) or try to enroll in the configuration using the [Student Scheduling Assistant](student-scheduling-assistant) page. The student must acknowledge the disclaimer in order to proceed.
+    * A list of standard scheduling disclaimers can be defined, see [Standard Scheduling Disclaimers](standard-scheduling-disclaimers) for more details.
+
 * **Instructional Type**
     * Select the instructional type that you need in the drop-down menu and click **Add** (Alt+A) to add a scheduling subpart of this instructional type to your instructional offering
     * You can select and add as many instructional types as you want

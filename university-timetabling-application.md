@@ -258,6 +258,7 @@ The menu is split into five sections:
 * [Instructional Methods](instructional-methods)
 * [Override Types](override-types)
 * [Instructor Attribute Types](instructor-attribute-types)
+* [Scheduling Disclaimers](standard-scheduling-disclaimers)
 * [Sponsoring Organizations](sponsoring-organizations)
 * [Standard Notes](standard-event-notes)
 * [Event Service Providers](event-service-providers)
