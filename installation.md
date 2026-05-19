@@ -38,7 +38,6 @@ For instance, you can use [Oracle's Java SE Development Kit 21](https://www.orac
 **UniTime 4.9 or later:** Download [Apache Tomcat 10](https://tomcat.apache.org/download-10.cgi) or later
 * Apache Tomcat 10.1 is used for development and/or testing.
 * <span>Apache Tomcat 9.0 or earlier is not supported</span>{:style='color:red;'} in UniTime 4.9 or later due to the change from Java EE to Jakarta EE.
-* *UniTime 4.9 is still being developed. For production installations, please use UniTime 4.8 for now.*
 
 Install Apache Tomcat
 * For more information about Tomcat setup, see this [Tomcat 9.0 Setup User Guide](https://tomcat.apache.org/tomcat-9.0-doc/setup.html)
