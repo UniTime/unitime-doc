@@ -18,6 +18,16 @@ Download and install Eclipse IDE for Enterprise Java and Web Developers (Eclipse
 
 If you plan to make changes, you should consider forking the [UniTime](https://github.com/UniTime/unitime) project first. See [Fork A Repo](https://help.github.com/articles/fork-a-repo/) for more details.
 
+* File > Import, select Git > Repositories from GitHub
+* Type in UniTime/unitime *(or your fork of UniTime)*, hit Search
+* Select UniTime/unitime *(or your fork of UniTime)*, hit Finish
+
+![Eclipse](images/eclipse-29.png){:class='screenshot small'}
+
+![Eclipse](images/eclipse-30.png){:class='screenshot small'}
+
+### More general way (alternative)
+
 * File > Import, select Git > Project from Git, Next
 * Select "Clone URI" and click Next
 	* **Note:** Use "Existing local repository" if you already have the UniTime project cloned somewhere, e.g., using the [GitHub Desktop](https://desktop.github.com/) app or the [git](https://git-scm.com/docs/git) command line tool
@@ -51,7 +61,7 @@ If you plan to make changes, you should consider forking the [UniTime](https://g
 
 ![Eclipse](images/eclipse-9.png){:class='screenshot small'}
 
-### Install GWT Eclipse Plugin
+## Install GWT Eclipse Plugin
 
 * Help > Install New Software...
 * Click Add, Name: GWT Plugin, Location: https://plugins.gwtproject.org/eclipse/gwt-eclipse-plugin/4.2.0, OK
@@ -84,7 +94,7 @@ If you plan to make changes, you should consider forking the [UniTime](https://g
 
 ![Eclipse](images/eclipse-27.png){:class='screenshot small'}
 
-### Additional Eclipse Configuration
+## Additional Eclipse Configuration
 
 * Right-click on the UniTime project, click Properties
 * Select Project Facets, make sure that Dynamic Web Module (**version 4.0**), GWT, and Java (**version 17**) are selected, click Apply
