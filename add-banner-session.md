@@ -1,5 +1,5 @@
 ---
 layout: default
 title: Add Banner Session
-forward: banner-academic-sessions#add-banner-session
+forward: banner-sessions#add-banner-session
 ---
