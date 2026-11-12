@@ -19,10 +19,9 @@ Use [Data Exchange](data-exchange) page (menu Administration > Academic Sessions
     
 * Other resources
     * External buildings and rooms [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/buildingRoomImport.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/BuildingRoom.dtd)]
-        * Travel times [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/travelTimes.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/TravelTimes.dtd)]
-        * Room Sharing [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/roomSharing.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/RoomSharing.dtd)]
-    * Rooms [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/rooms.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Rooms.dtd)]
-        * *Replaces the previous/external buildings and rooms import. Added in UniTime 4.9.168.*
+    * Rooms [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/rooms.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Rooms.dtd)] *-- Replaces the previous/external buildings and rooms import. Added in UniTime 4.9.168.*
+    * Travel times [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/travelTimes.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/TravelTimes.dtd)]
+    * Room Sharing [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/roomSharing.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/RoomSharing.dtd)]
     * Staff [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/staffImport.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Staff.dtd)]
     * Instructors [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/instructors.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Instructors.dtd)] *-- Added in UniTime 4.9.168.*
         * Including instructor preferences [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/instructorsWithPrefs.xml)]
@@ -36,7 +35,7 @@ The XML import can be used to import/update the academic session, timetabling ma
 * Academic areas, classification, and majors are needed for curriculum timetabling and for curriculum reservations. Student groups are useful for group reservations.
 
 #### Buildings and rooms
-Please note that the [Buildings](buildings) and [Rooms](rooms) are not updated directly with the External buildings and rooms XML import, but the [Update Data](buildings#update-data) needs to be used to update the buildings and rooms.
+Please note that the [Buildings](buildings) and [Rooms](rooms) are not updated directly with the external buildings and rooms XML import, but the [Update Data](buildings#update-data) needs to be used to update the buildings and rooms.
 
 *New in **UniTime 4.9.168** or later:* Use the new Rooms [[XML](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Examples/rooms.xml)] [[DTD](https://github.com/UniTime/unitime/blob/master/Documentation/Interfaces/Rooms.dtd)] to import buildings and rooms directly. This import optionally includes:
 
