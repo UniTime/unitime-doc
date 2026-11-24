@@ -121,7 +121,6 @@ ReadWritePaths=/var/lib/tomcat10/data
 * This is due to the Tomcat sandboxing. More details are available at [https://salsa.debian.org/java-team/tomcat9/blob/master/debian/README.Debian](https://salsa.debian.org/java-team/tomcat10/blob/master/debian/README.Debian)
 * Alternative location is `/usr/lib/systemd/system/tomcat10.service.d/override.conf`, depending on the location of the `tomcat10.service` file.
 
-
 ## Upgrade to UniTime 4.8
 Please note that UniTime 4.8 requires Java 17 or later. Java 8 and 11 are no longer supported.
 To upgrade an existing UniTime installation, only the new `UniTime.war` file should be placed in the `Tomcat/webapps` folder instead of the existing one. All the necessary changes to the database are done automatically during the first deployment. The safest way to do so is as follows:
@@ -364,3 +363,47 @@ hibernate.globally_quoted_identifiers=true
 ```
 
 Start UniTime, and check the logs for any errors.
+
+## Post-Installation Steps
+
+Once UniTime is installed and works fine, the following steps should be done in order to make your UniTime instance more secure. This is especially important when the instance is accessible publicly.
+
+### User Accounts
+
+Please note that UniTime comes with a few accounts pre-installed (just an `admin` user when blank-data.sql was used; more users when woebegon-data.sql was used). At start, we recommend changing their default passwords and/or removing the users you do not need. This can be done on the Administration > Other > [Users](users-database-authentication) page.
+
+All the pre-installed accounts can be safely deleted once you at least a system administrator account is created. This requires creating a new users (containing username, external ID, and password) and creating a new manager with the matching external ID and System Administrator role using the Administration > Academic Sessions > [Timetable Managers](timetable-managers) page.
+
+Please note that [Users](users-database-authentication) can be emptied out, or only contain one or two backup users, if some authentication via [LDAP](LDAP), [CAS](CAS), or [OAuth2](OAuth2) is configured. With an external authentication enabled, the [Users](users-database-authentication) page is typically only used to create API users if they need to be able to authenticate using Basic authentication or an API key.
+
+### Encoding Secret
+
+UniTime uses an encoding algorithm for export URLs (such as the calendar URL that the users can subscribe to in ther Calendar applications, authorizing the user to get the requested information) and API Tokens (see [API manual](manuals/api)). To secure this, you will need to change the endoding secret in the `unitime.encode.secret` application property.
+```
+# Configuration: encoder secret, please change the value in the custom properties!
+unitime.encode.secret=FIXME
+```
+
+Optionally, you can also change the encoding algorithm. For legacy reasons, the PBKDF2WithHmacSHA1 algorithm is used by default. Change to PBKDF2WithHmacSHA512 for more secure encoding. This will also require setting the cipher initialization vector. You may also adjust the other related parameters listed below.
+```
+# Configuration: encoder secret algorithm, set to PBKDF2WithHmacSHA512 for more secure encoding
+unitime.encode.algorithm=PBKDF2WithHmacSHA512
+# Configuration: encoder secret algorithm iteration count, set it to 100000 for more secure encoding
+unitime.encode.iterationCount=100000
+# Configuration: encoder secret algorithm key length
+unitime.encode.keyLength=128
+# Configuration: encoder secret cipher transformation, set to AES/CBC/PKCS5Padding for more secure encoding
+unitime.encode.cipher=AES/CBC/PKCS5Padding
+# Configuration: encoder secret cipher initialization vector, set to a secret text when AES/CBC/PKCS5Padding is being used
+unitime.encode.cipher.iv=FIXME
+```
+
+All these parameters can be set in the custom properites file (see [Custom Properties](#custom-properties)). They do not show and cannot be set on the [Application Configuration](application-configuration) page.
+
+### HTTPS
+
+If the UniTime instance has a public address, you can configure the HTTPS access with a valid certificate. [Let's Encrypt](https://letsencrypt.org) is likely the easiest choice, with plenty of tutorials available online.
+
+### Following Steps
+
+Please check out the [Administration Manual](manuals/administration) for the UniTime initial setup, creation of your first academic session, etc.
